@@ -33,7 +33,7 @@ export const Process = () => {
             Our Freshcoat Painting Process
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Our proven 4-step process ensures every project is completed to the highest standard, making us the painters Sydney prefers.
+            Our proven 4-step process ensures every project is completed to the highest standard, making us the painters Christchurch prefers.
           </p>
         </div>
 

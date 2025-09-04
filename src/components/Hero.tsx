@@ -14,7 +14,7 @@ export const Hero = () => {
       <div className="relative container mx-auto px-4 py-12 lg:py-18">
         <div className="max-w-5xl mx-auto text-center text-white">
           <h1 className="text-5xl lg:text-7xl font-bold mb-8 leading-tight">
-            Painters Sydney | Professional
+            Painters Christchurch | Professional
             <br />
             Interior & Exterior Painting
           </h1>
@@ -36,7 +36,7 @@ export const Hero = () => {
           </div>
           
           <p className="text-xl lg:text-2xl mb-10 max-w-3xl mx-auto opacity-95 leading-relaxed">
-            Leading Sydney painters delivering quality finishes for homes & businesses at competitive prices.
+            Leading Christchurch painters delivering quality finishes for homes & businesses at competitive prices.
           </p>
           
           <Button variant="hero" size="lg" className="text-xl px-12 py-6 font-semibold">

@@ -17,7 +17,7 @@ export const Services = () => {
     {
       icon: Palette,
       title: 'Exterior Painting',
-      description: 'Our exterior house painters in Sydney use weather-resistant coatings designed for the local climate. We prep surfaces thoroughly to ensure long-lasting durability and vibrant curb appeal.',
+      description: 'Our exterior house painters in Christchurch use weather-resistant coatings designed for the local climate. We prep surfaces thoroughly to ensure long-lasting durability and vibrant curb appeal.',
       features: [
         'Full house repaints',
         'Fences, eaves, and weatherboards',
@@ -60,7 +60,7 @@ export const Services = () => {
             Comprehensive Painting Services
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            We specialise in residential and small-scale commercial painting services across Sydney. Whether you're renovating, selling, or just updating your property, our painters have you covered.
+            We specialise in residential and small-scale commercial painting services across Christchurch. Whether you're renovating, selling, or just updating your property, our painters have you covered.
           </p>
         </div>
 

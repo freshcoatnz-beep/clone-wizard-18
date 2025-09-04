@@ -7,21 +7,21 @@ export const TrustedCompany = () => {
     'Hornsby', 
     'North Shore',
     'Inner West',
-    'City of Sydney',
+    'City of Christchurch',
     'Parramatta',
     'Blacktown',
-    'Western Sydney'
+    'Western Christchurch'
   ];
 
   const features = [
     {
       icon: Users,
       title: 'Over Two Decades of Local Experience',
-      description: "We've helped hundreds of clients across the Hills Shire, Eastern Suburbs, Northern Beaches, and greater Sydney. Our professional painters in Sydney have the local knowledge and expertise to do the job right."
+      description: "We've helped hundreds of clients across the Hills Shire, Eastern Suburbs, Northern Beaches, and greater Christchurch. Our professional painters in Christchurch have the local knowledge and expertise to do the job right."
     },
     {
       icon: Award,
-      title: 'Trusted by Sydney Property Owners',
+      title: 'Trusted by Christchurch Property Owners',
       description: 'Our company is known for being punctual, polite, and detail-focused. Whether we\'re painting a single room or an entire property, for heritage homes or modern renovations, we treat every space with respect and care.'
     },
     {
@@ -36,10 +36,10 @@ export const TrustedCompany = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-brand-gray">
-            Trusted Sydney Painting Company
+            Trusted Christchurch Painting Company
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            We understand what homeowners and property managers want from a painting contractor: quality workmanship, reliability, and honest pricing. That's exactly what we deliver, all across Sydney.
+            We understand what homeowners and property managers want from a painting contractor: quality workmanship, reliability, and honest pricing. That's exactly what we deliver, all across Christchurch.
           </p>
         </div>
 

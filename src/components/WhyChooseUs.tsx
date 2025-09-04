@@ -30,10 +30,10 @@ export const WhyChooseUs = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-brand-gray">
-            What Makes Us Sydney's Best House Painters
+            What Makes Us Christchurch's Best House Painters
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            There are many painting companies in Sydney - but few offer the professionalism, reliability, and attention to detail that we do.
+            There are many painting companies in Christchurch - but few offer the professionalism, reliability, and attention to detail that we do.
           </p>
         </div>
 

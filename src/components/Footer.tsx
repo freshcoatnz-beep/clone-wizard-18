@@ -17,7 +17,7 @@ export const Footer = () => {
               </div>
             </div>
             <p className="text-gray-300 mb-4">
-              Leading Sydney painters with over 20 years of experience delivering quality finishes for homes and businesses.
+              Leading Christchurch painters with over 20 years of experience delivering quality finishes for homes and businesses.
             </p>
           </div>
 
@@ -40,8 +40,8 @@ export const Footer = () => {
               <li>Hills District</li>
               <li>North Shore</li>
               <li>Inner West</li>
-              <li>Western Sydney</li>
-              <li>City of Sydney</li>
+              <li>Western Christchurch</li>
+              <li>City of Christchurch</li>
             </ul>
           </div>
 
@@ -59,7 +59,7 @@ export const Footer = () => {
               </div>
               <div className="flex items-center gap-2">
                 <MapPin size={16} />
-                <span className="text-gray-300">Sydney, NSW</span>
+                <span className="text-gray-300">Christchurch, New Zealand</span>
               </div>
             </div>
           </div>
