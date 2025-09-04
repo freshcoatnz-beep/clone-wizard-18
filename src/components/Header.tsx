@@ -18,7 +18,7 @@ export const Header = () => {
     <header className="bg-background shadow-soft">
       {/* Top bar */}
       <div className="border-b border-border bg-gray-50">
-        <div className="container mx-auto px-4 py-3 flex justify-between items-center text-xl font-medium">
+        <div className="container mx-auto px-4 py-3 flex justify-center items-center text-xl font-medium gap-12">
           <div className="flex items-center gap-3 text-brand-gray">
             <Phone size={24} />
             <span className="text-xl font-bold">022 0366586</span>
