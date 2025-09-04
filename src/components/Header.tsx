@@ -77,7 +77,7 @@ export const Header = () => {
               
               {/* Dropdown Menu */}
               {isDropdownOpen && (
-                <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-strong border border-border z-50">
+                <div className="absolute top-full left-0 w-64 bg-white rounded-lg shadow-strong border border-border z-50">
                   <ul className="py-2">
                     {services.map((service) => (
                       <li key={service.name}>
