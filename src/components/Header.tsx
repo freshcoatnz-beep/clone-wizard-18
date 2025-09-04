@@ -54,7 +54,7 @@ export const Header = () => {
             {/* What We Do Dropdown */}
             <div className="relative">
               <button
-                className="flex items-center gap-1 hover:text-brand-red transition-colors font-semibold text-sm"
+                className="flex items-center gap-1 hover:text-brand-red transition-colors font-semibold text-base"
                 onClick={() => setIsDropdownOpen(!isDropdownOpen)}
                 onMouseEnter={() => setIsDropdownOpen(true)}
                 onMouseLeave={() => setIsDropdownOpen(false)}
@@ -75,7 +75,7 @@ export const Header = () => {
                       <li key={service.name}>
                         <a
                           href={service.href}
-                          className="block px-4 py-3 text-sm font-medium text-foreground hover:bg-secondary hover:text-brand-red transition-colors"
+                          className="block px-4 py-3 text-base font-medium text-foreground hover:bg-secondary hover:text-brand-red transition-colors"
                         >
                           {service.name}
                         </a>
@@ -86,8 +86,8 @@ export const Header = () => {
               )}
             </div>
             
-            <a href="#about" className="hover:text-brand-red transition-colors font-semibold text-sm">About Us</a>
-            <a href="#areas" className="hover:text-brand-red transition-colors font-semibold text-sm">Service Areas</a>
+            <a href="#about" className="hover:text-brand-red transition-colors font-semibold text-base">About Us</a>
+            <a href="#areas" className="hover:text-brand-red transition-colors font-semibold text-base">Service Areas</a>
             <Button variant="cta">Contact Us</Button>
           </nav>
 
@@ -112,15 +112,15 @@ export const Header = () => {
                     <a
                       key={service.name}
                       href={service.href}
-                      className="block text-sm font-medium text-muted-foreground hover:text-brand-red transition-colors"
+                      className="block text-base font-medium text-muted-foreground hover:text-brand-red transition-colors"
                     >
                       {service.name}
                     </a>
                   ))}
                 </div>
               </div>
-              <a href="#about" className="hover:text-brand-red transition-colors font-semibold">About Us</a>
-              <a href="#areas" className="hover:text-brand-red transition-colors font-semibold">Service Areas</a>
+              <a href="#about" className="hover:text-brand-red transition-colors font-semibold text-base">About Us</a>
+              <a href="#areas" className="hover:text-brand-red transition-colors font-semibold text-base">Service Areas</a>
               <Button variant="cta" className="w-full">Contact Us</Button>
             </div>
           </nav>
