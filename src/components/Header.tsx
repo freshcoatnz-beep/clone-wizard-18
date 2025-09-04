@@ -26,7 +26,7 @@ export const Header = () => {
           <div className="flex items-center gap-2">
             {/* Google G Icon - Links to Business Profile */}
             <a 
-              href="https://g.page/r/CR4Ie-y0WfnAEBM/review" 
+              href="https://g.page/r/CR4Ie-y0WfnAEBM" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center justify-center bg-white rounded-full w-8 h-8 shadow-sm hover:shadow-md transition-shadow cursor-pointer"
