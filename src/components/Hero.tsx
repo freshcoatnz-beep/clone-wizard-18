@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button';
 import { Check } from 'lucide-react';
-// Using clean image with original purple sky restored
-import heroImage from '@/assets/hero-house-purple-sky.jpg';
+// Using clean edited image without car and power pole
+import heroImage from '@/assets/hero-house-clean.jpg';
 import warrantyBadge from '@/assets/warranty-badge.png';
 
 export const Hero = () => {
