@@ -96,7 +96,7 @@ export const Header = () => {
               )}
             </div>
             
-            <a href="#about" className="hover:text-brand-red transition-colors font-semibold text-base">About Us</a>
+            <a href="#about" className="transition-colors font-semibold text-base text-black">About Us</a>
             <a href="#areas" className="hover:text-brand-red transition-colors font-semibold text-base">Service Areas</a>
             <Button variant="cta">Contact Us</Button>
           </nav>
