@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button';
 import { Check } from 'lucide-react';
 import heroImage from '@/assets/hero-house.jpg';
-import satisfactionBadge from '@/assets/satisfaction-badge.png';
+import warrantyBadge from '@/assets/warranty-badge.png';
 
 export const Hero = () => {
   return (
@@ -44,11 +44,11 @@ export const Hero = () => {
         </div>
       </div>
       
-      {/* Satisfaction badge */}
+      {/* 5 Year Warranty badge */}
       <div className="absolute bottom-8 right-8 hidden lg:block">
         <img 
-          src={satisfactionBadge} 
-          alt="100% Satisfaction Guaranteed" 
+          src={warrantyBadge} 
+          alt="5 Year Warranty" 
           className="w-24 h-24 drop-shadow-lg"
         />
       </div>
