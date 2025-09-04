@@ -53,8 +53,7 @@ export const Header = () => {
               <span className="font-bold text-2xl">F</span>
             </div>
             <div>
-              <span className="font-bold text-2xl text-brand-gray">reshcoat</span>
-              <span className="font-bold text-2xl text-yellow-500 ml-1">Painting</span>
+              <span className="font-bold text-2xl text-brand-gray">Freshcoat Painting</span>
             </div>
           </div>
 

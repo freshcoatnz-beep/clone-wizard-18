@@ -12,8 +12,7 @@ export const Footer = () => {
                 <span className="font-bold text-lg">F</span>
               </div>
               <div>
-                <span className="font-bold text-lg">reshcoat</span>
-                <span className="font-bold text-lg text-yellow-500 ml-1">Painting</span>
+                <span className="font-bold text-lg text-white">Freshcoat Painting</span>
               </div>
             </div>
             <p className="text-gray-300 mb-4">
