@@ -39,7 +39,7 @@ export const Hero = () => {
             Leading Christchurch painters delivering quality finishes for homes & businesses at competitive prices.
           </p>
           
-          <Button variant="hero" size="lg" className="text-xl px-12 py-6 font-semibold">
+          <Button variant="hero" size="lg" className="text-xl px-12 py-6 font-semibold bg-blue-600 hover:bg-blue-700 text-white border-blue-600">
             Get FREE Quote
           </Button>
         </div>
