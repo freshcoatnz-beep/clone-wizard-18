@@ -85,7 +85,7 @@ export const Header = () => {
                       <li key={service.name}>
                         <a
                           href={service.href}
-                          className="block px-4 py-3 text-base font-medium text-foreground hover:bg-blue-500 hover:text-white transition-colors"
+                          className="block px-4 py-3 text-base font-medium text-foreground hover:bg-secondary hover:text-brand-red transition-colors"
                         >
                           {service.name}
                         </a>
