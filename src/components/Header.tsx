@@ -64,7 +64,7 @@ export const Header = () => {
             {/* What We Do Dropdown */}
             <div className="relative">
               <button
-                className="flex items-center gap-1 hover:text-brand-red transition-colors font-semibold text-base"
+                className="flex items-center gap-1 transition-colors font-semibold text-base text-black"
                 onClick={() => setIsDropdownOpen(!isDropdownOpen)}
                 onMouseEnter={() => setIsDropdownOpen(true)}
                 onMouseLeave={() => setIsDropdownOpen(false)}
