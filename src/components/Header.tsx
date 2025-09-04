@@ -18,17 +18,17 @@ export const Header = () => {
     <header className="bg-background shadow-soft">
       {/* Top bar */}
       <div className="border-b border-border">
-        <div className="container mx-auto px-4 py-2 flex justify-between items-center text-sm">
+        <div className="container mx-auto px-4 py-2 flex justify-between items-center text-base font-medium">
           <div className="flex items-center gap-2">
-            <Phone size={16} />
+            <Phone size={18} />
             <span>0410 949 130</span>
           </div>
           <div className="flex items-center gap-1">
-            <Star size={16} className="text-yellow-500 fill-current" />
+            <Star size={18} className="text-yellow-500 fill-current" />
             <span className="font-semibold">4.8</span>
             <div className="flex">
               {[...Array(5)].map((_, i) => (
-                <Star key={i} size={14} className="text-yellow-500 fill-current" />
+                <Star key={i} size={16} className="text-yellow-500 fill-current" />
               ))}
             </div>
           </div>
