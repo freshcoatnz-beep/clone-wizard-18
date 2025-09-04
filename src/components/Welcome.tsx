@@ -1,16 +1,16 @@
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
-import warrantyBadge from '@/assets/warranty-badge.png';
+import guaranteeBadge from '@/assets/guarantee-badge.png';
 
 export const Welcome = () => {
   return (
     <>
-      {/* 5 Year Warranty badge - Outside hero section */}
+      {/* Guarantee badge - Outside hero section */}
       <div className="relative bg-background">
         <div className="absolute top-16 left-8 hidden lg:block z-10">
           <img 
-            src={warrantyBadge} 
-            alt="5 Year Warranty" 
+            src={guaranteeBadge} 
+            alt="Guarantee" 
             className="w-40 h-40 drop-shadow-lg"
           />
         </div>
