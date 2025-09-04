@@ -10,7 +10,7 @@ export const Welcome = () => {
         <div className="absolute top-16 left-8 hidden lg:block z-10">
           <img 
             src={guaranteeBadge} 
-            alt="Guarantee" 
+            alt="5 Year Guarantee" 
             className="w-40 h-40 drop-shadow-lg"
           />
         </div>
