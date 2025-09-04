@@ -19,10 +19,10 @@ export const Header = () => {
       {/* Top bar */}
       <div className="border-b border-border bg-gray-50">
         <div className="container mx-auto px-4 py-3 flex justify-between items-center text-xl font-medium">
-          <div className="flex items-center gap-3 text-brand-gray ml-4">
+          <a href="tel:+6422036658" className="flex items-center gap-3 text-brand-gray ml-4 hover:opacity-80 transition-opacity">
             <Phone size={24} />
             <span className="text-xl font-bold">022 0366586</span>
-          </div>
+          </a>
           <a 
             href="https://g.page/r/CR4Ie-y0WfnAEBM" 
             target="_blank" 
