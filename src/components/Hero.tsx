@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button';
 import { Check } from 'lucide-react';
-// Using recomposed image with house positioned to the left
-import heroImage from '@/assets/hero-house-left.jpg';
+// Using clean edited image without car and power pole
+import heroImage from '@/assets/hero-house-clean.jpg';
 import warrantyBadge from '@/assets/warranty-badge.png';
 
 export const Hero = () => {
