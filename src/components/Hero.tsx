@@ -1,6 +1,7 @@
 import { Button } from '@/components/ui/button';
 import { Check } from 'lucide-react';
-import heroImage from '@/assets/hero-house-modern.jpg';
+// Using uploaded Freshcoat image
+const heroImage = '/lovable-uploads/d8eb6687-3ba4-45c3-a5e8-09f74166a5c3.png';
 import warrantyBadge from '@/assets/warranty-badge.png';
 
 export const Hero = () => {
