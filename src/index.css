@@ -130,13 +130,13 @@
   /* Hero curved bottom effect */
   .hero-curved {
     clip-path: ellipse(100% 100% at 50% 0%);
-    padding-bottom: 80px;
+    padding-bottom: 60px;
   }
 
   @media (min-width: 768px) {
     .hero-curved {
       clip-path: ellipse(100% 100% at 50% 0%);
-      padding-bottom: 120px;
+      padding-bottom: 80px;
     }
   }
 }

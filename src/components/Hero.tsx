@@ -6,12 +6,12 @@ import warrantyBadge from '@/assets/warranty-badge.png';
 
 export const Hero = () => {
   return (
-    <section className="relative min-h-[700px] bg-cover bg-center bg-no-repeat hero-curved" style={{ backgroundImage: `url(${heroImage})` }}>
+    <section className="relative min-h-[500px] lg:min-h-[600px] bg-cover bg-center bg-no-repeat hero-curved" style={{ backgroundImage: `url(${heroImage})` }}>
       {/* Overlay */}
       <div className="absolute inset-0 bg-gradient-hero hero-curved"></div>
       
       {/* Content */}
-      <div className="relative container mx-auto px-4 py-24 lg:py-40">
+      <div className="relative container mx-auto px-4 py-16 lg:py-24">
         <div className="max-w-5xl mx-auto text-center text-white">
           <h1 className="text-5xl lg:text-7xl font-bold mb-8 leading-tight">
             Painters Sydney | Professional
