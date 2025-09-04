@@ -4,6 +4,7 @@ import { Home, Palette, Brush, Wrench, RefreshCw } from 'lucide-react';
 export const Services = () => {
   const services = [
     {
+      id: 'interior',
       icon: Home,
       title: 'Interior Painting',
       description: 'We provide crisp, clean finishes on all interior surfaces, including walls, ceilings, trims, doors, and more. Our painters protect your belongings and ensure minimal disruption while working.',
@@ -15,6 +16,7 @@ export const Services = () => {
       image: 'Interior painting sample'
     },
     {
+      id: 'exterior',
       icon: Palette,
       title: 'Exterior Painting',
       description: 'Our exterior house painters in Christchurch use weather-resistant coatings designed for the local climate. We prep surfaces thoroughly to ensure long-lasting durability and vibrant curb appeal.',
@@ -26,6 +28,7 @@ export const Services = () => {
       image: 'Exterior house painting'
     },
     {
+      id: 'decorating',
       icon: Brush,
       title: 'Painting & Decorating',
       description: 'Our painting & decorating service enhances both the look and feel of your home. From detailed trim work to feature walls, our expert team helps you achieve a polished finish.',
@@ -37,6 +40,7 @@ export const Services = () => {
       image: 'Paint swatches and brushes'
     },
     {
+      id: 'preparation',
       icon: Wrench,
       title: 'House Painting Preparation & Repairs',
       description: 'We don\'t just paint – we prep. Our team use drop sheets to protect your property, fills cracks, smooths surfaces, and patches holes for complete surface preparation.',
@@ -44,6 +48,7 @@ export const Services = () => {
       image: null
     },
     {
+      id: 'maintenance',
       icon: RefreshCw,
       title: 'Maintenance Painting Services',
       description: 'Need a touch-up or annual repaint? Our painting maintenance programs are perfect for strata buildings, rentals, and busy family homes.',
@@ -66,7 +71,7 @@ export const Services = () => {
 
         <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-8">
           {services.map((service) => (
-            <Card key={service.title} className="p-6 hover:shadow-medium transition-shadow">
+            <Card key={service.title} id={service.id} className="p-6 hover:shadow-medium transition-shadow">
               <service.icon size={48} className="text-brand-red mb-4" />
               <h3 className="text-xl font-bold mb-4 text-brand-gray">{service.title}</h3>
               <p className="text-muted-foreground mb-4 leading-relaxed">{service.description}</p>
