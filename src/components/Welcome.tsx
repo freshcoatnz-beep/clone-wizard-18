@@ -16,8 +16,8 @@ export const Welcome = () => {
         </div>
       </div>
       
-      <section className="py-8 lg:py-12 bg-background">
-      <div className="container mx-auto px-4 ml-32">
+      <section className="py-4 lg:py-8 bg-background">
+      <div className="container mx-auto px-4 ml-40">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div>
