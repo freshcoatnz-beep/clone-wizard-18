@@ -49,9 +49,6 @@ export const Header = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <div className="bg-brand-red text-white p-3 rounded-lg shadow-md">
-              <span className="font-bold text-2xl">F</span>
-            </div>
             <div>
               <span className="font-bold text-2xl text-brand-gray">Freshcoat Painting</span>
             </div>

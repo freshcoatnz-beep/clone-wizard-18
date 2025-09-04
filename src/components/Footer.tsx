@@ -7,13 +7,8 @@ export const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="bg-brand-red text-white p-2 rounded">
-                <span className="font-bold text-lg">F</span>
-              </div>
-              <div>
-                <span className="font-bold text-lg text-white">Freshcoat Painting</span>
-              </div>
+            <div className="mb-4">
+              <span className="font-bold text-lg text-white">Freshcoat Painting</span>
             </div>
             <p className="text-gray-300 mb-4">
               Leading Christchurch painters with over 20 years of experience delivering quality finishes for homes and businesses.
