@@ -38,16 +38,16 @@
 
     --radius: 0.5rem;
 
-    /* Custom painting company colors */
+    /* Custom painting company colors - matching original */
     --brand-red: 0 72% 51%;
     --brand-red-dark: 0 72% 45%;
     --brand-red-light: 0 72% 96%;
-    --brand-gray: 210 24% 16%;
-    --brand-gray-light: 210 16% 93%;
-    --hero-overlay: 210 50% 23%;
+    --brand-gray: 210 11% 15%;
+    --brand-gray-light: 210 17% 95%;
+    --hero-overlay: 210 40% 15%;
 
-    /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(var(--hero-overlay) / 0.9), hsl(var(--hero-overlay) / 0.7));
+    /* Gradients - matching original darker overlay */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--hero-overlay) / 0.85), hsl(var(--hero-overlay) / 0.75));
     --gradient-card: linear-gradient(180deg, hsl(var(--background)), hsl(var(--secondary)));
 
     /* Shadows */

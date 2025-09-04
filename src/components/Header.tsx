@@ -17,9 +17,9 @@ export const Header = () => {
   return (
     <header className="bg-background shadow-soft">
       {/* Top bar */}
-      <div className="border-b border-border">
-        <div className="container mx-auto px-4 py-2 flex justify-between items-center text-base font-medium">
-          <div className="flex items-center gap-2">
+      <div className="border-b border-border bg-gray-50">
+        <div className="container mx-auto px-4 py-3 flex justify-between items-center text-base font-medium">
+          <div className="flex items-center gap-2 text-brand-gray">
             <Phone size={18} />
             <span>0410 949 130</span>
           </div>
@@ -45,16 +45,16 @@ export const Header = () => {
       </div>
 
       {/* Main header */}
-      <div className="container mx-auto px-4 py-4">
+      <div className="container mx-auto px-4 py-6 bg-white shadow-sm">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <div className="flex items-center gap-2">
-            <div className="bg-brand-red text-white p-2 rounded">
-              <span className="font-bold text-xl">F</span>
+          <div className="flex items-center gap-3">
+            <div className="bg-brand-red text-white p-3 rounded-lg shadow-md">
+              <span className="font-bold text-2xl">F</span>
             </div>
             <div>
-              <span className="font-bold text-xl text-brand-gray">reshcoat</span>
-              <span className="font-bold text-xl text-yellow-500 ml-1">Painting</span>
+              <span className="font-bold text-2xl text-brand-gray">reshcoat</span>
+              <span className="font-bold text-2xl text-yellow-500 ml-1">Painting</span>
             </div>
           </div>
 

@@ -5,21 +5,21 @@ import warrantyBadge from '@/assets/warranty-badge.png';
 
 export const Hero = () => {
   return (
-    <section className="relative min-h-[600px] bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(${heroImage})` }}>
+    <section className="relative min-h-[700px] bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(${heroImage})` }}>
       {/* Overlay */}
       <div className="absolute inset-0 bg-gradient-hero"></div>
       
       {/* Content */}
-      <div className="relative container mx-auto px-4 py-20 lg:py-32">
-        <div className="max-w-4xl mx-auto text-center text-white">
-          <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
+      <div className="relative container mx-auto px-4 py-24 lg:py-40">
+        <div className="max-w-5xl mx-auto text-center text-white">
+          <h1 className="text-5xl lg:text-7xl font-bold mb-8 leading-tight">
             Painters Sydney | Professional
             <br />
             Interior & Exterior Painting
           </h1>
           
           {/* Key points */}
-          <div className="flex flex-wrap justify-center gap-6 lg:gap-12 mb-8 text-lg">
+          <div className="flex flex-wrap justify-center gap-8 lg:gap-16 mb-10 text-lg lg:text-xl">
             <div className="flex items-center gap-2">
               <Check size={20} className="text-green-400" />
               <span>Professional Painters</span>
@@ -34,11 +34,11 @@ export const Hero = () => {
             </div>
           </div>
           
-          <p className="text-xl mb-8 max-w-2xl mx-auto opacity-90">
+          <p className="text-xl lg:text-2xl mb-10 max-w-3xl mx-auto opacity-95 leading-relaxed">
             Leading Sydney painters delivering quality finishes for homes & businesses at competitive prices.
           </p>
           
-          <Button variant="hero" size="lg" className="text-lg px-8 py-4">
+          <Button variant="hero" size="lg" className="text-xl px-12 py-6 font-semibold">
             Get FREE Quote
           </Button>
         </div>
