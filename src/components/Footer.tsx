@@ -9,10 +9,10 @@ export const Footer = () => {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <div className="bg-brand-red text-white p-2 rounded">
-                <span className="font-bold text-lg">A</span>
+                <span className="font-bold text-lg">F</span>
               </div>
               <div>
-                <span className="font-bold text-lg">dvanced</span>
+                <span className="font-bold text-lg">reshcoat</span>
                 <span className="font-bold text-lg text-yellow-500 ml-1">Painting</span>
               </div>
             </div>
@@ -55,7 +55,7 @@ export const Footer = () => {
               </div>
               <div className="flex items-center gap-2">
                 <Mail size={16} />
-                <span className="text-gray-300">info@advancepainting.com.au</span>
+                <span className="text-gray-300">info@freshcoatpainting.com.au</span>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin size={16} />
@@ -66,7 +66,7 @@ export const Footer = () => {
         </div>
 
         <div className="border-t border-gray-600 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 Advanced Painting Pty Ltd. All rights reserved.</p>
+          <p>&copy; 2024 Freshcoat Painting Pty Ltd. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -32,10 +32,10 @@ export const Header = () => {
           {/* Logo */}
           <div className="flex items-center gap-2">
             <div className="bg-brand-red text-white p-2 rounded">
-              <span className="font-bold text-xl">A</span>
+              <span className="font-bold text-xl">F</span>
             </div>
             <div>
-              <span className="font-bold text-xl text-brand-gray">dvanced</span>
+              <span className="font-bold text-xl text-brand-gray">reshcoat</span>
               <span className="font-bold text-xl text-yellow-500 ml-1">Painting</span>
             </div>
           </div>

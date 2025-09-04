@@ -27,7 +27,7 @@ export const TrustedCompany = () => {
     {
       icon: Shield,
       title: 'Fully Insured, OH&S Compliant, and Guaranteed',
-      description: 'Advanced Painting is fully insured and complies with all OH&S standards. Plus, every job is backed by a 5-year workmanship warranty for your total peace of mind.'
+      description: 'Freshcoat Painting is fully insured and complies with all OH&S standards. Plus, every job is backed by a 5-year workmanship warranty for your total peace of mind.'
     }
   ];
 

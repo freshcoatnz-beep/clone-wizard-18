@@ -30,7 +30,7 @@ export const Process = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-brand-gray">
-            Our Advanced Painting Process
+            Our Freshcoat Painting Process
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             Our proven 4-step process ensures every project is completed to the highest standard, making us the painters Sydney prefers.
