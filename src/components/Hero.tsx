@@ -44,15 +44,6 @@ export const Hero = () => {
           </Button>
         </div>
       </div>
-      
-      {/* 5 Year Warranty badge */}
-      <div className="absolute bottom-8 left-8 hidden lg:block">
-        <img 
-          src={warrantyBadge} 
-          alt="5 Year Warranty" 
-          className="w-24 h-24 drop-shadow-lg"
-        />
-      </div>
     </section>
   );
 };

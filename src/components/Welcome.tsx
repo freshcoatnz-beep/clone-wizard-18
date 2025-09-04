@@ -1,9 +1,22 @@
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
+import warrantyBadge from '@/assets/warranty-badge.png';
 
 export const Welcome = () => {
   return (
-    <section className="py-16 lg:py-24 bg-background">
+    <>
+      {/* 5 Year Warranty badge - Outside hero section */}
+      <div className="relative bg-background">
+        <div className="absolute -top-12 left-8 hidden lg:block z-10">
+          <img 
+            src={warrantyBadge} 
+            alt="5 Year Warranty" 
+            className="w-24 h-24 drop-shadow-lg"
+          />
+        </div>
+      </div>
+      
+      <section className="py-16 lg:py-24 bg-background">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
@@ -47,5 +60,6 @@ export const Welcome = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
