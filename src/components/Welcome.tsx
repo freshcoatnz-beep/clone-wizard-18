@@ -11,7 +11,7 @@ export const Welcome = () => {
           <img 
             src={guaranteeBadge} 
             alt="5 Year Guarantee" 
-            className="w-40 h-40 drop-shadow-lg"
+            className="w-40 h-40"
           />
         </div>
       </div>
