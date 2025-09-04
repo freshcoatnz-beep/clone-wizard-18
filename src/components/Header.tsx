@@ -55,7 +55,7 @@ export const Header = () => {
           {/* Logo */}
           <div className="flex items-center gap-3">
             <div>
-              <span className="font-bold text-2xl text-brand-gray">Freshcoat Painting</span>
+              <span className="font-bold text-3xl text-brand-gray">Freshcoat Painting</span>
             </div>
           </div>
 
@@ -68,7 +68,7 @@ export const Header = () => {
               onMouseLeave={() => setIsDropdownOpen(false)}
             >
               <button
-                className="flex items-center gap-1 transition-colors font-semibold text-base text-black"
+                className="flex items-center gap-1 transition-colors font-semibold text-lg text-black"
                 onClick={() => setIsDropdownOpen(!isDropdownOpen)}
               >
                 What We Do
@@ -94,8 +94,8 @@ export const Header = () => {
               )}
             </div>
             
-            <a href="#about" className="transition-colors font-semibold text-base text-black">About Us</a>
-            <a href="#areas" className="transition-colors font-semibold text-base text-black">Service Areas</a>
+            <a href="#about" className="transition-colors font-semibold text-lg text-black">About Us</a>
+            <a href="#areas" className="transition-colors font-semibold text-lg text-black">Service Areas</a>
             <Button variant="cta">Contact Us</Button>
           </nav>
 
