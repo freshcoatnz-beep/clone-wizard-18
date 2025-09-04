@@ -6,7 +6,7 @@ import warrantyBadge from '@/assets/warranty-badge.png';
 
 export const Hero = () => {
   return (
-    <section className="relative min-h-[450px] lg:min-h-[600px] bg-cover bg-center bg-no-repeat hero-curved" style={{ backgroundImage: `url(${heroImage})` }}>
+    <section className="relative min-h-[450px] lg:min-h-[600px] bg-cover bg-center bg-no-repeat hero-curved" style={{ backgroundImage: `url(${heroImage})`, backgroundPosition: 'center 70%' }}>
       {/* Overlay */}
       <div className="absolute inset-0 bg-gradient-hero hero-curved"></div>
       
