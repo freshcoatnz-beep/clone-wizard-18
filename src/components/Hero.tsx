@@ -14,7 +14,7 @@ export const Hero = () => {
       <div className="relative container mx-auto px-4 py-12 lg:py-18">
         <div className="max-w-5xl mx-auto text-center text-white">
           <h1 className="text-3xl lg:text-5xl font-bold mb-8 leading-tight">
-            Painters Christchurch | Professional
+            Painters Christchurch
             <br />
             Interior & Exterior Painting
           </h1>
