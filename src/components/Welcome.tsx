@@ -7,7 +7,7 @@ export const Welcome = () => {
     <>
       {/* Guarantee badge - Outside hero section */}
       <div className="relative bg-background">
-        <div className="absolute top-12 left-8 hidden lg:block z-10">
+        <div className="absolute top-8 left-8 hidden lg:block z-10">
           <img 
             src={guaranteeBadge} 
             alt="5 Year Guarantee" 
