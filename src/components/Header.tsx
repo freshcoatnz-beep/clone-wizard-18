@@ -23,7 +23,16 @@ export const Header = () => {
             <Phone size={18} />
             <span>0410 949 130</span>
           </div>
-          <div className="flex items-center gap-1">
+          <div className="flex items-center gap-2">
+            {/* Google Logo */}
+            <div className="flex items-center gap-1 bg-white rounded px-2 py-1 shadow-sm">
+              <span className="text-blue-600 font-bold text-lg">G</span>
+              <span className="text-red-500 font-bold text-lg">o</span>
+              <span className="text-yellow-500 font-bold text-lg">o</span>
+              <span className="text-blue-600 font-bold text-lg">g</span>
+              <span className="text-green-500 font-bold text-lg">l</span>
+              <span className="text-red-500 font-bold text-lg">e</span>
+            </div>
             <Star size={18} className="text-yellow-500 fill-current" />
             <span className="font-semibold">4.8</span>
             <div className="flex">
