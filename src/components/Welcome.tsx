@@ -7,11 +7,11 @@ export const Welcome = () => {
     <>
       {/* 5 Year Warranty badge - Outside hero section */}
       <div className="relative bg-background">
-        <div className="absolute -top-12 left-8 hidden lg:block z-10">
+        <div className="absolute top-16 left-8 hidden lg:block z-10">
           <img 
             src={warrantyBadge} 
             alt="5 Year Warranty" 
-            className="w-24 h-24 drop-shadow-lg"
+            className="w-32 h-32 drop-shadow-lg"
           />
         </div>
       </div>
