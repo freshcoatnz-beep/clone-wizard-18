@@ -39,7 +39,7 @@ export const Header = () => {
               </svg>
             </div>
             <Star size={24} className="text-yellow-500 fill-current" />
-            <span className="font-bold text-xl">4.8</span>
+            <span className="font-bold text-xl">5.0</span>
             <div className="flex">
               {[...Array(5)].map((_, i) => (
                 <Star key={i} size={20} className="text-yellow-500 fill-current" />
