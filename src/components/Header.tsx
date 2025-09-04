@@ -62,12 +62,14 @@ export const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-8">
             {/* What We Do Dropdown */}
-            <div className="relative">
+            <div 
+              className="relative"
+              onMouseEnter={() => setIsDropdownOpen(true)}
+              onMouseLeave={() => setIsDropdownOpen(false)}
+            >
               <button
                 className="flex items-center gap-1 transition-colors font-semibold text-base text-black"
                 onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-                onMouseEnter={() => setIsDropdownOpen(true)}
-                onMouseLeave={() => setIsDropdownOpen(false)}
               >
                 What We Do
                 <ChevronDown size={16} className={`transition-transform ${isDropdownOpen ? 'rotate-180' : ''}`} />
@@ -75,11 +77,7 @@ export const Header = () => {
               
               {/* Dropdown Menu */}
               {isDropdownOpen && (
-                <div 
-                  className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-strong border border-border z-50"
-                  onMouseEnter={() => setIsDropdownOpen(true)}
-                  onMouseLeave={() => setIsDropdownOpen(false)}
-                >
+                <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-strong border border-border z-50">
                   <ul className="py-2">
                     {services.map((service) => (
                       <li key={service.name}>
