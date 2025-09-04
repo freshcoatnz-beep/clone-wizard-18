@@ -21,7 +21,7 @@ export const Header = () => {
         <div className="container mx-auto px-4 py-3 flex justify-between items-center text-base font-medium">
           <div className="flex items-center gap-2 text-brand-gray">
             <Phone size={18} />
-            <span>0410 949 130</span>
+            <span>022 0366586</span>
           </div>
           <div className="flex items-center gap-2">
             {/* Google G Icon - Links to Business Profile */}
