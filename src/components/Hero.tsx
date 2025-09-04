@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button';
 import { Check } from 'lucide-react';
-// Using clean edited image without car and power pole
-import heroImage from '@/assets/hero-house-clean.jpg';
+// Using edited image without car
+import heroImage from '@/assets/hero-house-no-car.jpg';
 import warrantyBadge from '@/assets/warranty-badge.png';
 
 export const Hero = () => {
