@@ -22,7 +22,7 @@ export const Welcome = () => {
           {/* Content */}
           <div>
             <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-brand-gray">
-              Welcome to Freshcoat Painting Pty Ltd
+              Welcome to Freshcoat Painting
             </h2>
             <p className="text-lg mb-6 text-muted-foreground leading-relaxed">
               Looking for reliable painters in Christchurch who deliver professional, high-quality finishes? 
