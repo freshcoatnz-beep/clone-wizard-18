@@ -20,7 +20,9 @@ export const Header = () => {
       <div className="border-b border-border bg-gray-50">
         <div className="container mx-auto px-4 py-3 flex justify-between items-center text-xl font-medium">
           <div>
-            <span className="text-xl font-bold text-brand-gray">Freshcoat Painting</span>
+            <a href="/" className="text-xl font-bold text-brand-gray hover:text-brand-red transition-colors cursor-pointer">
+              Freshcoat Painting
+            </a>
           </div>
           <a 
             href="https://g.page/r/CR4Ie-y0WfnAEBM" 
