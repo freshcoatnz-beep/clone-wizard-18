@@ -67,7 +67,7 @@ const Interior = () => {
             {/* Content */}
             <div>
               <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-brand-gray">
-                Professional Interior Painting
+                Interior Painting
               </h2>
               <p className="text-lg mb-6 text-muted-foreground leading-relaxed">
                 Need expert interior painters in Christchurch who deliver flawless results?
