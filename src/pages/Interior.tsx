@@ -82,16 +82,18 @@ const Interior = () => {
             </div>
 
             {/* Image */}
-            <div>
-              <Card className="p-0 overflow-hidden shadow-medium">
-                <div className="aspect-[5/3] bg-secondary rounded-lg overflow-hidden">
-                  <img 
-                    src="/lovable-uploads/be3e0313-1934-48ae-9df1-636887be9531.png" 
-                    alt="Interior Painting Example" 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-              </Card>
+            <div className="flex justify-end">
+              <div className="w-4/5">
+                <Card className="p-0 overflow-hidden shadow-medium">
+                  <div className="aspect-[5/3] bg-secondary rounded-lg overflow-hidden">
+                    <img 
+                      src="/lovable-uploads/be3e0313-1934-48ae-9df1-636887be9531.png" 
+                      alt="Interior Painting Example" 
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                </Card>
+              </div>
             </div>
           </div>
         </div>
