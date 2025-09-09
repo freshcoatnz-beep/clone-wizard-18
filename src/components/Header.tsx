@@ -7,7 +7,7 @@ export const Header = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const services = [
-    { name: 'Interior Painting', href: '#interior' },
+    { name: 'Interior Painting', href: '/interior' },
     { name: 'Exterior Painting', href: '#exterior' },
     { name: 'Painting & Decorating', href: '#decorating' },
     { name: 'House Preparation & Repairs', href: '#preparation' },
