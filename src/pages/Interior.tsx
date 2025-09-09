@@ -12,7 +12,7 @@ const Interior = () => {
       <Header />
       
       {/* Hero Section - Same style as home page */}
-      <section className="relative min-h-[450px] lg:min-h-[600px] bg-cover bg-center bg-no-repeat hero-curved" style={{ backgroundImage: `url(${heroImage})`, backgroundPosition: 'center 70%' }}>
+      <section className="relative min-h-[450px] lg:min-h-[600px] bg-cover bg-center bg-no-repeat hero-curved" style={{ backgroundImage: `url(/lovable-uploads/987721cd-65bb-4083-96cf-796c69f181ac.png)`, backgroundPosition: 'center 70%' }}>
         {/* Overlay */}
         <div className="absolute inset-0 bg-gradient-hero hero-curved"></div>
         
