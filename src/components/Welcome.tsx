@@ -37,8 +37,8 @@ export const Welcome = () => {
           </div>
 
           {/* Images grid */}
-          <div className="mt-8">
-            <Card className="p-0 overflow-hidden shadow-medium">
+          <div className="mt-8 flex justify-center">
+            <Card className="p-0 overflow-hidden shadow-medium w-full max-w-lg">
               <div className="aspect-[5/3] bg-secondary rounded-lg overflow-hidden">
                 <img 
                   src="/lovable-uploads/be3e0313-1934-48ae-9df1-636887be9531.png" 
