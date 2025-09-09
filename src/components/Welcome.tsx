@@ -38,7 +38,7 @@ export const Welcome = () => {
 
           {/* Images grid */}
           <div className="flex justify-center">
-            <div className="w-full max-w-md">
+            <div className="w-full max-w-2xl">
               <Card className="p-0 overflow-hidden shadow-medium">
                 <div className="aspect-[5/3] bg-secondary rounded-lg overflow-hidden">
                   <img 
