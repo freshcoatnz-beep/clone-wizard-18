@@ -10,7 +10,7 @@ export const Header = () => {
     { name: 'Interior Painting', href: '/interior' },
     { name: 'Exterior Painting', href: '/exterior' },
     { name: 'Roof Painting', href: '/roof-painting' },
-    { name: 'House Preparation & Repairs', href: '/house-preparation' },
+    { name: 'Commercial', href: '/commercial' },
     { name: 'Maintenance Painting', href: '#maintenance' }
   ];
 
