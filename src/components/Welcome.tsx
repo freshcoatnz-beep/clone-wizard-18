@@ -17,7 +17,7 @@ export const Welcome = () => {
       </div>
       
       <section className="py-2 lg:py-4 bg-background">
-      <div className="container mx-auto px-4 ml-48">
+      <div className="container mx-auto px-4 ml-48 mr-48">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div>
@@ -37,7 +37,7 @@ export const Welcome = () => {
           </div>
 
           {/* Images grid */}
-          <div className="ml-24 mr-48">
+          <div>
             <Card className="p-0 overflow-hidden shadow-medium">
               <div className="aspect-[5/3] bg-secondary rounded-lg overflow-hidden">
                 <img 
