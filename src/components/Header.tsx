@@ -52,9 +52,9 @@ export const Header = () => {
       <div className="container mx-auto px-4 py-6 bg-white shadow-sm">
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-3">
-            <a href="tel:+6422036658" className="flex items-center gap-3 text-brand-gray hover:opacity-80 transition-opacity">
-              <Phone size={24} />
-              <span className="text-xl font-bold">022 0366586</span>
+            <a href="tel:+6422036658" className="flex items-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors font-semibold">
+              <Phone size={20} />
+              <span className="text-lg font-bold">022 0366586</span>
             </a>
           </div>
 
