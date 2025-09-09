@@ -25,11 +25,11 @@ export const Welcome = () => {
               Welcome to Freshcoat Painting
             </h2>
             <p className="text-lg mb-6 text-muted-foreground leading-relaxed">
-              Looking for reliable painters in Christchurch who deliver professional, high-quality finishes? 
-              <strong className="text-brand-gray"> Freshcoat Painting</strong> is a leading painting company with over 30 years of experience transforming homes, strata, and small commercial properties throughout Christchurch.
+              Need trusted painters in Christchurch who deliver flawless results?
+              <strong className="text-brand-gray"> Freshcoat Painting</strong> has been transforming homes, apartments, and small commercial spaces across Christchurch for over 30 years.
             </p>
             <p className="text-lg mb-8 text-muted-foreground leading-relaxed">
-              Whether you need interior or exterior painting, our expert team provides seamless, stress-free service backed by a 5-year workmanship warranty. As fully insured professionals using premium brands like <strong className="text-brand-gray">Dulux, Taubmans, and Wattyl</strong>, we guarantee lasting results and complete customer satisfaction.
+              From interior makeovers to exterior protection, our skilled team ensures a hassle-free experience with a 5-year workmanship guarantee. We're fully insured and work exclusively with leading brands like <strong className="text-brand-gray">Resene, Dulux, and Wattyl</strong>—so you can count on a durable, high-quality finish every time.
             </p>
             <Button variant="cta" size="lg">
               Get your free painting quote today
