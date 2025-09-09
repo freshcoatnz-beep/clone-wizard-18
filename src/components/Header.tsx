@@ -19,10 +19,9 @@ export const Header = () => {
       {/* Top bar */}
       <div className="border-b border-border bg-gray-50">
         <div className="container mx-auto px-4 py-3 flex justify-between items-center text-xl font-medium">
-          <a href="tel:+6422036658" className="flex items-center gap-3 text-brand-gray ml-4 hover:opacity-80 transition-opacity">
-            <Phone size={24} />
-            <span className="text-xl font-bold">022 0366586</span>
-          </a>
+          <div>
+            <span className="text-xl font-bold text-brand-gray">Freshcoat Painting</span>
+          </div>
           <a 
             href="https://g.page/r/CR4Ie-y0WfnAEBM" 
             target="_blank" 
@@ -52,13 +51,11 @@ export const Header = () => {
       {/* Main header */}
       <div className="container mx-auto px-4 py-6 bg-white shadow-sm">
         <div className="flex justify-between items-center">
-          {/* Logo */}
           <div className="flex items-center gap-3">
-            <div>
-              <a href="/" className="hover:opacity-80 transition-opacity">
-                <span className="font-bold text-3xl text-brand-gray">Freshcoat Painting</span>
-              </a>
-            </div>
+            <a href="tel:+6422036658" className="flex items-center gap-3 text-brand-gray hover:opacity-80 transition-opacity">
+              <Phone size={24} />
+              <span className="text-xl font-bold">022 0366586</span>
+            </a>
           </div>
 
           {/* Desktop Navigation */}
