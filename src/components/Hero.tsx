@@ -31,7 +31,7 @@ export const Hero = () => {
             </div>
             <div className="flex items-center gap-2">
               <Check size={20} className="text-green-400" />
-              <span>5 Year Warranty</span>
+              <span>5 Year Guarantee</span>
             </div>
           </div>
           
