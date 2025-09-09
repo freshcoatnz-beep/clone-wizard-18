@@ -37,18 +37,16 @@ export const Welcome = () => {
           </div>
 
           {/* Images grid */}
-          <div className="flex justify-start mt-8">
-            <div className="w-full ml-48">
-              <Card className="p-0 overflow-hidden shadow-medium">
-                <div className="aspect-[5/3] bg-secondary rounded-lg overflow-hidden">
-                  <img 
-                    src="/lovable-uploads/be3e0313-1934-48ae-9df1-636887be9531.png" 
-                    alt="Interior Painting West Pennant Hills" 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-              </Card>
-            </div>
+          <div className="mt-8">
+            <Card className="p-0 overflow-hidden shadow-medium">
+              <div className="aspect-[5/3] bg-secondary rounded-lg overflow-hidden">
+                <img 
+                  src="/lovable-uploads/be3e0313-1934-48ae-9df1-636887be9531.png" 
+                  alt="Interior Painting West Pennant Hills" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </Card>
           </div>
         </div>
       </div>
