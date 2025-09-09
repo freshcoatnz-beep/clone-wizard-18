@@ -129,14 +129,14 @@
 
   /* Hero curved bottom effect */
   .hero-curved {
-    clip-path: ellipse(120% 80% at 50% 0%);
-    padding-bottom: 40px;
+    clip-path: ellipse(120% 90% at 50% 0%);
+    padding-bottom: 45px;
   }
 
   @media (min-width: 768px) {
     .hero-curved {
-      clip-path: ellipse(120% 80% at 50% 0%);
-      padding-bottom: 50px;
+      clip-path: ellipse(120% 90% at 50% 0%);
+      padding-bottom: 55px;
     }
   }
 }
