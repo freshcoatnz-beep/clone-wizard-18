@@ -83,7 +83,7 @@ const Interior = () => {
 
             {/* Image */}
             <div className="flex justify-end mr-8 self-start">
-              <div className="w-1/2">
+              <div className="w-2/5">
                 <Card className="p-0 overflow-hidden shadow-medium">
                   <div className="aspect-[5/3] bg-secondary rounded-lg overflow-hidden">
                     <img 
