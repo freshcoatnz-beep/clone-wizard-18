@@ -39,7 +39,7 @@ export const Welcome = () => {
           {/* Images grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <Card className="p-0 overflow-hidden shadow-medium">
-              <div className="aspect-[2/5] bg-secondary rounded-lg overflow-hidden">
+              <div className="aspect-[5/3] bg-secondary rounded-lg overflow-hidden">
                 <img 
                   src="/lovable-uploads/be3e0313-1934-48ae-9df1-636887be9531.png" 
                   alt="Interior Painting West Pennant Hills" 
