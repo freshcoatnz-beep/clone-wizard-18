@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { Check, Palette, Home, Shield } from 'lucide-react';
 import heroImage from '@/assets/hero-house-no-car.jpg';
+import guaranteeBadge from '@/assets/guarantee-badge.png';
 
 const Interior = () => {
   return (
@@ -47,6 +48,17 @@ const Interior = () => {
           </div>
         </div>
       </section>
+
+      {/* Guarantee badge - Outside hero section */}
+      <div className="relative bg-background">
+        <div className="absolute -top-8 left-0 hidden lg:block z-10">
+          <img 
+            src={guaranteeBadge} 
+            alt="5 Year Guarantee" 
+            className="w-40 h-40"
+          />
+        </div>
+      </div>
 
       {/* Welcome Section - Similar to home page */}
       <section className="py-2 lg:py-4 bg-background">
