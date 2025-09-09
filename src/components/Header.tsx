@@ -55,7 +55,9 @@ export const Header = () => {
           {/* Logo */}
           <div className="flex items-center gap-3">
             <div>
-              <span className="font-bold text-3xl text-brand-gray">Freshcoat Painting</span>
+              <a href="/" className="hover:opacity-80 transition-opacity">
+                <span className="font-bold text-3xl text-brand-gray">Freshcoat Painting</span>
+              </a>
             </div>
           </div>
 
