@@ -11,7 +11,7 @@ export const Footer = () => {
               <span className="font-bold text-lg text-white">Freshcoat Painting</span>
             </div>
             <p className="text-gray-300 mb-4">
-              Leading Christchurch painters with over 20 years of experience delivering quality finishes for homes and businesses.
+              Leading Christchurch painters with over 30 years of experience delivering quality finishes for homes and businesses.
             </p>
           </div>
 

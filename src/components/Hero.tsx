@@ -27,7 +27,7 @@ export const Hero = () => {
             </div>
             <div className="flex items-center gap-2">
               <Check size={20} className="text-green-400" />
-              <span>20+ Years Experience</span>
+              <span>30 Years Experience</span>
             </div>
             <div className="flex items-center gap-2">
               <Check size={20} className="text-green-400" />
