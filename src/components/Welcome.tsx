@@ -47,15 +47,6 @@ export const Welcome = () => {
                 />
               </div>
             </Card>
-            <Card className="p-0 overflow-hidden shadow-medium mt-8">
-              <div className="aspect-[3/5] bg-secondary rounded-lg">
-                <div className="w-full h-full flex items-center justify-center text-muted-foreground">
-                  Exterior Painting
-                  <br />
-                  2 Storey Home
-                </div>
-              </div>
-            </Card>
           </div>
         </div>
       </div>
