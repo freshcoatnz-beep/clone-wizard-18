@@ -85,7 +85,7 @@ const Interior = () => {
                 <Card className="p-0 overflow-hidden shadow-medium">
                   <div className="aspect-[5/3] bg-secondary rounded-lg overflow-hidden">
                     <img 
-                      src="/lovable-uploads/be3e0313-1934-48ae-9df1-636887be9531.png" 
+                      src="/lovable-uploads/987721cd-65bb-4083-96cf-796c69f181ac.png" 
                       alt="Interior Painting Example" 
                       className="w-full h-full object-cover"
                     />
