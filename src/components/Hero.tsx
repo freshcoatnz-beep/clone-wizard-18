@@ -23,7 +23,7 @@ export const Hero = () => {
           <div className="flex flex-wrap justify-center gap-8 lg:gap-16 mb-10 text-lg lg:text-xl">
             <div className="flex items-center gap-2">
               <Check size={20} className="text-green-400" />
-              <span>Professional Painters</span>
+              <span>5 Year Guarantee</span>
             </div>
             <div className="flex items-center gap-2">
               <Check size={20} className="text-green-400" />
@@ -31,7 +31,7 @@ export const Hero = () => {
             </div>
             <div className="flex items-center gap-2">
               <Check size={20} className="text-green-400" />
-              <span>5 Year Guarantee</span>
+              <span>Professional Painters</span>
             </div>
           </div>
           
