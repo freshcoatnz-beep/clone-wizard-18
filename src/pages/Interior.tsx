@@ -20,9 +20,7 @@ const Interior = () => {
         <div className="relative container mx-auto px-4 py-12 lg:py-18">
           <div className="max-w-5xl mx-auto text-center text-white">
             <h1 className="text-3xl lg:text-5xl font-bold mb-8 leading-tight">
-              Interior Painting Services
-              <br />
-              Professional Indoor Painting
+              Interior Painting
             </h1>
             
             {/* Key points */}
@@ -103,7 +101,7 @@ const Interior = () => {
       <section className="py-16 bg-secondary/5">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-brand-gray">Interior Painting Services</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-brand-gray">Interior Painting</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Comprehensive interior painting solutions for every room in your home
             </p>
