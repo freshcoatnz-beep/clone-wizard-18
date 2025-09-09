@@ -37,8 +37,8 @@ export const Welcome = () => {
           </div>
 
           {/* Images grid */}
-          <div className="self-start">
-            <Card className="p-0 overflow-hidden shadow-medium max-w-md">
+          <div>
+            <Card className="p-0 overflow-hidden shadow-medium">
               <div className="aspect-[5/3] bg-secondary rounded-lg overflow-hidden">
                 <img 
                   src="/lovable-uploads/be3e0313-1934-48ae-9df1-636887be9531.png" 
