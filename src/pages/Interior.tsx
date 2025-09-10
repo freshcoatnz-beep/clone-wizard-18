@@ -75,7 +75,7 @@ const Interior = () => {
                 From single rooms to whole house makeovers, our skilled team ensures a hassle-free experience with a 5-year workmanship guarantee. We use only premium brands like <strong className="text-brand-gray">Resene, Dulux, and Wattyl</strong> for lasting, beautiful results.
               </p>
               <Button variant="cta" size="lg">
-                Get your free interior quote today
+                Get FREE Quote
               </Button>
             </div>
 

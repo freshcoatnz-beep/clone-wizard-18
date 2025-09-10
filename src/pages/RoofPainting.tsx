@@ -55,7 +55,7 @@ const RoofPainting = () => {
               Professional roof painting and restoration services to protect and beautify your Christchurch property
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" variant="secondary" className="text-lg px-8 py-3">
+              <Button variant="hero" size="lg" className="text-xl px-12 py-6 font-semibold bg-blue-600 hover:bg-blue-700 text-white border-blue-600">
                 Get FREE Quote
               </Button>
               <a href="tel:+6422036658" className="flex items-center justify-center gap-2 bg-white text-slate-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold text-lg transition-colors">
@@ -194,7 +194,7 @@ const RoofPainting = () => {
             Get a free quote for professional roof painting services today
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" variant="secondary" className="text-lg px-8 py-3">
+            <Button variant="hero" size="lg" className="text-xl px-12 py-6 font-semibold bg-blue-600 hover:bg-blue-700 text-white border-blue-600">
               Get FREE Quote
             </Button>
             <a href="tel:+6422036658" className="flex items-center justify-center gap-2 bg-white text-slate-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold text-lg transition-colors">
