@@ -45,9 +45,13 @@ const RoofPainting = () => {
       <Header />
       
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-slate-600 to-slate-800 text-white py-20">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
+      <section className="relative min-h-[450px] lg:min-h-[600px] bg-cover bg-center bg-no-repeat hero-curved" style={{ backgroundImage: 'url(/lovable-uploads/914c1559-aa21-40dc-b4da-78a748cae32b.png)' }}>
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-gradient-hero hero-curved"></div>
+        
+        {/* Content */}
+        <div className="relative container mx-auto px-4 py-12 lg:py-32 flex items-end min-h-[400px] lg:min-h-[550px]">
+          <div className="max-w-4xl mx-auto text-center text-white">
             <h1 className="text-4xl lg:text-6xl font-bold mb-6">
               Roof Painting Services
             </h1>
