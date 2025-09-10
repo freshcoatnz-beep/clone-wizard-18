@@ -41,7 +41,7 @@ const Interior = () => {
             </p>
             
             <Button variant="hero" size="lg" className="text-xl px-12 py-6 font-semibold bg-blue-600 hover:bg-blue-700 text-white border-blue-600 mt-8">
-              Get FREE Interior Quote
+              Get FREE Quote
             </Button>
           </div>
         </div>
