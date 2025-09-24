@@ -12,12 +12,12 @@ const Interior = () => {
       <Header />
       
       {/* Hero Section - Same style as home page */}
-      <section className="relative min-h-[550px] lg:min-h-[700px] bg-cover bg-center bg-no-repeat hero-curved" style={{ backgroundImage: `url(/lovable-uploads/560cfc8a-03cc-4357-9065-7edfbe508f66.png)`, backgroundPosition: 'center 70%' }}>
+      <section className="relative min-h-[530px] lg:min-h-[680px] bg-cover bg-center bg-no-repeat hero-curved" style={{ backgroundImage: `url(/lovable-uploads/560cfc8a-03cc-4357-9065-7edfbe508f66.png)`, backgroundPosition: 'center 70%' }}>
         {/* Overlay */}
         <div className="absolute inset-0 bg-gradient-hero hero-curved"></div>
         
         {/* Content */}
-        <div className="relative container mx-auto px-4 py-12 lg:py-32 flex items-end min-h-[500px] lg:min-h-[650px]">
+        <div className="relative container mx-auto px-4 py-12 lg:py-32 flex items-end min-h-[480px] lg:min-h-[630px]">
           <div className="max-w-5xl mx-auto text-center text-white">
             <h1 className="text-3xl lg:text-5xl font-bold mb-8 leading-tight">
               Interior Painting
