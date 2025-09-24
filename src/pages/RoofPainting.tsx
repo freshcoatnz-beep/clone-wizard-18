@@ -89,7 +89,7 @@ const RoofPainting = () => {
           <img 
             src={guaranteeBadge} 
             alt="5 Year Guarantee Badge" 
-            className="w-32 h-32"
+            className="w-40 h-40"
           />
         </div>
       </div>
