@@ -31,11 +31,10 @@ export const Footer = () => {
           <div>
             <h3 className="font-bold text-lg mb-4">Service Areas</h3>
             <ul className="space-y-2 text-gray-300">
-              <li>Hills District</li>
-              <li>North Shore</li>
-              <li>Inner West</li>
-              <li>Western Christchurch</li>
-              <li>City of Christchurch</li>
+              <li>Christchurch</li>
+              <li>Canterbury</li>
+              <li>Rolleston</li>
+              <li>Darfield</li>
             </ul>
           </div>
 
