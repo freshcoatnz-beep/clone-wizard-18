@@ -12,7 +12,7 @@ export const Header = () => {
     { name: 'Exterior Painting', href: '/exterior' },
     { name: 'Roof Painting', href: '/roof-painting' },
     { name: 'Commercial', href: '/commercial' },
-    { name: 'Maintenance Painting', href: '#maintenance' }
+    { name: 'Maintenance Painting', href: '/maintenance-painting' }
   ];
 
   const serviceAreas = [
