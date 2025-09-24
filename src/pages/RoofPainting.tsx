@@ -6,6 +6,7 @@ import { Process } from '@/components/Process';
 import { WhyChooseUs } from '@/components/WhyChooseUs';
 import { Footer } from '@/components/Footer';
 import { Button } from '@/components/ui/button';
+import guaranteeBadge from '@/assets/guarantee-badge.png';
 
 const RoofPainting = () => {
   return (
@@ -49,6 +50,17 @@ const RoofPainting = () => {
           </div>
         </div>
       </section>
+
+      {/* Guarantee badge - Outside hero section */}
+      <div className="relative bg-background">
+        <div className="absolute -top-20 left-0 hidden lg:block z-10">
+          <img 
+            src={guaranteeBadge} 
+            alt="5 Year Guarantee Badge" 
+            className="w-32 h-32"
+          />
+        </div>
+      </div>
 
       <Welcome />
       <TrustedCompany />
