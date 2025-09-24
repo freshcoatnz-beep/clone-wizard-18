@@ -3,14 +3,10 @@ import { Shield, Users, Award } from 'lucide-react';
 
 export const TrustedCompany = () => {
   const serviceAreas = [
-    'Hills District',
-    'Hornsby', 
-    'North Shore',
-    'Inner West',
-    'City of Christchurch',
-    'Parramatta',
-    'Blacktown',
-    'Western Christchurch'
+    'Christchurch',
+    'Canterbury', 
+    'Rolleston',
+    'Darfield'
   ];
 
   const features = [
