@@ -54,7 +54,7 @@ const Commercial = () => {
         <div className="relative container mx-auto px-4 py-12 lg:py-32 flex items-end min-h-[400px] lg:min-h-[550px]">
           <div className="max-w-5xl mx-auto text-center text-white">
             <h1 className="text-3xl lg:text-5xl font-bold mb-8 leading-tight">
-              Commercial Painting
+              Exterior Painting
               <br />
               Christchurch
             </h1>
