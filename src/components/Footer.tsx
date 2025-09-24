@@ -48,7 +48,7 @@ export const Footer = () => {
               </div>
               <div className="flex items-center gap-2">
                 <Mail size={16} />
-                <span className="text-gray-300">info@freshcoatpainting.com.au</span>
+                <span className="text-gray-300">info@freshcoatpainting.co.nz</span>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin size={16} />
