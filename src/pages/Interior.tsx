@@ -17,7 +17,7 @@ const Interior = () => {
         <div className="absolute inset-0 bg-gradient-hero hero-curved"></div>
         
         {/* Content */}
-        <div className="relative container mx-auto px-4 py-12 lg:py-18">
+        <div className="relative container mx-auto px-4 py-12 lg:py-32 flex items-end min-h-[400px] lg:min-h-[550px]">
           <div className="max-w-5xl mx-auto text-center text-white">
             <h1 className="text-3xl lg:text-5xl font-bold mb-8 leading-tight">
               Interior Painting
@@ -49,11 +49,11 @@ const Interior = () => {
 
       {/* Guarantee badge - Outside hero section */}
       <div className="relative bg-background">
-        <div className="absolute -top-8 left-0 hidden lg:block z-10">
+        <div className="absolute -top-20 left-0 hidden lg:block z-10">
           <img 
             src={guaranteeBadge} 
             alt="5 Year Guarantee" 
-            className="w-40 h-40"
+            className="w-32 h-32"
           />
         </div>
       </div>

@@ -2,6 +2,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Phone, Building, Users, Award, CheckCircle, Star, Briefcase } from "lucide-react";
+import guaranteeBadge from '@/assets/guarantee-badge.png';
 
 const Commercial = () => {
   const services = [
@@ -81,6 +82,17 @@ const Commercial = () => {
           </div>
         </div>
       </section>
+
+      {/* Guarantee badge - Outside hero section */}
+      <div className="relative bg-background">
+        <div className="absolute -top-20 left-0 hidden lg:block z-10">
+          <img 
+            src={guaranteeBadge} 
+            alt="5 Year Guarantee" 
+            className="w-32 h-32"
+          />
+        </div>
+      </div>
 
       {/* Services Section */}
       <section className="py-16 bg-white">
