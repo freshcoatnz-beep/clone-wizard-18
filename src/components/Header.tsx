@@ -5,6 +5,7 @@ import { Phone, Star, Menu, X, ChevronDown } from 'lucide-react';
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isServiceAreasOpen, setIsServiceAreasOpen] = useState(false);
 
   const services = [
     { name: 'Interior Painting', href: '/interior' },
@@ -12,6 +13,13 @@ export const Header = () => {
     { name: 'Roof Painting', href: '/roof-painting' },
     { name: 'Commercial', href: '/commercial' },
     { name: 'Maintenance Painting', href: '#maintenance' }
+  ];
+
+  const serviceAreas = [
+    { name: 'Christchurch', href: '#areas' },
+    { name: 'Canterbury', href: '#areas' },
+    { name: 'Rolleston', href: '#areas' },
+    { name: 'Darfield', href: '#areas' }
   ];
 
   return (
@@ -95,8 +103,40 @@ export const Header = () => {
               )}
             </div>
             
+            {/* Service Areas Dropdown */}
+            <div 
+              className="relative"
+              onMouseEnter={() => setIsServiceAreasOpen(true)}
+              onMouseLeave={() => setIsServiceAreasOpen(false)}
+            >
+              <button
+                className="flex items-center gap-1 transition-colors font-semibold text-lg text-black"
+                onClick={() => setIsServiceAreasOpen(!isServiceAreasOpen)}
+              >
+                Service Areas
+                <ChevronDown size={16} className={`transition-transform ${isServiceAreasOpen ? 'rotate-180' : ''}`} />
+              </button>
+              
+              {/* Dropdown Menu */}
+              {isServiceAreasOpen && (
+                <div className="absolute top-full left-0 w-64 bg-white rounded-lg shadow-strong border border-border z-50">
+                  <ul className="py-2">
+                    {serviceAreas.map((area) => (
+                      <li key={area.name}>
+                        <a
+                          href={area.href}
+                          className="block px-4 py-3 text-base font-medium text-foreground hover:bg-secondary transition-colors"
+                        >
+                          {area.name}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </div>
+            
             <a href="#about" className="transition-colors font-semibold text-lg text-black">About Us</a>
-            <a href="#areas" className="transition-colors font-semibold text-lg text-black">Service Areas</a>
             <Button variant="cta">Contact Us</Button>
           </nav>
 
@@ -128,8 +168,22 @@ export const Header = () => {
                   ))}
                 </div>
               </div>
+              {/* Mobile Service Areas Section */}
+              <div>
+                <p className="font-semibold text-brand-gray mb-2">Service Areas</p>
+                <div className="pl-4 space-y-2">
+                  {serviceAreas.map((area) => (
+                    <a
+                      key={area.name}
+                      href={area.href}
+                      className="block text-base font-medium text-muted-foreground hover:text-brand-red transition-colors"
+                    >
+                      {area.name}
+                    </a>
+                  ))}
+                </div>
+              </div>
               <a href="#about" className="hover:text-brand-red transition-colors font-semibold text-base">About Us</a>
-              <a href="#areas" className="hover:text-brand-red transition-colors font-semibold text-base">Service Areas</a>
               <Button variant="cta" className="w-full">Contact Us</Button>
             </div>
           </nav>
