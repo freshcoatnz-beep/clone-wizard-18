@@ -38,7 +38,7 @@ const Commercial = () => {
               Professional exterior painters for Christchurch homes with guaranteed quality & competitive rates.
             </p>
             
-            <Button variant="hero" size="lg" className="text-xl px-12 py-6 font-semibold bg-red-600 hover:bg-red-700 text-white border-red-600 mt-8">
+            <Button variant="hero" size="lg" className="text-xl px-12 py-6 font-semibold bg-green-600 hover:bg-green-700 text-white border-green-600 mt-8">
               Get FREE Quote
             </Button>
           </div>

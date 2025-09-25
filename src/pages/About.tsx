@@ -52,7 +52,7 @@ const About = () => {
               <p className="text-xl mb-8 text-muted-foreground leading-relaxed">
                 Freshcoat Painting is a leading full-service Christchurch based painting company with over 30 years of experience. Our work goes beyond colour swatches and paint techniques, we create curb appeal and stunning spaces you will love.
               </p>
-              <Button variant="cta" size="lg">
+              <Button variant="cta" size="lg" className="bg-green-600 hover:bg-green-700">
                 Get a quote
               </Button>
             </div>
@@ -114,7 +114,7 @@ const About = () => {
             </div>
             
             <div className="text-center mt-12">
-              <Button variant="cta" size="lg">
+              <Button variant="cta" size="lg" className="bg-green-600 hover:bg-green-700">
                 Get a quote
               </Button>
             </div>
@@ -190,7 +190,7 @@ const About = () => {
           <p className="text-xl mb-8 opacity-90">
             We produce quality work for satisfied customers time after time. Get your obligation-free quote today.
           </p>
-          <Button variant="secondary" size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
+          <Button variant="secondary" size="lg" className="bg-green-600 hover:bg-green-700 text-white">
             Get FREE Quote
           </Button>
         </div>

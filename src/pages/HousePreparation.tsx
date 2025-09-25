@@ -55,7 +55,7 @@ const HousePreparation = () => {
               Professional preparation and repair services to ensure perfect painting results in Christchurch
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button variant="hero" size="lg" className="text-xl px-12 py-6 font-semibold bg-blue-600 hover:bg-blue-700 text-white border-blue-600">
+              <Button variant="hero" size="lg" className="text-xl px-12 py-6 font-semibold bg-green-600 hover:bg-green-700 text-white border-green-600">
                 Get FREE Quote
               </Button>
               <a href="tel:+6422036658" className="flex items-center justify-center gap-2 bg-white text-orange-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold text-lg transition-colors">
@@ -189,7 +189,7 @@ const HousePreparation = () => {
             Professional preparation and repairs for the perfect paint finish
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="hero" size="lg" className="text-xl px-12 py-6 font-semibold bg-blue-600 hover:bg-blue-700 text-white border-blue-600">
+            <Button variant="hero" size="lg" className="text-xl px-12 py-6 font-semibold bg-green-600 hover:bg-green-700 text-white border-green-600">
               Get FREE Quote
             </Button>
             <a href="tel:+6422036658" className="flex items-center justify-center gap-2 bg-white text-orange-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold text-lg transition-colors">
