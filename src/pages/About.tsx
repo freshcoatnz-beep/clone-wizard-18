@@ -62,7 +62,8 @@ const About = () => {
       </Helmet>
       
       <div className="min-h-screen bg-background">
-      <main>
+        <Header />
+        <main>
       
       {/* Hero Section */}
       <section className="py-16 bg-gradient-to-br from-blue-50 to-white">
