@@ -163,7 +163,7 @@ export const QuoteForm = ({ children }: QuoteFormProps) => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-2">
               <div className="flex items-center gap-1">
                 <Phone className="w-4 h-4" />
-                <span>021 123 4567</span>
+                <span>022 0366586</span>
               </div>
               <div className="flex items-center gap-1">
                 <Mail className="w-4 h-4" />
