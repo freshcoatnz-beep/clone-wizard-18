@@ -80,10 +80,10 @@ const Exterior = () => {
             </div>
 
             {/* Image */}
-            <div className="flex justify-end">
-              <div className="max-w-xs">
+            <div className="flex justify-start">
+              <div className="max-w-lg w-full">
                 <Card className="p-0 overflow-hidden shadow-medium">
-                  <div className="aspect-[5/3] bg-secondary rounded-lg overflow-hidden">
+                  <div className="aspect-[4/3] bg-secondary rounded-lg overflow-hidden">
                     <img 
                       src="/src/assets/exterior-welcome-house.jpg" 
                       alt="Modern House Exterior" 
