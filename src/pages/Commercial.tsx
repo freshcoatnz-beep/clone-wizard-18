@@ -10,7 +10,7 @@ const Commercial = () => {
       <Header />
       
       {/* Hero Section - matches your current hero */}
-      <section className="relative min-h-[550px] lg:min-h-[700px] bg-cover bg-center bg-no-repeat hero-curved" style={{ backgroundImage: 'url(/lovable-uploads/be3e0313-1934-48ae-9df1-636887be9531.png)' }}>
+      <section className="relative min-h-[550px] lg:min-h-[700px] bg-cover bg-center bg-no-repeat hero-curved" style={{ backgroundImage: 'url(/commercial-hero.jpg)' }}>
         {/* Overlay */}
         <div className="absolute inset-0 bg-gradient-hero hero-curved"></div>
         
