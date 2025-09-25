@@ -75,8 +75,8 @@ const About = () => {
               <p className="text-xl mb-8 text-muted-foreground leading-relaxed">
                 Freshcoat Painting is a leading full-service Christchurch based painting company with over 30 years of experience. Our work goes beyond colour swatches and paint techniques, we create curb appeal and stunning spaces you will love.
               </p>
-              <Button variant="cta" size="lg" className="bg-green-600 hover:bg-green-700">
-                Get a quote
+              <Button variant="hero" size="lg" className="text-xl px-12 py-6 font-semibold bg-green-600 hover:bg-green-700 text-white border-green-600 mt-8">
+                Get FREE Quote
               </Button>
             </div>
             <div className="flex justify-center">
@@ -137,8 +137,8 @@ const About = () => {
             </div>
             
             <div className="text-center mt-12">
-              <Button variant="cta" size="lg" className="bg-green-600 hover:bg-green-700">
-                Get a quote
+              <Button variant="hero" size="lg" className="text-xl px-12 py-6 font-semibold bg-green-600 hover:bg-green-700 text-white border-green-600 mt-8">
+                Get FREE Quote
               </Button>
             </div>
           </div>
