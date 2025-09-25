@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { Check } from 'lucide-react';
+import { QuoteForm } from '@/components/QuoteForm';
 // Using edited image without car
 import heroImage from '@/assets/hero-house-clean.jpg';
 import warrantyBadge from '@/assets/warranty-badge.png';
@@ -36,14 +37,15 @@ export const Hero = () => {
             Leading Christchurch painters delivering quality finishes for homes & businesses at competitive prices.
           </p>
           
-          <Button 
-            variant="hero" 
-            size="lg" 
-            className="text-xl px-12 py-6 font-semibold bg-green-600 hover:bg-green-700 text-white border-green-600 mt-8"
-            onClick={() => window.open('tel:+64211234567', '_self')}
-          >
-            Get FREE Quote
-          </Button>
+          <QuoteForm>
+            <Button 
+              variant="hero" 
+              size="lg" 
+              className="text-xl px-12 py-6 font-semibold bg-green-600 hover:bg-green-700 text-white border-green-600 mt-8"
+            >
+              Get FREE Quote
+            </Button>
+          </QuoteForm>
         </div>
       </div>
     </section>
