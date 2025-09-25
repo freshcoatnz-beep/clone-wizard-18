@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { Check, Palette, Home, Shield } from 'lucide-react';
 import heroImage from '@/assets/hero-house-no-car.jpg';
+import interiorHeroImage from '@/assets/interior-hero-room.jpg';
 import guaranteeBadge from '@/assets/guarantee-badge.png';
 
 const Interior = () => {
@@ -38,7 +39,7 @@ const Interior = () => {
       <main>
       
       {/* Hero Section - Same style as home page */}
-      <section className="relative min-h-[540px] lg:min-h-[690px] bg-cover bg-center bg-no-repeat hero-curved" style={{ backgroundImage: `url(/src/assets/interior-hero-room.jpg)`, backgroundPosition: 'center 70%' }}>
+      <section className="relative min-h-[540px] lg:min-h-[690px] bg-cover bg-center bg-no-repeat hero-curved" style={{ backgroundImage: `url(${interiorHeroImage})`, backgroundPosition: 'center 70%' }}>
         {/* Overlay */}
         <div className="absolute inset-0 bg-gradient-hero hero-curved"></div>
         
