@@ -59,9 +59,9 @@ const Commercial = () => {
       {/* Main Content Section - matches Advanced Painting layout */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
+          <div className="grid lg:grid-cols-5 gap-12 items-center max-w-6xl mx-auto">
             {/* Image */}
-            <div>
+            <div className="lg:col-span-3">
               <img 
                 src="/commercial-van.jpg" 
                 alt="Freshcoat Painting van in commercial warehouse showing professional equipment" 
@@ -70,7 +70,7 @@ const Commercial = () => {
             </div>
 
             {/* Content */}
-            <div>
+            <div className="lg:col-span-2">
               <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-brand-gray">
                 Christchurch's Best Commercial Painting
               </h2>
