@@ -7,6 +7,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 import { useToast } from '@/hooks/use-toast';
 import { Phone, Mail, MapPin } from 'lucide-react';
+import { supabase } from '@/integrations/supabase/client';
 
 interface QuoteFormProps {
   children: React.ReactNode;
@@ -24,7 +25,7 @@ export const QuoteForm = ({ children }: QuoteFormProps) => {
     message: ''
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
     // Basic validation
@@ -37,24 +38,49 @@ export const QuoteForm = ({ children }: QuoteFormProps) => {
       return;
     }
 
-    // Here you would typically send the data to your backend
-    console.log('Quote form submitted:', formData);
-    
-    toast({
-      title: "Quote Request Sent!",
-      description: "We'll contact you within 24 hours with your free quote.",
-    });
-    
-    // Reset form and close modal
-    setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      address: '',
-      serviceType: '',
-      message: ''
-    });
-    setOpen(false);
+    try {
+      console.log('Quote form submitted:', formData);
+      
+      // Send email via Supabase Edge Function
+      const { data, error } = await supabase.functions.invoke('send-quote-email', {
+        body: formData
+      });
+
+      if (error) {
+        console.error('Email sending error:', error);
+        toast({
+          title: "Error",
+          description: "Failed to send quote request. Please try again or contact us directly.",
+          variant: "destructive",
+        });
+        return;
+      }
+
+      console.log('Email sent successfully:', data);
+      
+      toast({
+        title: "Quote Request Sent!",
+        description: "We'll contact you within 24 hours with your free quote.",
+      });
+      
+      // Reset form and close modal
+      setFormData({
+        name: '',
+        email: '',
+        phone: '',
+        address: '',
+        serviceType: '',
+        message: ''
+      });
+      setOpen(false);
+    } catch (error) {
+      console.error('Unexpected error:', error);
+      toast({
+        title: "Error",
+        description: "Something went wrong. Please try again or contact us directly.",
+        variant: "destructive",
+      });
+    }
   };
 
   const handleInputChange = (field: string, value: string) => {
