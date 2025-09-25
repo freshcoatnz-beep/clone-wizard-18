@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Phone, Star, Menu, X, ChevronDown } from 'lucide-react';
+import freshcoatLogo from '@/assets/freshcoat-logo.png';
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -27,8 +28,8 @@ export const Header = () => {
       <div className="border-b border-border bg-gray-50">
         <div className="container mx-auto px-4 py-3 flex justify-between items-center text-xl font-medium">
           <div>
-            <a href="/" className="text-xl font-bold text-brand-gray hover:text-brand-red transition-colors cursor-pointer">
-              Freshcoat Painting
+            <a href="/" className="hover:opacity-90 transition-opacity cursor-pointer">
+              <img src={freshcoatLogo} alt="Freshcoat Painting" className="h-12 w-auto" />
             </a>
           </div>
           <a 
