@@ -81,7 +81,7 @@ const About = () => {
             
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
               <p>
-                We have an impressive portfolio of clients ranging from residential property owners, hotel chains, shopping centres and large public corporations. Excellence is the hallmark of our work and our reputation for offering value is well known. We consistently receive great feedback because we complete projects neatly, on time and our team of meticulous qualified painters have a talented eye for detail.
+                We have an impressive portfolio of clients ranging from residential property owners, hotel chains, shopping centres and large public corporations. Excellence is the hallmark of our work and our reputation for offering value is well known. We consistently deliver quality results because we complete projects neatly, on time and our team of meticulous qualified painters have a talented eye for detail.
               </p>
               
               <p>

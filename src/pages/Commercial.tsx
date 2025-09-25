@@ -90,7 +90,7 @@ const Commercial = () => {
                   <a href="/roof-painting" className="text-primary hover:underline">• Roof Painting</a>
                 </li>
                 <li className="text-lg">
-                  <a href="/maintenance-painting" className="text-primary hover:underline">• Maintenance Painting</a>
+                  <a href="/house-preparation" className="text-primary hover:underline">• House Preparation</a>
                 </li>
               </ul>
             </div>
@@ -98,73 +98,6 @@ const Commercial = () => {
         </div>
       </section>
 
-      {/* Feedback Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl lg:text-4xl font-bold text-center mb-12 text-brand-gray">
-            Feedback From Our Customers
-          </h2>
-          
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <div className="bg-white p-6 rounded-lg shadow-sm">
-              <div className="flex items-center gap-3 mb-4">
-                <div className="w-12 h-12 bg-gray-300 rounded-full flex items-center justify-center">
-                  <span className="text-lg font-semibold text-gray-600">J</span>
-                </div>
-                <div>
-                  <h4 className="font-semibold text-brand-gray">J</h4>
-                  <div className="flex gap-1">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                    ))}
-                  </div>
-                </div>
-              </div>
-              <p className="text-muted-foreground">
-                Fantastic work from the team, they completed the full exterior house paint within the estimated timescale and the new paint scheme is wonderful. Professional and reliable service.
-              </p>
-            </div>
-            
-            <div className="bg-white p-6 rounded-lg shadow-sm">
-              <div className="flex items-center gap-3 mb-4">
-                <div className="w-12 h-12 bg-gray-300 rounded-full flex items-center justify-center">
-                  <span className="text-lg font-semibold text-gray-600">N</span>
-                </div>
-                <div>
-                  <h4 className="font-semibold text-brand-gray">Ness Ethero</h4>
-                  <div className="flex gap-1">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                    ))}
-                  </div>
-                </div>
-              </div>
-              <p className="text-muted-foreground">
-                The team from Freshcoat Painting were extremely friendly and accommodating. Their attention to detail was exceptional and I couldn't recommend them more highly.
-              </p>
-            </div>
-            
-            <div className="bg-white p-6 rounded-lg shadow-sm">
-              <div className="flex items-center gap-3 mb-4">
-                <div className="w-12 h-12 bg-gray-300 rounded-full flex items-center justify-center">
-                  <span className="text-lg font-semibold text-gray-600">R</span>
-                </div>
-                <div>
-                  <h4 className="font-semibold text-brand-gray">Rohan Sharma</h4>
-                  <div className="flex gap-1">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                    ))}
-                  </div>
-                </div>
-              </div>
-              <p className="text-muted-foreground">
-                Excellent job on our property. They arrived on time each day and completed the job in the timeframe promised. The team worked hard and delivered quality results.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Transform Your Home Section */}
       <section className="py-16 bg-white">

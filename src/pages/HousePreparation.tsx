@@ -1,7 +1,7 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
-import { Phone, Wrench, Shield, Home, CheckCircle, Star, Award, Hammer } from "lucide-react";
+import { Phone, Wrench, Shield, Home, Star, Award, Hammer } from "lucide-react";
 
 const HousePreparation = () => {
   const services = [
@@ -87,7 +87,6 @@ const HousePreparation = () => {
                 <ul className="space-y-2">
                   {service.features.map((feature, idx) => (
                     <li key={idx} className="flex items-center gap-2">
-                      <CheckCircle size={16} className="text-green-600" />
                       <span className="text-sm font-medium">{feature}</span>
                     </li>
                   ))}

@@ -1,7 +1,7 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
-import { Phone, Home, Shield, Award, CheckCircle, Star, Umbrella } from "lucide-react";
+import { Phone, Home, Shield, Award, Star, Umbrella } from "lucide-react";
 import guaranteeBadge from '@/assets/guarantee-badge.png';
 
 const RoofPainting = () => {
@@ -114,7 +114,6 @@ const RoofPainting = () => {
                 <ul className="space-y-2">
                   {service.features.map((feature, idx) => (
                     <li key={idx} className="flex items-center gap-2">
-                      <CheckCircle size={16} className="text-green-600" />
                       <span className="text-sm font-medium">{feature}</span>
                     </li>
                   ))}
@@ -200,7 +199,6 @@ const RoofPainting = () => {
                 <ul className="space-y-1">
                   {item.features.map((feature, idx) => (
                     <li key={idx} className="flex items-center gap-2 text-sm">
-                      <CheckCircle size={14} className="text-green-600" />
                       {feature}
                     </li>
                   ))}
