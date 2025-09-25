@@ -36,7 +36,12 @@ export const Hero = () => {
             Leading Christchurch painters delivering quality finishes for homes & businesses at competitive prices.
           </p>
           
-          <Button variant="hero" size="lg" className="text-xl px-12 py-6 font-semibold bg-green-600 hover:bg-green-700 text-white border-green-600 mt-8">
+          <Button 
+            variant="hero" 
+            size="lg" 
+            className="text-xl px-12 py-6 font-semibold bg-green-600 hover:bg-green-700 text-white border-green-600 mt-8"
+            onClick={() => window.open('tel:+64211234567', '_self')}
+          >
             Get FREE Quote
           </Button>
         </div>
