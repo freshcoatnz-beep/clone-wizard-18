@@ -1,6 +1,7 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
+import { Card } from "@/components/ui/card";
 import { Phone, Home, Shield, Award, Star, Umbrella } from "lucide-react";
 import guaranteeBadge from '@/assets/guarantee-badge.png';
 
@@ -93,6 +94,45 @@ const RoofPainting = () => {
           />
         </div>
       </div>
+
+      {/* Welcome Section */}
+      <section className="py-2 lg:py-4 pb-4 bg-background">
+        <div className="container mx-auto px-4 ml-64 mr-48">
+          <div className="grid lg:grid-cols-2 gap-12 items-start">
+            {/* Content */}
+            <div>
+              <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-brand-gray">
+                Professional Roof Painting
+              </h2>
+              <p className="text-lg mb-6 text-muted-foreground leading-relaxed">
+                Need expert roof painters in Christchurch who deliver lasting results?
+                <strong className="text-brand-gray"> Freshcoat Painting</strong> specializes in professional roof painting and restoration services.
+              </p>
+              <p className="text-lg mb-8 text-muted-foreground leading-relaxed">
+                From metal roofs to tile restoration, our skilled team ensures superior protection with a 5-year workmanship guarantee. We use only premium roof coatings designed for <strong className="text-brand-gray">New Zealand conditions</strong>.
+              </p>
+              <Button variant="cta" size="lg" className="bg-green-600 hover:bg-green-700">
+                Get FREE Quote
+              </Button>
+            </div>
+
+            {/* Image */}
+            <div className="flex justify-end">
+              <div className="max-w-md w-full">
+                <Card className="p-0 overflow-hidden shadow-medium">
+                  <div className="aspect-[4/3] bg-secondary rounded-lg overflow-hidden">
+                    <img 
+                      src="/src/assets/roof-worker.jpg" 
+                      alt="Professional Roof Painter at Work" 
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                </Card>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Services Section */}
       <section className="py-16 bg-white">
