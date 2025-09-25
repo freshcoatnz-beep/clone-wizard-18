@@ -3,7 +3,7 @@ import { Footer } from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { Check, Palette, Home, Shield } from 'lucide-react';
-import heroImage from '@/assets/hero-house-no-car.jpg';
+import heroImage from '@/assets/exterior-hero-house.jpg';
 import guaranteeBadge from '@/assets/guarantee-badge.png';
 
 const Exterior = () => {
