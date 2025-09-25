@@ -81,7 +81,7 @@ const Exterior = () => {
 
             {/* Image */}
             <div className="flex justify-start">
-              <div className="max-w-lg w-full">
+              <div className="max-w-xl w-full">
                 <Card className="p-0 overflow-hidden shadow-medium">
                   <div className="aspect-[4/3] bg-secondary rounded-lg overflow-hidden">
                     <img 
