@@ -70,7 +70,8 @@ const RoofPainting = () => {
       </Helmet>
       
       <div className="min-h-screen bg-background">
-      <main>
+        <Header />
+        <main>
       
       {/* Hero Section */}
       <section className="relative min-h-[550px] lg:min-h-[700px] bg-cover bg-center bg-no-repeat hero-curved" style={{ backgroundImage: 'url(/src/assets/roof-hero-house.jpg)', backgroundPosition: 'center 0%' }}>
