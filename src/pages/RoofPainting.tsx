@@ -46,12 +46,12 @@ const RoofPainting = () => {
       <Header />
       
       {/* Hero Section */}
-      <section className="relative min-h-[540px] lg:min-h-[690px] bg-cover bg-center bg-no-repeat hero-curved" style={{ backgroundImage: 'url(/lovable-uploads/914c1559-aa21-40dc-b4da-78a748cae32b.png)', backgroundPosition: 'center 70%' }}>
+      <section className="relative min-h-[560px] lg:min-h-[710px] bg-cover bg-center bg-no-repeat hero-curved" style={{ backgroundImage: 'url(/lovable-uploads/914c1559-aa21-40dc-b4da-78a748cae32b.png)', backgroundPosition: 'center 70%' }}>
         {/* Overlay */}
         <div className="absolute inset-0 bg-gradient-hero hero-curved"></div>
         
         {/* Content */}
-        <div className="relative container mx-auto px-4 py-12 lg:py-32 flex items-end min-h-[490px] lg:min-h-[640px]">
+        <div className="relative container mx-auto px-4 py-12 lg:py-32 flex items-end min-h-[510px] lg:min-h-[660px]">
           <div className="max-w-5xl mx-auto text-center text-white">
             <h1 className="text-3xl lg:text-5xl font-bold mb-8 leading-tight">
               Roof Painting Services
