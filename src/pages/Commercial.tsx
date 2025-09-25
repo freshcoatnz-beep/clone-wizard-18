@@ -63,8 +63,8 @@ const Commercial = () => {
             {/* Image */}
             <div>
               <img 
-                src="/lovable-uploads/be3e0313-1934-48ae-9df1-636887be9531.png" 
-                alt="Front of the house showing a perfectly painted exterior" 
+                src="/commercial-van.jpg" 
+                alt="Freshcoat Painting van in commercial warehouse showing professional equipment" 
                 className="w-full rounded-lg shadow-lg"
               />
             </div>
