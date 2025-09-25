@@ -23,7 +23,6 @@ export const Footer = () => {
               <li>Exterior Painting</li>
               <li>Commercial Painting</li>
               <li>Painting & Decorating</li>
-              <li>Maintenance Services</li>
             </ul>
           </div>
 

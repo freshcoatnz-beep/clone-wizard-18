@@ -85,7 +85,7 @@ const About = () => {
               </p>
               
               <p>
-                We deliver a comprehensive range of painting services for your home, business or development projects that will address all of your painting needs. We manage various painting projects both interior and exterior including restoration work, painting new developments, maintenance services, protective coatings, wood treatments, anti-graffiti systems and spray finishes.
+                We deliver a comprehensive range of painting services for your home, business or development projects that will address all of your painting needs. We manage various painting projects both interior and exterior including restoration work, painting new developments, protective coatings, wood treatments, anti-graffiti systems and spray finishes.
               </p>
               
               <p className="font-semibold text-brand-gray">
