@@ -118,7 +118,7 @@ const RoofPainting = () => {
 
             {/* Image */}
             <div className="flex justify-end">
-              <div className="max-w-md w-full">
+              <div className="max-w-lg w-full">
                 <Card className="p-0 overflow-hidden shadow-medium">
                   <div className="aspect-[4/3] bg-secondary rounded-lg overflow-hidden">
                     <img 
