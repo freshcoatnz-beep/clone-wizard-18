@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet-async';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { Button } from '@/components/ui/button';
@@ -5,6 +6,17 @@ import { Card } from '@/components/ui/card';
 import { Check, Clock, Shield, Award, Users, Palette } from 'lucide-react';
 
 const About = () => {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Freshcoat Painting",
+    "description": "Leading Christchurch painting company with 30+ years experience. Residential and commercial painting services with exceptional quality and customer service.",
+    "url": "https://freshcoatpainting.co.nz/about",
+    "foundingDate": "1994",
+    "areaServed": "Christchurch",
+    "hasCredential": "Fully licensed, registered and insured"
+  };
+
   const features = [
     "30+ Years of hands-on experience",
     "Personalised service from first call to completion",
@@ -38,8 +50,19 @@ const About = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-background">
-      <Header />
+    <>
+      <Helmet>
+        <title>About Freshcoat Painting | 30+ Years Christchurch Painters | Our Story</title>
+        <meta name="description" content="Learn about Freshcoat Painting - Christchurch's leading painters since 1994. 30+ years experience, fully licensed & insured. Quality workmanship guaranteed." />
+        <meta name="keywords" content="about freshcoat painting, christchurch painters, painting company history, experienced painters" />
+        <link rel="canonical" href="https://freshcoatpainting.co.nz/about" />
+        <script type="application/ld+json">
+          {JSON.stringify(structuredData)}
+        </script>
+      </Helmet>
+      
+      <div className="min-h-screen bg-background">
+      <main>
       
       {/* Hero Section */}
       <section className="py-16 bg-gradient-to-br from-blue-50 to-white">
@@ -196,8 +219,10 @@ const About = () => {
         </div>
       </section>
 
-      <Footer />
-    </div>
+        </main>
+        <Footer />
+      </div>
+    </>
   );
 };
 

@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet-async';
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -6,6 +7,20 @@ import { Phone, Home, Shield, Award, Star, Umbrella } from "lucide-react";
 import guaranteeBadge from '@/assets/guarantee-badge.png';
 
 const RoofPainting = () => {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Roof Painting Services Christchurch",
+    "description": "Professional roof painting and restoration in Christchurch. Metal roof painting, tile roof restoration with premium coatings and 5-year warranty.",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "Freshcoat Painting",
+      "areaServed": "Christchurch"
+    },
+    "serviceType": "Roof Painting",
+    "url": "https://freshcoatpainting.co.nz/roof-painting"
+  };
+
   const services = [
     {
       title: "Metal Roof Painting",
@@ -43,8 +58,19 @@ const RoofPainting = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-background">
-      <Header />
+    <>
+      <Helmet>
+        <title>Roof Painting Christchurch | Metal & Tile Roof Restoration | Freshcoat</title>
+        <meta name="description" content="Expert roof painting in Christchurch. Metal roof coatings, tile roof restoration, leak repairs. Premium materials, 5-year warranty. Free quotes!" />
+        <meta name="keywords" content="roof painting christchurch, metal roof painting, tile roof restoration, roof coatings, roof repairs" />
+        <link rel="canonical" href="https://freshcoatpainting.co.nz/roof-painting" />
+        <script type="application/ld+json">
+          {JSON.stringify(structuredData)}
+        </script>
+      </Helmet>
+      
+      <div className="min-h-screen bg-background">
+      <main>
       
       {/* Hero Section */}
       <section className="relative min-h-[550px] lg:min-h-[700px] bg-cover bg-center bg-no-repeat hero-curved" style={{ backgroundImage: 'url(/src/assets/roof-hero-house.jpg)', backgroundPosition: 'center 0%' }}>
@@ -266,8 +292,10 @@ const RoofPainting = () => {
         </div>
       </section>
 
-      <Footer />
-    </div>
+        </main>
+        <Footer />
+      </div>
+    </>
   );
 };
 

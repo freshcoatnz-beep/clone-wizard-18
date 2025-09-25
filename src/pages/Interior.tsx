@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet-async';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { Button } from '@/components/ui/button';
@@ -7,9 +8,34 @@ import heroImage from '@/assets/hero-house-no-car.jpg';
 import guaranteeBadge from '@/assets/guarantee-badge.png';
 
 const Interior = () => {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Interior Painting Services Christchurch",
+    "description": "Professional interior painting services for homes and businesses in Christchurch. Expert painters with 5-year guarantee on all work.",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "Freshcoat Painting",
+      "areaServed": "Christchurch"
+    },
+    "serviceType": "Interior Painting",
+    "url": "https://freshcoatpainting.co.nz/interior"
+  };
+
   return (
-    <div className="min-h-screen bg-background">
-      <Header />
+    <>
+      <Helmet>
+        <title>Interior Painting Christchurch | House Painting Services | Freshcoat</title>
+        <meta name="description" content="Expert interior painting in Christchurch. Transform your home with professional painters. Premium paints, 5-year guarantee. Get your free quote today!" />
+        <meta name="keywords" content="interior painting christchurch, house painting, room painting, wall painting, residential painting" />
+        <link rel="canonical" href="https://freshcoatpainting.co.nz/interior" />
+        <script type="application/ld+json">
+          {JSON.stringify(structuredData)}
+        </script>
+      </Helmet>
+      
+      <div className="min-h-screen bg-background">
+      <main>
       
       {/* Hero Section - Same style as home page */}
       <section className="relative min-h-[540px] lg:min-h-[690px] bg-cover bg-center bg-no-repeat hero-curved" style={{ backgroundImage: `url(/src/assets/interior-hero-room.jpg)`, backgroundPosition: 'center 70%' }}>
@@ -200,8 +226,10 @@ const Interior = () => {
         </div>
       </section>
 
-      <Footer />
-    </div>
+        </main>
+        <Footer />
+      </div>
+    </>
   );
 };
 

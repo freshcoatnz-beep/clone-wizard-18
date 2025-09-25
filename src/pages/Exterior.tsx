@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet-async';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { Button } from '@/components/ui/button';
@@ -7,9 +8,34 @@ import heroImage from '@/assets/exterior-hero-house.jpg';
 import guaranteeBadge from '@/assets/guarantee-badge.png';
 
 const Exterior = () => {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Exterior Painting Services Christchurch",
+    "description": "Professional exterior house painting in Christchurch. Weather-resistant coatings, expert preparation, 5-year warranty on all exterior work.",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "Freshcoat Painting",
+      "areaServed": "Christchurch"
+    },
+    "serviceType": "Exterior Painting",
+    "url": "https://freshcoatpainting.co.nz/exterior"
+  };
+
   return (
-    <div className="min-h-screen bg-background">
-      <Header />
+    <>
+      <Helmet>
+        <title>Exterior Painting Christchurch | House Exterior Painters | Freshcoat</title>
+        <meta name="description" content="Professional exterior painting in Christchurch. Weather-resistant coatings, expert surface preparation. 5-year guarantee. Free quotes available!" />
+        <meta name="keywords" content="exterior painting christchurch, house exterior painting, weatherboard painting, exterior house painters" />
+        <link rel="canonical" href="https://freshcoatpainting.co.nz/exterior" />
+        <script type="application/ld+json">
+          {JSON.stringify(structuredData)}
+        </script>
+      </Helmet>
+      
+      <div className="min-h-screen bg-background">
+      <main>
       
       {/* Hero Section - Same style as home page */}
       <section className="relative min-h-[540px] lg:min-h-[690px] bg-cover bg-center bg-no-repeat hero-curved" style={{ backgroundImage: `url(${heroImage})`, backgroundPosition: 'center 70%' }}>
@@ -200,8 +226,10 @@ const Exterior = () => {
         </div>
       </section>
 
-      <Footer />
-    </div>
+        </main>
+        <Footer />
+      </div>
+    </>
   );
 
 };
