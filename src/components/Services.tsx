@@ -1,5 +1,5 @@
 import { Card } from '@/components/ui/card';
-import { Home, Palette, Brush, Wrench, RefreshCw } from 'lucide-react';
+import { Home, Palette, Brush, Wrench } from 'lucide-react';
 
 export const Services = () => {
   const services = [
@@ -44,14 +44,6 @@ export const Services = () => {
       icon: Wrench,
       title: 'House Painting Preparation & Repairs',
       description: 'We don\'t just paint – we prep. Our team use drop sheets to protect your property, fills cracks, smooths surfaces, and patches holes for complete surface preparation.',
-      features: [],
-      image: null
-    },
-    {
-      id: 'maintenance',
-      icon: RefreshCw,
-      title: 'Maintenance Painting Services',
-      description: 'Need a touch-up or annual repaint? Our painting maintenance programs are perfect for strata buildings, rentals, and busy family homes.',
       features: [],
       image: null
     }
