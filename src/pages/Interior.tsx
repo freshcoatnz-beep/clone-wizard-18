@@ -61,7 +61,7 @@ const Interior = () => {
       {/* Welcome Section - Similar to home page */}
       <section className="py-2 lg:py-4 bg-background">
         <div className="container px-4 ml-64 mr-48">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="grid lg:grid-cols-2 gap-12 items-start">
             {/* Content */}
             <div>
               <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-brand-gray">
@@ -81,7 +81,7 @@ const Interior = () => {
 
             {/* Image */}
             <div className="flex justify-end">
-              <div className="max-w-2xl w-full">
+              <div className="max-w-xl w-full">
                 <Card className="p-0 overflow-hidden shadow-medium">
                   <div className="aspect-[5/3] bg-secondary rounded-lg overflow-hidden">
                     <img 
