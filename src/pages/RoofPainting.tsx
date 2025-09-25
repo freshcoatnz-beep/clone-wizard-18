@@ -46,7 +46,7 @@ const RoofPainting = () => {
       <Header />
       
       {/* Hero Section */}
-      <section className="relative min-h-[550px] lg:min-h-[700px] bg-cover bg-center bg-no-repeat hero-curved" style={{ backgroundImage: 'url(/src/assets/roof-hero-house.jpg)', backgroundPosition: 'center 70%' }}>
+      <section className="relative min-h-[550px] lg:min-h-[700px] bg-cover bg-center bg-no-repeat hero-curved" style={{ backgroundImage: 'url(/src/assets/roof-hero-house.jpg)', backgroundPosition: 'center 30%' }}>
         {/* Overlay */}
         <div className="absolute inset-0 bg-gradient-hero hero-curved"></div>
         
