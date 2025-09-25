@@ -167,7 +167,7 @@ export const QuoteForm = ({ children }: QuoteFormProps) => {
               </div>
               <div className="flex items-center gap-1">
                 <Mail className="w-4 h-4" />
-                <span>info@freshcoat.co.nz</span>
+                <span>michael@freshcoat.co.nz</span>
               </div>
             </div>
           </div>
