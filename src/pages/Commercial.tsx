@@ -1,7 +1,7 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
-import { CheckCircle, Star } from "lucide-react";
+import { Star } from "lucide-react";
 import guaranteeBadge from '@/assets/guarantee-badge.png';
 
 const Commercial = () => {
@@ -24,15 +24,12 @@ const Commercial = () => {
             {/* Key points */}
             <div className="flex flex-wrap justify-center gap-8 lg:gap-16 mb-10 text-lg lg:text-xl">
               <div className="flex items-center gap-2">
-                <CheckCircle className="w-5 h-5" />
                 <span>Professional Painters</span>
               </div>
               <div className="flex items-center gap-2">
-                <CheckCircle className="w-5 h-5" />
                 <span>30+ Years Experience</span>
               </div>
               <div className="flex items-center gap-2">
-                <CheckCircle className="w-5 h-5" />
                 <span>5 Year Warranty</span>
               </div>
             </div>
@@ -199,27 +196,21 @@ const Commercial = () => {
             
             <div className="grid md:grid-cols-2 gap-6">
               <div className="flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0" />
                 <span className="text-lg">Over 30 years of experience</span>
               </div>
               <div className="flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0" />
                 <span className="text-lg">Fully insured and OH&S compliant</span>
               </div>
               <div className="flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0" />
                 <span className="text-lg">5-year workmanship warranty</span>
               </div>
               <div className="flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0" />
                 <span className="text-lg">Trusted brands like Resene & Dulux</span>
               </div>
               <div className="flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0" />
                 <span className="text-lg">Reliable, clean and respectful teams</span>
               </div>
               <div className="flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0" />
                 <span className="text-lg">Highly competitive rates</span>
               </div>
             </div>
@@ -255,37 +246,29 @@ const Commercial = () => {
             <div className="grid md:grid-cols-2 gap-6 mb-8">
               <div className="space-y-3">
                 <div className="flex items-center gap-2">
-                  <CheckCircle className="w-5 h-5 text-green-600" />
                   <span>Brickwork and render</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <CheckCircle className="w-5 h-5 text-green-600" />
                   <span>Weatherboard and timber cladding</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <CheckCircle className="w-5 h-5 text-green-600" />
                   <span>Fascias, gutters and downpipes</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <CheckCircle className="w-5 h-5 text-green-600" />
                   <span>Garage doors, fences & gates</span>
                 </div>
               </div>
               <div className="space-y-3">
                 <div className="flex items-center gap-2">
-                  <CheckCircle className="w-5 h-5 text-green-600" />
                   <span>Eaves, verandahs, pergolas & decks</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <CheckCircle className="w-5 h-5 text-green-600" />
                   <span>Exterior window frames and shutters</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <CheckCircle className="w-5 h-5 text-green-600" />
                   <span>Multi-dwelling properties</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <CheckCircle className="w-5 h-5 text-green-600" />
                   <span>Commercial buildings</span>
                 </div>
               </div>
@@ -366,19 +349,15 @@ const Commercial = () => {
                 <p className="text-lg mb-4 text-muted-foreground">Our professional exterior painting shields your surfaces from:</p>
                 <div className="space-y-2">
                   <div className="flex items-center gap-2">
-                    <CheckCircle className="w-5 h-5 text-green-600" />
                     <span>Sun damage and fading</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <CheckCircle className="w-5 h-5 text-green-600" />
                     <span>Mould and mildew</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <CheckCircle className="w-5 h-5 text-green-600" />
                     <span>Flaking, peeling and blistering</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <CheckCircle className="w-5 h-5 text-green-600" />
                     <span>Cracks from temperature extremes</span>
                   </div>
                 </div>
