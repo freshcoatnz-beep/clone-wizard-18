@@ -5,6 +5,8 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Phone, Home, Shield, Award, Star, Umbrella } from "lucide-react";
 import guaranteeBadge from '@/assets/guarantee-badge.png';
+import roofHeroImage from '@/assets/roof-hero-house.jpg';
+import roofWorkerImage from '@/assets/roof-worker.jpg';
 
 const RoofPainting = () => {
   const structuredData = {
@@ -74,7 +76,7 @@ const RoofPainting = () => {
         <main>
       
       {/* Hero Section */}
-      <section className="relative min-h-[550px] lg:min-h-[700px] bg-cover bg-center bg-no-repeat hero-curved" style={{ backgroundImage: 'url(/src/assets/roof-hero-house.jpg)', backgroundPosition: 'center 0%' }}>
+      <section className="relative min-h-[550px] lg:min-h-[700px] bg-cover bg-center bg-no-repeat hero-curved" style={{ backgroundImage: `url(${roofHeroImage})`, backgroundPosition: 'center 0%' }}>
         {/* Overlay */}
         <div className="absolute inset-0 bg-gradient-hero hero-curved"></div>
         
@@ -149,7 +151,7 @@ const RoofPainting = () => {
                 <Card className="p-0 overflow-hidden shadow-medium">
                   <div className="aspect-[4/3] bg-secondary rounded-lg overflow-hidden">
                     <img 
-                      src="/src/assets/roof-worker.jpg" 
+                      src={roofWorkerImage} 
                       alt="Professional Roof Painter at Work" 
                       className="w-full h-full object-cover"
                     />
