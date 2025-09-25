@@ -136,7 +136,7 @@ export const Header = () => {
               )}
             </div>
             
-            <a href="#about" className="transition-colors font-semibold text-lg text-black">About Us</a>
+            <a href="/about" className="transition-colors font-semibold text-lg text-black">About Us</a>
             <Button variant="cta">Contact Us</Button>
           </nav>
 
@@ -183,7 +183,7 @@ export const Header = () => {
                   ))}
                 </div>
               </div>
-              <a href="#about" className="hover:text-brand-red transition-colors font-semibold text-base">About Us</a>
+              <a href="/about" className="hover:text-brand-red transition-colors font-semibold text-base">About Us</a>
               <Button variant="cta" className="w-full">Contact Us</Button>
             </div>
           </nav>
