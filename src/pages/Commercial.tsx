@@ -18,7 +18,7 @@ const Commercial = () => {
         <div className="relative container mx-auto px-4 py-12 lg:py-32 flex items-end min-h-[400px] lg:min-h-[550px]">
           <div className="max-w-5xl mx-auto text-center text-white">
             <h1 className="text-3xl lg:text-5xl font-bold mb-8 leading-tight">
-              Exterior Painting
+              Commercial Painting
             </h1>
             
             {/* Key points */}
@@ -75,13 +75,13 @@ const Commercial = () => {
             {/* Content */}
             <div>
               <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-brand-gray">
-                Christchurch's Best Exterior Painting
+                Christchurch's Best Commercial Painting
               </h2>
               <p className="text-lg mb-6 text-muted-foreground leading-relaxed">
-                Looking to refresh your home's exterior or boost its street appeal? Freshcoat Painting specialises in high-quality exterior painting across Christchurch.
+                Looking to refresh your commercial property or boost its professional appeal? Freshcoat Painting specialises in high-quality commercial painting across Christchurch.
               </p>
               <p className="text-lg mb-8 text-muted-foreground leading-relaxed">
-                With over 30 years of experience, we deliver stunning, long-lasting finishes using premium paints and expert techniques – all backed by our 5-year workmanship guarantee.
+                With over 30 years of experience, we deliver stunning, long-lasting finishes for businesses using premium paints and expert techniques – all backed by our 5-year workmanship guarantee.
               </p>
               
               <h3 className="text-xl font-semibold mb-4 text-brand-gray">We are painting experts:</h3>
@@ -174,13 +174,13 @@ const Commercial = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-brand-gray text-center">
-              Transform Your Home with Expert Exterior Painting Services
+              Transform Your Business with Expert Commercial Painting Services
             </h2>
             <p className="text-lg mb-8 text-muted-foreground leading-relaxed text-center">
-              A professionally painted exterior doesn't just look better – it protects your home from harsh Christchurch weather and increases its value.
+              A professionally painted commercial property doesn't just look better – it creates a positive impression for customers and protects your building from harsh Christchurch weather.
             </p>
             <p className="text-lg mb-8 text-muted-foreground leading-relaxed text-center">
-              Whether you're preparing to sell or just want to modernise your façade, our team brings precision, care and a flawless finish to every job.
+              Whether you're updating your office, retail space, or industrial facility, our team brings precision, care and a flawless finish to every commercial project.
             </p>
           </div>
         </div>
@@ -191,10 +191,10 @@ const Commercial = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-brand-gray">
-              Why Choose Freshcoat Painting for Exterior Painting in Christchurch?
+              Why Choose Freshcoat Painting for Commercial Painting in Christchurch?
             </h2>
             <p className="text-lg mb-8 text-muted-foreground leading-relaxed">
-              We're not just painters – we're committed professionals who treat your home with the same care we'd give our own. From prep to final coat, we ensure every detail is handled right.
+              We're not just painters – we're committed professionals who treat your commercial property with the same care we'd give our own. From prep to final coat, we ensure every detail is handled right.
             </p>
             
             <div className="grid md:grid-cols-2 gap-6">
@@ -239,17 +239,17 @@ const Commercial = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-brand-gray">
-              Our Exterior Painting Services
+              Our Commercial Painting Services
             </h2>
             <p className="text-lg mb-8 text-muted-foreground leading-relaxed">
-              We offer full-service exterior painting for all property types across Christchurch. Whether you're repainting a weatherboard home, rendered façade or a multi-storey residence, we've got you covered.
+              We offer full-service commercial painting for all business types across Christchurch. Whether you're repainting an office building, retail space, warehouse or industrial facility, we've got you covered.
             </p>
 
             <h3 className="text-2xl font-bold mb-6 text-brand-gray">
               Full-Service Solutions for Every Surface
             </h3>
             <p className="text-lg mb-6 text-muted-foreground">
-              Our experienced painters can transform the following:
+              Our experienced painters can transform the following commercial spaces:
             </p>
 
             <div className="grid md:grid-cols-2 gap-6 mb-8">
@@ -310,7 +310,7 @@ const Commercial = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-brand-gray text-center">
-              What to Expect – Our Exterior Painting Process
+              What to Expect – Our Commercial Painting Process
             </h2>
             <p className="text-lg mb-12 text-muted-foreground leading-relaxed text-center">
               We believe a smooth process leads to a better finish. Here's how we make it easy:
@@ -354,7 +354,7 @@ const Commercial = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-brand-gray">
-              Why Exterior Painting Matters in Christchurch's Climate
+              Why Commercial Painting Matters in Christchurch's Climate
             </h2>
             <p className="text-lg mb-8 text-muted-foreground leading-relaxed">
               Christchurch's sun, wind and varying weather can be tough on paintwork. That's why quality products and proper preparation are vital to protect your home and extend the life of your exterior finish.
