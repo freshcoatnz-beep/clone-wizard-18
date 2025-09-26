@@ -37,7 +37,7 @@ const handler = async (req: Request): Promise<Response> => {
     // Send email to business owner
     const businessEmailResponse = await resend.emails.send({
       from: "Freshcoat Quotes <onboarding@resend.dev>",
-      to: ["michael@freshcoat.co.nz"],
+      to: ["freshcoatnz@gmail.com"],
       subject: `New Quote Request from ${name}`,
       html: `
         <h2>New Quote Request</h2>
@@ -61,7 +61,7 @@ const handler = async (req: Request): Promise<Response> => {
     // Send confirmation email to customer
     const customerEmailResponse = await resend.emails.send({
       from: "Freshcoat Painters <onboarding@resend.dev>",
-      to: [email],
+      to: ["freshcoatnz@gmail.com"],
       subject: "Thank you for your quote request!",
       html: `
         <h1>Thank you for contacting Freshcoat Painters, ${name}!</h1>
