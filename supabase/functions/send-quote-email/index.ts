@@ -27,6 +27,11 @@ const handler = async (req: Request): Promise<Response> => {
   try {
     const { name, email, phone, address, serviceType, message }: QuoteEmailRequest = await req.json();
 
+    // Validate secret present
+    if (!Deno.env.get("RESEND_API_KEY")) {
+      throw new Error("Missing RESEND_API_KEY secret. Please set it in Supabase Edge Function secrets.");
+    }
+
     console.log("Processing quote request for:", name, email);
 
     // Send email to business owner
@@ -47,6 +52,11 @@ const handler = async (req: Request): Promise<Response> => {
         <p>Contact the customer directly at ${email} or ${phone}</p>
       `,
     });
+
+    if (businessEmailResponse.error) {
+      console.error("Resend business email error:", businessEmailResponse);
+      throw new Error(businessEmailResponse.error.message || "Failed to send business email");
+    }
 
     // Send confirmation email to customer
     const customerEmailResponse = await resend.emails.send({
@@ -69,6 +79,11 @@ const handler = async (req: Request): Promise<Response> => {
         <p>Best regards,<br>The Freshcoat Painters Team</p>
       `,
     });
+
+    if (customerEmailResponse.error) {
+      console.error("Resend customer email error:", customerEmailResponse);
+      throw new Error(customerEmailResponse.error.message || "Failed to send customer email");
+    }
 
     console.log("Business email sent:", businessEmailResponse);
     console.log("Customer email sent:", customerEmailResponse);
