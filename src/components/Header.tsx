@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Phone, Star, Menu, X, ChevronDown } from 'lucide-react';
+import { QuoteForm } from '@/components/QuoteForm';
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -136,7 +137,9 @@ export const Header = () => {
             </div>
             
             <a href="/about" className="transition-colors font-semibold text-lg text-black">About Us</a>
-            <Button variant="cta">Contact Us</Button>
+            <QuoteForm>
+              <Button variant="cta">Contact Us</Button>
+            </QuoteForm>
           </nav>
 
           {/* Mobile menu toggle */}
@@ -183,7 +186,9 @@ export const Header = () => {
                 </div>
               </div>
               <a href="/about" className="hover:text-brand-red transition-colors font-semibold text-base">About Us</a>
-              <Button variant="cta" className="w-full">Contact Us</Button>
+              <QuoteForm>
+                <Button variant="cta" className="w-full">Contact Us</Button>
+              </QuoteForm>
             </div>
           </nav>
         )}
