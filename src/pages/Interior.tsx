@@ -3,6 +3,7 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
+import { QuoteForm } from '@/components/QuoteForm';
 import { Check, Palette, Home, Shield } from 'lucide-react';
 import heroImage from '@/assets/hero-house-no-car.jpg';
 import interiorHeroImage from '@/assets/interior-hero-room.jpg';
@@ -68,9 +69,11 @@ const Interior = () => {
               Transform your home's interior with professional painting services. Quality finishes for every room.
             </p>
             
-            <Button variant="hero" size="lg" className="text-xl px-12 py-6 font-semibold bg-green-600 hover:bg-green-700 text-white border-green-600 mt-8">
-              Get FREE Quote
-            </Button>
+            <QuoteForm>
+              <Button variant="hero" size="lg" className="text-xl px-12 py-6 font-semibold bg-green-600 hover:bg-green-700 text-white border-green-600 mt-8">
+                Get FREE Quote
+              </Button>
+            </QuoteForm>
           </div>
         </div>
       </section>
@@ -102,9 +105,11 @@ const Interior = () => {
               <p className="text-lg mb-8 text-muted-foreground leading-relaxed">
                 From single rooms to whole house makeovers, our skilled team ensures a hassle-free experience with a 5-year workmanship guarantee. We use only premium brands like <strong className="text-brand-gray">Resene, Dulux, and Wattyl</strong> for lasting, beautiful results.
               </p>
-              <Button variant="cta" size="lg" className="bg-green-600 hover:bg-green-700">
-                Get FREE Quote
-              </Button>
+              <QuoteForm>
+                <Button variant="cta" size="lg" className="bg-green-600 hover:bg-green-700">
+                  Get FREE Quote
+                </Button>
+              </QuoteForm>
             </div>
 
             {/* Image */}

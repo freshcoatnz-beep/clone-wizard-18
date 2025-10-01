@@ -3,6 +3,7 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
+import { QuoteForm } from '@/components/QuoteForm';
 import { Check, Palette, Home, Shield } from 'lucide-react';
 import heroImage from '@/assets/exterior-hero-house.jpg';
 import guaranteeBadge from '@/assets/guarantee-badge.png';
@@ -67,9 +68,11 @@ const Exterior = () => {
               Transform your home's exterior with professional painting services. Quality finishes that protect and beautify.
             </p>
             
-            <Button variant="hero" size="lg" className="text-xl px-12 py-6 font-semibold bg-green-600 hover:bg-green-700 text-white border-green-600 mt-8">
-              Get FREE Quote
-            </Button>
+            <QuoteForm>
+              <Button variant="hero" size="lg" className="text-xl px-12 py-6 font-semibold bg-green-600 hover:bg-green-700 text-white border-green-600 mt-8">
+                Get FREE Quote
+              </Button>
+            </QuoteForm>
           </div>
         </div>
       </section>
@@ -101,9 +104,11 @@ const Exterior = () => {
               <p className="text-lg mb-8 text-muted-foreground leading-relaxed">
                 From single walls to complete house exteriors, our skilled team ensures a hassle-free experience with a 5-year workmanship guarantee. We use only premium brands like <strong className="text-brand-gray">Resene, Dulux, and Wattyl</strong> for lasting, beautiful results.
               </p>
-              <Button variant="cta" size="lg" className="bg-green-600 hover:bg-green-700">
-                Get FREE Quote
-              </Button>
+              <QuoteForm>
+                <Button variant="cta" size="lg" className="bg-green-600 hover:bg-green-700">
+                  Get FREE Quote
+                </Button>
+              </QuoteForm>
             </div>
 
             {/* Image */}

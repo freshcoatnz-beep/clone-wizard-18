@@ -3,6 +3,7 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
+import { QuoteForm } from '@/components/QuoteForm';
 import { Check, Clock, Shield, Award, Users, Palette } from 'lucide-react';
 
 const About = () => {
@@ -76,9 +77,11 @@ const About = () => {
               <p className="text-xl mb-8 text-muted-foreground leading-relaxed">
                 Freshcoat Painting is a leading full-service Christchurch based painting company with over 30 years of experience. Our work goes beyond colour swatches and paint techniques, we create curb appeal and stunning spaces you will love.
               </p>
-              <Button variant="hero" size="lg" className="text-xl px-12 py-6 font-semibold bg-green-600 hover:bg-green-700 text-white border-green-600 mt-8">
-                Get FREE Quote
-              </Button>
+              <QuoteForm>
+                <Button variant="hero" size="lg" className="text-xl px-12 py-6 font-semibold bg-green-600 hover:bg-green-700 text-white border-green-600 mt-8">
+                  Get FREE Quote
+                </Button>
+              </QuoteForm>
             </div>
             <div className="flex justify-center">
               <Card className="p-8 bg-white shadow-lg">
@@ -138,9 +141,11 @@ const About = () => {
             </div>
             
             <div className="text-center mt-12">
-              <Button variant="hero" size="lg" className="text-xl px-12 py-6 font-semibold bg-green-600 hover:bg-green-700 text-white border-green-600 mt-8">
-                Get FREE Quote
-              </Button>
+              <QuoteForm>
+                <Button variant="hero" size="lg" className="text-xl px-12 py-6 font-semibold bg-green-600 hover:bg-green-700 text-white border-green-600 mt-8">
+                  Get FREE Quote
+                </Button>
+              </QuoteForm>
             </div>
           </div>
         </div>
@@ -214,9 +219,11 @@ const About = () => {
           <p className="text-xl mb-8 opacity-90">
             We produce quality work for satisfied customers time after time. Get your obligation-free quote today.
           </p>
-          <Button variant="secondary" size="lg" className="bg-green-600 hover:bg-green-700 text-white">
-            Get FREE Quote
-          </Button>
+          <QuoteForm>
+            <Button variant="secondary" size="lg" className="bg-green-600 hover:bg-green-700 text-white">
+              Get FREE Quote
+            </Button>
+          </QuoteForm>
         </div>
       </section>
 

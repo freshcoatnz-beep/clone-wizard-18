@@ -2,6 +2,7 @@ import { Helmet } from 'react-helmet-async';
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
+import { QuoteForm } from '@/components/QuoteForm';
 import { Star } from "lucide-react";
 import guaranteeBadge from '@/assets/guarantee-badge.png';
 
@@ -65,9 +66,11 @@ const Commercial = () => {
               Professional exterior painters for Christchurch homes with guaranteed quality & competitive rates.
             </p>
             
-            <Button variant="hero" size="lg" className="text-xl px-12 py-6 font-semibold bg-green-600 hover:bg-green-700 text-white border-green-600 mt-8">
-              Get FREE Quote
-            </Button>
+            <QuoteForm>
+              <Button variant="hero" size="lg" className="text-xl px-12 py-6 font-semibold bg-green-600 hover:bg-green-700 text-white border-green-600 mt-8">
+                Get FREE Quote
+              </Button>
+            </QuoteForm>
           </div>
         </div>
       </section>
