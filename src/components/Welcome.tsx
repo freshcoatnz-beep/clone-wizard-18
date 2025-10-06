@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
+import { QuoteForm } from '@/components/QuoteForm';
 import guaranteeBadge from '@/assets/guarantee-badge.png';
 
 export const Welcome = () => {
@@ -31,9 +32,11 @@ export const Welcome = () => {
             <p className="text-lg mb-8 text-muted-foreground leading-relaxed">
               From interior makeovers to exterior protection, our skilled team ensures a hassle-free experience with a 5-year workmanship guarantee. We're fully insured and work exclusively with leading brands like <strong className="text-brand-gray">Resene, Dulux, and Wattyl</strong>—so you can count on a durable, high-quality finish every time.
             </p>
-            <Button variant="cta" size="lg" className="bg-green-600 hover:bg-green-700">
-              Get FREE Quote
-            </Button>
+            <QuoteForm>
+              <Button variant="cta" size="lg" className="bg-green-600 hover:bg-green-700">
+                Get FREE Quote
+              </Button>
+            </QuoteForm>
           </div>
 
           {/* Images grid */}
