@@ -48,23 +48,6 @@ export const TrustedCompany = () => {
           ))}
         </div>
 
-        {/* Sample Images */}
-        <div className="grid md:grid-cols-3 gap-6 mb-16">
-          {[
-            'Rosebery Living Room',
-            'Kellyville Exterior',
-            'Gordon Interior'
-          ].map((project) => (
-            <Card key={project} className="p-0 overflow-hidden shadow-medium">
-              <div className="aspect-[4/5] bg-gradient-card rounded-lg">
-                <div className="w-full h-full flex items-center justify-center text-muted-foreground">
-                  After - {project}
-                </div>
-              </div>
-            </Card>
-          ))}
-        </div>
-
         {/* Features */}
         <div className="grid lg:grid-cols-3 gap-8">
           {features.map((feature) => (
