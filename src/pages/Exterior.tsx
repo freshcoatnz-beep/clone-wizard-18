@@ -121,6 +121,7 @@ const Exterior = () => {
                       src={exteriorWelcomeImage} 
                       alt="Modern House Exterior" 
                       className="w-full h-full object-cover"
+                      onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = '/images/exterior-welcome-house.jpg'; }}
                     />
                   </div>
                 </Card>
