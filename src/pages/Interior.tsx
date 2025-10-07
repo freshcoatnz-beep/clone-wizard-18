@@ -7,6 +7,7 @@ import { QuoteForm } from '@/components/QuoteForm';
 import { Check, Palette, Home, Shield } from 'lucide-react';
 import heroImage from '@/assets/hero-house-no-car.jpg';
 import interiorHeroImage from '@/assets/interior-hero-room.jpg';
+import interiorWelcomeImage from '@/assets/interior-welcome-room.jpg';
 import guaranteeBadge from '@/assets/guarantee-badge.png';
 
 const Interior = () => {
@@ -118,7 +119,7 @@ const Interior = () => {
                 <Card className="p-0 overflow-hidden shadow-medium">
                   <div className="aspect-[5/3] bg-secondary rounded-lg overflow-hidden">
                     <img 
-                      src="/src/assets/interior-welcome-room.jpg" 
+                      src={interiorWelcomeImage} 
                       alt="Modern Interior Design" 
                       className="w-full h-full object-cover"
                     />
