@@ -91,7 +91,7 @@ const Exterior = () => {
       {/* Welcome Section - Similar to home page */}
       <section className="py-2 lg:py-4 pb-4 bg-background">
         <div className="container mx-auto px-4 ml-64 mr-48">
-          <div className="grid lg:grid-cols-2 gap-12 items-start">
+          <div className="grid lg:grid-cols-2 gap-6 items-start">
             {/* Content */}
             <div>
               <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-brand-gray">
