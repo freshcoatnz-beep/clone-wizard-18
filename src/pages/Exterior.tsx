@@ -6,6 +6,7 @@ import { Card } from '@/components/ui/card';
 import { QuoteForm } from '@/components/QuoteForm';
 import { Check, Palette, Home, Shield } from 'lucide-react';
 import heroImage from '@/assets/exterior-hero-house.jpg';
+import exteriorWelcomeImage from '@/assets/exterior-welcome-house.jpg';
 import guaranteeBadge from '@/assets/guarantee-badge.png';
 
 const Exterior = () => {
@@ -117,7 +118,7 @@ const Exterior = () => {
                 <Card className="p-0 overflow-hidden shadow-medium">
                   <div className="aspect-[4/3] bg-secondary rounded-lg overflow-hidden">
                     <img 
-                      src="/src/assets/exterior-welcome-house.jpg" 
+                      src={exteriorWelcomeImage} 
                       alt="Modern House Exterior" 
                       className="w-full h-full object-cover"
                     />
