@@ -16,10 +16,15 @@ export const Header = () => {
   ];
 
   const serviceAreas = [
-    { name: 'Christchurch', href: '#areas' },
-    { name: 'Canterbury', href: '#areas' },
-    { name: 'Rolleston', href: '#areas' },
-    { name: 'Darfield', href: '#areas' }
+    { name: 'Riccarton', href: '/painters/riccarton' },
+    { name: 'Merivale', href: '/painters/merivale' },
+    { name: 'Papanui', href: '/painters/papanui' },
+    { name: 'Fendalton', href: '/painters/fendalton' },
+    { name: 'Ilam', href: '/painters/ilam' },
+    { name: 'Cashmere', href: '/painters/cashmere' },
+    { name: 'Sumner', href: '/painters/sumner' },
+    { name: 'Rolleston', href: '/painters/rolleston' },
+    { name: 'Rangiora', href: '/painters/rangiora' },
   ];
 
   return (
