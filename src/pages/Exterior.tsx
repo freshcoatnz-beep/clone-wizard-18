@@ -84,8 +84,7 @@ const Exterior = () => {
           <img 
             src={guaranteeBadge} 
             alt="5 Year Guarantee" 
-            className="w-40 h-40"
-          />
+            className="w-40 h-40" loading="lazy" decoding="async" />
         </div>
       </div>
 
