@@ -82,7 +82,7 @@ const Commercial = () => {
             src={guaranteeBadge} 
             alt="5 Year Guarantee" 
             className="w-40 h-40"
-          />
+          / loading="lazy" decoding="async" />
         </div>
       </div>
 
@@ -96,7 +96,7 @@ const Commercial = () => {
                 src="/commercial-van.jpg" 
                 alt="Freshcoat Painting van in commercial warehouse showing professional equipment" 
                 className="w-full rounded-lg shadow-lg"
-              />
+              / loading="lazy" decoding="async" />
             </div>
 
             {/* Content */}

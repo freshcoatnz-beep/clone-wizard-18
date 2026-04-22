@@ -123,7 +123,7 @@ const RoofPainting = () => {
             src={guaranteeBadge} 
             alt="5 Year Guarantee Badge" 
             className="w-40 h-40"
-          />
+          / loading="lazy" decoding="async" />
         </div>
       </div>
 
@@ -159,7 +159,7 @@ const RoofPainting = () => {
                       src={roofWorkerImage} 
                       alt="Professional Roof Painter at Work" 
                       className="w-full h-full object-cover"
-                    />
+                    / loading="lazy" decoding="async" />
                   </div>
                 </Card>
               </div>
