@@ -14,8 +14,9 @@ const Index = () => {
     "@type": "LocalBusiness",
     "name": "Freshcoat Painting",
     "description": "Professional painting services in Christchurch with 30+ years experience. Interior, exterior, and roof painting with 5-year warranty.",
-    "url": "https://freshcoat.co.nz",
-    "telephone": "+64-3-XXX-XXXX",
+      "url": "https://www.freshcoat.co.nz",
+      "telephone": "+64-22-036-6586",
+      "email": "michael@freshcoat.co.nz",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Christchurch",
@@ -31,7 +32,7 @@ const Index = () => {
     "priceRange": "$$",
     "areaServed": "Christchurch",
     "serviceType": ["Interior Painting", "Exterior Painting", "Roof Painting", "Commercial Painting"],
-    "image": "https://freshcoat.co.nz/hero-image.jpg"
+      "image": "https://www.freshcoat.co.nz/og-image.jpg"
   };
 
   return (
