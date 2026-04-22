@@ -187,14 +187,14 @@ export const QuoteForm = ({ children }: QuoteFormProps) => {
           <div className="text-center text-sm text-muted-foreground pt-2">
             <p>Or contact us directly:</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-2">
-              <div className="flex items-center gap-1">
+              <a href="tel:0220366586" className="flex items-center gap-1 hover:text-primary hover:underline">
                 <Phone className="w-4 h-4" />
                 <span>022 0366586</span>
-              </div>
-              <div className="flex items-center gap-1">
+              </a>
+              <a href="mailto:michael@freshcoat.co.nz" className="flex items-center gap-1 hover:text-primary hover:underline">
                 <Mail className="w-4 h-4" />
                 <span>michael@freshcoat.co.nz</span>
-              </div>
+              </a>
             </div>
           </div>
         </form>
