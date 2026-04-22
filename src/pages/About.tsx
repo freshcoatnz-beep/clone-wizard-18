@@ -12,7 +12,7 @@ const About = () => {
     "@type": "LocalBusiness",
     "name": "Freshcoat Painting",
     "description": "Leading Christchurch painting company with 30+ years experience. Residential and commercial painting services with exceptional quality and customer service.",
-    "url": "https://freshcoatpainting.co.nz/about",
+    "url": "https://freshcoat.co.nz/about",
     "foundingDate": "1994",
     "areaServed": "Christchurch",
     "hasCredential": "Fully licensed, registered and insured"
@@ -56,7 +56,7 @@ const About = () => {
         <title>About Freshcoat Painting | 30+ Years Christchurch Painters | Our Story</title>
         <meta name="description" content="Learn about Freshcoat Painting - Christchurch's leading painters since 1994. 30+ years experience, fully licensed & insured. Quality workmanship guaranteed." />
         <meta name="keywords" content="about freshcoat painting, christchurch painters, painting company history, experienced painters" />
-        <link rel="canonical" href="https://freshcoatpainting.co.nz/about" />
+        <link rel="canonical" href="https://freshcoat.co.nz/about" />
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
         </script>

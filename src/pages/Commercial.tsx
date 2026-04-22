@@ -18,7 +18,7 @@ const Commercial = () => {
       "areaServed": "Christchurch"
     },
     "serviceType": "Commercial Painting",
-    "url": "https://freshcoatpainting.co.nz/commercial"
+    "url": "https://freshcoat.co.nz/commercial"
   };
 
   return (
@@ -27,7 +27,7 @@ const Commercial = () => {
         <title>Commercial Painting Christchurch | Office & Business Painters | Freshcoat</title>
         <meta name="description" content="Professional commercial painting in Christchurch. Office buildings, retail spaces, warehouses. 30+ years experience, fully insured, 5-year warranty." />
         <meta name="keywords" content="commercial painting christchurch, office painting, business painters, commercial property painting" />
-        <link rel="canonical" href="https://freshcoatpainting.co.nz/commercial" />
+        <link rel="canonical" href="https://freshcoat.co.nz/commercial" />
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
         </script>

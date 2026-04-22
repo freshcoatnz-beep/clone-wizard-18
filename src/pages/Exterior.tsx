@@ -21,7 +21,7 @@ const Exterior = () => {
       "areaServed": "Christchurch"
     },
     "serviceType": "Exterior Painting",
-    "url": "https://freshcoatpainting.co.nz/exterior"
+    "url": "https://freshcoat.co.nz/exterior"
   };
 
   return (
@@ -30,7 +30,7 @@ const Exterior = () => {
         <title>Exterior Painting Christchurch | House Exterior Painters | Freshcoat</title>
         <meta name="description" content="Professional exterior painting in Christchurch. Weather-resistant coatings, expert surface preparation. 5-year guarantee. Free quotes available!" />
         <meta name="keywords" content="exterior painting christchurch, house exterior painting, weatherboard painting, exterior house painters" />
-        <link rel="canonical" href="https://freshcoatpainting.co.nz/exterior" />
+        <link rel="canonical" href="https://freshcoat.co.nz/exterior" />
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
         </script>
