@@ -95,13 +95,13 @@ export const suburbs: Suburb[] = [
     ],
   },
   {
-    slug: 'rangiora',
-    name: 'Rangiora',
+    slug: 'bryndwr',
+    name: 'Bryndwr',
     intro:
-      "Freshcoat Painting proudly serves Rangiora and the Waimakariri district. Whether it's a fresh interior, weatherproof exterior, or full roof restoration, we deliver the same quality finish we'd want in our own homes.",
+      "Freshcoat Painting proudly serves Bryndwr and the surrounding Christchurch suburbs. Whether it's a fresh interior, weatherproof exterior, or full roof restoration, we deliver the same quality finish we'd want in our own homes.",
     highlights: [
-      'Local Rangiora painting service with 30+ years experience',
-      'Free quotes across the Waimakariri district',
+      'Local Bryndwr painting service with 30+ years experience',
+      'Free quotes across northwest Christchurch',
       'Premium products with a 5-year workmanship warranty',
     ],
   },

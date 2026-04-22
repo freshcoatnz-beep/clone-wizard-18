@@ -24,7 +24,7 @@ export const Header = () => {
     { name: 'Cashmere', href: '/painters/cashmere' },
     { name: 'Sumner', href: '/painters/sumner' },
     { name: 'Rolleston', href: '/painters/rolleston' },
-    { name: 'Rangiora', href: '/painters/rangiora' },
+    { name: 'Bryndwr', href: '/painters/bryndwr' },
   ];
 
   return (
