@@ -19,7 +19,7 @@ const NotFound = () => {
       <Helmet>
         <title>Page Not Found - 404 | Freshcoat Painting Christchurch</title>
         <meta name="description" content="Sorry, the page you're looking for doesn't exist. Return to Freshcoat Painting homepage for professional painting services in Christchurch." />
-        <link rel="canonical" href="https://freshcoatpainting.co.nz/404" />
+        <link rel="canonical" href="https://freshcoat.co.nz/404" />
         <meta name="robots" content="noindex, nofollow" />
       </Helmet>
       

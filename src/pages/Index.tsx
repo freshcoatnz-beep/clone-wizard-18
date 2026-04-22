@@ -14,7 +14,7 @@ const Index = () => {
     "@type": "LocalBusiness",
     "name": "Freshcoat Painting",
     "description": "Professional painting services in Christchurch with 30+ years experience. Interior, exterior, and roof painting with 5-year warranty.",
-    "url": "https://freshcoatpainting.co.nz",
+    "url": "https://freshcoat.co.nz",
     "telephone": "+64-3-XXX-XXXX",
     "address": {
       "@type": "PostalAddress",
@@ -31,7 +31,7 @@ const Index = () => {
     "priceRange": "$$",
     "areaServed": "Christchurch",
     "serviceType": ["Interior Painting", "Exterior Painting", "Roof Painting", "Commercial Painting"],
-    "image": "https://freshcoatpainting.co.nz/hero-image.jpg"
+    "image": "https://freshcoat.co.nz/hero-image.jpg"
   };
 
   return (
@@ -40,7 +40,7 @@ const Index = () => {
         <title>Painters Christchurch | Professional Interior & Exterior Painting Services</title>
         <meta name="description" content="Leading Christchurch painters with 30+ years experience. Professional interior, exterior & roof painting with 5-year guarantee. Get your free quote today!" />
         <meta name="keywords" content="painters christchurch, house painting, interior painting, exterior painting, roof painting, professional painters" />
-        <link rel="canonical" href="https://freshcoatpainting.co.nz/" />
+        <link rel="canonical" href="https://freshcoat.co.nz/" />
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
         </script>
