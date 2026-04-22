@@ -12,8 +12,7 @@ export const Welcome = () => {
           <img 
             src={guaranteeBadge} 
             alt="5 Year Guarantee" 
-            className="w-40 h-40"
-          / loading="lazy" decoding="async" />
+            className="w-40 h-40" loading="lazy" decoding="async" />
         </div>
       </div>
       
@@ -46,8 +45,7 @@ export const Welcome = () => {
                 <img 
                   src="/lovable-uploads/be3e0313-1934-48ae-9df1-636887be9531.png" 
                   alt="Interior Painting West Pennant Hills" 
-                  className="w-full h-full object-cover"
-                / loading="lazy" decoding="async" />
+                  className="w-full h-full object-cover" loading="lazy" decoding="async" />
               </div>
             </Card>
           </div>

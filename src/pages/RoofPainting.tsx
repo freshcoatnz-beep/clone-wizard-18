@@ -122,8 +122,7 @@ const RoofPainting = () => {
           <img 
             src={guaranteeBadge} 
             alt="5 Year Guarantee Badge" 
-            className="w-40 h-40"
-          / loading="lazy" decoding="async" />
+            className="w-40 h-40" loading="lazy" decoding="async" />
         </div>
       </div>
 
@@ -158,8 +157,7 @@ const RoofPainting = () => {
                     <img 
                       src={roofWorkerImage} 
                       alt="Professional Roof Painter at Work" 
-                      className="w-full h-full object-cover"
-                    / loading="lazy" decoding="async" />
+                      className="w-full h-full object-cover" loading="lazy" decoding="async" />
                   </div>
                 </Card>
               </div>
