@@ -37,9 +37,13 @@ const handler = async (req: Request): Promise<Response> => {
     // Send email to business owner
     const businessEmailResponse = await resend.emails.send({
       from: "Freshcoat Quotes <onboarding@resend.dev>",
-      to: ["michael@freshcoat.co.nz"],
-      subject: `New Quote Request from ${name}`,
+      to: ["freshcoatnz@gmail.com"],
+      reply_to: email,
+      subject: `New Quote Request from ${name} (forward to michael@freshcoat.co.nz)`,
       html: `
+        <p style="background:#fff3cd;padding:10px;border:1px solid #ffeaa7;">
+          <strong>Forward this to:</strong> michael@freshcoat.co.nz
+        </p>
         <h2>New Quote Request</h2>
         <p><strong>Name:</strong> ${name}</p>
         <p><strong>Email:</strong> ${email}</p>
@@ -61,7 +65,7 @@ const handler = async (req: Request): Promise<Response> => {
     // Send confirmation email to customer
     const customerEmailResponse = await resend.emails.send({
       from: "Freshcoat Painters <onboarding@resend.dev>",
-      to: [email],
+      to: ["freshcoatnz@gmail.com"],
       subject: "Thank you for your quote request!",
       html: `
         <h1>Thank you for contacting Freshcoat Painters, ${name}!</h1>
