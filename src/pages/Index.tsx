@@ -7,6 +7,7 @@ import { Services } from '@/components/Services';
 import { Process } from '@/components/Process';
 import { WhyChooseUs } from '@/components/WhyChooseUs';
 import { Testimonials } from '@/components/Testimonials';
+import { FAQ, faqs } from '@/components/FAQ';
 import { Footer } from '@/components/Footer';
 
 const Index = () => {
@@ -36,6 +37,19 @@ const Index = () => {
       "image": "https://www.freshcoat.co.nz/og-image.jpg"
   };
 
+  const faqStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((f) => ({
+      "@type": "Question",
+      "name": f.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": f.answer,
+      },
+    })),
+  };
+
   return (
     <>
       <Helmet>
@@ -51,6 +65,9 @@ const Index = () => {
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
         </script>
+        <script type="application/ld+json">
+          {JSON.stringify(faqStructuredData)}
+        </script>
       </Helmet>
       
       <div className="min-h-screen bg-background">
@@ -63,6 +80,7 @@ const Index = () => {
           <Process />
           <WhyChooseUs />
           <Testimonials />
+          <FAQ />
         </main>
         <Footer />
       </div>
