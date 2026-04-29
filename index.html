@@ -37,12 +37,25 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Organization",
+        "@type": ["LocalBusiness", "PaintingContractor"],
         "name": "Freshcoat Painting",
         "url": "https://www.freshcoat.co.nz",
         "logo": "https://www.freshcoat.co.nz/og-image.jpg",
         "email": "michael@freshcoat.co.nz",
         "telephone": "+64-22-036-6586",
+        "priceRange": "$$",
+        "areaServed": [
+          { "@type": "City", "name": "Christchurch" },
+          { "@type": "AdministrativeArea", "name": "Canterbury" }
+        ],
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -43.5321,
+          "longitude": 172.6362
+        },
+        "sameAs": [
+          "https://share.google/wcP3T2HVz31q1HSLt"
+        ],
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Christchurch",
