@@ -73,7 +73,7 @@ export const Footer = () => {
           <div className="rounded-lg overflow-hidden shadow-lg max-w-4xl mx-auto">
             <iframe
               title="Freshcoat Painting location in Christchurch"
-              src="https://www.google.com/maps?q=Christchurch,New+Zealand&output=embed"
+              src="https://www.google.com/maps?q=239+Clyde+Road,Christchurch+8053,New+Zealand&output=embed"
               width="100%"
               height="300"
               style={{ border: 0 }}
