@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin } from 'lucide-react';
+import { Phone, Mail, MapPin, Star } from 'lucide-react';
 
 export const Footer = () => {
   return (
@@ -52,6 +52,17 @@ export const Footer = () => {
               <div className="flex items-center gap-2">
                 <MapPin size={16} />
                 <span className="text-gray-300">Christchurch, New Zealand</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Star size={16} />
+                <a
+                  href="https://share.google/wcP3T2HVz31q1HSLt"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
+                  Find us on Google
+                </a>
               </div>
             </div>
           </div>
