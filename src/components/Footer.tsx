@@ -68,6 +68,22 @@ export const Footer = () => {
           </div>
         </div>
 
+        <div className="mt-10">
+          <h3 className="font-bold text-lg mb-4 text-center">Find Us in Christchurch</h3>
+          <div className="rounded-lg overflow-hidden shadow-lg max-w-4xl mx-auto">
+            <iframe
+              title="Freshcoat Painting location in Christchurch"
+              src="https://www.google.com/maps?q=Christchurch,New+Zealand&output=embed"
+              width="100%"
+              height="300"
+              style={{ border: 0 }}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              allowFullScreen
+            />
+          </div>
+        </div>
+
         <div className="border-t border-gray-600 mt-8 pt-8 text-center text-gray-400">
           <p>&copy; {new Date().getFullYear()} Freshcoat Painting. All rights reserved.</p>
         </div>
