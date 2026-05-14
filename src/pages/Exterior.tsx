@@ -27,10 +27,14 @@ const Exterior = () => {
   return (
     <>
       <Helmet>
-        <title>Exterior Painting Christchurch | House Exterior Painters | Freshcoat</title>
+        <title>Exterior Painting Christchurch | Freshcoat Painting</title>
         <meta name="description" content="Professional exterior painting in Christchurch. Weather-resistant coatings, expert surface preparation. 5-year guarantee. Free quotes available!" />
         <meta name="keywords" content="exterior painting christchurch, house exterior painting, weatherboard painting, exterior house painters" />
-        <link rel="canonical" href="https://freshcoat.co.nz/exterior" />
+        <link rel="canonical" href="https://www.freshcoat.co.nz/exterior" />
+        <meta property="og:title" content="Exterior Painting Christchurch | Freshcoat Painting" />
+        <meta property="og:description" content="Professional exterior painting in Christchurch. Weather-resistant coatings, 5-year guarantee. Free quotes." />
+        <meta property="og:url" content="https://www.freshcoat.co.nz/exterior" />
+        <meta property="og:type" content="website" />
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
         </script>

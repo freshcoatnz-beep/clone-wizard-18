@@ -53,11 +53,11 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Painters Christchurch | Professional Interior & Exterior Painting Services</title>
+        <title>Christchurch Painters | Freshcoat Painting</title>
         <meta name="description" content="Leading Christchurch painters with 30+ years experience. Professional interior, exterior & roof painting with 5-year guarantee. Get your free quote today!" />
         <meta name="keywords" content="painters christchurch, house painting, interior painting, exterior painting, roof painting, professional painters" />
         <link rel="canonical" href="https://www.freshcoat.co.nz/" />
-        <meta property="og:title" content="Painters Christchurch | Professional Interior & Exterior Painting Services" />
+        <meta property="og:title" content="Christchurch Painters | Freshcoat Painting" />
         <meta property="og:description" content="Leading Christchurch painters with 30+ years experience. Interior, exterior & roof painting with 5-year guarantee." />
         <meta property="og:url" content="https://www.freshcoat.co.nz/" />
         <meta property="og:type" content="website" />

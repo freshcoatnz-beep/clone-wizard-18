@@ -63,10 +63,14 @@ const RoofPainting = () => {
   return (
     <>
       <Helmet>
-        <title>Roof Painting Christchurch | Metal & Tile Roof Restoration | Freshcoat</title>
+        <title>Roof Painting Christchurch | Freshcoat Painting</title>
         <meta name="description" content="Expert roof painting in Christchurch. Metal roof coatings, tile roof restoration, leak repairs. Premium materials, 5-year warranty. Free quotes!" />
         <meta name="keywords" content="roof painting christchurch, metal roof painting, tile roof restoration, roof coatings, roof repairs" />
-        <link rel="canonical" href="https://freshcoat.co.nz/roof-painting" />
+        <link rel="canonical" href="https://www.freshcoat.co.nz/roof-painting" />
+        <meta property="og:title" content="Roof Painting Christchurch | Freshcoat Painting" />
+        <meta property="og:description" content="Expert roof painting in Christchurch — metal and tile roof restoration with premium coatings and 5-year warranty." />
+        <meta property="og:url" content="https://www.freshcoat.co.nz/roof-painting" />
+        <meta property="og:type" content="website" />
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
         </script>
