@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet-async';
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -5,6 +6,20 @@ import { QuoteForm } from '@/components/QuoteForm';
 import { Phone, Wrench, Shield, Home, Star, Award, Hammer } from "lucide-react";
 
 const HousePreparation = () => {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "House Preparation & Repairs Christchurch",
+    "description": "Professional house preparation and repair services in Christchurch — surface prep, weatherboard repairs and minor repairs before painting.",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "Freshcoat Painting",
+      "areaServed": "Christchurch"
+    },
+    "serviceType": "House Preparation & Repairs",
+    "url": "https://www.freshcoat.co.nz/house-preparation"
+  };
+
   const services = [
     {
       title: "Surface Preparation",
@@ -42,7 +57,18 @@ const HousePreparation = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-background">
+    <>
+      <Helmet>
+        <title>House Preparation & Repairs Christchurch | Freshcoat</title>
+        <meta name="description" content="Professional house preparation and repairs in Christchurch — surface prep, weatherboard repairs, crack filling and priming for a perfect paint finish." />
+        <link rel="canonical" href="https://www.freshcoat.co.nz/house-preparation" />
+        <meta property="og:title" content="House Preparation & Repairs Christchurch | Freshcoat" />
+        <meta property="og:description" content="Surface prep, weatherboard repairs and priming in Christchurch — get your property ready for a flawless paint job." />
+        <meta property="og:url" content="https://www.freshcoat.co.nz/house-preparation" />
+        <meta property="og:type" content="website" />
+        <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
+      </Helmet>
+      <div className="min-h-screen bg-background">
       <Header />
       
       {/* Hero Section */}
@@ -206,7 +232,8 @@ const HousePreparation = () => {
       </section>
 
       <Footer />
-    </div>
+      </div>
+    </>
   );
 };
 
