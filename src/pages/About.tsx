@@ -12,7 +12,7 @@ const About = () => {
     "@type": "LocalBusiness",
     "name": "Freshcoat Painting",
     "description": "Leading Christchurch painting company with 30+ years experience. Residential and commercial painting services with exceptional quality and customer service.",
-    "url": "https://freshcoat.co.nz/about",
+    "url": "https://www.freshcoat.co.nz/about",
     "foundingDate": "1994",
     "areaServed": "Christchurch",
     "hasCredential": "Fully licensed, registered and insured"
@@ -53,10 +53,14 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>About Freshcoat Painting | 30+ Years Christchurch Painters | Our Story</title>
+        <title>About Freshcoat Painting | Christchurch Painters</title>
         <meta name="description" content="Learn about Freshcoat Painting - Christchurch's leading painters since 1994. 30+ years experience, fully licensed & insured. Quality workmanship guaranteed." />
         <meta name="keywords" content="about freshcoat painting, christchurch painters, painting company history, experienced painters" />
-        <link rel="canonical" href="https://freshcoat.co.nz/about" />
+        <link rel="canonical" href="https://www.freshcoat.co.nz/about" />
+        <meta property="og:title" content="About Freshcoat Painting | Christchurch Painters" />
+        <meta property="og:description" content="Christchurch's leading painters since 1994. 30+ years experience, fully licensed & insured. Quality workmanship guaranteed." />
+        <meta property="og:url" content="https://www.freshcoat.co.nz/about" />
+        <meta property="og:type" content="website" />
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
         </script>
@@ -72,7 +76,7 @@ const About = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-4xl lg:text-5xl font-bold mb-6 text-brand-gray">
-                We are the leaders
+                About Freshcoat Painting — Christchurch Painters
               </h1>
               <p className="text-xl mb-8 text-muted-foreground leading-relaxed">
                 Freshcoat Painting is a leading full-service Christchurch based painting company with over 30 years of experience. Our work goes beyond colour swatches and paint techniques, we create curb appeal and stunning spaces you will love.
@@ -89,7 +93,7 @@ const About = () => {
                   <div className="w-24 h-24 bg-blue-100 rounded-full flex items-center justify-center mb-4">
                     <Award className="w-12 h-12 text-blue-600" />
                   </div>
-                  <h3 className="text-2xl font-bold text-brand-gray mb-2">30+ Years</h3>
+                  <h2 className="text-2xl font-bold text-brand-gray mb-2">30+ Years</h2>
                   <p className="text-muted-foreground">Of Experience</p>
                 </div>
               </Card>

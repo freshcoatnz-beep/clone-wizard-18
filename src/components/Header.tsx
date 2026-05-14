@@ -150,6 +150,8 @@ export const Header = () => {
           {/* Mobile menu toggle */}
           <button
             className="lg:hidden"
+            aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+            aria-expanded={isMenuOpen}
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}

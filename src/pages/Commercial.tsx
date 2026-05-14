@@ -24,10 +24,14 @@ const Commercial = () => {
   return (
     <>
       <Helmet>
-        <title>Commercial Painting Christchurch | Office & Business Painters | Freshcoat</title>
+        <title>Commercial Painting Christchurch | Freshcoat</title>
         <meta name="description" content="Professional commercial painting in Christchurch. Office buildings, retail spaces, warehouses. 30+ years experience, fully insured, 5-year warranty." />
         <meta name="keywords" content="commercial painting christchurch, office painting, business painters, commercial property painting" />
-        <link rel="canonical" href="https://freshcoat.co.nz/commercial" />
+        <link rel="canonical" href="https://www.freshcoat.co.nz/commercial" />
+        <meta property="og:title" content="Commercial Painting Christchurch | Freshcoat" />
+        <meta property="og:description" content="Commercial painting for Christchurch offices, retail and industrial properties. 30+ years experience, 5-year warranty." />
+        <meta property="og:url" content="https://www.freshcoat.co.nz/commercial" />
+        <meta property="og:type" content="website" />
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
         </script>
@@ -63,7 +67,7 @@ const Commercial = () => {
             </div>
             
             <p className="text-xl lg:text-2xl mb-10 max-w-3xl mx-auto opacity-95 leading-relaxed">
-              Professional exterior painters for Christchurch homes with guaranteed quality & competitive rates.
+              Professional commercial painters for Christchurch offices, retail and industrial properties — guaranteed quality & competitive rates.
             </p>
             
             <QuoteForm>

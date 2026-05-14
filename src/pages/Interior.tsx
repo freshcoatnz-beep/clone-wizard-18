@@ -28,10 +28,14 @@ const Interior = () => {
   return (
     <>
       <Helmet>
-        <title>Interior Painting Christchurch | House Painting Services | Freshcoat</title>
+        <title>Interior Painting Christchurch | Freshcoat Painting</title>
         <meta name="description" content="Expert interior painting in Christchurch. Transform your home with professional painters. Premium paints, 5-year guarantee. Get your free quote today!" />
         <meta name="keywords" content="interior painting christchurch, house painting, room painting, wall painting, residential painting" />
         <link rel="canonical" href="https://www.freshcoat.co.nz/interior" />
+        <meta property="og:title" content="Interior Painting Christchurch | Freshcoat Painting" />
+        <meta property="og:description" content="Expert interior painting in Christchurch. Premium paints, 5-year guarantee. Free quotes today." />
+        <meta property="og:url" content="https://www.freshcoat.co.nz/interior" />
+        <meta property="og:type" content="website" />
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
         </script>
