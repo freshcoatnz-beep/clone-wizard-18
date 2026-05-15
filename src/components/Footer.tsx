@@ -84,7 +84,7 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-gray-600 mt-8 pt-8 text-center text-gray-400">
+        <div className="border-t border-gray-500 mt-8 pt-8 text-center text-gray-200">
           <p>&copy; {new Date().getFullYear()} Freshcoat Painting. All rights reserved.</p>
         </div>
       </div>
