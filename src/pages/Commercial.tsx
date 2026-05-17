@@ -352,13 +352,13 @@ const Commercial = () => {
               Why Commercial Painting Matters in Christchurch's Climate
             </h2>
             <p className="text-lg mb-8 text-muted-foreground leading-relaxed">
-              Christchurch's sun, wind and varying weather can be tough on paintwork. That's why quality products and proper preparation are vital to protect your home and extend the life of your exterior finish.
+              Christchurch's nor'westers, salt-laden coastal air, UV and freeze-thaw cycles are tough on commercial paintwork. Quality products and proper preparation are vital to protect your building's exterior, signage and steelwork — and to extend the time between repaints.
             </p>
             
             <div className="grid md:grid-cols-2 gap-12">
               <div>
-                <h3 className="text-2xl font-bold mb-4 text-brand-gray">Protect Your Home from Weather Damage</h3>
-                <p className="text-lg mb-4 text-muted-foreground">Our professional exterior painting shields your surfaces from:</p>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gray">Protect Your Premises from Weather Damage</h3>
+                <p className="text-lg mb-4 text-muted-foreground">Our commercial exterior coatings shield your building from:</p>
                 <div className="space-y-2">
                   <div className="flex items-center gap-2">
                     <span>Sun damage and fading</span>
@@ -376,11 +376,37 @@ const Commercial = () => {
               </div>
               
               <div>
-                <h3 className="text-2xl font-bold mb-4 text-brand-gray">Enhance Street Appeal and Property Value</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gray">Enhance Brand Image &amp; Property Value</h3>
                 <p className="text-lg text-muted-foreground">
-                  A fresh coat of paint instantly updates your home's look and leaves a lasting impression – perfect whether you're staying long-term or planning to sell.
+                  A freshly painted commercial property signals a professional, well-run business. It lifts kerb appeal for customers, supports brand colours and protects the asset value of your Christchurch building.
                 </p>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl lg:text-4xl font-bold mb-8 text-brand-gray text-center">
+              Commercial Painting Christchurch — FAQs
+            </h2>
+            <div className="space-y-6">
+              {faqData.mainEntity.map((item: any) => (
+                <div key={item.name} className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-bold mb-3 text-brand-gray">{item.name}</h3>
+                  <p className="text-muted-foreground leading-relaxed">{item.acceptedAnswer.text}</p>
+                </div>
+              ))}
+            </div>
+            <div className="text-center mt-12">
+              <QuoteForm>
+                <Button variant="hero" size="lg" className="text-xl px-12 py-6 font-semibold bg-green-600 hover:bg-green-700 text-white border-green-600">
+                  Get FREE Quote
+                </Button>
+              </QuoteForm>
             </div>
           </div>
         </div>
