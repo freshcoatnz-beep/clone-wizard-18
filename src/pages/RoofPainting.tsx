@@ -356,6 +356,21 @@ const RoofPainting = () => {
         </div>
       </section>
 
+      {/* FAQ Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <h2 className="text-3xl lg:text-4xl font-bold mb-8 text-brand-gray text-center">Roof Painting Christchurch — FAQs</h2>
+          <div className="space-y-6">
+            {faqData.mainEntity.map((item: any) => (
+              <div key={item.name} className="bg-gray-50 p-6 rounded-lg">
+                <h3 className="text-xl font-bold mb-3 text-brand-gray">{item.name}</h3>
+                <p className="text-muted-foreground leading-relaxed">{item.acceptedAnswer.text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
         </main>
         <Footer />
       </div>
