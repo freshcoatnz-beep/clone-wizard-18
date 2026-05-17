@@ -21,7 +21,41 @@ const RoofPainting = () => {
       "areaServed": "Christchurch"
     },
     "serviceType": "Roof Painting",
-    "url": "https://freshcoat.co.nz/roof-painting"
+    "url": "https://www.freshcoat.co.nz/roof-painting",
+    "areaServed": [
+      { "@type": "City", "name": "Christchurch" },
+      { "@type": "AdministrativeArea", "name": "Canterbury" }
+    ],
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "NZD",
+      "priceSpecification": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "NZD",
+        "minPrice": 25,
+        "maxPrice": 45,
+        "unitText": "per square metre"
+      },
+      "availability": "https://schema.org/InStock"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Roof Painting Services",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Metal Roof Painting" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Tile Roof Restoration" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roof Repairs & Coatings" } }
+      ]
+    }
+  };
+
+  const breadcrumbData = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.freshcoat.co.nz/" },
+      { "@type": "ListItem", "position": 2, "name": "Roof Painting", "item": "https://www.freshcoat.co.nz/roof-painting" }
+    ]
   };
 
   const services = [
@@ -73,6 +107,9 @@ const RoofPainting = () => {
         <meta property="og:type" content="website" />
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify(breadcrumbData)}
         </script>
       </Helmet>
       

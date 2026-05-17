@@ -23,6 +23,7 @@ export const Footer = () => {
               <li><a href="/exterior" className="hover:text-white transition-colors">Exterior Painting</a></li>
               <li><a href="/roof-painting" className="hover:text-white transition-colors">Roof Painting</a></li>
               <li><a href="/commercial" className="hover:text-white transition-colors">Commercial Painting</a></li>
+              <li><a href="/painting-cost-guide" className="hover:text-white transition-colors">Painting Cost Guide</a></li>
             </ul>
           </div>
 

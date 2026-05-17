@@ -18,7 +18,35 @@ const Commercial = () => {
       "areaServed": "Christchurch"
     },
     "serviceType": "Commercial Painting",
-    "url": "https://freshcoat.co.nz/commercial"
+    "url": "https://www.freshcoat.co.nz/commercial",
+    "areaServed": [
+      { "@type": "City", "name": "Christchurch" },
+      { "@type": "AdministrativeArea", "name": "Canterbury" }
+    ],
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "NZD",
+      "availability": "https://schema.org/InStock",
+      "description": "Custom quotes for commercial properties"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Commercial Painting Services",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Office Painting" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Retail & Hospitality Painting" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Industrial & Warehouse Painting" } }
+      ]
+    }
+  };
+
+  const breadcrumbData = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.freshcoat.co.nz/" },
+      { "@type": "ListItem", "position": 2, "name": "Commercial Painting", "item": "https://www.freshcoat.co.nz/commercial" }
+    ]
   };
 
   return (
@@ -34,6 +62,9 @@ const Commercial = () => {
         <meta property="og:type" content="website" />
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify(breadcrumbData)}
         </script>
       </Helmet>
       

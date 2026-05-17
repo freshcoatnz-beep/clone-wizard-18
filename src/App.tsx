@@ -14,6 +14,7 @@ const RoofPainting = lazy(() => import("./pages/RoofPainting"));
 const Commercial = lazy(() => import("./pages/Commercial"));
 const HousePreparation = lazy(() => import("./pages/HousePreparation"));
 const SuburbPage = lazy(() => import("./pages/SuburbPage"));
+const CostGuide = lazy(() => import("./pages/CostGuide"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 const queryClient = new QueryClient();
@@ -34,6 +35,7 @@ const App = () => (
             <Route path="/roof-painting" element={<RoofPainting />} />
             <Route path="/house-preparation" element={<HousePreparation />} />
             <Route path="/commercial" element={<Commercial />} />
+            <Route path="/painting-cost-guide" element={<CostGuide />} />
             <Route path="/painters/:slug" element={<SuburbPage />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
