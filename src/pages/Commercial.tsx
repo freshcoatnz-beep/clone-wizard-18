@@ -49,6 +49,38 @@ const Commercial = () => {
     ]
   };
 
+  const faqData = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much do commercial painters in Christchurch charge?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Commercial painting in Christchurch typically ranges from $45–$85 per square metre depending on surface condition, access, paint specification and whether work is done in-hours or after-hours. We provide a fixed written quote after a free site inspection — no surprises." }
+      },
+      {
+        "@type": "Question",
+        "name": "Can you paint outside business hours to avoid disruption?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. We regularly schedule commercial jobs after-hours, on weekends or in staged sections so your Christchurch business can keep trading. Low-VOC paints are used in occupied spaces to minimise odour." }
+      },
+      {
+        "@type": "Question",
+        "name": "Are you fully insured for commercial sites?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Freshcoat Painting carries full public liability insurance, Site Safe documentation, and we provide site-specific safety plans, SWMS and JSAs for every commercial project in Christchurch." }
+      },
+      {
+        "@type": "Question",
+        "name": "What types of commercial property do you paint?",
+        "acceptedAnswer": { "@type": "Answer", "text": "We paint offices, retail stores, cafés and restaurants, schools, medical and dental clinics, warehouses, factories, body-corporate apartment blocks, hotels and motels right across Christchurch and Canterbury." }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does a commercial paint job take?",
+        "acceptedAnswer": { "@type": "Answer", "text": "A small office repaint can be completed in 2–4 days, while large warehouses or multi-storey buildings typically take 1–3 weeks. We provide a clear programme of works with each quote." }
+      }
+    ]
+  };
+
   return (
     <>
       <Helmet>
@@ -65,6 +97,9 @@ const Commercial = () => {
         </script>
         <script type="application/ld+json">
           {JSON.stringify(breadcrumbData)}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify(faqData)}
         </script>
       </Helmet>
       
