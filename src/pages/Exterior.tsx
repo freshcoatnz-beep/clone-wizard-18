@@ -21,7 +21,41 @@ const Exterior = () => {
       "areaServed": "Christchurch"
     },
     "serviceType": "Exterior Painting",
-    "url": "https://freshcoat.co.nz/exterior"
+    "url": "https://www.freshcoat.co.nz/exterior",
+    "areaServed": [
+      { "@type": "City", "name": "Christchurch" },
+      { "@type": "AdministrativeArea", "name": "Canterbury" }
+    ],
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "NZD",
+      "priceSpecification": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "NZD",
+        "minPrice": 45,
+        "maxPrice": 80,
+        "unitText": "per square metre"
+      },
+      "availability": "https://schema.org/InStock"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Exterior Painting Services",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Weatherboard Painting" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Brick & Render Painting" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Exterior Surface Preparation" } }
+      ]
+    }
+  };
+
+  const breadcrumbData = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.freshcoat.co.nz/" },
+      { "@type": "ListItem", "position": 2, "name": "Exterior Painting", "item": "https://www.freshcoat.co.nz/exterior" }
+    ]
   };
 
   return (
@@ -37,6 +71,9 @@ const Exterior = () => {
         <meta property="og:type" content="website" />
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify(breadcrumbData)}
         </script>
       </Helmet>
       

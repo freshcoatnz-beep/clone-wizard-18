@@ -22,7 +22,41 @@ const Interior = () => {
       "areaServed": "Christchurch"
     },
     "serviceType": "Interior Painting",
-    "url": "https://www.freshcoat.co.nz/interior"
+    "url": "https://www.freshcoat.co.nz/interior",
+    "areaServed": [
+      { "@type": "City", "name": "Christchurch" },
+      { "@type": "AdministrativeArea", "name": "Canterbury" }
+    ],
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "NZD",
+      "priceSpecification": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "NZD",
+        "minPrice": 35,
+        "maxPrice": 55,
+        "unitText": "per square metre"
+      },
+      "availability": "https://schema.org/InStock"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Interior Painting Services",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Room Painting" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Whole House Interior Repaint" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Surface Preparation & Priming" } }
+      ]
+    }
+  };
+
+  const breadcrumbData = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.freshcoat.co.nz/" },
+      { "@type": "ListItem", "position": 2, "name": "Interior Painting", "item": "https://www.freshcoat.co.nz/interior" }
+    ]
   };
 
   return (
@@ -38,6 +72,9 @@ const Interior = () => {
         <meta property="og:type" content="website" />
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify(breadcrumbData)}
         </script>
       </Helmet>
       
