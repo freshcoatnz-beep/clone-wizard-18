@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www-freshcoat-co-nz.lovable.app/sitemap.xml
+Sitemap: https://www.freshcoat.co.nz/sitemap.xml
