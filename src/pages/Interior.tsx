@@ -59,6 +59,18 @@ const Interior = () => {
     ]
   };
 
+  const faqData = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "How much does interior painting cost in Christchurch?", "acceptedAnswer": { "@type": "Answer", "text": "Interior painting in Christchurch typically ranges from $35–$55 per square metre of wall area, or roughly $400–$800 per room depending on size, ceiling height, surface condition and number of colours. Freshcoat provides a free, fixed written quote after an on-site inspection." } },
+      { "@type": "Question", "name": "How long does it take to paint the inside of a house?", "acceptedAnswer": { "@type": "Answer", "text": "A single room takes 1–2 days, while a full 3-bedroom Christchurch home usually takes 5–10 working days including prep, two coats and trim. We give a clear day-by-day schedule with every quote." } },
+      { "@type": "Question", "name": "Do I need to move out during interior painting?", "acceptedAnswer": { "@type": "Answer", "text": "Almost never. We use low-VOC paints, work room by room, and protect your furniture and floors with drop sheets and plastic so you can keep living in the home throughout the project." } },
+      { "@type": "Question", "name": "What paint brands do you use?", "acceptedAnswer": { "@type": "Answer", "text": "We use premium interior paints from Resene, Dulux and Wattyl, chosen for durability, washability and low odour. We're happy to colour-match any brand you prefer." } },
+      { "@type": "Question", "name": "Is your interior painting guaranteed?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Every interior job from Freshcoat is backed by a 5-year workmanship guarantee, and we're fully insured for your peace of mind." } }
+    ]
+  };
+
   return (
     <>
       <Helmet>
@@ -75,6 +87,9 @@ const Interior = () => {
         </script>
         <script type="application/ld+json">
           {JSON.stringify(breadcrumbData)}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify(faqData)}
         </script>
       </Helmet>
       
@@ -269,6 +284,21 @@ const Interior = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <h2 className="text-3xl lg:text-4xl font-bold mb-8 text-brand-gray text-center">Interior Painting Christchurch — FAQs</h2>
+          <div className="space-y-6">
+            {faqData.mainEntity.map((item: any) => (
+              <div key={item.name} className="bg-gray-50 p-6 rounded-lg">
+                <h3 className="text-xl font-bold mb-3 text-brand-gray">{item.name}</h3>
+                <p className="text-muted-foreground leading-relaxed">{item.acceptedAnswer.text}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>

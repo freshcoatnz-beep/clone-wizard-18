@@ -94,6 +94,18 @@ const RoofPainting = () => {
     }
   ];
 
+  const faqData = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "How much does roof painting cost in Christchurch?", "acceptedAnswer": { "@type": "Answer", "text": "Roof painting in Christchurch typically costs $2,500–$6,500 depending on roof size, pitch, material (Colorsteel, Decramastic, concrete tile) and the amount of rust treatment or repairs required. We provide a free fixed quote after a roof inspection." } },
+      { "@type": "Question", "name": "How long does a painted roof last?", "acceptedAnswer": { "@type": "Answer", "text": "A professionally prepared and painted roof in Christchurch typically lasts 10–15 years before recoating. Using premium membrane coatings on metal roofs and proper sealing on tiles extends life and prevents leaks." } },
+      { "@type": "Question", "name": "Can you paint a rusty metal roof?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. We treat surface rust with a rust-converter, replace any pop rivets or fasteners that have failed, apply an etch primer and then two coats of premium roof membrane. Heavily corroded sheets are replaced before painting." } },
+      { "@type": "Question", "name": "Do you paint Decramastic and concrete tile roofs?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Decramastic and concrete tile roofs are pressure-washed, moss and lichen are killed, broken tiles replaced, and we apply a sealer plus two coats of tile-specific UV-resistant paint." } },
+      { "@type": "Question", "name": "Is roof painting messy or noisy?", "acceptedAnswer": { "@type": "Answer", "text": "We use airless sprayers with masking to control overspray, and clean gutters and surrounds at the end of each day. Pressure-washing is the loudest step and usually takes half a day. You can stay in the house throughout." } }
+    ]
+  };
+
   return (
     <>
       <Helmet>
@@ -110,6 +122,9 @@ const RoofPainting = () => {
         </script>
         <script type="application/ld+json">
           {JSON.stringify(breadcrumbData)}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify(faqData)}
         </script>
       </Helmet>
       
@@ -337,6 +352,21 @@ const RoofPainting = () => {
                 Get FREE Quote
               </Button>
             </QuoteForm>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <h2 className="text-3xl lg:text-4xl font-bold mb-8 text-brand-gray text-center">Roof Painting Christchurch — FAQs</h2>
+          <div className="space-y-6">
+            {faqData.mainEntity.map((item: any) => (
+              <div key={item.name} className="bg-gray-50 p-6 rounded-lg">
+                <h3 className="text-xl font-bold mb-3 text-brand-gray">{item.name}</h3>
+                <p className="text-muted-foreground leading-relaxed">{item.acceptedAnswer.text}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>

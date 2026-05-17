@@ -58,6 +58,18 @@ const Exterior = () => {
     ]
   };
 
+  const faqData = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "How much does exterior house painting cost in Christchurch?", "acceptedAnswer": { "@type": "Answer", "text": "Exterior house painting in Christchurch typically costs $4,500–$12,000 depending on house size, cladding type (weatherboard, brick, plaster), surface condition and access. We provide a free fixed quote after a full on-site inspection." } },
+      { "@type": "Question", "name": "What's the best time of year to paint a house exterior in Christchurch?", "acceptedAnswer": { "@type": "Answer", "text": "October to April is ideal — dry, settled weather with surface temperatures consistently above 10°C lets paint cure properly. We monitor the forecast daily and avoid painting in rain, frost or extreme nor'westers." } },
+      { "@type": "Question", "name": "How long does an exterior repaint last?", "acceptedAnswer": { "@type": "Answer", "text": "A professional Freshcoat exterior repaint using Resene or Dulux premium products typically lasts 8–12 years on weatherboard and 10–15 years on plaster, depending on sun exposure and proximity to the coast." } },
+      { "@type": "Question", "name": "Do you prepare surfaces before painting?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — preparation is the single biggest factor in paint longevity. We water-blast, scrape, sand, fill cracks, treat moss and mould, and prime bare timber before any topcoat goes on." } },
+      { "@type": "Question", "name": "Is the exterior painting guaranteed?", "acceptedAnswer": { "@type": "Answer", "text": "Every Freshcoat exterior job carries a 5-year workmanship warranty, and we're fully insured for work at height including two-storey homes." } }
+    ]
+  };
+
   return (
     <>
       <Helmet>
@@ -74,6 +86,9 @@ const Exterior = () => {
         </script>
         <script type="application/ld+json">
           {JSON.stringify(breadcrumbData)}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify(faqData)}
         </script>
       </Helmet>
       
@@ -270,6 +285,21 @@ const Exterior = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <h2 className="text-3xl lg:text-4xl font-bold mb-8 text-brand-gray text-center">Exterior Painting Christchurch — FAQs</h2>
+          <div className="space-y-6">
+            {faqData.mainEntity.map((item: any) => (
+              <div key={item.name} className="bg-gray-50 p-6 rounded-lg">
+                <h3 className="text-xl font-bold mb-3 text-brand-gray">{item.name}</h3>
+                <p className="text-muted-foreground leading-relaxed">{item.acceptedAnswer.text}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
