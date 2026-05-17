@@ -170,26 +170,23 @@ const Commercial = () => {
             {/* Content */}
             <div className="lg:col-span-2">
               <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-brand-gray">
-                Christchurch's Best Commercial Painting
+                Christchurch's Trusted Commercial Painting Contractor
               </h2>
               <p className="text-lg mb-6 text-muted-foreground leading-relaxed">
-                Looking to refresh your commercial property or boost its professional appeal? Freshcoat Painting specialises in high-quality commercial painting across Christchurch.
+                Looking to refresh your commercial property or boost its professional appeal? Freshcoat Painting is a fully insured commercial painting contractor specialising in office, retail, industrial and body-corporate work right across Christchurch and Canterbury.
               </p>
               <p className="text-lg mb-8 text-muted-foreground leading-relaxed">
-                With over 30 years of experience, we deliver stunning, long-lasting finishes for businesses using premium paints and expert techniques – all backed by our 5-year workmanship guarantee.
+                With over 30 years of experience painting Christchurch businesses, we deliver long-lasting commercial finishes using Resene and Dulux premium paints, scaffold and EWP access where needed, and Site Safe compliant crews — all backed by our 5-year workmanship guarantee.
               </p>
-              
-              <h3 className="text-xl font-semibold mb-4 text-brand-gray">We are painting experts:</h3>
+
+              <h3 className="text-xl font-semibold mb-4 text-brand-gray">Commercial painting services we provide:</h3>
               <ul className="space-y-2 mb-8">
-                <li className="text-lg">
-                  <a href="/exterior" className="text-primary hover:underline">• Exterior House Painting</a>
-                </li>
-                <li className="text-lg">
-                  <a href="/roof-painting" className="text-primary hover:underline">• Roof Painting</a>
-                </li>
-                <li className="text-lg">
-                  <a href="/house-preparation" className="text-primary hover:underline">• House Preparation</a>
-                </li>
+                <li className="text-lg">• Office &amp; corporate fit-out painting</li>
+                <li className="text-lg">• Retail, hospitality &amp; café repaints</li>
+                <li className="text-lg">• Warehouse, factory &amp; industrial coatings</li>
+                <li className="text-lg">• Body corporate &amp; multi-unit complexes</li>
+                <li className="text-lg">• Schools, childcare &amp; medical facilities</li>
+                <li className="text-lg">• Line marking, epoxy floors &amp; protective coatings</li>
               </ul>
             </div>
           </div>
@@ -247,10 +244,10 @@ const Commercial = () => {
             </div>
 
             <h3 className="text-2xl font-bold mb-4 text-brand-gray mt-12">
-              Trusted by Christchurch Homeowners Since 1994
+              Trusted by Christchurch Businesses Since 1994
             </h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              We've built our reputation on punctuality, professionalism and a commitment to delivering exactly what we promise. No shortcuts. No hidden costs. Just exceptional results.
+              From CBD offices and Riccarton retail to industrial sites in Hornby and Sockburn, Christchurch businesses choose Freshcoat for our punctuality, tidy site management and a finish that lasts. No shortcuts. No hidden costs. Just exceptional commercial results.
             </p>
           </div>
         </div>
@@ -268,52 +265,36 @@ const Commercial = () => {
             </p>
 
             <h3 className="text-2xl font-bold mb-6 text-brand-gray">
-              Full-Service Solutions for Every Surface
+              Commercial Property Types We Paint in Christchurch
             </h3>
             <p className="text-lg mb-6 text-muted-foreground">
-              Our experienced painters can transform the following commercial spaces:
+              Whatever your premises, we have crews and equipment to handle it safely and on schedule:
             </p>
 
             <div className="grid md:grid-cols-2 gap-6 mb-8">
               <div className="space-y-3">
-                <div className="flex items-center gap-2">
-                  <span>Brickwork and render</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <span>Weatherboard and timber cladding</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <span>Fascias, gutters and downpipes</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <span>Garage doors, fences & gates</span>
-                </div>
+                <div><strong>Offices &amp; corporate buildings</strong> — interior repaints, lobbies, meeting rooms, stairwells and exterior cladding.</div>
+                <div><strong>Retail &amp; shopfronts</strong> — high-impact storefronts, signage prep, fit-outs and quick-turnaround refreshes.</div>
+                <div><strong>Hospitality</strong> — cafés, restaurants, bars and hotels painted overnight to avoid trading downtime.</div>
+                <div><strong>Warehouses &amp; factories</strong> — high-bay walls, structural steel, epoxy floors and line marking.</div>
               </div>
               <div className="space-y-3">
-                <div className="flex items-center gap-2">
-                  <span>Eaves, verandahs, pergolas & decks</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <span>Exterior window frames and shutters</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <span>Multi-dwelling properties</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <span>Commercial buildings</span>
-                </div>
+                <div><strong>Schools &amp; childcare</strong> — low-VOC paints, after-school and term-break programmes.</div>
+                <div><strong>Medical &amp; dental clinics</strong> — antimicrobial coatings and staged work in occupied spaces.</div>
+                <div><strong>Body corporate &amp; apartments</strong> — exterior repaints, common areas and weatherproofing for Christchurch's coastal climate.</div>
+                <div><strong>Government &amp; council</strong> — compliant documentation, H&amp;S plans and approved subcontractor processes.</div>
               </div>
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed">
-              For exterior surfaces, we use weatherproof, UV-resistant and anti-mould paints where needed to ensure long-lasting protection.
+              We specify the right product for every commercial surface — anti-graffiti, intumescent fire-rated, anti-mould, anti-corrosive metal primers and high-build epoxies — to deliver durability that stands up to daily commercial wear and Christchurch weather.
             </p>
 
             <h3 className="text-2xl font-bold mb-4 text-brand-gray mt-12">
-              Residential & Multi-Dwelling Properties
+              Minimal Disruption to Your Business
             </h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              We handle jobs of all sizes. From small homes to large strata complexes, every project we complete is handled with the same attention to detail and care.
+              We know downtime costs money. Freshcoat schedules commercial work after-hours, on weekends or in staged zones so your business keeps trading. Crews arrive in uniform, set up clean containment, use low-odour paints in occupied areas and leave the site spotless every day.
             </p>
           </div>
         </div>
