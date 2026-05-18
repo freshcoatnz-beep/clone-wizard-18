@@ -1,12 +1,9 @@
 import { lazy, Suspense } from "react";
-import { Toaster } from "@/components/ui/toaster";
-import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { HelmetProvider } from 'react-helmet-async';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Index from "./pages/Index";
 
-const Index = lazy(() => import("./pages/Index"));
 const Interior = lazy(() => import("./pages/Interior"));
 const Exterior = lazy(() => import("./pages/Exterior"));
 const About = lazy(() => import("./pages/About"));
@@ -17,14 +14,9 @@ const SuburbPage = lazy(() => import("./pages/SuburbPage"));
 const CostGuide = lazy(() => import("./pages/CostGuide"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
-const queryClient = new QueryClient();
-
 const App = () => (
   <HelmetProvider>
-    <QueryClientProvider client={queryClient}>
     <TooltipProvider>
-      <Toaster />
-      <Sonner />
       <BrowserRouter>
         <Suspense fallback={<div className="min-h-screen bg-background" />}>
           <Routes>
@@ -43,7 +35,6 @@ const App = () => (
         </Suspense>
       </BrowserRouter>
     </TooltipProvider>
-  </QueryClientProvider>
   </HelmetProvider>
 );
 
