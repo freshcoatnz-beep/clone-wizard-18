@@ -307,7 +307,6 @@ const Exterior = () => {
         </div>
       </section>
 
-        </main>
       </>)}
         </main>
         <Footer />
