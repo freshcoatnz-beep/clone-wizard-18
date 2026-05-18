@@ -2,8 +2,7 @@ import { lazy, Suspense } from "react";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { HelmetProvider } from '@/lib/head';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Index from "./pages/Index";
-
+const Index = lazy(() => import("./pages/Index"));
 const Interior = lazy(() => import("./pages/Interior"));
 const Exterior = lazy(() => import("./pages/Exterior"));
 const About = lazy(() => import("./pages/About"));
