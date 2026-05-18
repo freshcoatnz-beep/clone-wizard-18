@@ -43,7 +43,7 @@ export const Welcome = () => {
             <Card className="p-0 overflow-hidden shadow-medium">
               <div className="aspect-[5/3] bg-secondary rounded-lg overflow-hidden">
                 <img 
-                  src="/lovable-uploads/be3e0313-1934-48ae-9df1-636887be9531.png" 
+                  src="/lovable-uploads/be3e0313-1934-48ae-9df1-636887be9531.webp" 
                   alt="Interior painting project in a Christchurch home — freshly painted living space by Freshcoat Painting" 
                   className="w-full h-full object-cover" loading="lazy" decoding="async" />
               </div>
