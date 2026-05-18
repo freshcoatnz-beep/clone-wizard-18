@@ -6,8 +6,8 @@ import { Card } from "@/components/ui/card";
 import { QuoteForm } from '@/components/QuoteForm';
 import { Phone, Home, Shield, Award, Star, Umbrella } from "lucide-react";
 import guaranteeBadge from '@/assets/guarantee-badge.webp';
-import roofHeroImage from '@/assets/roof-hero-house.webp';
 import roofWorkerImage from '@/assets/roof-worker.webp';
+const roofHeroImage = '/roof-hero-house.webp';
 
 const RoofPainting = () => {
   const structuredData = {
@@ -113,6 +113,7 @@ const RoofPainting = () => {
         <meta name="description" content="Expert roof painting in Christchurch. Metal roof coatings, tile roof restoration, leak repairs. Premium materials, 5-year warranty. Free quotes!" />
         <meta name="keywords" content="roof painting christchurch, metal roof painting, tile roof restoration, roof coatings, roof repairs" />
         <link rel="canonical" href="https://www.freshcoat.co.nz/roof-painting" />
+        <link rel="preload" as="image" href={roofHeroImage} fetchPriority="high" />
         <meta property="og:title" content="Roof Painting Christchurch | Freshcoat Painting" />
         <meta property="og:description" content="Expert roof painting in Christchurch — metal and tile roof restoration with premium coatings and 5-year warranty." />
         <meta property="og:url" content="https://www.freshcoat.co.nz/roof-painting" />
