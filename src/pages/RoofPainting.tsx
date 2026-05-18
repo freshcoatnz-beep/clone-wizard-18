@@ -374,6 +374,7 @@ const RoofPainting = () => {
         </div>
       </section>
 
+      </>)}
         </main>
         <Footer />
       </div>
