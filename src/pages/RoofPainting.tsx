@@ -4,10 +4,10 @@ import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { QuoteForm } from '@/components/QuoteForm';
-import { Phone, Home, Shield, Award, Star, Umbrella } from "lucide-react";
+import { Home, Shield, Umbrella } from "@/components/icons-lite";
 import { useDeferredMount } from '@/hooks/use-deferred-mount';
-import guaranteeBadge from '@/assets/guarantee-badge.webp';
-import roofWorkerImage from '@/assets/roof-worker.webp';
+const guaranteeBadge = '/guarantee-badge.webp';
+const roofWorkerImage = '/roof-worker.webp';
 const roofHeroImage = '/roof-hero-house.webp';
 
 const RoofPainting = () => {

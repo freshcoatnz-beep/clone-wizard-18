@@ -4,11 +4,11 @@ import { Footer } from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { QuoteForm } from '@/components/QuoteForm';
-import { Check, Palette, Home, Shield } from 'lucide-react';
+import { Check, Palette, Home, Shield } from '@/components/icons-lite';
 import { useDeferredMount } from '@/hooks/use-deferred-mount';
-import interiorWelcomeImage from '@/assets/interior-welcome-room.webp';
+const interiorWelcomeImage = '/interior-welcome-room.webp';
 const interiorHeroImage = '/interior-hero-room.webp';
-import guaranteeBadge from '@/assets/guarantee-badge.webp';
+const guaranteeBadge = '/guarantee-badge.webp';
 
 const Interior = () => {
   const deferred = useDeferredMount();
