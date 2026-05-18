@@ -77,6 +77,7 @@ const Exterior = () => {
         <meta name="description" content="Professional exterior painting in Christchurch. Weather-resistant coatings, expert surface preparation. 5-year guarantee. Free quotes available!" />
         <meta name="keywords" content="exterior painting christchurch, house exterior painting, weatherboard painting, exterior house painters" />
         <link rel="canonical" href="https://www.freshcoat.co.nz/exterior" />
+        <link rel="preload" as="image" href={heroImage} fetchPriority="high" />
         <meta property="og:title" content="Exterior Painting Christchurch | Freshcoat Painting" />
         <meta property="og:description" content="Professional exterior painting in Christchurch. Weather-resistant coatings, 5-year guarantee. Free quotes." />
         <meta property="og:url" content="https://www.freshcoat.co.nz/exterior" />
