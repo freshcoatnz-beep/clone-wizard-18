@@ -1,14 +1,17 @@
+import { lazy, Suspense } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Header } from '@/components/Header';
 import { Hero } from '@/components/Hero';
 import { Welcome } from '@/components/Welcome';
-import { TrustedCompany } from '@/components/TrustedCompany';
-import { Services } from '@/components/Services';
-import { Process } from '@/components/Process';
-import { WhyChooseUs } from '@/components/WhyChooseUs';
-import { Testimonials } from '@/components/Testimonials';
-import { FAQ, faqs } from '@/components/FAQ';
 import { Footer } from '@/components/Footer';
+import { faqs } from '@/data/faqs';
+
+const TrustedCompany = lazy(() => import('@/components/TrustedCompany').then((module) => ({ default: module.TrustedCompany })));
+const Services = lazy(() => import('@/components/Services').then((module) => ({ default: module.Services })));
+const Process = lazy(() => import('@/components/Process').then((module) => ({ default: module.Process })));
+const WhyChooseUs = lazy(() => import('@/components/WhyChooseUs').then((module) => ({ default: module.WhyChooseUs })));
+const Testimonials = lazy(() => import('@/components/Testimonials').then((module) => ({ default: module.Testimonials })));
+const FAQ = lazy(() => import('@/components/FAQ').then((module) => ({ default: module.FAQ })));
 
 const Index = () => {
   const structuredData = {
@@ -75,12 +78,14 @@ const Index = () => {
         <main>
           <Hero />
           <Welcome />
-          <TrustedCompany />
-          <Services />
-          <Process />
-          <WhyChooseUs />
-          <Testimonials />
-          <FAQ />
+          <Suspense fallback={null}>
+            <TrustedCompany />
+            <Services />
+            <Process />
+            <WhyChooseUs />
+            <Testimonials />
+            <FAQ />
+          </Suspense>
         </main>
         <Footer />
       </div>
