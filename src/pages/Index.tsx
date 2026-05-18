@@ -19,13 +19,13 @@ const Index = () => {
   useEffect(() => {
     const schedule = 'requestIdleCallback' in window
       ? window.requestIdleCallback(() => setShowDeferredSections(true), { timeout: 1500 })
-      : window.setTimeout(() => setShowDeferredSections(true), 800);
+      : globalThis.setTimeout(() => setShowDeferredSections(true), 800);
 
     return () => {
       if ('cancelIdleCallback' in window && typeof schedule === 'number') {
         window.cancelIdleCallback(schedule);
       } else {
-        window.clearTimeout(schedule);
+        globalThis.clearTimeout(schedule);
       }
     };
   }, []);
