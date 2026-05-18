@@ -305,7 +305,6 @@ const Interior = () => {
         </div>
       </section>
 
-        </main>
       </>)}
         </main>
         <Footer />
