@@ -5,10 +5,10 @@ import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { QuoteForm } from '@/components/QuoteForm';
 import { Check, Palette, Home, Shield } from 'lucide-react';
-import heroImage from '@/assets/hero-house-no-car.jpg';
-import interiorHeroImage from '@/assets/interior-hero-room.jpg';
-import interiorWelcomeImage from '@/assets/interior-welcome-room.jpg';
-import guaranteeBadge from '@/assets/guarantee-badge.png';
+import heroImage from '@/assets/hero-house-no-car.webp';
+import interiorHeroImage from '@/assets/interior-hero-room.webp';
+import interiorWelcomeImage from '@/assets/interior-welcome-room.webp';
+import guaranteeBadge from '@/assets/guarantee-badge.webp';
 
 const Interior = () => {
   const structuredData = {
