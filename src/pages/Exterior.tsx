@@ -309,6 +309,7 @@ const Exterior = () => {
 
         </main>
       </>)}
+        </main>
         <Footer />
       </div>
     </>
