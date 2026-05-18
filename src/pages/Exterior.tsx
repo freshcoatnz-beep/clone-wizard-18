@@ -5,8 +5,8 @@ import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { QuoteForm } from '@/components/QuoteForm';
 import { Check, Palette, Home, Shield } from 'lucide-react';
-import heroImage from '@/assets/exterior-hero-house.webp';
 import exteriorWelcomeImage from '@/assets/exterior-welcome-house.webp';
+const heroImage = '/exterior-hero-house.webp';
 import guaranteeBadge from '@/assets/guarantee-badge.webp';
 
 const Exterior = () => {
