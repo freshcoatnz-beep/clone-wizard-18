@@ -452,6 +452,7 @@ const Commercial = () => {
         </div>
       </section>
 
+      </>)}
         </main>
         <Footer />
       </div>
