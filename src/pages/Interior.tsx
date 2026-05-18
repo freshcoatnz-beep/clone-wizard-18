@@ -5,11 +5,13 @@ import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { QuoteForm } from '@/components/QuoteForm';
 import { Check, Palette, Home, Shield } from 'lucide-react';
+import { useDeferredMount } from '@/hooks/use-deferred-mount';
 import interiorWelcomeImage from '@/assets/interior-welcome-room.webp';
 const interiorHeroImage = '/interior-hero-room.webp';
 import guaranteeBadge from '@/assets/guarantee-badge.webp';
 
 const Interior = () => {
+  const deferred = useDeferredMount();
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -186,7 +188,7 @@ const Interior = () => {
       </section>
 
       {/* Services Overview */}
-      <section className="py-16 bg-secondary/5">
+      {deferred && (<><section className="py-16 bg-secondary/5">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-brand-gray">Interior Painting</h2>
@@ -303,6 +305,7 @@ const Interior = () => {
         </div>
       </section>
 
+      </>)}
         </main>
         <Footer />
       </div>

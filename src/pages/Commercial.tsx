@@ -4,9 +4,11 @@ import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { QuoteForm } from '@/components/QuoteForm';
 import { Star } from "lucide-react";
+import { useDeferredMount } from '@/hooks/use-deferred-mount';
 import guaranteeBadge from '@/assets/guarantee-badge.webp';
 
 const Commercial = () => {
+  const deferred = useDeferredMount();
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -213,7 +215,7 @@ const Commercial = () => {
       </section>
 
       {/* Why Choose Section */}
-      <section className="py-16 bg-gray-50">
+      {deferred && (<><section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-brand-gray">
@@ -450,6 +452,7 @@ const Commercial = () => {
         </div>
       </section>
 
+      </>)}
         </main>
         <Footer />
       </div>
