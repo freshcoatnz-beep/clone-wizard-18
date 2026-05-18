@@ -3,9 +3,8 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { QuoteForm } from '@/components/QuoteForm';
-import { Star } from "lucide-react";
 import { useDeferredMount } from '@/hooks/use-deferred-mount';
-import guaranteeBadge from '@/assets/guarantee-badge.webp';
+const guaranteeBadge = '/guarantee-badge.webp';
 
 const Commercial = () => {
   const deferred = useDeferredMount();
