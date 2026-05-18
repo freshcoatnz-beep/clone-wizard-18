@@ -5,11 +5,13 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { QuoteForm } from '@/components/QuoteForm';
 import { Phone, Home, Shield, Award, Star, Umbrella } from "lucide-react";
+import { useDeferredMount } from '@/hooks/use-deferred-mount';
 import guaranteeBadge from '@/assets/guarantee-badge.webp';
 import roofWorkerImage from '@/assets/roof-worker.webp';
 const roofHeroImage = '/roof-hero-house.webp';
 
 const RoofPainting = () => {
+  const deferred = useDeferredMount();
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -224,7 +226,7 @@ const RoofPainting = () => {
       </section>
 
       {/* Services Section */}
-      <section className="py-16 bg-white">
+      {deferred && (<><section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-brand-gray mb-4">
