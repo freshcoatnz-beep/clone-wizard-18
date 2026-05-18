@@ -109,3 +109,6 @@ export const Helmet = ({ children }: Props) => {
 };
 
 export default Helmet;
+
+/** No-op passthrough — preserved so existing <HelmetProvider> usage keeps working. */
+export const HelmetProvider = ({ children }: { children?: ReactNode }) => <>{children}</>;
