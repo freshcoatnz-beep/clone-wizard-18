@@ -377,7 +377,7 @@ const RoofPainting = () => {
 
       </>)}
         </main>
-        <Footer />
+        <InView minHeight="400px"><Footer /></InView>
       </div>
     </>
   );

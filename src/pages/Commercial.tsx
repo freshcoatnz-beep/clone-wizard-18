@@ -454,7 +454,7 @@ const Commercial = () => {
 
       </>)}
         </main>
-        <Footer />
+        <InView minHeight="400px"><Footer /></InView>
       </div>
     </>
   );
