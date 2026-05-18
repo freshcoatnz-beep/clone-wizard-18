@@ -1,5 +1,5 @@
 import { lazy, Suspense, useEffect, useState } from 'react';
-import { Helmet } from 'react-helmet-async';
+import { Helmet } from '@/lib/head';
 import { Header } from '@/components/Header';
 import { Hero } from '@/components/Hero';
 import { Welcome } from '@/components/Welcome';

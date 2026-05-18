@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet-async';
+import { Helmet } from '@/lib/head';
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -377,7 +377,7 @@ const RoofPainting = () => {
 
       </>)}
         </main>
-        <Footer />
+        <InView minHeight="400px"><Footer /></InView>
       </div>
     </>
   );

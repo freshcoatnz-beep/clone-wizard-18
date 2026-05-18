@@ -1,6 +1,6 @@
 import { lazy, Suspense } from "react";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import { HelmetProvider } from 'react-helmet-async';
+import { HelmetProvider } from '@/lib/head';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 
