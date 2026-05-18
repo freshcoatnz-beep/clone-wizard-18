@@ -108,7 +108,7 @@ const Commercial = () => {
         <main>
       
       {/* Hero Section - matches your current hero */}
-      <section className="relative min-h-[550px] lg:min-h-[700px] bg-cover bg-center bg-no-repeat hero-curved" style={{ backgroundImage: 'url(/commercial-hero.jpg)' }}>
+      <section className="relative min-h-[550px] lg:min-h-[700px] bg-cover bg-center bg-no-repeat hero-curved" style={{ backgroundImage: 'url(/commercial-hero.webp)' }}>
         {/* Overlay */}
         <div className="absolute inset-0 bg-gradient-hero hero-curved"></div>
         
@@ -162,7 +162,7 @@ const Commercial = () => {
             {/* Image */}
             <div className="lg:col-span-3">
               <img 
-                src="/commercial-van.jpg" 
+                src="/commercial-van.webp" 
                 alt="Freshcoat Painting van in commercial warehouse showing professional equipment" 
                 className="w-full rounded-lg shadow-lg" loading="lazy" decoding="async" />
             </div>
