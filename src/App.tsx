@@ -1,5 +1,4 @@
 import { lazy, Suspense } from "react";
-import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { HelmetProvider } from 'react-helmet-async';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -18,7 +17,6 @@ const NotFound = lazy(() => import("./pages/NotFound"));
 const App = () => (
   <HelmetProvider>
     <TooltipProvider>
-      <Toaster />
       <BrowserRouter>
         <Suspense fallback={<div className="min-h-screen bg-background" />}>
           <Routes>
