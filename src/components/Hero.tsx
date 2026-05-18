@@ -2,8 +2,8 @@ import { Button } from '@/components/ui/button';
 import { Check } from 'lucide-react';
 import { QuoteForm } from '@/components/QuoteForm';
 // Using edited image without car
-import heroImage from '@/assets/hero-house-clean.jpg';
-import warrantyBadge from '@/assets/warranty-badge.png';
+import heroImage from '@/assets/hero-house-clean.webp';
+import warrantyBadge from '@/assets/warranty-badge.webp';
 
 export const Hero = () => {
   return (

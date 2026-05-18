@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { QuoteForm } from '@/components/QuoteForm';
-import guaranteeBadge from '@/assets/guarantee-badge.png';
+import guaranteeBadge from '@/assets/guarantee-badge.webp';
 
 export const Welcome = () => {
   return (

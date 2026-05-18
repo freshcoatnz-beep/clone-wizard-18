@@ -5,9 +5,9 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { QuoteForm } from '@/components/QuoteForm';
 import { Phone, Home, Shield, Award, Star, Umbrella } from "lucide-react";
-import guaranteeBadge from '@/assets/guarantee-badge.png';
-import roofHeroImage from '@/assets/roof-hero-house.jpg';
-import roofWorkerImage from '@/assets/roof-worker.jpg';
+import guaranteeBadge from '@/assets/guarantee-badge.webp';
+import roofHeroImage from '@/assets/roof-hero-house.webp';
+import roofWorkerImage from '@/assets/roof-worker.webp';
 
 const RoofPainting = () => {
   const structuredData = {

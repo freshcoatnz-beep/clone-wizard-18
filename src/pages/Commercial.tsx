@@ -4,7 +4,7 @@ import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { QuoteForm } from '@/components/QuoteForm';
 import { Star } from "lucide-react";
-import guaranteeBadge from '@/assets/guarantee-badge.png';
+import guaranteeBadge from '@/assets/guarantee-badge.webp';
 
 const Commercial = () => {
   const structuredData = {
