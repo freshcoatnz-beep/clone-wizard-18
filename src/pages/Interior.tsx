@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { QuoteForm } from '@/components/QuoteForm';
 import { Check, Palette, Home, Shield } from '@/components/icons-lite';
+import { InView } from '@/components/InView';
 import { useDeferredMount } from '@/hooks/use-deferred-mount';
 const interiorWelcomeImage = '/interior-welcome-room.webp';
 const interiorHeroImage = '/interior-hero-room.webp';
@@ -291,7 +292,7 @@ const Interior = () => {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-16 bg-white">
+      <InView minHeight="800px"><section className="py-16 bg-white">
         <div className="container mx-auto px-4 max-w-4xl">
           <h2 className="text-3xl lg:text-4xl font-bold mb-8 text-brand-gray text-center">Interior Painting Christchurch — FAQs</h2>
           <div className="space-y-6">
@@ -303,7 +304,7 @@ const Interior = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section></InView>
 
       </>)}
         </main>

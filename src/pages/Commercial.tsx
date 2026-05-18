@@ -3,6 +3,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { QuoteForm } from '@/components/QuoteForm';
+import { InView } from '@/components/InView';
 import { useDeferredMount } from '@/hooks/use-deferred-mount';
 const guaranteeBadge = '/guarantee-badge.webp';
 
@@ -389,7 +390,7 @@ const Commercial = () => {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-16 bg-white">
+      <InView minHeight="900px"><section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl lg:text-4xl font-bold mb-8 text-brand-gray text-center">
@@ -412,7 +413,7 @@ const Commercial = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section></InView>
 
       {/* Quality Guarantee */}
       <section className="py-16 bg-gray-50">
