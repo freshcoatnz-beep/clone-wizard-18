@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { QuoteForm } from '@/components/QuoteForm';
 import { Home, Shield, Umbrella } from "@/components/icons-lite";
+import { InView } from '@/components/InView';
 import { useDeferredMount } from '@/hooks/use-deferred-mount';
 const guaranteeBadge = '/guarantee-badge.webp';
 const roofWorkerImage = '/roof-worker.webp';
@@ -360,7 +361,7 @@ const RoofPainting = () => {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-16 bg-white">
+      <InView minHeight="800px"><section className="py-16 bg-white">
         <div className="container mx-auto px-4 max-w-4xl">
           <h2 className="text-3xl lg:text-4xl font-bold mb-8 text-brand-gray text-center">Roof Painting Christchurch — FAQs</h2>
           <div className="space-y-6">
@@ -372,7 +373,7 @@ const RoofPainting = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section></InView>
 
       </>)}
         </main>
