@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet-async';
+import { Helmet } from '@/lib/head';
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import { Header } from '@/components/Header';
