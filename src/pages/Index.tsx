@@ -1,4 +1,4 @@
-import { lazy, Suspense } from 'react';
+import { lazy, Suspense, useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Header } from '@/components/Header';
 import { Hero } from '@/components/Hero';
@@ -14,6 +14,22 @@ const Testimonials = lazy(() => import('@/components/Testimonials').then((module
 const FAQ = lazy(() => import('@/components/FAQ').then((module) => ({ default: module.FAQ })));
 
 const Index = () => {
+  const [showDeferredSections, setShowDeferredSections] = useState(false);
+
+  useEffect(() => {
+    const schedule = 'requestIdleCallback' in window
+      ? window.requestIdleCallback(() => setShowDeferredSections(true), { timeout: 1500 })
+      : window.setTimeout(() => setShowDeferredSections(true), 800);
+
+    return () => {
+      if ('cancelIdleCallback' in window && typeof schedule === 'number') {
+        window.cancelIdleCallback(schedule);
+      } else {
+        window.clearTimeout(schedule);
+      }
+    };
+  }, []);
+
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
@@ -78,14 +94,16 @@ const Index = () => {
         <main>
           <Hero />
           <Welcome />
-          <Suspense fallback={null}>
-            <TrustedCompany />
-            <Services />
-            <Process />
-            <WhyChooseUs />
-            <Testimonials />
-            <FAQ />
-          </Suspense>
+          {showDeferredSections && (
+            <Suspense fallback={null}>
+              <TrustedCompany />
+              <Services />
+              <Process />
+              <WhyChooseUs />
+              <Testimonials />
+              <FAQ />
+            </Suspense>
+          )}
         </main>
         <Footer />
       </div>
