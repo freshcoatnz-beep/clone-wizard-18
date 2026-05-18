@@ -1,4 +1,3 @@
-import { Phone, Mail, MapPin, Star } from 'lucide-react';
 
 export const Footer = () => {
   return (
@@ -43,19 +42,19 @@ export const Footer = () => {
             <h3 className="font-bold text-lg mb-4">Contact Us</h3>
             <div className="space-y-3">
               <div className="flex items-center gap-2">
-                <Phone size={16} />
+                <span aria-hidden="true">☎</span>
                 <a href="tel:+6422036658" className="text-gray-300 hover:text-white transition-colors">022 0366586</a>
               </div>
               <div className="flex items-center gap-2">
-                <Mail size={16} />
+                <span aria-hidden="true">✉</span>
                 <a href="mailto:michael@freshcoat.co.nz" className="text-gray-300 hover:text-white transition-colors">michael@freshcoat.co.nz</a>
               </div>
               <div className="flex items-center gap-2">
-                <MapPin size={16} />
+                <span aria-hidden="true">⌖</span>
                 <span className="text-gray-300">Christchurch, New Zealand</span>
               </div>
               <div className="flex items-center gap-2">
-                <Star size={16} />
+                <span aria-hidden="true">★</span>
                 <a
                   href="https://share.google/wcP3T2HVz31q1HSLt"
                   target="_blank"

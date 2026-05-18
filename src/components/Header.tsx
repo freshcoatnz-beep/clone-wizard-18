@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
-import { Phone, Star, Menu, X, ChevronDown } from 'lucide-react';
 import { QuoteForm } from '@/components/QuoteForm';
 
 export const Header = () => {
@@ -52,11 +51,11 @@ export const Header = () => {
                 <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
               </svg>
             </div>
-            <Star size={24} className="text-yellow-500 fill-current" />
+            <span className="text-yellow-500 text-2xl leading-none">★</span>
             <span className="font-bold text-xl">5.0</span>
             <div className="flex">
               {[...Array(5)].map((_, i) => (
-                <Star key={i} size={20} className="text-yellow-500 fill-current" />
+                <span key={i} className="text-yellow-500 text-xl leading-none">★</span>
               ))}
             </div>
           </a>
@@ -68,7 +67,7 @@ export const Header = () => {
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-3">
             <a href="tel:+6422036658" className="flex items-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors font-semibold">
-              <Phone size={20} />
+              <span aria-hidden="true">☎</span>
               <span className="text-lg font-bold">022 0366586</span>
             </a>
           </div>
@@ -86,7 +85,7 @@ export const Header = () => {
                 onClick={() => setIsDropdownOpen(!isDropdownOpen)}
               >
                 What We Do
-                <ChevronDown size={16} className={`transition-transform ${isDropdownOpen ? 'rotate-180' : ''}`} />
+                <span aria-hidden="true" className={`transition-transform ${isDropdownOpen ? 'rotate-180' : ''}`}>⌄</span>
               </button>
               
               {/* Dropdown Menu */}
@@ -119,7 +118,7 @@ export const Header = () => {
                 onClick={() => setIsServiceAreasOpen(!isServiceAreasOpen)}
               >
                 Service Areas
-                <ChevronDown size={16} className={`transition-transform ${isServiceAreasOpen ? 'rotate-180' : ''}`} />
+                <span aria-hidden="true" className={`transition-transform ${isServiceAreasOpen ? 'rotate-180' : ''}`}>⌄</span>
               </button>
               
               {/* Dropdown Menu */}
@@ -154,7 +153,7 @@ export const Header = () => {
             aria-expanded={isMenuOpen}
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
-            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            {isMenuOpen ? <span aria-hidden="true" className="text-2xl leading-none">×</span> : <span aria-hidden="true" className="text-2xl leading-none">☰</span>}
           </button>
         </div>
 
