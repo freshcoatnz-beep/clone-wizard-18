@@ -1,1 +1,4 @@
 project_id = "kdcuirqnvslusyirxckj"
+
+[functions.nightly-seo-scan]
+verify_jwt = false
