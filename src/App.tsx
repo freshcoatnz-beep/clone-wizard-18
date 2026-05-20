@@ -11,6 +11,8 @@ const Commercial = lazy(() => import("./pages/Commercial"));
 const HousePreparation = lazy(() => import("./pages/HousePreparation"));
 const SuburbPage = lazy(() => import("./pages/SuburbPage"));
 const CostGuide = lazy(() => import("./pages/CostGuide"));
+const Auth = lazy(() => import("./pages/Auth"));
+const Admin = lazy(() => import("./pages/Admin"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 const App = () => (
@@ -28,6 +30,8 @@ const App = () => (
             <Route path="/commercial" element={<Commercial />} />
             <Route path="/painting-cost-guide" element={<CostGuide />} />
             <Route path="/painters/:slug" element={<SuburbPage />} />
+            <Route path="/auth" element={<Auth />} />
+            <Route path="/admin" element={<Admin />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
