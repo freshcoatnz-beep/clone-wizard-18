@@ -14,7 +14,77 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      seo_scan_findings: {
+        Row: {
+          check_type: string
+          created_at: string
+          id: string
+          message: string
+          scan_id: string
+          severity: string
+          url: string
+        }
+        Insert: {
+          check_type: string
+          created_at?: string
+          id?: string
+          message: string
+          scan_id: string
+          severity?: string
+          url: string
+        }
+        Update: {
+          check_type?: string
+          created_at?: string
+          id?: string
+          message?: string
+          scan_id?: string
+          severity?: string
+          url?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "seo_scan_findings_scan_id_fkey"
+            columns: ["scan_id"]
+            isOneToOne: false
+            referencedRelation: "seo_scans"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      seo_scans: {
+        Row: {
+          created_at: string
+          email_sent: boolean
+          id: string
+          new_issues: number
+          resolved_issues: number
+          scanned_at: string
+          total_issues: number
+          total_pages: number
+        }
+        Insert: {
+          created_at?: string
+          email_sent?: boolean
+          id?: string
+          new_issues?: number
+          resolved_issues?: number
+          scanned_at?: string
+          total_issues?: number
+          total_pages?: number
+        }
+        Update: {
+          created_at?: string
+          email_sent?: boolean
+          id?: string
+          new_issues?: number
+          resolved_issues?: number
+          scanned_at?: string
+          total_issues?: number
+          total_pages?: number
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
