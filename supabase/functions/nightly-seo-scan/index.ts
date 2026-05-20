@@ -3,6 +3,7 @@
 // diffs findings vs the previous run, stores results, and emails a report.
 
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2.45.0";
+import { Resend } from "https://esm.sh/resend@2.0.0";
 
 const corsHeaders = {
   "Access-Control-Allow-Origin": "*",
@@ -11,7 +12,10 @@ const corsHeaders = {
 
 const SITE = "https://www.freshcoat.co.nz";
 const SITEMAP = `${SITE}/sitemap.xml`;
-const REPORT_TO = "michael@freshcoat.co.nz";
+// Same routing pattern as send-quote-email: Resend onboarding domain can only
+// deliver to verified addresses, so we send to the gmail and ask for forward.
+const REPORT_TO = ["freshcoatnz@gmail.com"];
+const REPORT_FORWARD_NOTE = "michael@freshcoat.co.nz";
 const REPORT_FROM = "Freshcoat SEO Bot <onboarding@resend.dev>";
 
 type Finding = { url: string; check_type: string; severity: "error" | "warning"; message: string };
@@ -66,23 +70,20 @@ function checkPage(url: string, html: string): Finding[] {
 }
 
 async function sendReport(subject: string, html: string) {
-  const LOVABLE_API_KEY = Deno.env.get("LOVABLE_API_KEY");
   const RESEND_API_KEY = Deno.env.get("RESEND_API_KEY");
-  if (!LOVABLE_API_KEY || !RESEND_API_KEY) {
-    console.error("Missing email keys; skipping send");
+  if (!RESEND_API_KEY) {
+    console.error("Missing RESEND_API_KEY; skipping send");
     return false;
   }
-  const r = await fetch("https://connector-gateway.lovable.dev/resend/emails", {
-    method: "POST",
-    headers: {
-      "content-type": "application/json",
-      authorization: `Bearer ${LOVABLE_API_KEY}`,
-      "x-connection-api-key": RESEND_API_KEY,
-    },
-    body: JSON.stringify({ from: REPORT_FROM, to: [REPORT_TO], subject, html }),
+  const resend = new Resend(RESEND_API_KEY);
+  const res = await resend.emails.send({
+    from: REPORT_FROM,
+    to: REPORT_TO,
+    subject,
+    html,
   });
-  if (!r.ok) {
-    console.error("Resend failed", r.status, await r.text());
+  if (res.error) {
+    console.error("Resend failed", res.error);
     return false;
   }
   return true;
@@ -108,6 +109,9 @@ function renderReport(opts: {
 
   return `
     <div style="font-family:Arial,sans-serif;max-width:680px;color:#1a1a1a">
+      <p style="background:#fff3cd;padding:10px;border:1px solid #ffeaa7;">
+        <strong>Forward this to:</strong> ${REPORT_FORWARD_NOTE}
+      </p>
       <h2>Freshcoat nightly SEO scan</h2>
       <p>${scannedAt.toISOString()}</p>
       <table cellpadding="6" style="border-collapse:collapse;border:1px solid #ddd">
