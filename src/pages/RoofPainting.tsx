@@ -145,9 +145,9 @@ const RoofPainting = () => {
         <div className="relative container mx-auto px-4 py-12 lg:py-32 flex items-end min-h-[500px] lg:min-h-[650px]">
           <div className="max-w-5xl mx-auto text-center text-white">
             <h1 className="text-3xl lg:text-5xl font-bold mb-8 leading-tight">
-              Roof Painting Services
+              Tile Roof Painting Christchurch
               <br />
-              Christchurch
+              Professional Roof Painters NZ
             </h1>
             
             {/* Key points */}
@@ -164,7 +164,7 @@ const RoofPainting = () => {
             </div>
             
             <p className="text-xl lg:text-2xl mb-10 max-w-3xl mx-auto opacity-95 leading-relaxed">
-              Professional roof painting and restoration services to protect and beautify your Christchurch property.
+              Professional roof painters specialising in tile roof painting, metal roof restoration and protective roof coatings across Christchurch and Canterbury.
             </p>
             
             <QuoteForm>
@@ -193,7 +193,7 @@ const RoofPainting = () => {
             {/* Content */}
             <div>
               <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-brand-gray">
-                Professional Roof Painting
+                Professional Roof Painters — Tile, Metal & Concrete Roofs
               </h2>
               <p className="text-lg mb-6 text-muted-foreground leading-relaxed">
                 Need expert roof painters in Christchurch who deliver lasting results?
