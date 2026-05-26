@@ -47,7 +47,7 @@ const Commercial = () => {
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.freshcoat.co.nz/" },
-      { "@type": "ListItem", "position": 2, "name": "Commercial Painting", "item": "https://www.freshcoat.co.nz/commercial" }
+      { "@type": "ListItem", "position": 2, "name": "Commercial Painters", "item": "https://www.freshcoat.co.nz/commercial" }
     ]
   };
 
