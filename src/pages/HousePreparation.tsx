@@ -76,7 +76,7 @@ const HousePreparation = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl lg:text-6xl font-bold mb-6">
-              House Preparation & Repairs
+              House Preparation & Repairs Christchurch
             </h1>
             <p className="text-xl lg:text-2xl mb-8 opacity-90">
               Professional preparation and repair services to ensure perfect painting results in Christchurch
