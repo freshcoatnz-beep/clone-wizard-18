@@ -76,9 +76,9 @@ const Interior = () => {
   return (
     <>
       <Helmet>
-        <title>Interior Painting Christchurch | Freshcoat Painting</title>
-        <meta name="description" content="Expert interior painting in Christchurch. Transform your home with professional painters. Premium paints, 5-year guarantee. Get your free quote today!" />
-        <meta name="keywords" content="interior painting christchurch, house painting, room painting, wall painting, residential painting" />
+        <title>Interior Painters Christchurch | Spray Painting Contractors | Freshcoat</title>
+        <meta name="description" content="Interior painters Christchurch &amp; spray painting contractors. Expert interior painting for homes and businesses. Professional painters, premium paints, 5-year guarantee. Get your free quote today!" />
+        <meta name="keywords" content="interior painting christchurch, interior painters christchurch, house painting, room painting, wall painting, residential painting, spray painting contractors" />
         <link rel="canonical" href="https://www.freshcoat.co.nz/interior" />
         <link rel="preload" as="image" href={interiorHeroImage} fetchPriority="high" />
         <meta property="og:title" content="Interior Painting Christchurch | Freshcoat Painting" />
