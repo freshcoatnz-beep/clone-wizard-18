@@ -8,7 +8,6 @@ export const Header = () => {
   const [isServiceAreasOpen, setIsServiceAreasOpen] = useState(false);
 
   const services = [
-    { name: 'House Painters Christchurch', href: '/house-painters-christchurch' },
     { name: 'Interior Painting', href: '/interior' },
     { name: 'Exterior Painting', href: '/exterior' },
     { name: 'Roof Painting', href: '/roof-painting' },
