@@ -72,12 +72,12 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Painters Christchurch | House Painting Company | Freshcoat</title>
-        <meta name="description" content="Professional painter &amp; decorator Christchurch. Painting services, house painting, interior &amp; exterior. 30+ years experience. 5-year warranty. Get your free quote!" />
-        <meta name="keywords" content="painter christchurch, painter and decorator christchurch, house painting christchurch, interior painting, exterior painting, professional painters, painting services, cashmere house painter, house painters christchurch, house painters near me, painting company, painting companies near me, painter decorator, painters near me, painter near me, painting &amp; decorating, spray painting contractors" />
+        <title>Painters Christchurch | House Painting Company & Contractors | Freshcoat</title>
+        <meta name="description" content="Top-rated painters Christchurch & painting contractors. House painting, interior & exterior. 30+ years experience, 5-year warranty. Get your free quote!" />
+        <meta name="keywords" content="painters christchurch, painting contractors christchurch, painters and decorators christchurch, house painting christchurch, interior painting, exterior painting, professional painters, painting services, painting company christchurch, painting companies christchurch, painter decorator, roof painting christchurch" />
         <link rel="canonical" href="https://www.freshcoat.co.nz/" />
-        <meta property="og:title" content="Painters Christchurch | House Painting Company | Freshcoat" />
-        <meta property="og:description" content="Professional painter &amp; decorator Christchurch. Painting services, house painting, interior &amp; exterior. 30+ years experience. 5-year warranty. Free quote!" />
+        <meta property="og:title" content="Painters Christchurch | House Painting Company & Contractors | Freshcoat" />
+        <meta property="og:description" content="Top-rated painters Christchurch & painting contractors. House painting, interior & exterior. 30+ years experience, 5-year warranty. Free quote!" />
         <meta property="og:url" content="https://www.freshcoat.co.nz/" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://www.freshcoat.co.nz/og-image.jpg" />
