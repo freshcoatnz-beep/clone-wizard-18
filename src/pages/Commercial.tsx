@@ -12,7 +12,7 @@ const Commercial = () => {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "name": "Commercial Painting Services Christchurch",
+    "name": "Commercial Painters Christchurch",
     "description": "Professional commercial painting services in Christchurch. Office buildings, retail spaces, industrial facilities. 30+ years experience, 5-year warranty.",
     "provider": {
       "@type": "LocalBusiness",
@@ -47,7 +47,7 @@ const Commercial = () => {
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.freshcoat.co.nz/" },
-      { "@type": "ListItem", "position": 2, "name": "Commercial Painting", "item": "https://www.freshcoat.co.nz/commercial" }
+      { "@type": "ListItem", "position": 2, "name": "Commercial Painters", "item": "https://www.freshcoat.co.nz/commercial" }
     ]
   };
 
@@ -86,13 +86,13 @@ const Commercial = () => {
   return (
     <>
       <Helmet>
-        <title>Commercial Painters Christchurch | Spray Painting Contractors NZ</title>
-        <meta name="description" content="Commercial painters Christchurch &amp; spray painting contractors. Commercial painting for offices, retail, warehouses, schools &amp; body corporate. After-hours work, fully insured, 5-year warranty. Free quote." />
-        <meta name="keywords" content="commercial painting, commercial painters christchurch, commercial painters nz, office painting, retail painting, industrial painting christchurch, spray painting contractors, commercial painting christchurch, office painters christchurch, warehouse painters, retail painters, body corporate painters" />
+        <title>Commercial Painters Christchurch | Office, Retail &amp; Industrial | Freshcoat</title>
+        <meta name="description" content="Professional commercial painters in Christchurch for offices, retail, warehouses, schools &amp; body corporate. After-hours work, fully insured, 5-year warranty. Free quote." />
+        <meta name="keywords" content="commercial painters, commercial painters christchurch, commercial painting, commercial painters nz, office painting, retail painting, industrial painting christchurch, spray painting contractors, commercial painting christchurch, office painters christchurch, warehouse painters, retail painters, body corporate painters" />
         <link rel="canonical" href="https://www.freshcoat.co.nz/commercial" />
         <link rel="preload" as="image" href="/commercial-hero.webp" fetchPriority="high" />
-        <meta property="og:title" content="Commercial Painting Christchurch | Freshcoat" />
-        <meta property="og:description" content="Commercial painting for Christchurch offices, retail and industrial properties. 30+ years experience, 5-year warranty." />
+        <meta property="og:title" content="Commercial Painters Christchurch | Freshcoat" />
+        <meta property="og:description" content="Professional commercial painters for Christchurch offices, retail and industrial properties. 30+ years experience, 5-year warranty." />
         <meta property="og:url" content="https://www.freshcoat.co.nz/commercial" />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">
