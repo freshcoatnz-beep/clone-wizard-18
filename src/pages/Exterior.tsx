@@ -16,7 +16,7 @@ const Exterior = () => {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "name": "Exterior Painting Services Christchurch",
+    "name": "Exterior Painting Contractor Christchurch",
     "description": "Professional exterior house painting in Christchurch. Weather-resistant coatings, expert preparation, 5-year warranty on all exterior work.",
     "provider": {
       "@type": "LocalBusiness",
@@ -57,7 +57,7 @@ const Exterior = () => {
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.freshcoat.co.nz/" },
-      { "@type": "ListItem", "position": 2, "name": "Exterior Painting", "item": "https://www.freshcoat.co.nz/exterior" }
+      { "@type": "ListItem", "position": 2, "name": "Exterior Painting Contractor", "item": "https://www.freshcoat.co.nz/exterior" }
     ]
   };
 
@@ -76,13 +76,13 @@ const Exterior = () => {
   return (
     <>
       <Helmet>
-        <title>Exterior Painting Christchurch | Exterior Painting Contractors | Freshcoat</title>
-        <meta name="description" content="Exterior painting contractors Christchurch. Exterior home painting contractors christchurch, house painters, weather-resistant coatings, expert surface preparation. 5-year guarantee. Free quotes available!" />
-        <meta name="keywords" content="exterior painting christchurch, exterior painting contractors christchurch, exterior home painting contractors christchurch, house exterior painting, weatherboard painting, exterior house painters, house painters christchurch, house painters near me" />
+        <title>Exterior Painting Contractor Christchurch | House &amp; Home Exterior | Freshcoat</title>
+        <meta name="description" content="Professional exterior painting contractor in Christchurch. Exterior home painting, weatherboard, brick &amp; render. Weather-resistant coatings, expert prep, 5-year guarantee. Free quote." />
+        <meta name="keywords" content="exterior painting contractor, exterior painting contractor christchurch, exterior painting christchurch, exterior home painting contractors christchurch, house exterior painting, weatherboard painting, exterior house painters, house painters christchurch, house painters near me" />
         <link rel="canonical" href="https://www.freshcoat.co.nz/exterior" />
         <link rel="preload" as="image" href={heroImage} fetchPriority="high" />
-        <meta property="og:title" content="Exterior Painting Christchurch | Freshcoat Painting" />
-        <meta property="og:description" content="Professional exterior painting in Christchurch. Weather-resistant coatings, 5-year guarantee. Free quotes." />
+        <meta property="og:title" content="Exterior Painting Contractor Christchurch | Freshcoat" />
+        <meta property="og:description" content="Professional exterior painting contractor in Christchurch. Weather-resistant coatings, 5-year guarantee. Free quotes." />
         <meta property="og:url" content="https://www.freshcoat.co.nz/exterior" />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">
