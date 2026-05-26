@@ -16,8 +16,8 @@ const SuburbPage = () => {
   if (!suburb) return <Navigate to="/" replace />;
 
   const url = `https://www.freshcoat.co.nz/painters/${suburb.slug}`;
-  const title = `Painters ${suburb.name} | House Painting ${suburb.name} Christchurch`;
-  const description = `Trusted painters in ${suburb.name}, Christchurch. Interior, exterior & roof painting with a 5-year guarantee. Free quotes from Freshcoat Painting.`;
+  const title = `${suburb.name} House Painter | Painters ${suburb.name} Christchurch`;
+  const description = `Trusted ${suburb.name} house painter. Interior, exterior & roof painting in ${suburb.name}, Christchurch. 5-year guarantee. Free quote!`;
 
   const structuredData = {
     '@context': 'https://schema.org',
