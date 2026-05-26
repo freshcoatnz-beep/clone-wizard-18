@@ -179,24 +179,17 @@ export const Header = () => {
               {/* Mobile Service Areas Section */}
               <div>
                 <p className="font-semibold text-brand-gray mb-2">Service Areas</p>
-                <div className="pl-4 space-y-2">
+              <div className="pl-4 space-y-2">
+                {serviceAreas.map((area) => (
                   <a
-                    href="/house-painters-christchurch"
-                    className="block text-base font-semibold text-brand-gray hover:text-brand-red transition-colors"
+                    key={area.name}
+                    href={area.href}
+                    className="block text-base font-medium text-muted-foreground hover:text-brand-red transition-colors"
                   >
-                    House Painters Christchurch
+                    {area.name}
                   </a>
-                  <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground pt-2">Suburbs</p>
-                  {serviceAreas.map((area) => (
-                    <a
-                      key={area.name}
-                      href={area.href}
-                      className="block text-base font-medium text-muted-foreground hover:text-brand-red transition-colors"
-                    >
-                      {area.name}
-                    </a>
-                  ))}
-                </div>
+                ))}
+              </div>
               </div>
               <a href="/about" className="hover:text-brand-red transition-colors font-semibold text-base">About Us</a>
               <QuoteForm>
