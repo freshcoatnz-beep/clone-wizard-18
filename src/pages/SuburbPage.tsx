@@ -45,7 +45,7 @@ const SuburbPage = () => {
         <meta name="description" content={description} />
         <meta
           name="keywords"
-          content={`painters ${suburb.name.toLowerCase()}, house painting ${suburb.name.toLowerCase()}, ${suburb.name.toLowerCase()} painters, exterior painting ${suburb.name.toLowerCase()}, interior painting ${suburb.name.toLowerCase()}`}
+          content={`painters ${suburb.name.toLowerCase()}, house painting ${suburb.name.toLowerCase()}, ${suburb.name.toLowerCase()} painters, ${suburb.name.toLowerCase()} house painter, exterior painting ${suburb.name.toLowerCase()}, interior painting ${suburb.name.toLowerCase()}`}
         />
         <link rel="canonical" href={url} />
         <meta property="og:title" content={title} />
