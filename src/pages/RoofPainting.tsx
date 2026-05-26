@@ -112,13 +112,13 @@ const RoofPainting = () => {
   return (
     <>
       <Helmet>
-        <title>Roof Painters NZ | Roof Restoration, Respray & Treatments Christchurch</title>
-        <meta name="description" content="Roof painters NZ: roof restorations, respray, resurfacing, recoating, treatments &amp; protective coatings. Metal &amp; tile roof repair and maintenance. 5-year warranty." />
-        <meta name="keywords" content="roof painters, roof painters nz, roof painters christchurch, roof painting services nz, roof painting christchurch, roof restoration, roof restorations, roof respray, roof resurfacing, roof recoating, roof repainting, roof treatments, metal roof recoating, metal tile roof maintenance, metal tile roof repair, protective roof coating, roof coating nz" />
+        <title>Tile Roof Painting Christchurch | Colorsteel, Concrete Tile &amp; Roof Restoration</title>
+        <meta name="description" content="Tile roof painting &amp; Colorsteel roof painting Christchurch. Concrete tile roof painting, tile roof color restoration, tile roof restoration, respray, resurfacing, recoating &amp; protective coatings. Top roof painters, 5-year warranty." />
+        <meta name="keywords" content="roof painters, roof painters nz, roof painters christchurch, roof painting services nz, roof painting christchurch, roof restoration, roof restorations, roof respray, roof resurfacing, roof recoating, roof repainting, roof treatments, metal roof recoating, metal tile roof maintenance, metal tile roof repair, protective roof coating, roof coating nz, tile roof painting, concrete tile roof painting, colorsteel roof painting, tile roof color restoration, tile roof restoration, top roof painters, roof painting companies" />
         <link rel="canonical" href="https://www.freshcoat.co.nz/roof-painting" />
         <link rel="preload" as="image" href={roofHeroImage} fetchPriority="high" />
-        <meta property="og:title" content="Roof Painting & Restoration Christchurch | Metal Roof Recoating NZ" />
-        <meta property="og:description" content="Christchurch roof painters: roof respray, resurfacing, recoating &amp; protective coatings. Metal &amp; tile roofs, 5-year warranty." />
+        <meta property="og:title" content="Tile Roof Painting Christchurch | Colorsteel, Concrete Tile &amp; Roof Restoration" />
+        <meta property="og:description" content="Tile roof painting &amp; Colorsteel roof painting Christchurch. Concrete tile roof painting, tile roof color restoration, tile roof restoration, respray, resurfacing, recoating &amp; protective coatings. Top roof painters, 5-year warranty." />
         <meta property="og:url" content="https://www.freshcoat.co.nz/roof-painting" />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">
