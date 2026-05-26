@@ -57,7 +57,7 @@ const Exterior = () => {
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.freshcoat.co.nz/" },
-      { "@type": "ListItem", "position": 2, "name": "Exterior Painting", "item": "https://www.freshcoat.co.nz/exterior" }
+      { "@type": "ListItem", "position": 2, "name": "Exterior Painting Contractor", "item": "https://www.freshcoat.co.nz/exterior" }
     ]
   };
 
