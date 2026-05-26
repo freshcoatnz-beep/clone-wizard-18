@@ -109,7 +109,7 @@ const Exterior = () => {
         <div className="relative container mx-auto px-4 py-12 lg:py-32 flex items-end min-h-[490px] lg:min-h-[640px]">
           <div className="max-w-5xl mx-auto text-center text-white">
             <h1 className="text-3xl lg:text-5xl font-bold mb-8 leading-tight">
-              Exterior Painting
+              Exterior Painting Christchurch
             </h1>
             
             {/* Key points */}
@@ -126,7 +126,7 @@ const Exterior = () => {
             </div>
             
             <p className="text-xl lg:text-2xl mb-10 max-w-3xl mx-auto opacity-95 leading-relaxed">
-              Transform your home's exterior with professional painting services. Quality finishes that protect and beautify.
+              Trusted exterior painting contractors in Christchurch — quality finishes that protect and beautify your home, backed by a 5-year workmanship guarantee.
             </p>
             
             <QuoteForm>
@@ -155,7 +155,7 @@ const Exterior = () => {
             {/* Content */}
             <div>
               <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-brand-gray">
-                Exterior Painting
+                Exterior Painting Contractors Christchurch
               </h2>
               <p className="text-lg mb-6 text-muted-foreground leading-relaxed">
                 Need expert exterior painters in Christchurch who deliver flawless results?
