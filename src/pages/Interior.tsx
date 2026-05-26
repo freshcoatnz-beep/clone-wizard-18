@@ -76,7 +76,7 @@ const Interior = () => {
   return (
     <>
       <Helmet>
-        <title>Interior Painters Christchurch | House &amp; Room Painting | Freshcoat</title>
+        <title>Interior House Painters Christchurch | Freshcoat</title>
         <meta name="description" content="Interior painters Christchurch &amp; house painting contractors. Expert interior house painters for homes and businesses. Local interior painters, premium paints, 5-year guarantee. Get your free quote today!" />
         <meta name="keywords" content="interior painters christchurch, interior painting christchurch, interior house painters near me, interior painters near me, local interior house painters, local interior painters, house painters christchurch, house painters near me, residential painting christchurch, spray painting contractors, room painting, wall painting, painting contractors christchurch, painting companies christchurch" />
         <link rel="canonical" href="https://www.freshcoat.co.nz/interior" />
