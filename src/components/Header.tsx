@@ -125,17 +125,6 @@ export const Header = () => {
               {isServiceAreasOpen && (
                 <div className="absolute top-full left-0 w-64 bg-white rounded-lg shadow-strong border border-border z-50">
                   <ul className="py-2">
-                    <li>
-                      <a
-                        href="/house-painters-christchurch"
-                        className="block px-4 py-3 text-base font-semibold text-brand-gray hover:bg-secondary transition-colors border-b border-border"
-                      >
-                        House Painters Christchurch
-                      </a>
-                    </li>
-                    <li className="px-4 pt-3 pb-1 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-                      Suburbs
-                    </li>
                     {serviceAreas.map((area) => (
                       <li key={area.name}>
                         <a
@@ -190,24 +179,17 @@ export const Header = () => {
               {/* Mobile Service Areas Section */}
               <div>
                 <p className="font-semibold text-brand-gray mb-2">Service Areas</p>
-                <div className="pl-4 space-y-2">
+              <div className="pl-4 space-y-2">
+                {serviceAreas.map((area) => (
                   <a
-                    href="/house-painters-christchurch"
-                    className="block text-base font-semibold text-brand-gray hover:text-brand-red transition-colors"
+                    key={area.name}
+                    href={area.href}
+                    className="block text-base font-medium text-muted-foreground hover:text-brand-red transition-colors"
                   >
-                    House Painters Christchurch
+                    {area.name}
                   </a>
-                  <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground pt-2">Suburbs</p>
-                  {serviceAreas.map((area) => (
-                    <a
-                      key={area.name}
-                      href={area.href}
-                      className="block text-base font-medium text-muted-foreground hover:text-brand-red transition-colors"
-                    >
-                      {area.name}
-                    </a>
-                  ))}
-                </div>
+                ))}
+              </div>
               </div>
               <a href="/about" className="hover:text-brand-red transition-colors font-semibold text-base">About Us</a>
               <QuoteForm>
