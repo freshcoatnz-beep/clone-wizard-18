@@ -112,13 +112,13 @@ const RoofPainting = () => {
   return (
     <>
       <Helmet>
-        <title>Roof Painting & Restoration Christchurch | Metal Roof Recoating NZ</title>
-        <meta name="description" content="Roof painting, restoration & recoating in Christchurch. Metal roof recoating, tile roof repainting, roof coatings. 30+ yrs experience, 5-year warranty. Free quote!" />
-        <meta name="keywords" content="roof painting, roof painting services, roof restoration, roof repainting, roof recoating, metal roof recoating, roof coating nz, roof painting christchurch" />
+        <title>Roof Painters Christchurch | Roof Respray, Resurfacing & Coating</title>
+        <meta name="description" content="Christchurch roof painters: roof respray, resurfacing, recoating &amp; protective roof coatings. Metal &amp; tile roofs. 30+ yrs experience, 5-year warranty. Free quote!" />
+        <meta name="keywords" content="roof painters, roof painters christchurch, roof painting christchurch, roof respray, roof resurfacing, roof recoating, roof repainting, metal roof recoating, protective roof coating, roof coating nz, roof restoration" />
         <link rel="canonical" href="https://www.freshcoat.co.nz/roof-painting" />
         <link rel="preload" as="image" href={roofHeroImage} fetchPriority="high" />
         <meta property="og:title" content="Roof Painting & Restoration Christchurch | Metal Roof Recoating NZ" />
-        <meta property="og:description" content="Roof painting, restoration & recoating in Christchurch. Metal roof recoating, tile roof repainting, premium coatings, 5-year warranty." />
+        <meta property="og:description" content="Christchurch roof painters: roof respray, resurfacing, recoating &amp; protective coatings. Metal &amp; tile roofs, 5-year warranty." />
         <meta property="og:url" content="https://www.freshcoat.co.nz/roof-painting" />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">
