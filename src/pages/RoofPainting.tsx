@@ -112,13 +112,13 @@ const RoofPainting = () => {
   return (
     <>
       <Helmet>
-        <title>Tile Roof Painting Christchurch | Professional Roof Painters NZ</title>
-        <meta name="description" content="Professional roof painters NZ &amp; Christchurch. Roof painting nz, tile roof painting, roof coatings, Colorsteel roof painting, concrete tile roof painting, metal roof painting commercial, tile roof repairs christchurch, roof painting contractors. Metal roof restoration, respray, resurfacing, recoating &amp; protective coatings. Roof painters near me, 5-year warranty." />
-        <meta name="keywords" content="roof painters, roof painters nz, roof painters christchurch, roof painting nz, roof painting services nz, roof painting christchurch, roof restoration, roof restorations, roof respray, roof resurfacing, roof recoating, roof repainting, roof treatments, metal roof recoating, metal roof painting commercial, metal tile roof maintenance, metal tile roof repair, protective roof coating, roof coating nz, tile roof painting, concrete tile roof painting, colorsteel roof painting, tile roof color restoration, tile roof restoration, top roof painters, professional roof painters, roof painting companies, metal roof restoration, roof painters near me, extend roof life coating, roof coatings, roof coating contractors, roof painting contractors, roof painter, tile roof repairs christchurch" />
+        <title>Roof Painting Christchurch | Tile &amp; Metal Roof Painters | Freshcoat</title>
+        <meta name="description" content="Roof painting Christchurch — professional roof painters for tile, metal &amp; Colorsteel roofs. Roof restoration, recoating &amp; protective coatings. 5-year warranty. Free quote!" />
+        <meta name="keywords" content="roof painting christchurch, roof painters christchurch, roof painters nz, roof painting nz, tile roof painting christchurch, metal roof painting christchurch, colorsteel roof painting, roof restoration christchurch, roof respray, roof resurfacing, roof recoating, roof repainting, roof treatments, metal roof recoating, metal roof painting commercial, metal tile roof maintenance, metal tile roof repair, protective roof coating, roof coating nz, concrete tile roof painting, tile roof color restoration, tile roof restoration, top roof painters, professional roof painters, roof painting companies, metal roof restoration, roof painters near me, extend roof life coating, roof coatings, roof coating contractors, roof painting contractors, roof painter, tile roof repairs christchurch" />
         <link rel="canonical" href="https://www.freshcoat.co.nz/roof-painting" />
         <link rel="preload" as="image" href={roofHeroImage} fetchPriority="high" />
-        <meta property="og:title" content="Tile Roof Painting Christchurch | Colorsteel, Concrete Tile &amp; Roof Restoration" />
-        <meta property="og:description" content="Tile roof painting &amp; Colorsteel roof painting Christchurch. Concrete tile roof painting, tile roof color restoration, tile roof restoration, respray, resurfacing, recoating &amp; protective coatings. Top roof painters, 5-year warranty." />
+        <meta property="og:title" content="Roof Painting Christchurch | Tile &amp; Metal Roof Painters &amp; Restoration" />
+        <meta property="og:description" content="Professional roof painting Christchurch. Tile, metal &amp; Colorsteel roof restoration, recoating &amp; protective coatings. 5-year warranty." />
         <meta property="og:url" content="https://www.freshcoat.co.nz/roof-painting" />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">
@@ -145,9 +145,9 @@ const RoofPainting = () => {
         <div className="relative container mx-auto px-4 py-12 lg:py-32 flex items-end min-h-[500px] lg:min-h-[650px]">
           <div className="max-w-5xl mx-auto text-center text-white">
             <h1 className="text-3xl lg:text-5xl font-bold mb-8 leading-tight">
-              Tile Roof Painting Christchurch
+              Roof Painting Christchurch
               <br />
-              Professional Roof Painters NZ
+              Professional Roof Painters &amp; Restoration
             </h1>
             
             {/* Key points */}
