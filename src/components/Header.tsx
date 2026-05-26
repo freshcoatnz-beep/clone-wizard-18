@@ -125,17 +125,6 @@ export const Header = () => {
               {isServiceAreasOpen && (
                 <div className="absolute top-full left-0 w-64 bg-white rounded-lg shadow-strong border border-border z-50">
                   <ul className="py-2">
-                    <li>
-                      <a
-                        href="/house-painters-christchurch"
-                        className="block px-4 py-3 text-base font-semibold text-brand-gray hover:bg-secondary transition-colors border-b border-border"
-                      >
-                        House Painters Christchurch
-                      </a>
-                    </li>
-                    <li className="px-4 pt-3 pb-1 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-                      Suburbs
-                    </li>
                     {serviceAreas.map((area) => (
                       <li key={area.name}>
                         <a
