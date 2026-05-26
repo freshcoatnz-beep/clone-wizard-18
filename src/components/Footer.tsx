@@ -30,6 +30,7 @@ export const Footer = () => {
           <div>
             <h3 className="font-bold text-lg mb-4">Service Areas</h3>
             <ul className="space-y-2 text-gray-300">
+              <li><a href="/house-painters-christchurch" className="hover:text-white transition-colors">House Painters Christchurch</a></li>
               <li><a href="/painters/riccarton" className="hover:text-white transition-colors">Riccarton</a></li>
               <li><a href="/painters/merivale" className="hover:text-white transition-colors">Merivale</a></li>
               <li><a href="/painters/fendalton" className="hover:text-white transition-colors">Fendalton</a></li>
