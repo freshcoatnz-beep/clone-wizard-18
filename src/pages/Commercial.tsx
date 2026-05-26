@@ -12,7 +12,7 @@ const Commercial = () => {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "name": "Commercial Painting Services Christchurch",
+    "name": "Commercial Painters Christchurch",
     "description": "Professional commercial painting services in Christchurch. Office buildings, retail spaces, industrial facilities. 30+ years experience, 5-year warranty.",
     "provider": {
       "@type": "LocalBusiness",
