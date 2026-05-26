@@ -62,7 +62,7 @@ const SuburbPage = () => {
           <section className="bg-gradient-hero text-white py-16 lg:py-24">
             <div className="container mx-auto px-4 text-center">
               <h1 className="text-3xl lg:text-5xl font-bold mb-6">
-                Painters {suburb.name}
+                {suburb.name} House Painter
                 <br />
                 <span className="text-2xl lg:text-3xl font-medium opacity-95">
                   Interior, Exterior & Roof Painting
