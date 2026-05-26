@@ -74,7 +74,7 @@ const Index = () => {
       <Helmet>
         <title>Painters Christchurch | House Painting Company | Freshcoat</title>
         <meta name="description" content="Professional painter &amp; decorator Christchurch. Painting services, house painting, interior &amp; exterior. 30+ years experience. 5-year warranty. Get your free quote!" />
-        <meta name="keywords" content="painter christchurch, painter and decorator christchurch, house painting christchurch, interior painting, exterior painting, professional painters, painting services, cashmere house painter" />
+        <meta name="keywords" content="painter christchurch, painter and decorator christchurch, house painting christchurch, interior painting, exterior painting, professional painters, painting services, cashmere house painter, house painters christchurch, house painters near me, painting company, painting companies near me, painter decorator, painters near me" />
         <link rel="canonical" href="https://www.freshcoat.co.nz/" />
         <meta property="og:title" content="Painters Christchurch | House Painting Company | Freshcoat" />
         <meta property="og:description" content="Professional painter &amp; decorator Christchurch. Painting services, house painting, interior &amp; exterior. 30+ years experience. 5-year warranty. Free quote!" />
