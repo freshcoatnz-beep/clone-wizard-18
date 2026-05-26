@@ -72,12 +72,12 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Christchurch Painters | Freshcoat Painting</title>
-        <meta name="description" content="Leading Christchurch painters with 30+ years experience. Professional interior, exterior & roof painting with 5-year guarantee. Get your free quote today!" />
-        <meta name="keywords" content="painters christchurch, house painting, interior painting, exterior painting, roof painting, professional painters" />
+        <title>Painter Christchurch | Freshcoat Painting &amp; Decorating</title>
+        <meta name="description" content="Professional painter &amp; decorator Christchurch. House painting, interior &amp; exterior. 30+ years experience. 5-year warranty. Get your free quote!" />
+        <meta name="keywords" content="painter christchurch, painter and decorator christchurch, house painting christchurch, interior painting, exterior painting, professional painters" />
         <link rel="canonical" href="https://www.freshcoat.co.nz/" />
-        <meta property="og:title" content="Christchurch Painters | Freshcoat Painting" />
-        <meta property="og:description" content="Leading Christchurch painters with 30+ years experience. Interior, exterior & roof painting with 5-year guarantee." />
+        <meta property="og:title" content="Painter Christchurch | Freshcoat Painting &amp; Decorating" />
+        <meta property="og:description" content="Professional painter &amp; decorator Christchurch. House painting, interior &amp; exterior. 30+ years experience. 5-year warranty. Free quote!" />
         <meta property="og:url" content="https://www.freshcoat.co.nz/" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://www.freshcoat.co.nz/og-image.jpg" />
