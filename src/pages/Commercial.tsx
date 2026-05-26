@@ -86,7 +86,7 @@ const Commercial = () => {
   return (
     <>
       <Helmet>
-        <title>Commercial Painters Christchurch | Office, Retail &amp; Industrial | Freshcoat</title>
+        <title>Commercial Painters Christchurch | Freshcoat</title>
         <meta name="description" content="Professional commercial painters in Christchurch for offices, retail, warehouses, schools &amp; body corporate. After-hours work, fully insured, 5-year warranty. Free quote." />
         <meta name="keywords" content="commercial painters, commercial painters christchurch, commercial painting, commercial painters nz, office painting, retail painting, industrial painting christchurch, spray painting contractors, commercial painting christchurch, office painters christchurch, warehouse painters, retail painters, body corporate painters" />
         <link rel="canonical" href="https://www.freshcoat.co.nz/commercial" />

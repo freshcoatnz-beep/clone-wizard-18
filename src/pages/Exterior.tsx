@@ -76,7 +76,7 @@ const Exterior = () => {
   return (
     <>
       <Helmet>
-        <title>Exterior Painting Contractor Christchurch | House &amp; Home Exterior | Freshcoat</title>
+        <title>Exterior Painting Contractor Christchurch | Freshcoat</title>
         <meta name="description" content="Professional exterior painting contractor in Christchurch. Exterior home painting, weatherboard, brick &amp; render. Weather-resistant coatings, expert prep, 5-year guarantee. Free quote." />
         <meta name="keywords" content="exterior painting contractor, exterior painting contractor christchurch, exterior painting christchurch, exterior home painting contractors christchurch, house exterior painting, weatherboard painting, exterior house painters, house painters christchurch, house painters near me" />
         <link rel="canonical" href="https://www.freshcoat.co.nz/exterior" />
