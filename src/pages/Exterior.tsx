@@ -16,7 +16,7 @@ const Exterior = () => {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "name": "Exterior Painting Services Christchurch",
+    "name": "Exterior Painting Contractor Christchurch",
     "description": "Professional exterior house painting in Christchurch. Weather-resistant coatings, expert preparation, 5-year warranty on all exterior work.",
     "provider": {
       "@type": "LocalBusiness",
