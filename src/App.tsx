@@ -11,6 +11,7 @@ const Commercial = lazy(() => import("./pages/Commercial"));
 const HousePreparation = lazy(() => import("./pages/HousePreparation"));
 const SuburbPage = lazy(() => import("./pages/SuburbPage"));
 const CostGuide = lazy(() => import("./pages/CostGuide"));
+const HousePainters = lazy(() => import("./pages/HousePainters"));
 const Auth = lazy(() => import("./pages/Auth"));
 const Admin = lazy(() => import("./pages/Admin"));
 const NotFound = lazy(() => import("./pages/NotFound"));
@@ -29,6 +30,7 @@ const App = () => (
             <Route path="/house-preparation" element={<HousePreparation />} />
             <Route path="/commercial" element={<Commercial />} />
             <Route path="/painting-cost-guide" element={<CostGuide />} />
+            <Route path="/house-painters-christchurch" element={<HousePainters />} />
             <Route path="/painters/:slug" element={<SuburbPage />} />
             <Route path="/auth" element={<Auth />} />
             <Route path="/admin" element={<Admin />} />
