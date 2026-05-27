@@ -1,5 +1,25 @@
+import { useEffect, useRef, useState } from 'react';
 
 export const Footer = () => {
+  const mapRef = useRef<HTMLDivElement>(null);
+  const [showMap, setShowMap] = useState(false);
+
+  useEffect(() => {
+    if (!mapRef.current || showMap) return;
+    const el = mapRef.current;
+    const io = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((e) => e.isIntersecting)) {
+          setShowMap(true);
+          io.disconnect();
+        }
+      },
+      { rootMargin: '300px' }
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, [showMap]);
+
   return (
     <footer className="bg-brand-gray text-white py-12">
       <div className="container mx-auto px-4">
@@ -71,17 +91,23 @@ export const Footer = () => {
 
         <div className="mt-10">
           <h3 className="font-bold text-lg mb-4 text-center">Find Us in Christchurch</h3>
-          <div className="rounded-lg overflow-hidden shadow-lg max-w-4xl mx-auto">
-            <iframe
-              title="Freshcoat Painting location in Christchurch"
-              src="https://www.google.com/maps?q=239+Clyde+Road,Christchurch+8053,New+Zealand&output=embed"
-              width="100%"
-              height="300"
-              style={{ border: 0 }}
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              allowFullScreen
-            />
+          <div
+            ref={mapRef}
+            className="rounded-lg overflow-hidden shadow-lg max-w-4xl mx-auto bg-gray-700"
+            style={{ height: 300 }}
+          >
+            {showMap && (
+              <iframe
+                title="Freshcoat Painting location in Christchurch"
+                src="https://www.google.com/maps?q=239+Clyde+Road,Christchurch+8053,New+Zealand&output=embed"
+                width="100%"
+                height="300"
+                style={{ border: 0 }}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                allowFullScreen
+              />
+            )}
           </div>
         </div>
 
