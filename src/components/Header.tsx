@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { QuoteForm } from '@/components/QuoteForm';
+import { suburbs } from '@/data/suburbs';
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,17 +15,9 @@ export const Header = () => {
     { name: 'Commercial', href: '/commercial' }
   ];
 
-  const serviceAreas = [
-    { name: 'Riccarton', href: '/painters/riccarton' },
-    { name: 'Merivale', href: '/painters/merivale' },
-    { name: 'Papanui', href: '/painters/papanui' },
-    { name: 'Fendalton', href: '/painters/fendalton' },
-    { name: 'Ilam', href: '/painters/ilam' },
-    { name: 'Cashmere', href: '/painters/cashmere' },
-    { name: 'Sumner', href: '/painters/sumner' },
-    { name: 'Rolleston', href: '/painters/rolleston' },
-    { name: 'Bryndwr', href: '/painters/bryndwr' },
-  ];
+  const serviceAreas = [...suburbs]
+    .sort((a, b) => a.name.localeCompare(b.name))
+    .map((s) => ({ name: s.name, href: `/painters/${s.slug}` }));
 
   return (
     <header className="bg-background shadow-soft">
