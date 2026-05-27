@@ -13,9 +13,9 @@ export const Hero = () => {
       <div className="relative container mx-auto px-4 py-12 lg:py-32 flex items-end min-h-[400px] lg:min-h-[550px]">
         <div className="max-w-5xl mx-auto text-center text-white">
           <h1 className="text-3xl lg:text-5xl font-bold mb-8 leading-tight">
-            Painters Christchurch
+            Painters Christchurch —
             <br />
-            Interior & Exterior Painting
+            House Painting, Interior & Exterior
           </h1>
           
           {/* Key points */}
