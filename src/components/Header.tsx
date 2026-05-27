@@ -134,7 +134,7 @@ export const Header = () => {
               )}
             </div>
             
-            <a href="/projects" className="transition-colors font-semibold text-lg text-black">Projects</a>
+            {false && <a href="/projects" className="transition-colors font-semibold text-lg text-black">Projects</a>}
             <a href="/about" className="transition-colors font-semibold text-lg text-black">About Us</a>
             <QuoteForm>
               <Button variant="cta">Contact Us</Button>
