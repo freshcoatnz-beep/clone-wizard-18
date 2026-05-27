@@ -25,6 +25,7 @@ const SuburbPage = () => {
     name: `Freshcoat Painting — ${suburb.name}`,
     description,
     url,
+    image: 'https://www.freshcoat.co.nz/og-image.jpg',
     telephone: '+64-22-036-6586',
     email: 'michael@freshcoat.co.nz',
     address: {

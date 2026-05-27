@@ -40,6 +40,7 @@ const Index = () => {
       "email": "michael@freshcoat.co.nz",
     "address": {
       "@type": "PostalAddress",
+      "streetAddress": "239 Clyde Road",
       "addressLocality": "Christchurch",
       "addressRegion": "Canterbury", 
       "addressCountry": "NZ"
