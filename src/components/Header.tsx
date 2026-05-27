@@ -186,6 +186,7 @@ export const Header = () => {
                 ))}
               </div>
               </div>
+              <a href="/projects" className="hover:text-brand-red transition-colors font-semibold text-base">Projects</a>
               <a href="/about" className="hover:text-brand-red transition-colors font-semibold text-base">About Us</a>
               <QuoteForm>
                 <Button variant="cta" className="w-full">Contact Us</Button>
