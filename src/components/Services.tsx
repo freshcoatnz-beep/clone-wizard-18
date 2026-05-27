@@ -7,6 +7,7 @@ export const Services = () => {
       id: 'interior',
       icon: Home,
       title: 'Interior Painting',
+      href: '/interior',
       description: 'We provide crisp, clean finishes on all interior surfaces, including walls, ceilings, trims, doors, and more. Our painters protect your belongings and ensure minimal disruption while working.',
       features: [
         'Living rooms, bedrooms, kitchens, and bathrooms',
@@ -19,6 +20,7 @@ export const Services = () => {
       id: 'exterior',
       icon: Palette,
       title: 'Exterior Painting',
+      href: '/exterior',
       description: 'Our exterior house painters in Christchurch use weather-resistant coatings designed for the local climate. We prep surfaces thoroughly to ensure long-lasting durability and vibrant curb appeal.',
       features: [
         'Full house repaints',
@@ -31,6 +33,7 @@ export const Services = () => {
       id: 'decorating',
       icon: Brush,
       title: 'Painting & Decorating',
+      href: '/painter-and-decorator-christchurch',
       description: 'Our painting & decorating service enhances both the look and feel of your home. From detailed trim work to feature walls, our expert team helps you achieve a polished finish.',
       features: [
         'Decorative finishes & colour feature walls',
@@ -43,6 +46,7 @@ export const Services = () => {
       id: 'preparation',
       icon: Wrench,
       title: 'House Painting Preparation & Repairs',
+      href: '/house-preparation',
       description: 'We don\'t just paint – we prep. Our team use drop sheets to protect your property, fills cracks, smooths surfaces, and patches holes for complete surface preparation.',
       features: [],
       image: null
@@ -89,6 +93,13 @@ export const Services = () => {
                   </div>
                 </div>
               )}
+
+              <a 
+                href={service.href}
+                className="inline-block mt-4 text-brand-red font-semibold hover:underline"
+              >
+                Learn more →
+              </a>
             </Card>
           ))}
         </div>

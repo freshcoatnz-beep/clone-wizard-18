@@ -234,6 +234,38 @@ const Exterior = () => {
         </div>
       </section>
 
+      {/* Related Services */}
+      <section className="py-16">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-brand-gray">Related Services</h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              Explore more of what Freshcoat offers for your home
+            </p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-8">
+            <Card className="p-6 text-center hover:shadow-lg transition-shadow">
+              <Home className="w-8 h-8 text-brand-red mx-auto mb-3" />
+              <h3 className="text-xl font-semibold mb-2">Interior Painting</h3>
+              <p className="text-muted-foreground mb-4">Walls, ceilings, trim and feature spaces with premium finishes.</p>
+              <a href="/interior" className="text-brand-red font-semibold hover:underline">Interior painters →</a>
+            </Card>
+            <Card className="p-6 text-center hover:shadow-lg transition-shadow">
+              <Shield className="w-8 h-8 text-brand-red mx-auto mb-3" />
+              <h3 className="text-xl font-semibold mb-2">Roof Painting</h3>
+              <p className="text-muted-foreground mb-4">Long-life roof coatings for metal and tile roofs.</p>
+              <a href="/roof-painting" className="text-brand-red font-semibold hover:underline">Roof painting →</a>
+            </Card>
+            <Card className="p-6 text-center hover:shadow-lg transition-shadow">
+              <Palette className="w-8 h-8 text-brand-red mx-auto mb-3" />
+              <h3 className="text-xl font-semibold mb-2">Painting & Decorating</h3>
+              <p className="text-muted-foreground mb-4">Decorative finishes, feature walls, and colour consultation.</p>
+              <a href="/painter-and-decorator-christchurch" className="text-brand-red font-semibold hover:underline">Painter & decorator →</a>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       {/* Why Choose Us - Similar to home page */}
       <section className="py-16">
         <div className="container mx-auto px-4">
