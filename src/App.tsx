@@ -12,6 +12,8 @@ const HousePreparation = lazy(() => import("./pages/HousePreparation"));
 const SuburbPage = lazy(() => import("./pages/SuburbPage"));
 const CostGuide = lazy(() => import("./pages/CostGuide"));
 const HousePainters = lazy(() => import("./pages/HousePainters"));
+const Projects = lazy(() => import("./pages/Projects"));
+const ProjectPage = lazy(() => import("./pages/ProjectPage"));
 const Auth = lazy(() => import("./pages/Auth"));
 const Admin = lazy(() => import("./pages/Admin"));
 const NotFound = lazy(() => import("./pages/NotFound"));
