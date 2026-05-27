@@ -117,7 +117,7 @@ export const Header = () => {
               
               {/* Dropdown Menu */}
               {isServiceAreasOpen && (
-                <div className="absolute top-full left-0 w-64 bg-white rounded-lg shadow-strong border border-border z-50">
+                <div className="absolute top-full left-0 w-64 max-h-[70vh] overflow-y-auto bg-white rounded-lg shadow-strong border border-border z-50">
                   <ul className="py-2">
                     {serviceAreas.map((area) => (
                       <li key={area.name}>
