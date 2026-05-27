@@ -42,6 +42,9 @@ export const Footer = () => {
               <li><a href="/exterior" className="hover:text-white transition-colors">Exterior Painting</a></li>
               <li><a href="/roof-painting" className="hover:text-white transition-colors">Roof Painting</a></li>
               <li><a href="/commercial" className="hover:text-white transition-colors">Commercial Painting</a></li>
+              <li><a href="/house-preparation" className="hover:text-white transition-colors">House Preparation</a></li>
+              <li><a href="/house-painters-christchurch" className="hover:text-white transition-colors">House Painters</a></li>
+              <li><a href="/painter-and-decorator-christchurch" className="hover:text-white transition-colors">Painter & Decorator</a></li>
               <li><a href="/painting-cost-guide" className="hover:text-white transition-colors">Painting Cost Guide</a></li>
             </ul>
           </div>
@@ -55,6 +58,9 @@ export const Footer = () => {
               <li><a href="/painters/merivale" className="hover:text-white transition-colors">Merivale</a></li>
               <li><a href="/painters/fendalton" className="hover:text-white transition-colors">Fendalton</a></li>
               <li><a href="/painters/rolleston" className="hover:text-white transition-colors">Rolleston</a></li>
+              <li><a href="/painters/papanui" className="hover:text-white transition-colors">Papanui</a></li>
+              <li><a href="/painters/burnside" className="hover:text-white transition-colors">Burnside</a></li>
+              <li><a href="/painters/ilam" className="hover:text-white transition-colors">Ilam</a></li>
             </ul>
           </div>
 
