@@ -4,7 +4,8 @@ import { Footer } from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { QuoteForm } from '@/components/QuoteForm';
-import { Check, Phone, Shield, Home, Palette } from '@/components/icons-lite';
+import { Check, Shield, Home, Palette } from '@/components/icons-lite';
+import { Phone } from 'lucide-react';
 import { InView } from '@/components/InView';
 
 const heroImage = '/interior-hero-room.webp';
