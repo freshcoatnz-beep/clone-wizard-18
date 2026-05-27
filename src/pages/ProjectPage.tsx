@@ -31,6 +31,7 @@ const ProjectPage = () => {
     '@type': 'Article',
     headline: project.title,
     description: project.metaDescription,
+    image: 'https://www.freshcoat.co.nz/og-image.jpg',
     url,
     datePublished: project.date,
     dateModified: project.date,
