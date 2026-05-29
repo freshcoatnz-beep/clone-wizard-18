@@ -19,6 +19,7 @@ const ProjectPage = lazy(() => import("./pages/ProjectPage"));
 const Auth = lazy(() => import("./pages/Auth"));
 const Admin = lazy(() => import("./pages/Admin"));
 const GBPChecklist = lazy(() => import("./pages/GBPChecklist"));
+const NotFound = lazy(() => import("./pages/NotFound"));
 
 const App = () => (
   <HelmetProvider>
