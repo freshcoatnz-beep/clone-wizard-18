@@ -18,6 +18,7 @@ const Projects = lazy(() => import("./pages/Projects"));
 const ProjectPage = lazy(() => import("./pages/ProjectPage"));
 const Auth = lazy(() => import("./pages/Auth"));
 const Admin = lazy(() => import("./pages/Admin"));
+const GBPChecklist = lazy(() => import("./pages/GBPChecklist"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 const App = () => (
@@ -42,7 +43,7 @@ const App = () => (
             <Route path="/painters/:slug" element={<SuburbPage />} />
             <Route path="/auth" element={<Auth />} />
             <Route path="/admin" element={<Admin />} />
-            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+            <Route path="/google-business-profile-checklist" element={<GBPChecklist />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Suspense>
