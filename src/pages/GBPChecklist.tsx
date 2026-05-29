@@ -13,10 +13,10 @@ const GBPChecklist = () => {
     headline: 'Google Business Profile Optimisation Checklist for Tradespeople in Christchurch',
     description:
       'A step-by-step checklist to optimise your Google Business Profile as a painter, decorator, or tradesperson in Christchurch — from setup to reviews and photos.',
-    author: { '@type': 'Organization', name: 'Freshcoat Painting' },
+    author: { '@type': 'Organization', name: 'Freshcoat Painting and Decorating' },
     publisher: {
       '@type': 'Organization',
-      name: 'Freshcoat Painting',
+      name: 'Freshcoat Painting and Decorating',
       logo: { '@type': 'ImageObject', url: 'https://www.freshcoat.co.nz/og-image.jpg' },
     },
     datePublished: '2026-05-29',
@@ -39,7 +39,7 @@ const GBPChecklist = () => {
   };
 
   const setupSteps = [
-    { title: 'Claim or create your profile', desc: 'Go to business.google.com and claim your business. Use the exact trading name "Freshcoat Painting" — consistency matters for NAP (Name, Address, Phone) citations across the web.' },
+    { title: 'Claim or create your profile', desc: 'Go to business.google.com and claim your business. Use the exact trading name "Freshcoat Painting and Decorating" — consistency matters for NAP (Name, Address, Phone) citations across the web.' },
     { title: 'Select the correct primary category', desc: 'Choose "Painter" as your primary category. You can add secondary categories like "Interior painter", "Exterior painter", or "Commercial painter".' },
     { title: 'Add your service areas', desc: 'List every Christchurch suburb you cover: Fendalton, Merivale, Riccarton, Halswell, Cashmere, Sumner, Rolleston, etc. This helps you show up in "painters near me" searches in those areas.' },
     { title: 'Enter exact NAP details', desc: 'Use the same business name, address, and phone number (022 036 6586) everywhere online — website, Yellow, Builderscrack, NoCowboys, etc. Any inconsistency hurts rankings.' },
