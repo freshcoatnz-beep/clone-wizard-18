@@ -13,10 +13,10 @@ const GBPChecklist = () => {
     headline: 'Google Business Profile Optimisation Checklist for Tradespeople in Christchurch',
     description:
       'A step-by-step checklist to optimise your Google Business Profile as a painter, decorator, or tradesperson in Christchurch — from setup to reviews and photos.',
-    author: { '@type': 'Organization', name: 'Freshcoat Painting' },
+    author: { '@type': 'Organization', name: 'Freshcoat Painting and Decorating' },
     publisher: {
       '@type': 'Organization',
-      name: 'Freshcoat Painting',
+      name: 'Freshcoat Painting and Decorating',
       logo: { '@type': 'ImageObject', url: 'https://www.freshcoat.co.nz/og-image.jpg' },
     },
     datePublished: '2026-05-29',
@@ -39,7 +39,7 @@ const GBPChecklist = () => {
   };
 
   const setupSteps = [
-    { title: 'Claim or create your profile', desc: 'Go to business.google.com and claim your business. Use the exact trading name "Freshcoat Painting" — consistency matters for NAP (Name, Address, Phone) citations across the web.' },
+    { title: 'Claim or create your profile', desc: 'Go to business.google.com and claim your business. Use the exact trading name "Freshcoat Painting and Decorating" — consistency matters for NAP (Name, Address, Phone) citations across the web.' },
     { title: 'Select the correct primary category', desc: 'Choose "Painter" as your primary category. You can add secondary categories like "Interior painter", "Exterior painter", or "Commercial painter".' },
     { title: 'Add your service areas', desc: 'List every Christchurch suburb you cover: Fendalton, Merivale, Riccarton, Halswell, Cashmere, Sumner, Rolleston, etc. This helps you show up in "painters near me" searches in those areas.' },
     { title: 'Enter exact NAP details', desc: 'Use the same business name, address, and phone number (022 036 6586) everywhere online — website, Yellow, Builderscrack, NoCowboys, etc. Any inconsistency hurts rankings.' },
@@ -78,7 +78,7 @@ const GBPChecklist = () => {
   const commonMistakes = [
     'Using a residential address if you are a mobile service — use a real office or warehouse address if possible, or your home if that is your registered business address.',
     'Ignoring negative reviews — always respond professionally and offer to make it right.',
-    'Keyword-stuffing the business name — "Freshcoat Painting | Best Painters Christchurch" can get you suspended.',
+    'Keyword-stuffing the business name — "Freshcoat Painting and Decorating | Best Painters Christchurch" can get you suspended.',
     'Letting the profile go stale — profiles with no new photos or posts in 3+ months rank lower.',
     'Forgetting to add services and pricing — use the Services tab to list "Interior Painting", "Exterior Painting", "Roof Painting", etc. with starting prices.',
   ];
@@ -341,7 +341,7 @@ const GBPChecklist = () => {
                 Need Help with Your Online Presence?
               </h2>
               <p className="text-lg mb-8 opacity-95">
-                Freshcoat Painting handles its own SEO, GBP, and marketing in-house. If you are a fellow tradesperson looking for a painter who understands digital marketing and delivers quality work — we would love to quote your next project.
+                Freshcoat Painting and Decorating handles its own SEO, GBP, and marketing in-house. If you are a fellow tradesperson looking for a painter who understands digital marketing and delivers quality work — we would love to quote your next project.
               </p>
               <QuoteForm>
                 <Button variant="hero" size="lg" className="bg-green-600 hover:bg-green-700 text-white text-xl px-10 py-6 font-semibold">
