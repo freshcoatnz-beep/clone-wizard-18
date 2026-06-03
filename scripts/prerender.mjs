@@ -72,12 +72,12 @@ const routes = [
   },
   {
     path: '/roof-painting',
-    title: 'Roof Painters Christchurch | Roof Painting & Restoration',
+    title: 'Roof Painters Christchurch | Professional Roof Painting & Repainting',
     description:
-      'Roof painting and restoration in Christchurch — concrete tile, metal and Decramastic. Moss treatment, repairs and premium 10+ year coatings. Free quotes.',
-    h1: 'Roof Painting & Restoration Christchurch',
+      'Professional roof painters in Christchurch. Expert roof painting, repainting & restoration for tile, metal & Colorsteel roofs. 5-year warranty. Free quote.',
+    h1: 'Roof Painters Christchurch — Professional Roof Painting & Repainting',
     intro:
-      'Roof restoration and repainting for concrete tile, metal and long-run roofs. Moss treatment, repairs and premium coatings designed for New Zealand UV and weather.',
+      'Professional roof painters in Christchurch specialising in roof painting, roof repainting and full roof restoration for concrete tile, metal and Colorsteel roofs across Canterbury.',
   },
   {
     path: '/commercial',
