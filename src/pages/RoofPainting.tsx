@@ -112,13 +112,13 @@ const RoofPainting = () => {
   return (
     <>
       <Helmet>
-        <title>Roof Painting Christchurch | Roof Painters | Freshcoat</title>
-        <meta name="description" content="Roof painting Christchurch. Professional roof painters for tile, metal &amp; Colorsteel. Restoration, recoating &amp; protective coatings. 5-year warranty. Free quote!" />
+        <title>Roof Painters Christchurch | Professional Roof Painting &amp; Repainting</title>
+        <meta name="description" content="Professional roof painters in Christchurch. Expert roof painting, repainting &amp; restoration for tile, metal &amp; Colorsteel roofs. 5-year warranty. Free quote." />
         <meta name="keywords" content="roof painting christchurch, roof painters christchurch, roof painters nz, roof painting nz, tile roof painting christchurch, metal roof painting christchurch, colorsteel roof painting, roof restoration christchurch, roof respray, roof resurfacing, roof recoating, roof repainting, roof treatments, metal roof recoating, metal roof painting commercial, metal tile roof maintenance, metal tile roof repair, protective roof coating, roof coating nz, concrete tile roof painting, tile roof color restoration, tile roof restoration, top roof painters, professional roof painters, roof painting companies, metal roof restoration, roof painters near me, extend roof life coating, roof coatings, roof coating contractors, roof painting contractors, roof painter, tile roof repairs christchurch" />
         <link rel="canonical" href="https://www.freshcoat.co.nz/roof-painting" />
         <link rel="preload" as="image" href={roofHeroImage} fetchPriority="high" />
-        <meta property="og:title" content="Roof Painting Christchurch | Tile &amp; Metal Roof Painters &amp; Restoration" />
-        <meta property="og:description" content="Professional roof painting Christchurch. Tile, metal &amp; Colorsteel roof restoration, recoating &amp; protective coatings. 5-year warranty." />
+        <meta property="og:title" content="Roof Painters Christchurch | Professional Roof Painting &amp; Repainting" />
+        <meta property="og:description" content="Professional roof painters in Christchurch. Roof painting, repainting &amp; restoration for tile, metal &amp; Colorsteel roofs. 5-year warranty." />
         <meta property="og:url" content="https://www.freshcoat.co.nz/roof-painting" />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">
@@ -145,9 +145,9 @@ const RoofPainting = () => {
         <div className="relative container mx-auto px-4 py-12 lg:py-32 flex items-end min-h-[500px] lg:min-h-[650px]">
           <div className="max-w-5xl mx-auto text-center text-white">
             <h1 className="text-3xl lg:text-5xl font-bold mb-8 leading-tight">
-              Roof Painting Christchurch
+              Roof Painters Christchurch
               <br />
-              Professional Roof Painters &amp; Restoration
+              Professional Roof Painting &amp; Repainting
             </h1>
             
             {/* Key points */}
@@ -164,7 +164,7 @@ const RoofPainting = () => {
             </div>
             
             <p className="text-xl lg:text-2xl mb-10 max-w-3xl mx-auto opacity-95 leading-relaxed">
-              Professional roof painters specialising in tile roof painting, metal roof restoration and protective roof coatings across Christchurch and Canterbury.
+              Professional roof painters in Christchurch specialising in roof painting, roof repainting and full roof restoration for tile, metal and Colorsteel roofs across Canterbury.
             </p>
             
             <QuoteForm>
@@ -193,14 +193,14 @@ const RoofPainting = () => {
             {/* Content */}
             <div>
               <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-brand-gray">
-                Professional Roof Painters — Tile, Metal & Concrete Roofs
+                Roof Repainting Christchurch — Tile, Metal &amp; Concrete Roofs
               </h2>
               <p className="text-lg mb-6 text-muted-foreground leading-relaxed">
-                Need expert roof painters in Christchurch who deliver lasting results?
-                <strong className="text-brand-gray"> Freshcoat Painting</strong> specializes in professional roof painting and restoration services.
+                Looking for professional roof painters in Christchurch who deliver lasting results?
+                <strong className="text-brand-gray"> Freshcoat Painting</strong> are local roof painting and roof repainting specialists with 30+ years of experience.
               </p>
               <p className="text-lg mb-8 text-muted-foreground leading-relaxed">
-                From metal roofs to tile restoration, our skilled team ensures superior protection with a 5-year workmanship guarantee. We use only premium roof coatings designed for <strong className="text-brand-gray">New Zealand conditions</strong>.
+                Whether it's a tired Colorsteel roof needing a respray, Decramastic tiles due for restoration or a concrete tile roof in need of repainting, our team delivers a fully prepared, primed and topcoated finish — backed by a 5-year workmanship guarantee and premium coatings designed for <strong className="text-brand-gray">New Zealand conditions</strong>.
               </p>
               <QuoteForm>
                 <Button variant="cta" size="lg" className="bg-green-600 hover:bg-green-700">
