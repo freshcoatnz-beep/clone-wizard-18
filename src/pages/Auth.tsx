@@ -7,6 +7,7 @@ import { Label } from "@/components/ui/label";
 import { Card } from "@/components/ui/card";
 import { toast } from "@/hooks/use-toast";
 import { useAuth } from "@/hooks/useAuth";
+import { Helmet } from "@/lib/head";
 
 export default function Auth() {
   const navigate = useNavigate();
@@ -46,7 +47,18 @@ export default function Auth() {
   };
 
   return (
-    <main className="min-h-screen flex items-center justify-center bg-background p-6">
+    <>
+      <Helmet>
+        <title>Admin Sign In | Freshcoat Painting</title>
+        <meta name="description" content="Secure sign-in for Freshcoat Painting admin staff to access the internal SEO scan dashboard and site tools." />
+        <meta name="robots" content="noindex,nofollow" />
+        <link rel="canonical" href="https://www.freshcoat.co.nz/auth" />
+        <meta property="og:title" content="Admin Sign In | Freshcoat Painting" />
+        <meta property="og:description" content="Secure sign-in for Freshcoat Painting admin staff." />
+        <meta property="og:url" content="https://www.freshcoat.co.nz/auth" />
+        <meta property="og:type" content="website" />
+      </Helmet>
+      <main className="min-h-screen flex items-center justify-center bg-background p-6">
       <Card className="w-full max-w-md p-6 space-y-5">
         <div>
           <h1 className="text-2xl font-bold">Admin {mode === "signup" ? "sign up" : "sign in"}</h1>
@@ -72,6 +84,7 @@ export default function Auth() {
           {mode === "signin" ? "Need an account? Sign up" : "Have an account? Sign in"}
         </button>
       </Card>
-    </main>
+      </main>
+    </>
   );
 }

@@ -8,6 +8,20 @@ import { Badge } from "@/components/ui/badge";
 import {
   Table, TableBody, TableCell, TableHead, TableHeader, TableRow,
 } from "@/components/ui/table";
+import { Helmet } from "@/lib/head";
+
+const AdminHead = () => (
+  <Helmet>
+    <title>SEO Scan Dashboard | Freshcoat Admin</title>
+    <meta name="description" content="Internal Freshcoat Painting admin dashboard for reviewing nightly SEO scan history, findings, and site health." />
+    <meta name="robots" content="noindex,nofollow" />
+    <link rel="canonical" href="https://www.freshcoat.co.nz/admin" />
+    <meta property="og:title" content="SEO Scan Dashboard | Freshcoat Admin" />
+    <meta property="og:description" content="Internal Freshcoat Painting admin dashboard for SEO scan history and findings." />
+    <meta property="og:url" content="https://www.freshcoat.co.nz/admin" />
+    <meta property="og:type" content="website" />
+  </Helmet>
+);
 
 interface Scan {
   id: string;
@@ -120,6 +134,7 @@ export default function Admin() {
   if (!user)
     return (
       <main className="min-h-screen flex items-center justify-center">
+        <AdminHead />
         <Card className="p-6 space-y-3">
           <p>You need to sign in.</p>
           <Button asChild><Link to="/auth">Go to sign in</Link></Button>
@@ -129,6 +144,7 @@ export default function Admin() {
   if (!isAdmin)
     return (
       <main className="min-h-screen flex items-center justify-center">
+        <AdminHead />
         <Card className="p-6 space-y-3 max-w-md">
           <h2 className="font-semibold">Admin access required</h2>
           <p className="text-sm text-muted-foreground">
@@ -143,6 +159,7 @@ export default function Admin() {
 
   return (
     <main className="min-h-screen bg-background p-6">
+      <AdminHead />
       <div className="max-w-7xl mx-auto space-y-6">
         <header className="flex items-center justify-between">
           <div>
