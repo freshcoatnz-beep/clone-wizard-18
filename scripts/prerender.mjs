@@ -45,12 +45,12 @@ const escAttr = (s) => esc(s).replace(/"/g, '&quot;');
 const routes = [
   {
     path: '/',
-    title: 'Painters Christchurch | Freshcoat Painting',
+    title: 'Painters Christchurch | 5-Star House Painters | Freshcoat',
     description:
-      "Top-rated painters Christchurch & painting contractors. House painting, interior, exterior & roof painting. 30+ years experience & 5-year warranty. Free quote!",
-    h1: 'Painters Christchurch — Freshcoat Painting & Decorating',
+      "Painters Christchurch — 5-star rated house painting company. Interior, exterior & roof painting across Christchurch & Canterbury. 30+ years, 5-year warranty. Free quote!",
+    h1: 'Painters Christchurch — 5-Star Rated House Painting Company',
     intro:
-      "Christchurch's trusted house painting company. Interior, exterior and roof painting with 30+ years experience and a 5-year workmanship warranty.",
+      "Leading painters in Christchurch — interior, exterior and roof painting for homes and businesses across Canterbury. 5-star Google rated, 30+ years' experience and a 5-year guarantee. Serving Fendalton, Merivale, Riccarton, Ilam, Papanui, Cashmere and all Christchurch suburbs.",
   },
   {
     path: '/interior',
