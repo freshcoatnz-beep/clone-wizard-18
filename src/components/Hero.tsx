@@ -13,9 +13,9 @@ export const Hero = () => {
       <div className="relative container mx-auto px-4 py-12 lg:py-32 flex items-end min-h-[400px] lg:min-h-[550px]">
         <div className="max-w-5xl mx-auto text-center text-white">
           <h1 className="text-3xl lg:text-5xl font-bold mb-8 leading-tight">
-            Painters Christchurch —
+            Painters Christchurch
             <br />
-            House Painting, Interior & Exterior
+            5-Star Rated House Painting Company
           </h1>
           
           {/* Key points */}
@@ -32,7 +32,7 @@ export const Hero = () => {
           </div>
           
           <p className="text-xl lg:text-2xl mb-10 max-w-3xl mx-auto opacity-95 leading-relaxed">
-            Leading Christchurch painters delivering quality finishes for homes & businesses at competitive prices.
+            Leading painters in Christchurch — interior, exterior & roof painting for homes and businesses across Canterbury. 5-star Google rated, 30+ years' experience, 5-year guarantee.
           </p>
           
           <QuoteForm>
