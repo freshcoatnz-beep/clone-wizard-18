@@ -15,7 +15,7 @@ export const Hero = () => {
           <h1 className="text-3xl lg:text-5xl font-bold mb-8 leading-tight">
             Painters Christchurch
             <br />
-            5-Star Rated House Painting Company
+            House Painting Company
           </h1>
           
           {/* Key points */}
@@ -32,7 +32,7 @@ export const Hero = () => {
           </div>
           
           <p className="text-xl lg:text-2xl mb-10 max-w-3xl mx-auto opacity-95 leading-relaxed">
-            Leading painters in Christchurch — interior, exterior & roof painting for homes and businesses across Canterbury. 5-star Google rated, 30+ years' experience, 5-year guarantee.
+            Leading painters in Christchurch — interior, exterior & roof painting for homes and businesses across Canterbury. Google rated, 30+ years' experience, 5-year guarantee.
           </p>
           
           <QuoteForm>
