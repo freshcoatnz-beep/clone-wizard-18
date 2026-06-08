@@ -79,6 +79,11 @@ const Commercial = () => {
         "@type": "Question",
         "name": "How long does a commercial paint job take?",
         "acceptedAnswer": { "@type": "Answer", "text": "A small office repaint can be completed in 2–4 days, while large warehouses or multi-storey buildings typically take 1–3 weeks. We provide a clear programme of works with each quote." }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you offer industrial painting in Christchurch?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Freshcoat Painting are experienced industrial painters in Christchurch, handling warehouses, factories, workshops, plant rooms and storage facilities. We apply protective and anti-corrosive coatings to structural steel, cladding, concrete floors and high-bay walls, with full Site Safe compliance and EWP/scaffold access where required." }
       }
     ]
   };
@@ -86,13 +91,13 @@ const Commercial = () => {
   return (
     <>
       <Helmet>
-        <title>Commercial Painters Christchurch | Freshcoat</title>
-        <meta name="description" content="Commercial painters Christchurch. Offices, retail, warehouses &amp; industrial. After-hours work, fully insured, 5-year warranty. Free quote." />
-        <meta name="keywords" content="commercial painters, commercial painters christchurch, commercial painting, commercial painters nz, office painting, retail painting, industrial painting christchurch, spray painting contractors, commercial painting christchurch, office painters christchurch, warehouse painters, retail painters, body corporate painters" />
+        <title>Commercial & Industrial Painters Christchurch | Freshcoat</title>
+        <meta name="description" content="Commercial &amp; industrial painters Christchurch. Offices, retail, warehouses, factories &amp; body corporate. After-hours work, fully insured, 5-year warranty. Free quote." />
+        <meta name="keywords" content="commercial painters christchurch, industrial painters christchurch, industrial painters near me, industrial painting christchurch, industrial painting, warehouse painters christchurch, factory painters christchurch, commercial painting christchurch, office painters christchurch, retail painters, spray painting contractors christchurch, body corporate painters" />
         <link rel="canonical" href="https://www.freshcoat.co.nz/commercial" />
         <link rel="preload" as="image" href="/commercial-hero.webp" fetchPriority="high" />
-        <meta property="og:title" content="Commercial Painters Christchurch | Freshcoat" />
-        <meta property="og:description" content="Professional commercial painters for Christchurch offices, retail and industrial properties. 30+ years experience, 5-year warranty." />
+        <meta property="og:title" content="Commercial & Industrial Painters Christchurch | Freshcoat" />
+        <meta property="og:description" content="Commercial and industrial painters for Christchurch offices, retail, warehouses and factories. 30+ years experience, 5-year warranty." />
         <meta property="og:url" content="https://www.freshcoat.co.nz/commercial" />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">
@@ -119,7 +124,7 @@ const Commercial = () => {
         <div className="relative container mx-auto px-4 py-12 lg:py-32 flex items-end min-h-[500px] lg:min-h-[650px]">
           <div className="max-w-5xl mx-auto text-center text-white">
             <h1 className="text-3xl lg:text-5xl font-bold mb-8 leading-tight">
-              Commercial Painters Christchurch
+              Commercial & Industrial Painters Christchurch
             </h1>
             
             {/* Key points */}
@@ -136,7 +141,7 @@ const Commercial = () => {
             </div>
             
             <p className="text-xl lg:text-2xl mb-10 max-w-3xl mx-auto opacity-95 leading-relaxed">
-              Trusted commercial painters in Christchurch for offices, retail stores, warehouses, schools and body corporate buildings — after-hours scheduling, minimal disruption and a 5-year workmanship guarantee.
+              Trusted commercial and industrial painters in Christchurch — offices, retail, warehouses, factories, schools and body corporate buildings. After-hours scheduling, minimal disruption and a 5-year workmanship guarantee.
             </p>
             
             <QuoteForm>
@@ -209,6 +214,35 @@ const Commercial = () => {
             </p>
             <p className="text-lg mb-8 text-muted-foreground leading-relaxed text-center">
               Whether you're updating your office, retail space, or industrial facility, our team brings precision, care and a flawless finish to every commercial project.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Industrial Painters Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-brand-gray">
+              Industrial Painters Christchurch
+            </h2>
+            <p className="text-lg mb-6 text-muted-foreground leading-relaxed">
+              Freshcoat Painting is one of Christchurch's most experienced industrial painting contractors, delivering durable protective coatings for warehouses, factories, workshops and plant rooms across Canterbury. From Hornby and Sockburn through to Bromley, Woolston and Rolleston, our crews handle large-format industrial repaints with full Site Safe documentation, EWP access and minimal downtime.
+            </p>
+            <p className="text-lg mb-6 text-muted-foreground leading-relaxed">
+              Our industrial painters in Christchurch specialise in high-build epoxies, anti-corrosive metal primers, intumescent fire-rated systems, anti-graffiti coatings, epoxy warehouse floors and line marking. We work with Resene Industrial and Dulux Protective Coatings — specifying the right product for each surface, environment and compliance requirement.
+            </p>
+            <h3 className="text-xl font-semibold mb-4 text-brand-gray">Industrial painting services we provide:</h3>
+            <ul className="space-y-2 mb-6">
+              <li className="text-lg">• Warehouse &amp; factory interior and exterior repaints</li>
+              <li className="text-lg">• Structural steel painting &amp; anti-corrosive coatings</li>
+              <li className="text-lg">• Epoxy floor coatings &amp; warehouse line marking</li>
+              <li className="text-lg">• Plant rooms, workshops &amp; mechanical facilities</li>
+              <li className="text-lg">• Cool stores, food-grade &amp; hygienic coatings</li>
+              <li className="text-lg">• Tank, silo &amp; cladding spray painting</li>
+            </ul>
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              If you're searching for industrial painters near me in Christchurch, call Michael on 022 036 6586 for a free site inspection and fixed written quote — backed by our 5-year workmanship guarantee.
             </p>
           </div>
         </div>

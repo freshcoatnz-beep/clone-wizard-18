@@ -81,12 +81,12 @@ const routes = [
   },
   {
     path: '/commercial',
-    title: 'Commercial Painters Christchurch | Office & Retail Painting',
+    title: 'Commercial & Industrial Painters Christchurch | Freshcoat',
     description:
-      'Commercial painting contractors in Christchurch — offices, retail and commercial property. After-hours scheduling, minimal disruption, fast turnaround.',
-    h1: 'Commercial Painting Christchurch',
+      'Commercial and industrial painters in Christchurch — offices, retail, warehouses, factories and body-corporate. After-hours scheduling, fully insured, 5-year warranty.',
+    h1: 'Commercial & Industrial Painters Christchurch',
     intro:
-      'Office, retail and commercial property painting with after-hours scheduling and minimal disruption to your business operations.',
+      'Commercial and industrial painting in Christchurch — offices, retail, warehouses, factories and body-corporate buildings. After-hours scheduling, Site Safe compliant crews and a 5-year workmanship warranty.',
   },
   {
     path: '/house-preparation',
