@@ -79,6 +79,11 @@ const Commercial = () => {
         "@type": "Question",
         "name": "How long does a commercial paint job take?",
         "acceptedAnswer": { "@type": "Answer", "text": "A small office repaint can be completed in 2–4 days, while large warehouses or multi-storey buildings typically take 1–3 weeks. We provide a clear programme of works with each quote." }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you offer industrial painting in Christchurch?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Freshcoat Painting are experienced industrial painters in Christchurch, handling warehouses, factories, workshops, plant rooms and storage facilities. We apply protective and anti-corrosive coatings to structural steel, cladding, concrete floors and high-bay walls, with full Site Safe compliance and EWP/scaffold access where required." }
       }
     ]
   };
@@ -209,6 +214,35 @@ const Commercial = () => {
             </p>
             <p className="text-lg mb-8 text-muted-foreground leading-relaxed text-center">
               Whether you're updating your office, retail space, or industrial facility, our team brings precision, care and a flawless finish to every commercial project.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Industrial Painters Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-brand-gray">
+              Industrial Painters Christchurch
+            </h2>
+            <p className="text-lg mb-6 text-muted-foreground leading-relaxed">
+              Freshcoat Painting is one of Christchurch's most experienced industrial painting contractors, delivering durable protective coatings for warehouses, factories, workshops and plant rooms across Canterbury. From Hornby and Sockburn through to Bromley, Woolston and Rolleston, our crews handle large-format industrial repaints with full Site Safe documentation, EWP access and minimal downtime.
+            </p>
+            <p className="text-lg mb-6 text-muted-foreground leading-relaxed">
+              Our industrial painters in Christchurch specialise in high-build epoxies, anti-corrosive metal primers, intumescent fire-rated systems, anti-graffiti coatings, epoxy warehouse floors and line marking. We work with Resene Industrial and Dulux Protective Coatings — specifying the right product for each surface, environment and compliance requirement.
+            </p>
+            <h3 className="text-xl font-semibold mb-4 text-brand-gray">Industrial painting services we provide:</h3>
+            <ul className="space-y-2 mb-6">
+              <li className="text-lg">• Warehouse &amp; factory interior and exterior repaints</li>
+              <li className="text-lg">• Structural steel painting &amp; anti-corrosive coatings</li>
+              <li className="text-lg">• Epoxy floor coatings &amp; warehouse line marking</li>
+              <li className="text-lg">• Plant rooms, workshops &amp; mechanical facilities</li>
+              <li className="text-lg">• Cool stores, food-grade &amp; hygienic coatings</li>
+              <li className="text-lg">• Tank, silo &amp; cladding spray painting</li>
+            </ul>
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              If you're searching for industrial painters near me in Christchurch, call Michael on 022 036 6586 for a free site inspection and fixed written quote — backed by our 5-year workmanship guarantee.
             </p>
           </div>
         </div>
