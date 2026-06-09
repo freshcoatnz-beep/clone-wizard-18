@@ -17,7 +17,7 @@ const categoryColors: Record<string, string> = {
 };
 
 const Projects = () => {
-  const title = 'Projects & Painting Guides | Freshcoat Painting Christchurch';
+  const title = 'Projects & Guides | Freshcoat Painting Christchurch';
   const description =
     'Browse real painting projects and expert guides from Freshcoat Painting. Before & after stories, cost guides, and tips from Christchurch\'s trusted painters.';
   const url = 'https://www.freshcoat.co.nz/projects';
@@ -25,7 +25,7 @@ const Projects = () => {
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
-    name: title,
+    name: 'Projects & Painting Guides | Freshcoat Painting Christchurch',
     description,
     url,
     isPartOf: { '@type': 'WebSite', name: 'Freshcoat Painting', url: 'https://www.freshcoat.co.nz' },
