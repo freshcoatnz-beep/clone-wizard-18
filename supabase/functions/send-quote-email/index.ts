@@ -62,7 +62,7 @@ const handler = async (req: Request): Promise<Response> => {
     // Send confirmation email to customer
     const customerEmailResponse = await resend.emails.send({
       from: "Freshcoat Painters <onboarding@resend.dev>",
-      to: ["freshcoatnz@gmail.com"],
+      to: [email],
       subject: "Thank you for your quote request!",
       html: `
         <h1>Thank you for contacting Freshcoat Painters, ${name}!</h1>
