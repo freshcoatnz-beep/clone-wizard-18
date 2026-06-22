@@ -44,11 +44,34 @@ export const suburbs: Suburb[] = [
     slug: 'fendalton',
     name: 'Fendalton',
     intro:
-      "Fendalton homes deserve premium care. Our experienced painters handle everything from large character villas to contemporary architectural builds, with the attention to detail your home deserves.",
+      "Looking for a trusted Fendalton house painter? Freshcoat Painting has been painting homes across Fendalton, Strowan, Merivale and Bryndwr for 30+ years. From grand character villas on Fendalton Road to contemporary architectural builds near Mona Vale, our Fendalton painters deliver a flawless interior, exterior and roof finish — backed by a 5-year workmanship guarantee.",
     highlights: [
-      'Premium painting for high-value Fendalton homes',
-      'Colour consultation available on request',
-      '5-year workmanship warranty on every job',
+      'Local Fendalton house painters — 30+ years across Christchurch',
+      'Specialists in heritage villas, weatherboard and plaster exteriors',
+      'Premium Resene, Dulux & Wattyl systems — colour consultation on request',
+      'Free fixed-price quotes across Fendalton — usually within 24 hours',
+    ],
+    faqs: [
+      {
+        question: 'How much does it cost to paint a house in Fendalton?',
+        answer:
+          'Exterior house painting in Fendalton typically costs $7,000–$18,000 depending on house size, cladding (weatherboard, plaster, brick), heritage detailing and surface condition. Larger character villas and architectural homes sit at the upper end. Interior repaints start around $3,500. We provide a free fixed-price quote after an on-site inspection.',
+      },
+      {
+        question: 'Do you paint character villas and heritage homes in Fendalton?',
+        answer:
+          'Yes — many Fendalton homes are character villas with detailed weatherboard, fretwork and sash windows. Our painters specialise in careful prep, lead-paint awareness and period-correct finishes, so the character of your home is preserved while the paint system protects it for years.',
+      },
+      {
+        question: 'What paint do you use on Fendalton exteriors?',
+        answer:
+          'We use premium weather-resistant systems from Resene, Dulux and Wattyl, matched to your cladding and exposure. Plaster, weatherboard and brick each get the right primer and topcoat combination. All exterior work is backed by our 5-year workmanship guarantee.',
+      },
+      {
+        question: 'How long will it take to paint my Fendalton home?',
+        answer:
+          'Most Fendalton exterior repaints take 7–14 working days depending on size, prep and weather — larger villas can run a little longer. Interior repaints are typically 2–5 days per project. We give you a clear schedule with your quote and stick to it.',
+      },
     ],
   },
   {
