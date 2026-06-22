@@ -8,6 +8,12 @@ import { Card } from '@/components/ui/card';
 import { QuoteForm } from '@/components/QuoteForm';
 import { Check, Phone, Shield, Award, Home } from 'lucide-react';
 import { suburbs } from '@/data/suburbs';
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from '@/components/ui/accordion';
 
 const SuburbPage = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -39,6 +45,18 @@ const SuburbPage = () => {
     serviceType: ['Interior Painting', 'Exterior Painting', 'Roof Painting'],
   };
 
+  const faqStructuredData = suburb.faqs && suburb.faqs.length > 0
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: suburb.faqs.map((f) => ({
+          '@type': 'Question',
+          name: f.question,
+          acceptedAnswer: { '@type': 'Answer', text: f.answer },
+        })),
+      }
+    : null;
+
   return (
     <>
       <Helmet>
@@ -54,6 +72,9 @@ const SuburbPage = () => {
         <meta property="og:url" content={url} />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
+        {faqStructuredData && (
+          <script type="application/ld+json">{JSON.stringify(faqStructuredData)}</script>
+        )}
       </Helmet>
 
       <div className="min-h-screen bg-background">
@@ -139,6 +160,29 @@ const SuburbPage = () => {
           </section>
 
           <Testimonials />
+
+          {/* Suburb FAQs */}
+          {suburb.faqs && suburb.faqs.length > 0 && (
+            <section className="py-16 lg:py-24">
+              <div className="container mx-auto px-4 max-w-3xl">
+                <h2 className="text-3xl lg:text-4xl font-bold mb-8 text-center text-brand-gray">
+                  {suburb.name} House Painter — FAQs
+                </h2>
+                <Accordion type="single" collapsible className="w-full">
+                  {suburb.faqs.map((f, i) => (
+                    <AccordionItem key={i} value={`item-${i}`}>
+                      <AccordionTrigger className="text-left text-base lg:text-lg">
+                        {f.question}
+                      </AccordionTrigger>
+                      <AccordionContent className="text-muted-foreground">
+                        {f.answer}
+                      </AccordionContent>
+                    </AccordionItem>
+                  ))}
+                </Accordion>
+              </div>
+            </section>
+          )}
 
           {/* Final CTA */}
           <section className="py-16 bg-brand-red text-white">

@@ -3,6 +3,7 @@ export interface Suburb {
   name: string;
   intro: string;
   highlights: string[];
+  faqs?: { question: string; answer: string }[];
 }
 
 export const suburbs: Suburb[] = [
@@ -65,11 +66,34 @@ export const suburbs: Suburb[] = [
     slug: 'cashmere',
     name: 'Cashmere',
     intro:
-      "Cashmere's hillside homes face tough weather — sun, wind and rain. Our exterior painting and roof restoration services use premium weather-resistant coatings designed to protect your home for years.",
+      "Looking for a trusted Cashmere house painter? Freshcoat Painting has been painting homes across Cashmere, Cashmere Hills, Westmorland and the Port Hills for 30+ years. From character bungalows on Hackthorne Road to modern hillside builds with panoramic views, our Cashmere painters deliver flawless interior, exterior and roof painting backed by a 5-year workmanship guarantee.",
     highlights: [
-      'Exterior coatings built for Christchurch weather extremes',
-      'Roof painting and restoration — metal and tile',
-      'Thorough surface preparation for long-lasting finishes',
+      'Local Cashmere house painters — 30+ years on the Port Hills',
+      'Weather-tough exterior coatings for sun, wind and rain exposure',
+      'Roof painting and restoration — Colorsteel, metal and tile',
+      'Free fixed-price quotes across Cashmere — usually within 24 hours',
+    ],
+    faqs: [
+      {
+        question: 'How much does it cost to paint a house in Cashmere?',
+        answer:
+          'Exterior house painting in Cashmere typically costs $5,500–$13,000 depending on house size, cladding (weatherboard, plaster, brick), access on sloped sites and surface condition. Interior repaints start around $3,500. We provide a free fixed-price quote after an on-site inspection.',
+      },
+      {
+        question: 'Do you paint hillside and steep-access homes in Cashmere?',
+        answer:
+          'Yes — many Cashmere properties sit on steep sections with tricky access. Our Cashmere painters are Site Safe trained and fully insured, using scaffolding, harnesses and elevated work platforms where needed to deliver a safe, quality finish.',
+      },
+      {
+        question: 'What paint do you use on Cashmere exteriors?',
+        answer:
+          'We use premium weather-resistant systems from Resene, Dulux and Wattyl — chosen specifically for the harsh sun, wind and rain that Cashmere and the Port Hills get. All exterior work is backed by our 5-year workmanship guarantee.',
+      },
+      {
+        question: 'How long will it take to paint my Cashmere home?',
+        answer:
+          'Most Cashmere exterior repaints take 5–10 working days depending on size, prep and weather. Interior repaints are typically 2–5 days per project. We give you a clear schedule with your quote and stick to it.',
+      },
     ],
   },
   {
