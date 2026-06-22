@@ -117,7 +117,7 @@ const RoofPainting = () => {
         <meta name="keywords" content="roof painting christchurch, roof painters christchurch, roof painters nz, roof painting nz, tile roof painting christchurch, metal roof painting christchurch, colorsteel roof painting, roof restoration christchurch, roof respray, roof resurfacing, roof recoating, roof repainting, roof treatments, metal roof recoating, metal roof painting commercial, metal tile roof maintenance, metal tile roof repair, protective roof coating, roof coating nz, concrete tile roof painting, tile roof color restoration, tile roof restoration, top roof painters, professional roof painters, roof painting companies, metal roof restoration, roof painters near me, extend roof life coating, roof coatings, roof coating contractors, roof painting contractors, roof painter, tile roof repairs christchurch" />
         <link rel="canonical" href="https://www.freshcoat.co.nz/roof-painting" />
         <link rel="preload" as="image" href={roofHeroImage} fetchPriority="high" />
-        <meta property="og:title" content="Roof Painters Christchurch | Professional Roof Painting &amp; Repainting" />
+        <meta property="og:title" content="Roof Painters Christchurch | Painting &amp; Restoration" />
         <meta property="og:description" content="Professional roof painters in Christchurch. Roof painting, repainting &amp; restoration for tile, metal &amp; Colorsteel roofs. 5-year warranty." />
         <meta property="og:url" content="https://www.freshcoat.co.nz/roof-painting" />
         <meta property="og:type" content="website" />
