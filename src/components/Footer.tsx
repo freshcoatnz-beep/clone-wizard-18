@@ -61,6 +61,7 @@ export const Footer = () => {
               <li><a href="/painters/papanui" className="hover:text-white transition-colors">Papanui</a></li>
               <li><a href="/painters/burnside" className="hover:text-white transition-colors">Burnside</a></li>
               <li><a href="/painters/ilam" className="hover:text-white transition-colors">Ilam</a></li>
+              <li><a href="/painters/cashmere" className="hover:text-white transition-colors">Cashmere</a></li>
             </ul>
           </div>
 
