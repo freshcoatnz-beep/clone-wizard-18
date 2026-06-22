@@ -92,12 +92,12 @@ const Commercial = () => {
     <>
       <Helmet>
         <title>Commercial & Industrial Painters Christchurch | Freshcoat</title>
-        <meta name="description" content="Commercial &amp; industrial painters Christchurch. Offices, retail, warehouses, factories &amp; body corporate. After-hours work, fully insured, 5-year warranty. Free quote." />
+        <meta name="description" content="Commercial painters Christchurch. Offices, retail, warehouses &amp; factories. Fully insured, 5-year warranty. Free quote." />
         <meta name="keywords" content="commercial painters christchurch, industrial painters christchurch, industrial painters near me, industrial painting christchurch, industrial painting, warehouse painters christchurch, factory painters christchurch, commercial painting christchurch, office painters christchurch, retail painters, spray painting contractors christchurch, body corporate painters" />
         <link rel="canonical" href="https://www.freshcoat.co.nz/commercial" />
         <link rel="preload" as="image" href="/commercial-hero.webp" fetchPriority="high" />
         <meta property="og:title" content="Commercial & Industrial Painters Christchurch | Freshcoat" />
-        <meta property="og:description" content="Commercial and industrial painters for Christchurch offices, retail, warehouses and factories. 30+ years experience, 5-year warranty." />
+        <meta property="og:description" content="Commercial painters Christchurch. Offices, retail, warehouses &amp; factories. Fully insured, 5-year warranty. Free quote." />
         <meta property="og:url" content="https://www.freshcoat.co.nz/commercial" />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">
