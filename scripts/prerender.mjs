@@ -72,7 +72,7 @@ const routes = [
   },
   {
     path: '/roof-painting',
-    title: 'Roof Painters Christchurch | Professional Roof Painting & Repainting',
+    title: 'Roof Painters Christchurch | Painting & Restoration',
     description:
       'Professional roof painters in Christchurch. Expert roof painting, repainting & restoration for tile, metal & Colorsteel roofs. 5-year warranty. Free quote.',
     h1: 'Roof Painters Christchurch — Professional Roof Painting & Repainting',
@@ -83,7 +83,7 @@ const routes = [
     path: '/commercial',
     title: 'Commercial & Industrial Painters Christchurch | Freshcoat',
     description:
-      'Commercial and industrial painters in Christchurch — offices, retail, warehouses, factories and body-corporate. After-hours scheduling, fully insured, 5-year warranty.',
+      'Commercial painters Christchurch. Offices, retail, warehouses & factories. Fully insured, 5-year warranty. Free quote.',
     h1: 'Commercial & Industrial Painters Christchurch',
     intro:
       'Commercial and industrial painting in Christchurch — offices, retail, warehouses, factories and body-corporate buildings. After-hours scheduling, Site Safe compliant crews and a 5-year workmanship warranty.',
