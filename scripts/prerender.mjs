@@ -99,12 +99,12 @@ const routes = [
   },
   {
     path: '/about',
-    title: 'About Freshcoat Painting | Christchurch Painters Since 1990s',
+    title: 'About Freshcoat Painting | Christchurch Painter & Decorator',
     description:
-      'Meet Michael Burke and the Freshcoat Painting team — qualified Christchurch painters with 30+ years of experience serving homes and businesses across Canterbury.',
+      'Meet Michael, a fully qualified painter and decorator in Christchurch with 30 years experience. Specialising in spray finishing, wall coverings, and specialist coatings.',
     h1: 'About Freshcoat Painting and Decorating',
     intro:
-      'Freshcoat Painting is led by Michael Burke, a qualified painter with over 30 years of experience serving Christchurch homeowners and businesses.',
+      "Hi, I'm Michael — a fully qualified painter and decorator with 30 years' experience. I cover all aspects of the trade, including spray finishing, wall coverings, and specialist coatings, and I pride myself on delivering a professional, timely service across Christchurch.",
   },
   {
     path: '/painting-cost-guide',
