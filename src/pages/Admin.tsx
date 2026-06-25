@@ -5,6 +5,7 @@ import { useAuth } from "@/hooks/useAuth";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {
   Table, TableBody, TableCell, TableHead, TableHeader, TableRow,
 } from "@/components/ui/table";
@@ -12,12 +13,12 @@ import { Helmet } from "@/lib/head";
 
 const AdminHead = () => (
   <Helmet>
-    <title>SEO Scan Dashboard | Freshcoat Admin</title>
-    <meta name="description" content="Internal Freshcoat Painting admin dashboard for reviewing nightly SEO scan history, findings, and site health." />
+    <title>Admin Dashboard | Freshcoat</title>
+    <meta name="description" content="Internal Freshcoat Painting admin dashboard for reviewing quote submissions and nightly SEO scan history." />
     <meta name="robots" content="noindex,nofollow" />
     <link rel="canonical" href="https://www.freshcoat.co.nz/admin" />
-    <meta property="og:title" content="SEO Scan Dashboard | Freshcoat Admin" />
-    <meta property="og:description" content="Internal Freshcoat Painting admin dashboard for SEO scan history and findings." />
+    <meta property="og:title" content="Admin Dashboard | Freshcoat" />
+    <meta property="og:description" content="Internal Freshcoat Painting admin dashboard for quote submissions and SEO scan history." />
     <meta property="og:url" content="https://www.freshcoat.co.nz/admin" />
     <meta property="og:type" content="website" />
   </Helmet>
@@ -41,6 +42,20 @@ interface Finding {
   severity: string;
   message: string;
 }
+
+interface QuoteSubmission {
+  id: string;
+  name: string;
+  email: string;
+  phone: string;
+  address: string | null;
+  service_type: string | null;
+  message: string | null;
+  source: string;
+  status: string;
+  created_at: string;
+}
+
 
 export default function Admin() {
   const { user, isAdmin, loading } = useAuth();
