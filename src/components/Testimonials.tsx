@@ -18,7 +18,7 @@ const testimonials = [
     name: 'James P.',
     location: 'Papanui',
     rating: 5,
-    text: "Got three quotes — Freshcoat were competitive and explained everything clearly. The roof painting has completely transformed the look of our home. 5 stars.",
+    text: "Got three quotes — Freshcoat were competitive and explained everything clearly. The roof painting has completely transformed the look of our home. Highly recommended.",
   },
   {
     name: 'Linda K.',
@@ -45,11 +45,7 @@ export const Testimonials = () => {
     <section className="py-16 lg:py-24 bg-secondary/30">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <div className="flex justify-center mb-4">
-            {[...Array(5)].map((_, i) => (
-              <Star key={i} size={28} className="text-yellow-500 fill-current" />
-            ))}
-          </div>
+          <Quote className="text-brand-red mx-auto mb-4" size={36} />
           <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-brand-gray">
             What Christchurch Homeowners Say
           </h2>

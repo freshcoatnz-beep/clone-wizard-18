@@ -101,7 +101,7 @@ const routes = [
     path: '/about',
     title: 'About Freshcoat Painting | Christchurch Painters Since 1990s',
     description:
-      'Meet Michael Burke and the Freshcoat Painting team — qualified Christchurch painters with 30+ years of experience and a 5.0-star Google rating.',
+      'Meet Michael Burke and the Freshcoat Painting team — qualified Christchurch painters with 30+ years of experience serving homes and businesses across Canterbury.',
     h1: 'About Freshcoat Painting and Decorating',
     intro:
       'Freshcoat Painting is led by Michael Burke, a qualified painter with over 30 years of experience serving Christchurch homeowners and businesses.',
@@ -159,6 +159,15 @@ const routes = [
     h1: 'Google Business Profile Checklist',
     intro:
       'A practical Google Business Profile checklist — the exact steps Christchurch tradies need to rank in the local 3-pack.',
+  },
+  {
+    path: '/review-us',
+    title: 'Leave a Google Review | Freshcoat Painting and Decorating',
+    description:
+      'Happy with our painting? Leave Freshcoat Painting and Decorating a quick Google review. It takes 30 seconds and helps other Christchurch homeowners find us.',
+    h1: 'Leave a Google Review for Freshcoat',
+    intro:
+      'Leave Freshcoat Painting and Decorating a quick Google review. It takes 30 seconds and helps other Christchurch homeowners and businesses find a painter they can trust.',
   },
 ];
 
