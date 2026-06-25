@@ -217,8 +217,14 @@ const GBPChecklist = () => {
                 Phase 3: Reviews — Social Proof That Sells
               </h2>
               <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                Review quantity, velocity (how fast you get them), and response rate all factor into local ranking. Here is how Freshcoat built a 5.0-star profile with 7 reviews — and the playbook to scale to 50+.
+                Review quantity, velocity (how fast you get them), and response rate all factor into local ranking. Here is how Freshcoat built a 5.0-star profile — and the playbook to scale to 50+.
               </p>
+              <div className="mb-8 text-center">
+                <a href="/review-us" className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 font-semibold text-lg">
+                  <Star className="w-5 h-5 fill-current" />
+                  Send clients to our review page
+                </a>
+              </div>
               <div className="space-y-6">
                 {reviewTactics.map((tactic, i) => (
                   <Card key={i} className="p-6 flex gap-4">
