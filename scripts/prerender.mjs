@@ -101,7 +101,7 @@ const routes = [
     path: '/about',
     title: 'About Freshcoat Painting | Christchurch Painters Since 1990s',
     description:
-      'Meet Michael Burke and the Freshcoat Painting team — qualified Christchurch painters with 30+ years of experience and a 5.0-star Google rating.',
+      'Meet Michael Burke and the Freshcoat Painting team — qualified Christchurch painters with 30+ years of experience serving homes and businesses across Canterbury.',
     h1: 'About Freshcoat Painting and Decorating',
     intro:
       'Freshcoat Painting is led by Michael Burke, a qualified painter with over 30 years of experience serving Christchurch homeowners and businesses.',
