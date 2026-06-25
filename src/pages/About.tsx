@@ -11,7 +11,7 @@ const About = () => {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Freshcoat Painting and Decorating",
-    "description": "Fully qualified painter and decorator in Christchurch with 30 years experience. Specialising in spray finishing, wall coverings, specialist coatings, residential and commercial painting.",
+    "description": "Fully qualified painter and decorator in Christchurch with 30 years experience. Specialising in interior, exterior, roof painting, spray finishing, wall coverings, and specialist coatings.",
     "url": "https://www.freshcoat.co.nz/about",
     "foundingDate": "1994",
     "areaServed": "Christchurch",

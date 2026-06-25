@@ -43,7 +43,7 @@ const GBPChecklist = () => {
     { title: 'Select the correct primary category', desc: 'Choose "Painter" as your primary category. You can add secondary categories like "Interior painter", "Exterior painter", or "Commercial painter".' },
     { title: 'Add your service areas', desc: 'List every Christchurch suburb you cover: Fendalton, Merivale, Riccarton, Halswell, Cashmere, Sumner, Rolleston, etc. This helps you show up in "painters near me" searches in those areas.' },
     { title: 'Enter exact NAP details', desc: 'Use the same business name, address, and phone number (022 036 6586) everywhere online — website, Yellow, Builderscrack, NoCowboys, etc. Any inconsistency hurts rankings.' },
-    { title: 'Write a keyword-rich description', desc: 'Use all 750 characters. Include: "Christchurch painters", "interior painting", "exterior painting", "roof painting", "commercial painting", "30+ years experience", and "free quotes".' },
+    { title: 'Write a keyword-rich description', desc: 'Use all 750 characters. Mention your trade, experience, areas, services and a clear call to action. See the example description below.' },
     { title: 'Set your hours', desc: 'Add accurate opening hours. Even if you work by appointment, set standard hours (e.g., Mon–Fri 7am–6pm) and note "Closed" days clearly.' },
     { title: 'Add appointment/booking link', desc: 'Link to your website contact page or quote form. Freshcoat uses /contact or the quote modal — make it easy for customers to reach you directly from the profile.' },
     { title: 'Verify your listing', desc: 'Google will send a postcard with a PIN to your business address. This is mandatory — you cannot rank in the local pack without verification.' },
@@ -80,7 +80,7 @@ const GBPChecklist = () => {
     'Ignoring negative reviews — always respond professionally and offer to make it right.',
     'Keyword-stuffing the business name — "Freshcoat Painting and Decorating | Best Painters Christchurch" can get you suspended.',
     'Letting the profile go stale — profiles with no new photos or posts in 3+ months rank lower.',
-    'Forgetting to add services and pricing — use the Services tab to list "Interior Painting", "Exterior Painting", "Roof Painting", etc. with starting prices.',
+    'Forgetting to add services and pricing — use the Services tab to list Interior Painting, Exterior Painting, Roof Painting, Commercial Painting, Wallpapering and Spray Finishing with starting prices.',
   ];
 
   return (
@@ -173,6 +173,45 @@ const GBPChecklist = () => {
                       <p className="text-muted-foreground leading-relaxed">{step.desc}</p>
                     </div>
                   </Card>
+                ))}
+              </div>
+            </div>
+          </section>
+
+          {/* Example GBP description */}
+          <section className="py-16 bg-background">
+            <div className="container mx-auto px-4 max-w-4xl">
+              <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-brand-gray text-center">
+                Example GBP Description for Freshcoat
+              </h2>
+              <p className="text-center text-muted-foreground mb-8 max-w-2xl mx-auto">
+                Copy and adapt this description into your Google Business Profile "About" section. It stays under the 750-character limit and includes your key services and location.
+              </p>
+              <Card className="p-8 bg-blue-50 border-blue-100">
+                <p className="text-brand-gray leading-relaxed">
+                  Hi, I'm Michael — a fully qualified painter and decorator with 30 years' experience. I cover all aspects of the trade, including interior and exterior painting, roof painting, spray finishing, wall coverings, and specialist coatings. I pride myself on delivering a professional, timely service with close attention to detail and customer satisfaction. Over the years, I've built a strong reputation across Christchurch, working with homeowners, businesses, and developers on projects of every size. Whether it's a single room refresh, a full exterior repaint, or a specialist coating for a commercial property, I bring the same level of care and expertise to every job. Free, no-obligation quotes available.
+                </p>
+                <div className="mt-4 text-sm text-muted-foreground">
+                  707 characters — within the 750-character limit.
+                </div>
+              </Card>
+
+              <h3 className="text-2xl font-bold mt-12 mb-6 text-brand-gray text-center">
+                Services to Add in Your GBP Services Tab
+              </h3>
+              <div className="grid md:grid-cols-2 gap-4">
+                {[
+                  'Interior Painting',
+                  'Exterior Painting',
+                  'Roof Painting',
+                  'Commercial Painting',
+                  'Wallpapering',
+                  'Spray Finishing',
+                ].map((service, i) => (
+                  <div key={i} className="flex items-center gap-3 p-4 bg-white rounded-lg border border-gray-100">
+                    <Check className="w-5 h-5 text-green-600 flex-shrink-0" />
+                    <span className="text-brand-gray font-medium">{service}</span>
+                  </div>
                 ))}
               </div>
             </div>
