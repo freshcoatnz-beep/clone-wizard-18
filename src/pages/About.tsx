@@ -54,8 +54,8 @@ const About = () => {
     <>
       <Helmet>
         <title>About Freshcoat Painting | Christchurch Painters</title>
-        <meta name="description" content="Learn about Freshcoat Painting - Christchurch's leading painters since 1994. 30+ years experience, fully licensed & insured. Quality workmanship guaranteed." />
-        <meta name="keywords" content="about freshcoat painting, christchurch painters, painting company history, experienced painters" />
+        <meta name="description" content="Meet Michael, a fully qualified painter and decorator with 30 years experience in Christchurch. Specialising in spray finishing, wall coverings, and specialist coatings." />
+        <meta name="keywords" content="about freshcoat painting, christchurch painters, michael painter decorator, spray finishing, wall coverings, specialist coatings" />
         <link rel="canonical" href="https://www.freshcoat.co.nz/about" />
         <meta property="og:title" content="About Freshcoat Painting | Christchurch Painters" />
         <meta property="og:description" content="Christchurch's leading painters since 1994. 30+ years experience, fully licensed & insured. Quality workmanship guaranteed." />
