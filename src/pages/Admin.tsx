@@ -64,6 +64,9 @@ export default function Admin() {
   const [findings, setFindings] = useState<Finding[]>([]);
   const [prevFindings, setPrevFindings] = useState<Finding[]>([]);
   const [busy, setBusy] = useState(false);
+  const [quotes, setQuotes] = useState<QuoteSubmission[]>([]);
+  const [quotesLoading, setQuotesLoading] = useState(false);
+  const [activeTab, setActiveTab] = useState("quotes");
 
   useEffect(() => {
     if (!isAdmin) return;
@@ -102,6 +105,24 @@ export default function Admin() {
       }
     })();
   }, [selected, scans]);
+
+  const loadQuotes = async () => {
+    if (!isAdmin) return;
+    setQuotesLoading(true);
+    const { data } = await supabase
+      .from("quote_submissions")
+      .select("*")
+      .order("created_at", { ascending: false })
+      .limit(200);
+    setQuotes((data ?? []) as QuoteSubmission[]);
+    setQuotesLoading(false);
+  };
+
+  useEffect(() => {
+    if (activeTab === "quotes") {
+      loadQuotes();
+    }
+  }, [activeTab, isAdmin]);
 
   const { newKeys, resolvedKeys, urlGroups } = useMemo(() => {
     const key = (f: Pick<Finding, "url" | "check_type" | "message">) =>
@@ -171,6 +192,7 @@ export default function Admin() {
         </Card>
       </main>
     );
+
 
   return (
     <main className="min-h-screen bg-background p-6">
