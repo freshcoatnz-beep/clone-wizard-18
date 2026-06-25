@@ -79,7 +79,7 @@ const About = () => {
                 About Freshcoat Painting — Christchurch Painters
               </h1>
               <p className="text-xl mb-8 text-muted-foreground leading-relaxed">
-                Hi, I'm Michael — a fully qualified painter and decorator with 30 years' experience. I cover all aspects of the trade, including spray finishing, wall coverings, and specialist coatings. I pride myself on delivering a professional, timely service with close attention to detail and customer satisfaction. Over the years, I've built a strong reputation across Christchurch for quality workmanship and reliable service.
+                Meet Michael — a fully qualified painter and decorator with 30 years' experience serving Christchurch homeowners, businesses, and developers.
               </p>
               <QuoteForm>
                 <Button variant="hero" size="lg" className="text-xl px-12 py-6 font-semibold bg-green-600 hover:bg-green-700 text-white border-green-600 mt-8">
@@ -106,21 +106,25 @@ const About = () => {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl lg:text-4xl font-bold mb-8 text-brand-gray text-center">
+              A Local Christchurch Painter with a Reputation for Quality
+            </h2>
+
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
-              <p className="font-semibold text-brand-gray">
-                Hi, I'm Michael — a fully qualified painter and decorator with 30 years' experience. I cover all aspects of the trade, including spray finishing, wall coverings, and specialist coatings.
+              <p>
+                Freshcoat Painting and Decorating is built on three decades of hands-on experience across every aspect of the painting trade. From interior repaints and exterior weatherboard refreshes to specialist coatings, spray finishes, and wallpapering, I bring the same careful approach to every project.
               </p>
 
               <p>
-                I pride myself on delivering a professional, timely service with close attention to detail and customer satisfaction. Over the years, I've built a strong reputation across Christchurch for quality workmanship and reliable service, working with homeowners, businesses, and developers on projects of every size.
+                I work directly with homeowners, landlords, business owners, and builders throughout Christchurch and Canterbury. Every job gets proper surface preparation, premium materials, and a clean, tidy worksite — finished on time and to a standard I'm happy to put my name behind.
               </p>
 
               <p>
-                Whether it's a single room refresh, a full exterior repaint, or a specialist coating for a commercial property, I bring the same level of care and expertise to every job. I use premium products, keep worksites clean and tidy, and make sure every project is finished on time and to the highest standard.
+                My focus is simple: deliver a professional, timely service with close attention to detail and genuine customer care. Over the years, that approach has helped me build a strong reputation based on repeat clients and word-of-mouth referrals.
               </p>
 
               <p className="font-semibold text-brand-gray">
-                I help you increase the value and appearance of your property because presentation is everything.
+                I help you protect and improve the value of your property because presentation is everything.
               </p>
             </div>
           </div>
