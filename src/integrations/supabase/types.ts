@@ -41,6 +41,45 @@ export type Database = {
         }
         Relationships: []
       }
+      quote_submissions: {
+        Row: {
+          address: string | null
+          created_at: string
+          email: string
+          id: string
+          message: string | null
+          name: string
+          phone: string
+          service_type: string | null
+          source: string | null
+          status: string | null
+        }
+        Insert: {
+          address?: string | null
+          created_at?: string
+          email: string
+          id?: string
+          message?: string | null
+          name: string
+          phone: string
+          service_type?: string | null
+          source?: string | null
+          status?: string | null
+        }
+        Update: {
+          address?: string | null
+          created_at?: string
+          email?: string
+          id?: string
+          message?: string | null
+          name?: string
+          phone?: string
+          service_type?: string | null
+          source?: string | null
+          status?: string | null
+        }
+        Relationships: []
+      }
       seo_scan_findings: {
         Row: {
           check_type: string
