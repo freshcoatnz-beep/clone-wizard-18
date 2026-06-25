@@ -217,7 +217,7 @@ const GBPChecklist = () => {
                 Phase 3: Reviews — Social Proof That Sells
               </h2>
               <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                Review quantity, velocity (how fast you get them), and response rate all factor into local ranking. Here is how Freshcoat built a 5.0-star profile — and the playbook to scale to 50+.
+                Review quantity, velocity (how fast you get them), and response rate all factor into local ranking. Here is how Freshcoat built a top-rated Google profile — and the playbook to scale to 50+.
               </p>
               <div className="mb-8 text-center">
                 <a href="/review-us" className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 font-semibold text-lg">
@@ -242,7 +242,7 @@ const GBPChecklist = () => {
                   The "review gap" opportunity in Christchurch
                 </p>
                 <p className="text-muted-foreground mt-2">
-                  Most Christchurch painters have 0–5 reviews. The top 3 in the local pack typically have 15–50. There is a massive opportunity to dominate by consistently asking every customer. A painter with 25 genuine 5-star reviews will outrank a competitor with a 10-year-old website and 2 reviews.
+                  Most Christchurch painters have 0–5 reviews. The top 3 in the local pack typically have 15–50. There is a massive opportunity to dominate by consistently asking every customer. A painter with 25 genuine reviews will outrank a competitor with a 10-year-old website and 2 reviews.
                 </p>
               </div>
             </div>
