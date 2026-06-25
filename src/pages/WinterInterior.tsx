@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { QuoteForm } from '@/components/QuoteForm';
 import { Check, Shield, Home, Palette } from '@/components/icons-lite';
-import { Phone } from 'lucide-react';
+import { Phone, Star, Award, MapPin } from 'lucide-react';
 import { InView } from '@/components/InView';
 
 const heroImage = '/interior-hero-room.webp';
@@ -162,6 +162,26 @@ const WinterInterior = () => {
             </div>
           </section>
 
+          {/* Trust row — fast credibility for paid traffic */}
+          <section className="bg-white border-b">
+            <div className="container mx-auto px-4 py-4">
+              <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-2 text-sm md:text-base text-brand-gray">
+                <span className="flex items-center gap-2 font-semibold">
+                  <Award className="w-5 h-5 text-brand-red" /> 30+ Years Experience
+                </span>
+                <span className="flex items-center gap-2 font-semibold">
+                  <Star className="w-5 h-5 text-yellow-500 fill-yellow-500" /> Qualified Painter &amp; Decorator
+                </span>
+                <span className="flex items-center gap-2 font-semibold">
+                  <MapPin className="w-5 h-5 text-brand-red" /> Locally Owned — All Christchurch
+                </span>
+                <span className="hidden md:flex items-center gap-2 font-semibold">
+                  <Check className="w-5 h-5 text-green-600" /> Free Fixed-Price Quotes
+                </span>
+              </div>
+            </div>
+          </section>
+
           {/* Why winter */}
           <section className="py-16 lg:py-20">
             <div className="container mx-auto px-4 max-w-5xl">
@@ -264,6 +284,23 @@ const WinterInterior = () => {
           </section>
         </main>
         <InView minHeight="400px"><Footer /></InView>
+
+        {/* Sticky mobile call/quote bar — high-converting for paid clicks */}
+        <div className="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-white border-t shadow-lg flex">
+          <a
+            href="tel:+64220366586"
+            className="flex-1 flex items-center justify-center gap-2 py-3 font-semibold text-brand-gray bg-white"
+          >
+            <Phone className="w-5 h-5 text-brand-red" /> Call Now
+          </a>
+          <QuoteForm>
+            <button className="flex-1 py-3 font-semibold text-white bg-brand-red">
+              Get FREE Quote
+            </button>
+          </QuoteForm>
+        </div>
+        {/* Spacer so sticky bar doesn't cover footer content on mobile */}
+        <div className="md:hidden h-14" aria-hidden="true" />
       </div>
     </>
   );
