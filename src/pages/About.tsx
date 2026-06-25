@@ -79,7 +79,7 @@ const About = () => {
                 About Freshcoat Painting — Christchurch Painters
               </h1>
               <p className="text-xl mb-8 text-muted-foreground leading-relaxed">
-                Freshcoat Painting is a leading full-service Christchurch based painting company with over 30 years of experience. Our work goes beyond colour swatches and paint techniques, we create curb appeal and stunning spaces you will love.
+                Hi, I'm Michael — a fully qualified painter and decorator with 30 years' experience. I cover all aspects of the trade, including spray finishing, wall coverings, and specialist coatings. I pride myself on delivering a professional, timely service with close attention to detail and customer satisfaction. Over the years, I've built a strong reputation across Christchurch for quality workmanship and reliable service.
               </p>
               <QuoteForm>
                 <Button variant="hero" size="lg" className="text-xl px-12 py-6 font-semibold bg-green-600 hover:bg-green-700 text-white border-green-600 mt-8">
