@@ -10,8 +10,8 @@ const About = () => {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Freshcoat Painting",
-    "description": "Leading Christchurch painting company with 30+ years experience. Residential and commercial painting services with exceptional quality and customer service.",
+    "name": "Freshcoat Painting and Decorating",
+    "description": "Fully qualified painter and decorator in Christchurch with 30 years experience. Specialising in spray finishing, wall coverings, specialist coatings, residential and commercial painting.",
     "url": "https://www.freshcoat.co.nz/about",
     "foundingDate": "1994",
     "areaServed": "Christchurch",
