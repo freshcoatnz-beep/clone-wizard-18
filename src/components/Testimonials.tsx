@@ -18,7 +18,7 @@ const testimonials = [
     name: 'James P.',
     location: 'Papanui',
     rating: 5,
-    text: "Got three quotes — Freshcoat were competitive and explained everything clearly. The roof painting has completely transformed the look of our home. 5 stars.",
+    text: "Got three quotes — Freshcoat were competitive and explained everything clearly. The roof painting has completely transformed the look of our home. Highly recommended.",
   },
   {
     name: 'Linda K.',
