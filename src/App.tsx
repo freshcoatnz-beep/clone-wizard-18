@@ -19,6 +19,7 @@ const ProjectPage = lazy(() => import("./pages/ProjectPage"));
 const Auth = lazy(() => import("./pages/Auth"));
 const Admin = lazy(() => import("./pages/Admin"));
 const GBPChecklist = lazy(() => import("./pages/GBPChecklist"));
+const ReviewUs = lazy(() => import("./pages/ReviewUs"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 const App = () => (
@@ -44,6 +45,7 @@ const App = () => (
             <Route path="/auth" element={<Auth />} />
             <Route path="/admin" element={<Admin />} />
             <Route path="/google-business-profile-checklist" element={<GBPChecklist />} />
+            <Route path="/review-us" element={<ReviewUs />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Suspense>

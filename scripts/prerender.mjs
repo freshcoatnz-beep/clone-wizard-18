@@ -160,6 +160,15 @@ const routes = [
     intro:
       'A practical Google Business Profile checklist — the exact steps Christchurch tradies need to rank in the local 3-pack.',
   },
+  {
+    path: '/review-us',
+    title: 'Leave a Google Review | Freshcoat Painting and Decorating',
+    description:
+      'Happy with our painting? Leave Freshcoat Painting and Decorating a quick Google review. It takes 30 seconds and helps other Christchurch homeowners find us.',
+    h1: 'Leave a Google Review for Freshcoat',
+    intro:
+      'Leave Freshcoat Painting and Decorating a quick Google review. It takes 30 seconds and helps other Christchurch homeowners and businesses find a painter they can trust.',
+  },
 ];
 
 // Suburb routes — assembled from src/data/suburbs.ts
