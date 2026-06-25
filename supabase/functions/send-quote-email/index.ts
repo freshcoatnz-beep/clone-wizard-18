@@ -1,5 +1,6 @@
 import { serve } from "https://deno.land/std@0.190.0/http/server.ts";
 import { Resend } from "https://esm.sh/resend@2.0.0";
+import { createClient } from "https://esm.sh/@supabase/supabase-js@2.45.0";
 
 const resend = new Resend(Deno.env.get("RESEND_API_KEY"));
 
@@ -33,6 +34,27 @@ const handler = async (req: Request): Promise<Response> => {
     }
 
     console.log("Processing quote request for:", name, email);
+
+    // Persist submission to database so admin can review it
+    const supabase = createClient(
+      Deno.env.get("SUPABASE_URL")!,
+      Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!
+    );
+
+    const { error: insertError } = await supabase.from("quote_submissions").insert({
+      name,
+      email,
+      phone,
+      address,
+      service_type: serviceType,
+      message,
+      source: "website",
+      status: "new",
+    });
+
+    if (insertError) {
+      console.error("Quote submission insert error:", insertError);
+    }
 
     // Send email to business owner
     const businessEmailResponse = await resend.emails.send({

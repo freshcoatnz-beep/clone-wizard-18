@@ -5,6 +5,7 @@ import { useAuth } from "@/hooks/useAuth";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {
   Table, TableBody, TableCell, TableHead, TableHeader, TableRow,
 } from "@/components/ui/table";
@@ -12,12 +13,12 @@ import { Helmet } from "@/lib/head";
 
 const AdminHead = () => (
   <Helmet>
-    <title>SEO Scan Dashboard | Freshcoat Admin</title>
-    <meta name="description" content="Internal Freshcoat Painting admin dashboard for reviewing nightly SEO scan history, findings, and site health." />
+    <title>Admin Dashboard | Freshcoat</title>
+    <meta name="description" content="Internal Freshcoat Painting admin dashboard for reviewing quote submissions and nightly SEO scan history." />
     <meta name="robots" content="noindex,nofollow" />
     <link rel="canonical" href="https://www.freshcoat.co.nz/admin" />
-    <meta property="og:title" content="SEO Scan Dashboard | Freshcoat Admin" />
-    <meta property="og:description" content="Internal Freshcoat Painting admin dashboard for SEO scan history and findings." />
+    <meta property="og:title" content="Admin Dashboard | Freshcoat" />
+    <meta property="og:description" content="Internal Freshcoat Painting admin dashboard for quote submissions and SEO scan history." />
     <meta property="og:url" content="https://www.freshcoat.co.nz/admin" />
     <meta property="og:type" content="website" />
   </Helmet>
@@ -42,6 +43,20 @@ interface Finding {
   message: string;
 }
 
+interface QuoteSubmission {
+  id: string;
+  name: string;
+  email: string;
+  phone: string;
+  address: string | null;
+  service_type: string | null;
+  message: string | null;
+  source: string;
+  status: string;
+  created_at: string;
+}
+
+
 export default function Admin() {
   const { user, isAdmin, loading } = useAuth();
   const [scans, setScans] = useState<Scan[]>([]);
@@ -49,6 +64,9 @@ export default function Admin() {
   const [findings, setFindings] = useState<Finding[]>([]);
   const [prevFindings, setPrevFindings] = useState<Finding[]>([]);
   const [busy, setBusy] = useState(false);
+  const [quotes, setQuotes] = useState<QuoteSubmission[]>([]);
+  const [quotesLoading, setQuotesLoading] = useState(false);
+  const [activeTab, setActiveTab] = useState("quotes");
 
   useEffect(() => {
     if (!isAdmin) return;
@@ -87,6 +105,24 @@ export default function Admin() {
       }
     })();
   }, [selected, scans]);
+
+  const loadQuotes = async () => {
+    if (!isAdmin) return;
+    setQuotesLoading(true);
+    const { data } = await supabase
+      .from("quote_submissions")
+      .select("*")
+      .order("created_at", { ascending: false })
+      .limit(200);
+    setQuotes((data ?? []) as QuoteSubmission[]);
+    setQuotesLoading(false);
+  };
+
+  useEffect(() => {
+    if (activeTab === "quotes") {
+      loadQuotes();
+    }
+  }, [activeTab, isAdmin]);
 
   const { newKeys, resolvedKeys, urlGroups } = useMemo(() => {
     const key = (f: Pick<Finding, "url" | "check_type" | "message">) =>
@@ -157,14 +193,15 @@ export default function Admin() {
       </main>
     );
 
+
   return (
     <main className="min-h-screen bg-background p-6">
       <AdminHead />
       <div className="max-w-7xl mx-auto space-y-6">
-        <header className="flex items-center justify-between">
+        <header className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <div>
-            <h1 className="text-3xl font-bold">SEO scan dashboard</h1>
-            <p className="text-sm text-muted-foreground">Nightly scan history for freshcoat.co.nz</p>
+            <h1 className="text-3xl font-bold">Admin dashboard</h1>
+            <p className="text-sm text-muted-foreground">Quote submissions and nightly SEO scan history for freshcoat.co.nz</p>
           </div>
           <div className="flex gap-2">
             <Button onClick={runNow} disabled={busy}>{busy ? "Running…" : "Run scan now"}</Button>
@@ -172,103 +209,164 @@ export default function Admin() {
           </div>
         </header>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          <Card className="p-4 lg:col-span-1">
-            <h2 className="font-semibold mb-3">Scan history</h2>
-            <div className="space-y-1 max-h-[70vh] overflow-y-auto">
-              {scans.map((s) => (
-                <button
-                  key={s.id}
-                  onClick={() => setSelected(s)}
-                  className={`w-full text-left p-3 rounded-md border transition-colors ${
-                    selected?.id === s.id ? "bg-accent border-primary" : "hover:bg-muted border-transparent"
-                  }`}
-                >
-                  <div className="text-sm font-medium">
-                    {new Date(s.scanned_at).toLocaleString()}
-                  </div>
-                  <div className="text-xs text-muted-foreground flex gap-2 mt-1 flex-wrap">
-                    <span>{s.total_issues} open</span>
-                    {s.new_issues > 0 && <Badge variant="destructive">{s.new_issues} new</Badge>}
-                    {s.resolved_issues > 0 && <Badge className="bg-emerald-600">{s.resolved_issues} fixed</Badge>}
-                  </div>
-                </button>
-              ))}
-              {scans.length === 0 && (
-                <p className="text-sm text-muted-foreground">No scans yet.</p>
-              )}
-            </div>
-          </Card>
+        <Tabs value={activeTab} onValueChange={setActiveTab}>
+          <TabsList>
+            <TabsTrigger value="quotes">Quote submissions {quotes.length > 0 && `(${quotes.length})`}</TabsTrigger>
+            <TabsTrigger value="seo">SEO scans</TabsTrigger>
+          </TabsList>
 
-          <Card className="p-4 lg:col-span-2">
-            {selected ? (
-              <>
-                <div className="flex flex-wrap items-baseline justify-between gap-2 mb-4">
-                  <h2 className="font-semibold">
-                    Scan · {new Date(selected.scanned_at).toLocaleString()}
-                  </h2>
-                  <div className="text-sm text-muted-foreground flex gap-3">
-                    <span>{selected.total_pages} pages</span>
-                    <span>{selected.total_issues} open</span>
-                    <span className="text-destructive">{selected.new_issues} new</span>
-                    <span className="text-emerald-600">{selected.resolved_issues} resolved</span>
-                  </div>
-                </div>
-                <Table>
-                  <TableHeader>
-                    <TableRow>
-                      <TableHead>URL</TableHead>
-                      <TableHead>Issues</TableHead>
-                    </TableRow>
-                  </TableHeader>
-                  <TableBody>
-                    {urlGroups.map(([url, { current, resolved }]) => (
-                      <TableRow key={url} className="align-top">
-                        <TableCell className="font-mono text-xs max-w-[280px] break-words">
-                          <a href={url} target="_blank" rel="noreferrer" className="hover:underline">
-                            {url.replace("https://www.freshcoat.co.nz", "") || "/"}
-                          </a>
-                        </TableCell>
-                        <TableCell>
-                          <ul className="space-y-1 text-sm">
-                            {current.map((f) => {
-                              const k = `${f.url}|${f.check_type}|${f.message}`;
-                              const isNew = newKeys.has(k);
-                              return (
-                                <li key={f.id} className="flex gap-2 items-start">
-                                  {isNew && <Badge variant="destructive" className="text-[10px]">NEW</Badge>}
-                                  <Badge variant={f.severity === "error" ? "destructive" : "secondary"} className="text-[10px]">
-                                    {f.severity}
-                                  </Badge>
-                                  <span><strong className="font-mono text-xs">{f.check_type}</strong> — {f.message}</span>
-                                </li>
-                              );
-                            })}
-                            {resolved.map((f) => (
-                              <li key={f.id} className="flex gap-2 items-start opacity-70 line-through">
-                                <Badge className="bg-emerald-600 text-[10px]">RESOLVED</Badge>
-                                <span><strong className="font-mono text-xs">{f.check_type}</strong> — {f.message}</span>
-                              </li>
-                            ))}
-                          </ul>
-                        </TableCell>
-                      </TableRow>
-                    ))}
-                    {urlGroups.length === 0 && (
+          <TabsContent value="quotes" className="mt-6">
+            <Card className="p-4">
+              <div className="flex items-center justify-between mb-4">
+                <h2 className="font-semibold">Recent quote requests</h2>
+                <Button variant="outline" size="sm" onClick={loadQuotes} disabled={quotesLoading}>
+                  {quotesLoading ? "Refreshing…" : "Refresh"}
+                </Button>
+              </div>
+              {quotes.length === 0 ? (
+                <p className="text-muted-foreground py-8 text-center">
+                  {quotesLoading ? "Loading submissions…" : "No quote submissions yet."}
+                </p>
+              ) : (
+                <div className="overflow-x-auto">
+                  <Table>
+                    <TableHeader>
                       <TableRow>
-                        <TableCell colSpan={2} className="text-center text-muted-foreground py-8">
-                          No issues — clean scan ✨
-                        </TableCell>
+                        <TableHead>Date</TableHead>
+                        <TableHead>Name</TableHead>
+                        <TableHead>Contact</TableHead>
+                        <TableHead>Service</TableHead>
+                        <TableHead>Address</TableHead>
+                        <TableHead>Message</TableHead>
+                        <TableHead>Status</TableHead>
                       </TableRow>
-                    )}
-                  </TableBody>
-                </Table>
-              </>
-            ) : (
-              <p className="text-muted-foreground">Select a scan to see details.</p>
-            )}
-          </Card>
-        </div>
+                    </TableHeader>
+                    <TableBody>
+                      {quotes.map((q) => (
+                        <TableRow key={q.id}>
+                          <TableCell className="whitespace-nowrap text-sm">
+                            {new Date(q.created_at).toLocaleString()}
+                          </TableCell>
+                          <TableCell className="font-medium">{q.name}</TableCell>
+                          <TableCell className="text-sm">
+                            <div>{q.email}</div>
+                            <div className="text-muted-foreground">{q.phone}</div>
+                          </TableCell>
+                          <TableCell>{q.service_type || "—"}</TableCell>
+                          <TableCell className="max-w-[200px] truncate">{q.address || "—"}</TableCell>
+                          <TableCell className="max-w-[250px] truncate">{q.message || "—"}</TableCell>
+                          <TableCell>
+                            <Badge variant={q.status === "new" ? "destructive" : "secondary"}>{q.status}</Badge>
+                          </TableCell>
+                        </TableRow>
+                      ))}
+                    </TableBody>
+                  </Table>
+                </div>
+              )}
+            </Card>
+          </TabsContent>
+
+          <TabsContent value="seo" className="mt-6">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+              <Card className="p-4 lg:col-span-1">
+                <h2 className="font-semibold mb-3">Scan history</h2>
+                <div className="space-y-1 max-h-[70vh] overflow-y-auto">
+                  {scans.map((s) => (
+                    <button
+                      key={s.id}
+                      onClick={() => setSelected(s)}
+                      className={`w-full text-left p-3 rounded-md border transition-colors ${
+                        selected?.id === s.id ? "bg-accent border-primary" : "hover:bg-muted border-transparent"
+                      }`}
+                    >
+                      <div className="text-sm font-medium">
+                        {new Date(s.scanned_at).toLocaleString()}
+                      </div>
+                      <div className="text-xs text-muted-foreground flex gap-2 mt-1 flex-wrap">
+                        <span>{s.total_issues} open</span>
+                        {s.new_issues > 0 && <Badge variant="destructive">{s.new_issues} new</Badge>}
+                        {s.resolved_issues > 0 && <Badge className="bg-emerald-600">{s.resolved_issues} fixed</Badge>}
+                      </div>
+                    </button>
+                  ))}
+                  {scans.length === 0 && (
+                    <p className="text-sm text-muted-foreground">No scans yet.</p>
+                  )}
+                </div>
+              </Card>
+
+              <Card className="p-4 lg:col-span-2">
+                {selected ? (
+                  <>
+                    <div className="flex flex-wrap items-baseline justify-between gap-2 mb-4">
+                      <h2 className="font-semibold">
+                        Scan · {new Date(selected.scanned_at).toLocaleString()}
+                      </h2>
+                      <div className="text-sm text-muted-foreground flex gap-3">
+                        <span>{selected.total_pages} pages</span>
+                        <span>{selected.total_issues} open</span>
+                        <span className="text-destructive">{selected.new_issues} new</span>
+                        <span className="text-emerald-600">{selected.resolved_issues} resolved</span>
+                      </div>
+                    </div>
+                    <Table>
+                      <TableHeader>
+                        <TableRow>
+                          <TableHead>URL</TableHead>
+                          <TableHead>Issues</TableHead>
+                        </TableRow>
+                      </TableHeader>
+                      <TableBody>
+                        {urlGroups.map(([url, { current, resolved }]) => (
+                          <TableRow key={url} className="align-top">
+                            <TableCell className="font-mono text-xs max-w-[280px] break-words">
+                              <a href={url} target="_blank" rel="noreferrer" className="hover:underline">
+                                {url.replace("https://www.freshcoat.co.nz", "") || "/"}
+                              </a>
+                            </TableCell>
+                            <TableCell>
+                              <ul className="space-y-1 text-sm">
+                                {current.map((f) => {
+                                  const k = `${f.url}|${f.check_type}|${f.message}`;
+                                  const isNew = newKeys.has(k);
+                                  return (
+                                    <li key={f.id} className="flex gap-2 items-start">
+                                      {isNew && <Badge variant="destructive" className="text-[10px]">NEW</Badge>}
+                                      <Badge variant={f.severity === "error" ? "destructive" : "secondary"} className="text-[10px]">
+                                        {f.severity}
+                                      </Badge>
+                                      <span><strong className="font-mono text-xs">{f.check_type}</strong> — {f.message}</span>
+                                    </li>
+                                  );
+                                })}
+                                {resolved.map((f) => (
+                                  <li key={f.id} className="flex gap-2 items-start opacity-70 line-through">
+                                    <Badge className="bg-emerald-600 text-[10px]">RESOLVED</Badge>
+                                    <span><strong className="font-mono text-xs">{f.check_type}</strong> — {f.message}</span>
+                                  </li>
+                                ))}
+                              </ul>
+                            </TableCell>
+                          </TableRow>
+                        ))}
+                        {urlGroups.length === 0 && (
+                          <TableRow>
+                            <TableCell colSpan={2} className="text-center text-muted-foreground py-8">
+                              No issues — clean scan ✨
+                            </TableCell>
+                          </TableRow>
+                        )}
+                      </TableBody>
+                    </Table>
+                  </>
+                ) : (
+                  <p className="text-muted-foreground">Select a scan to see details.</p>
+                )}
+              </Card>
+            </div>
+          </TabsContent>
+        </Tabs>
       </div>
     </main>
   );
