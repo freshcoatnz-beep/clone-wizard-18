@@ -106,21 +106,21 @@ const About = () => {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-8 text-brand-gray text-center">
-              A Local Christchurch Painting Company with A Reputation for Excellence
-            </h2>
-            
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
-              <p>
-                We have an impressive portfolio of clients ranging from residential property owners, hotel chains, shopping centres and large public corporations. Excellence is the hallmark of our work and our reputation for offering value is well known. We consistently deliver quality results because we complete projects neatly, on time and our team of meticulous qualified painters have a talented eye for detail.
-              </p>
-              
-              <p>
-                We deliver a comprehensive range of painting services for your home, business or development projects that will address all of your painting needs. We manage various painting projects both interior and exterior including restoration work, painting new developments, protective coatings, wood treatments, anti-graffiti systems and spray finishes.
-              </p>
-              
               <p className="font-semibold text-brand-gray">
-                We help you increase the value and appearance of your assets because presentation is everything.
+                Hi, I'm Michael — a fully qualified painter and decorator with 30 years' experience. I cover all aspects of the trade, including spray finishing, wall coverings, and specialist coatings.
+              </p>
+
+              <p>
+                I pride myself on delivering a professional, timely service with close attention to detail and customer satisfaction. Over the years, I've built a strong reputation across Christchurch for quality workmanship and reliable service, working with homeowners, businesses, and developers on projects of every size.
+              </p>
+
+              <p>
+                Whether it's a single room refresh, a full exterior repaint, or a specialist coating for a commercial property, I bring the same level of care and expertise to every job. I use premium products, keep worksites clean and tidy, and make sure every project is finished on time and to the highest standard.
+              </p>
+
+              <p className="font-semibold text-brand-gray">
+                I help you increase the value and appearance of your property because presentation is everything.
               </p>
             </div>
           </div>
