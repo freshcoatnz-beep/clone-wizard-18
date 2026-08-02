@@ -54,9 +54,9 @@ const routes = [
   },
   {
     path: '/interior',
-    title: 'Interior House Painters Christchurch | Freshcoat Painting',
+    title: 'Interior Painters Christchurch | Free Quote in 24 Hours',
     description:
-      'Professional interior house painting in Christchurch — walls, ceilings, trim and doors. Low-VOC paints, tidy crews and a 5-year guarantee. Free quotes.',
+      'Interior painters in Christchurch — walls, ceilings, doors and trim. Tidy crews, low-odour paints, 5-year guarantee. Free quote in 24 hours.',
     h1: 'Interior House Painting Christchurch',
     intro:
       'Full interior repaints, single rooms, ceilings, trim and doors. Low-VOC paints, meticulous prep and a 5-year workmanship guarantee on every job.',
@@ -72,18 +72,18 @@ const routes = [
   },
   {
     path: '/roof-painting',
-    title: 'Roof Painters Christchurch | Painting & Restoration',
+    title: 'Roof Painters Christchurch | Free Quote in 24 Hours',
     description:
-      'Professional roof painters in Christchurch. Expert roof painting, repainting & restoration for tile, metal & Colorsteel roofs. 5-year warranty. Free quote.',
+      "Christchurch roof painters — tile, metal and Colorsteel roof painting and restoration. 30+ years' experience, 5-year guarantee, free quote in 24 hours.",
     h1: 'Roof Painters Christchurch — Professional Roof Painting & Repainting',
     intro:
       'Professional roof painters in Christchurch specialising in roof painting, roof repainting and full roof restoration for concrete tile, metal and Colorsteel roofs across Canterbury.',
   },
   {
     path: '/commercial',
-    title: 'Commercial & Industrial Painters Christchurch | Freshcoat',
+    title: 'Commercial Painters Christchurch | Free Quote in 24 Hrs',
     description:
-      'Commercial painters Christchurch. Offices, retail, warehouses & factories. Fully insured, 5-year warranty. Free quote.',
+      'Commercial and industrial painters in Christchurch — offices, retail, warehouses and factories. Fully insured, after-hours work, free quote in 24 hours.',
     h1: 'Commercial & Industrial Painters Christchurch',
     intro:
       'Commercial and industrial painting in Christchurch — offices, retail, warehouses, factories and body-corporate buildings. After-hours scheduling, Site Safe compliant crews and a 5-year workmanship warranty.',
@@ -195,8 +195,8 @@ const suburbs = [
 for (const [slug, name] of suburbs) {
   routes.push({
     path: `/painters/${slug}`,
-    title: `${name} Painters | Freshcoat Painting Christchurch`,
-    description: `Local ${name} painters — interior, exterior and roof painting with 30+ years experience and a 5-year workmanship warranty. Free quotes within 24 hours.`,
+    title: `${name} House Painter | Free Quote in 24 Hours`,
+    description: `${name} house painter — interior, exterior and roof painting in Christchurch. 30+ years' experience, 5-year guarantee, free quote in 24 hours.`,
     h1: `${name} Painters — Freshcoat Painting`,
     intro: `Trusted painters serving ${name} and surrounding Christchurch suburbs. Interior, exterior and roof painting with a 5-year workmanship guarantee.`,
   });
