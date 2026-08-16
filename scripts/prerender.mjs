@@ -87,6 +87,8 @@ const routes = [
     h1: 'Commercial & Industrial Painters Christchurch',
     intro:
       'Commercial and industrial painting in Christchurch — offices, retail, warehouses, factories and body-corporate buildings. After-hours scheduling, Site Safe compliant crews and a 5-year workmanship warranty.',
+    extra:
+      'Spray painting contractors for warehouse cladding, structural steel, tanks and large interiors, plus epoxy floors, line marking and indicative commercial painting costs per square metre. Servicing the Christchurch CBD, Addington, Riccarton, Sydenham, Woolston, Hornby, Sockburn, Islington, Papanui, Rolleston and Rangiora.',
   },
   {
     path: '/house-preparation',
