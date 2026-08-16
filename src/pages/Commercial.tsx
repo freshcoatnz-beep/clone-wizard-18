@@ -84,6 +84,26 @@ const Commercial = () => {
         "@type": "Question",
         "name": "Do you offer industrial painting in Christchurch?",
         "acceptedAnswer": { "@type": "Answer", "text": "Yes. Freshcoat Painting are experienced industrial painters in Christchurch, handling warehouses, factories, workshops, plant rooms and storage facilities. We apply protective and anti-corrosive coatings to structural steel, cladding, concrete floors and high-bay walls, with full Site Safe compliance and EWP/scaffold access where required." }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you do commercial spray painting in Christchurch?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. As spray painting contractors in Christchurch we airless-spray warehouse cladding, ceilings, structural steel, tanks, silos and large office interiors. Spraying gives a fast, even finish on big areas, and we use full masking and containment so adjacent tenancies, stock and vehicles stay protected." }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you provide a written health and safety plan?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Every commercial quote includes a site-specific safety plan, task analysis, hazard register and product safety data sheets. We can also work under your main contractor's H&S system and attend site inductions and toolbox meetings." }
+      },
+      {
+        "@type": "Question",
+        "name": "Can you paint a tenanted building without disrupting tenants?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. For body corporate and tenanted commercial buildings we work in staged zones, give tenants written notice of each stage, keep access ways clear and use low-odour paints in occupied areas. Most stages are completed and cleaned down the same day." }
+      },
+      {
+        "@type": "Question",
+        "name": "Which areas of Christchurch do you cover for commercial work?",
+        "acceptedAnswer": { "@type": "Answer", "text": "We cover the whole of Christchurch and greater Canterbury — the CBD, Addington, Riccarton, Sydenham, Woolston, Bromley, Hornby, Sockburn, Wigram, Islington, Papanui, Belfast, plus Rolleston, Lincoln, Rangiora and Kaiapoi." }
       }
     ]
   };
@@ -244,6 +264,127 @@ const Commercial = () => {
             <p className="text-lg text-muted-foreground leading-relaxed">
               If you're searching for industrial painters near me in Christchurch, call Michael on 022 036 6586 for a free site inspection and fixed written quote — backed by our 5-year workmanship guarantee.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Spray Painting Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-brand-gray">
+              Spray Painting Contractors Christchurch
+            </h2>
+            <p className="text-lg mb-6 text-muted-foreground leading-relaxed">
+              For large commercial and industrial surfaces, airless spray application is faster, more even and far more cost-effective than brush and roller. Freshcoat Painting are experienced spray painting contractors in Christchurch, spraying warehouse cladding and high-bay ceilings, structural steel, roller doors, tanks and silos, and large open-plan office interiors.
+            </p>
+            <p className="text-lg mb-6 text-muted-foreground leading-relaxed">
+              Spraying demands proper containment. We fully mask and shroud adjacent tenancies, stock, machinery, glazing and vehicles, control overspray with screens and extraction where needed, and back-roll where a specification calls for it so film build stays uniform.
+            </p>
+            <h3 className="text-xl font-semibold mb-4 text-brand-gray">Where spray application works best:</h3>
+            <ul className="space-y-2 mb-6">
+              <li className="text-lg">• Warehouse walls, ceilings and exposed steel portal frames</li>
+              <li className="text-lg">• Profiled metal cladding, roller doors and downpipes</li>
+              <li className="text-lg">• Precast and tilt-slab concrete panels</li>
+              <li className="text-lg">• Large vacant office and retail interiors before fit-out</li>
+              <li className="text-lg">• Fences, balustrades, louvres and repetitive joinery</li>
+            </ul>
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              Not sure whether your job suits spray, roller or a mix? We'll tell you honestly at the site inspection and price the method that gives the best result for your budget.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Pricing Guide Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-brand-gray">
+              Commercial Painting Costs in Christchurch — Indicative Guide
+            </h2>
+            <p className="text-lg mb-8 text-muted-foreground leading-relaxed">
+              Every commercial building is different, so these are indicative ranges only — access, surface condition, coating specification and whether work runs after-hours all change the price. Your fixed written quote follows a free site inspection.
+            </p>
+
+            <div className="overflow-x-auto">
+              <table className="w-full text-left border-collapse bg-white rounded-lg overflow-hidden">
+                <caption className="sr-only">Indicative commercial painting price ranges in Christchurch</caption>
+                <thead>
+                  <tr className="bg-brand-gray text-white">
+                    <th scope="col" className="p-4 font-semibold">Type of work</th>
+                    <th scope="col" className="p-4 font-semibold">Indicative range (NZD)</th>
+                    <th scope="col" className="p-4 font-semibold">Typical timeframe</th>
+                  </tr>
+                </thead>
+                <tbody className="text-muted-foreground">
+                  <tr className="border-b">
+                    <th scope="row" className="p-4 font-medium text-foreground">Office interior repaint (per m² of wall)</th>
+                    <td className="p-4">$45 – $65</td>
+                    <td className="p-4">2 – 4 days</td>
+                  </tr>
+                  <tr className="border-b bg-gray-50">
+                    <th scope="row" className="p-4 font-medium text-foreground">Retail or café repaint (per m² of wall)</th>
+                    <td className="p-4">$50 – $75</td>
+                    <td className="p-4">2 – 5 days</td>
+                  </tr>
+                  <tr className="border-b">
+                    <th scope="row" className="p-4 font-medium text-foreground">Warehouse spray-applied walls &amp; ceiling (per m²)</th>
+                    <td className="p-4">$28 – $48</td>
+                    <td className="p-4">1 – 2 weeks</td>
+                  </tr>
+                  <tr className="border-b bg-gray-50">
+                    <th scope="row" className="p-4 font-medium text-foreground">Structural steel with anti-corrosive system (per m²)</th>
+                    <td className="p-4">$60 – $110</td>
+                    <td className="p-4">Varies with access</td>
+                  </tr>
+                  <tr className="border-b">
+                    <th scope="row" className="p-4 font-medium text-foreground">Epoxy floor coating (per m²)</th>
+                    <td className="p-4">$55 – $95</td>
+                    <td className="p-4">3 – 5 days incl. cure</td>
+                  </tr>
+                  <tr className="bg-gray-50">
+                    <th scope="row" className="p-4 font-medium text-foreground">Body corporate exterior repaint (per unit)</th>
+                    <td className="p-4">$4,500 – $9,000</td>
+                    <td className="p-4">1 – 3 weeks</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <p className="text-base mt-6 text-muted-foreground leading-relaxed">
+              After-hours and weekend work usually adds 15–25%, and scaffold or EWP hire is quoted separately where height access is required. There are no hidden extras once your quote is signed.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Areas + related services Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-brand-gray">
+              Commercial Painters Across Christchurch &amp; Canterbury
+            </h2>
+            <p className="text-lg mb-6 text-muted-foreground leading-relaxed">
+              Our commercial crews work throughout the city and surrounding towns — the CBD and Addington, Riccarton and Sydenham retail strips, the industrial belts of Hornby, Sockburn, Islington, Woolston and Bromley, Papanui and Belfast, plus Rolleston, Lincoln, Rangiora and Kaiapoi.
+            </p>
+            <p className="text-lg mb-8 text-muted-foreground leading-relaxed">
+              If you're searching for commercial painters near me in Christchurch, call Michael on{' '}
+              <a href="tel:0220366586" className="text-primary font-semibold underline">022 036 6586</a>{' '}
+              or email{' '}
+              <a href="mailto:michael@freshcoat.co.nz" className="text-primary font-semibold underline">michael@freshcoat.co.nz</a>{' '}
+              to book a free site inspection.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-gray">Related services</h3>
+            <ul className="space-y-2">
+              <li className="text-lg">• <a href="/roof-painting" className="text-primary underline">Roof painting in Christchurch</a> — commercial and industrial roof coatings</li>
+              <li className="text-lg">• <a href="/exterior" className="text-primary underline">Exterior painting</a> — cladding, weatherboard and concrete</li>
+              <li className="text-lg">• <a href="/interior" className="text-primary underline">Interior painting</a> — offices, hallways and fit-outs</li>
+              <li className="text-lg">• <a href="/projects" className="text-primary underline">Recent painting projects</a> — see completed Christchurch work</li>
+              <li className="text-lg">• <a href="/about" className="text-primary underline">About Freshcoat Painting</a> — 30+ years, fully qualified and insured</li>
+            </ul>
           </div>
         </div>
       </section>
