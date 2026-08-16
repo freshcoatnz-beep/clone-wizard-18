@@ -84,6 +84,26 @@ const Commercial = () => {
         "@type": "Question",
         "name": "Do you offer industrial painting in Christchurch?",
         "acceptedAnswer": { "@type": "Answer", "text": "Yes. Freshcoat Painting are experienced industrial painters in Christchurch, handling warehouses, factories, workshops, plant rooms and storage facilities. We apply protective and anti-corrosive coatings to structural steel, cladding, concrete floors and high-bay walls, with full Site Safe compliance and EWP/scaffold access where required." }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you do commercial spray painting in Christchurch?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. As spray painting contractors in Christchurch we airless-spray warehouse cladding, ceilings, structural steel, tanks, silos and large office interiors. Spraying gives a fast, even finish on big areas, and we use full masking and containment so adjacent tenancies, stock and vehicles stay protected." }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you provide a written health and safety plan?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Every commercial quote includes a site-specific safety plan, task analysis, hazard register and product safety data sheets. We can also work under your main contractor's H&S system and attend site inductions and toolbox meetings." }
+      },
+      {
+        "@type": "Question",
+        "name": "Can you paint a tenanted building without disrupting tenants?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. For body corporate and tenanted commercial buildings we work in staged zones, give tenants written notice of each stage, keep access ways clear and use low-odour paints in occupied areas. Most stages are completed and cleaned down the same day." }
+      },
+      {
+        "@type": "Question",
+        "name": "Which areas of Christchurch do you cover for commercial work?",
+        "acceptedAnswer": { "@type": "Answer", "text": "We cover the whole of Christchurch and greater Canterbury — the CBD, Addington, Riccarton, Sydenham, Woolston, Bromley, Hornby, Sockburn, Wigram, Islington, Papanui, Belfast, plus Rolleston, Lincoln, Rangiora and Kaiapoi." }
       }
     ]
   };
