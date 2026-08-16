@@ -325,7 +325,9 @@ function buildHtml(route) {
 
   // Inject H1 + intro inside #root. React's createRoot().render() will
   // replace these children on hydration — they exist purely for crawlers.
-  const seoBlock = `<div id="root"><h1>${esc(route.h1)}</h1><p>${esc(route.intro)}</p></div>`;
+  const seoBlock = `<div id="root"><h1>${esc(route.h1)}</h1><p>${esc(route.intro)}</p>${
+    route.extra ? `<p>${esc(route.extra)}</p>` : ''
+  }</div>`;
   html = html.replace(/<div id="root"><\/div>/, seoBlock);
 
   return html;
