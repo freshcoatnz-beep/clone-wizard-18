@@ -45,6 +45,9 @@ const costFaqs = [
 ];
 
 const costRows = [
+  { job: 'Interior painting (per m² of wall/ceiling)', price: '$35 – $55 / m²' },
+  { job: 'Exterior painting (per m² of cladding)', price: '$45 – $80 / m²' },
+  { job: 'Roof painting (per m² of roof area)', price: '$25 – $45 / m²' },
   { job: 'Single bedroom (12–15 m²)', price: '$450 – $900' },
   { job: 'Living room / lounge (20–30 m²)', price: '$900 – $1,800' },
   { job: '3-bedroom home interior repaint', price: '$6,000 – $12,000' },
