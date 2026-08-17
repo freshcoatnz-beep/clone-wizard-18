@@ -110,12 +110,12 @@ const routes = [
   },
   {
     path: '/painting-cost-guide',
-    title: 'House Painting Cost Christchurch 2026 | Price Guide',
+    title: 'Painting Rates Per m2 NZ 2026 | Christchurch Cost Guide',
     description:
-      'Transparent 2026 pricing for house painting in Christchurch. Interior, exterior and roof painting costs explained with real project examples.',
-    h1: 'House Painting Cost Guide Christchurch (2026)',
+      'Painting rates per m2 in NZ (2026): interior $35-$55, exterior $45-$80, roof $25-$45 per m2. Christchurch prices, per-room costs and free quotes.',
+    h1: 'Painting Rates Per m² in NZ — Christchurch Cost Guide (2026)',
     intro:
-      'Transparent 2026 pricing for interior, exterior and roof painting in Christchurch — with real project examples and no hidden fees.',
+      'Current NZ painting rates per square metre: interior painting $35–$55/m², exterior painting $45–$80/m², and roof painting $25–$45/m² — plus per-room and whole-home Christchurch prices with no hidden fees.',
   },
   {
     path: '/house-painters-christchurch',
