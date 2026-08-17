@@ -187,7 +187,7 @@ const ProjectPage = () => {
                     Get FREE Quote
                   </Button>
                 </QuoteForm>
-                <a href="tel:+6422036658">
+                <a href="tel:+64220366586">
                   <Button
                     size="lg"
                     variant="outline"

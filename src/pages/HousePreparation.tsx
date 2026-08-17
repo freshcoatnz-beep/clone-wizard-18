@@ -87,7 +87,7 @@ const HousePreparation = () => {
                   Get FREE Quote
                 </Button>
               </QuoteForm>
-              <a href="tel:+6422036658" className="flex items-center justify-center gap-2 bg-white text-orange-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold text-lg transition-colors">
+              <a href="tel:+64220366586" className="flex items-center justify-center gap-2 bg-white text-orange-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold text-lg transition-colors">
                 <Phone size={20} />
                 022 0366586
               </a>
@@ -223,7 +223,7 @@ const HousePreparation = () => {
                 Get FREE Quote
               </Button>
             </QuoteForm>
-            <a href="tel:+6422036658" className="flex items-center justify-center gap-2 bg-white text-orange-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold text-lg transition-colors">
+            <a href="tel:+64220366586" className="flex items-center justify-center gap-2 bg-white text-orange-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold text-lg transition-colors">
               <Phone size={20} />
               Call Now: 022 0366586
             </a>

@@ -71,7 +71,7 @@ export const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center gap-2">
                 <span aria-hidden="true">☎</span>
-                <a href="tel:+6422036658" className="text-gray-300 hover:text-white transition-colors">022 0366586</a>
+                <a href="tel:+64220366586" className="text-gray-300 hover:text-white transition-colors">022 0366586</a>
               </div>
               <div className="flex items-center gap-2">
                 <span aria-hidden="true">✉</span>

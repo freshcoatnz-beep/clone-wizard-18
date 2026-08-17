@@ -60,7 +60,7 @@ export const Header = () => {
       <div className="container mx-auto px-4 py-6 bg-white shadow-sm">
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-3">
-            <a href="tel:+6422036658" className="flex items-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors font-semibold">
+            <a href="tel:+64220366586" className="flex items-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors font-semibold">
               <span aria-hidden="true">☎</span>
               <span className="text-lg font-bold">022 0366586</span>
             </a>

@@ -152,7 +152,7 @@ const WinterInterior = () => {
                       Get FREE Quote
                     </Button>
                   </QuoteForm>
-                  <a href="tel:+6422036658">
+                  <a href="tel:+64220366586">
                     <Button size="lg" variant="outline" className="text-xl px-12 py-6 font-semibold bg-white text-brand-gray hover:bg-gray-100">
                       <Phone className="mr-2 w-5 h-5" /> 022 0366586
                     </Button>
@@ -288,7 +288,7 @@ const WinterInterior = () => {
         {/* Sticky mobile call/quote bar — high-converting for paid clicks */}
         <div className="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-white border-t shadow-lg flex">
           <a
-            href="tel:+64220366586"
+            href="tel:+642203665866"
             className="flex-1 flex items-center justify-center gap-2 py-3 font-semibold text-brand-gray bg-white"
           >
             <Phone className="w-5 h-5 text-brand-red" /> Call Now
