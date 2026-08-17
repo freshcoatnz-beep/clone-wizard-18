@@ -13,6 +13,11 @@ import {
 
 const costFaqs = [
   {
+    question: 'What are painting rates per m2 in NZ?',
+    answer:
+      'Across New Zealand, typical 2026 painting rates are $35–$55 per m² for interior walls and ceilings, $45–$80 per m² for exterior cladding, and $25–$45 per m² for roof painting. Rates include preparation, primer where needed, and two top coats. Auckland and Wellington sit at the higher end; Christchurch and Canterbury are usually mid-range.',
+  },
+  {
     question: 'How much does it cost to paint a house in Christchurch?',
     answer:
       'In Christchurch, interior painting typically costs $35–$55 per square metre and exterior painting costs $45–$80 per square metre. A standard 3-bedroom home interior repaint usually runs $6,000–$12,000, and a full exterior repaint $8,000–$18,000 depending on size, surface condition, and access.',
