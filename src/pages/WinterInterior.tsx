@@ -152,7 +152,7 @@ const WinterInterior = () => {
                       Get FREE Quote
                     </Button>
                   </QuoteForm>
-                  <a href="tel:+6422036658">
+                  <a href="tel:+64220366586">
                     <Button size="lg" variant="outline" className="text-xl px-12 py-6 font-semibold bg-white text-brand-gray hover:bg-gray-100">
                       <Phone className="mr-2 w-5 h-5" /> 022 0366586
                     </Button>
