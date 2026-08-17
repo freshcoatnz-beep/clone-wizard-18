@@ -288,7 +288,7 @@ const WinterInterior = () => {
         {/* Sticky mobile call/quote bar — high-converting for paid clicks */}
         <div className="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-white border-t shadow-lg flex">
           <a
-            href="tel:+642203665866"
+            href="tel:+64220366586"
             className="flex-1 flex items-center justify-center gap-2 py-3 font-semibold text-brand-gray bg-white"
           >
             <Phone className="w-5 h-5 text-brand-red" /> Call Now
