@@ -9,6 +9,7 @@ import { Toaster } from '@/components/ui/toaster';
 import { useToast } from '@/hooks/use-toast';
 import { Phone, Mail } from 'lucide-react';
 import { supabase } from '@/integrations/supabase/client';
+import { trackQuoteFormConversion } from '@/lib/adsTracking';
 
 interface QuoteDialogProps {
   open: boolean;
@@ -54,6 +55,7 @@ export const QuoteDialog = ({ open, onOpenChange }: QuoteDialogProps) => {
       }
 
       console.log('Email sent successfully:', data);
+      trackQuoteFormConversion();
 
       toast({
         title: 'Quote Request Sent!',
