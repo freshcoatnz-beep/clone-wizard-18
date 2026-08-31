@@ -193,10 +193,10 @@ const RoofPainting = () => {
             {/* Content */}
             <div>
               <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-brand-gray">
-                Roof Repainting Christchurch — Tile, Metal &amp; Concrete Roofs
+                Hire a Roof Painter in Christchurch — Tile, Metal &amp; Concrete Roofs
               </h2>
               <p className="text-lg mb-6 text-muted-foreground leading-relaxed">
-                Looking for professional roof painters in Christchurch who deliver lasting results?
+                Looking for a trusted roof painter in Christchurch who delivers lasting results?
                 <strong className="text-brand-gray"> Freshcoat Painting</strong> are local roof painting and roof repainting specialists with 30+ years of experience.
               </p>
               <p className="text-lg mb-8 text-muted-foreground leading-relaxed">
