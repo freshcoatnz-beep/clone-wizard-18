@@ -113,6 +113,7 @@ const CostGuide = () => {
           name="description"
           content="Painting rates per m2 NZ 2026: interior $35-$55, exterior $45-$80, roof $25-$45 per m2. Christchurch per-room prices. Free quote in 24 hours."
         />
+        <meta name="robots" content="noindex, nofollow" />
         <link rel="canonical" href="https://www.freshcoat.co.nz/painting-cost-guide" />
         <meta property="og:title" content="Painting Rates Per m2 NZ 2026 | Christchurch Costs" />
         <meta property="og:description" content="NZ painting rates per m² for interior, exterior and roof painting, plus Christchurch per-room and whole-home costs." />
