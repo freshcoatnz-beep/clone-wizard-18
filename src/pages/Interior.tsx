@@ -258,7 +258,9 @@ const Interior = () => {
               <Palette className="w-8 h-8 text-brand-red mx-auto mb-3" />
               <h3 className="text-xl font-semibold mb-2">Painting & Decorating</h3>
               <p className="text-muted-foreground mb-4">Decorative finishes, feature walls, and colour consultation.</p>
+              <a href="/painter-and-decorator-christchurch" className="text-brand-red font-semibold hover:underline">Painter &amp; decorator →</a>
             </Card>
+
             <Card className="p-6 text-center hover:shadow-lg transition-shadow">
               <h3 className="text-xl font-semibold mb-2">Winter Interior Painting</h3>
               <p className="text-muted-foreground mb-4">Why winter is the ideal season to repaint inside your Christchurch home.</p>
