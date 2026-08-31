@@ -72,12 +72,12 @@ const routes = [
   },
   {
     path: '/roof-painting',
-    title: 'Roof Painters Christchurch | Free Quote in 24 Hours',
+    title: 'Roof Painter Christchurch | Roof Painters & Painting',
     description:
-      "Christchurch roof painters — tile, metal and Colorsteel roof painting and restoration. 30+ years' experience, 5-year guarantee, free quote in 24 hours.",
-    h1: 'Roof Painters Christchurch — Professional Roof Painting & Repainting',
+      "Looking for a roof painter in Christchurch? Tile, metal and Colorsteel roof painting and restoration. 30+ years' experience, 5-year guarantee, free quote in 24 hours.",
+    h1: 'Roof Painter Christchurch — Professional Roof Painters & Roof Painting',
     intro:
-      'Professional roof painters in Christchurch specialising in roof painting, roof repainting and full roof restoration for concrete tile, metal and Colorsteel roofs across Canterbury.',
+      'Need a roof painter in Christchurch? Our roof painters specialise in roof painting, roof repainting and full roof restoration for concrete tile, metal and Colorsteel roofs across Canterbury.',
   },
   {
     path: '/commercial',
