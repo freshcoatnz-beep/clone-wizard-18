@@ -188,7 +188,7 @@ const RoofPainting = () => {
 
       {/* Welcome Section */}
       <section className="py-2 lg:py-4 pb-4 bg-background">
-        <div className="container mx-auto px-4 ml-64 mr-48">
+        <div className="container mx-auto px-4 lg:ml-64 lg:mr-48">
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             {/* Content */}
             <div>
