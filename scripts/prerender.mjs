@@ -313,6 +313,19 @@ function buildHtml(route) {
     );
   }
 
+  // Preload the LCP hero image on image-led routes
+  const heroPreloads = {
+    '/roof-painting': '/roof-hero-house.webp',
+  };
+  const heroImg = heroPreloads[route.path];
+  if (heroImg) {
+    html = html.replace(
+      /<\/head>/i,
+      `    <link rel="preload" as="image" href="${heroImg}" fetchpriority="high" />\n  </head>`
+    );
+  }
+
+
   // og:title / og:description (override sitewide defaults)
   html = html.replace(
     /<meta\s+property="og:title"[^>]*>/i,
