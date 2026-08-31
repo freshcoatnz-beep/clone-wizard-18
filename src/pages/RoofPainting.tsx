@@ -341,7 +341,37 @@ const RoofPainting = () => {
         </div>
       </section>
 
+      {/* Related pages / internal links */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-brand-gray mb-8 text-center">More From Freshcoat</h2>
+          <div className="grid md:grid-cols-4 gap-6 max-w-5xl mx-auto">
+            <div className="bg-gray-50 p-6 rounded-lg">
+              <h3 className="text-lg font-bold text-brand-gray mb-2">Merivale Tile Roof Restoration</h3>
+              <p className="text-muted-foreground text-sm mb-3">A recent tile roof restoration case study in Merivale, Christchurch.</p>
+              <a href="/projects/roof-restoration-merivale-tile-roof" className="text-brand-red font-semibold hover:underline">View this project →</a>
+            </div>
+            <div className="bg-gray-50 p-6 rounded-lg">
+              <h3 className="text-lg font-bold text-brand-gray mb-2">Recent Projects</h3>
+              <p className="text-muted-foreground text-sm mb-3">Browse roof, exterior and interior jobs we have completed.</p>
+              <a href="/projects" className="text-brand-red font-semibold hover:underline">Browse our projects →</a>
+            </div>
+            <div className="bg-gray-50 p-6 rounded-lg">
+              <h3 className="text-lg font-bold text-brand-gray mb-2">Winter Interior Painting</h3>
+              <p className="text-muted-foreground text-sm mb-3">Roof weather closing in? Winter is ideal for painting inside.</p>
+              <a href="/winter-interior-painting-christchurch" className="text-brand-red font-semibold hover:underline">Winter interior painting →</a>
+            </div>
+            <div className="bg-gray-50 p-6 rounded-lg">
+              <h3 className="text-lg font-bold text-brand-gray mb-2">Customer Reviews</h3>
+              <p className="text-muted-foreground text-sm mb-3">Read reviews from Christchurch homeowners and businesses.</p>
+              <a href="/review-us" className="text-brand-red font-semibold hover:underline">Reviews &amp; feedback →</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
+
       <section className="py-16 bg-slate-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold mb-4">

@@ -258,9 +258,26 @@ const Interior = () => {
               <Palette className="w-8 h-8 text-brand-red mx-auto mb-3" />
               <h3 className="text-xl font-semibold mb-2">Painting & Decorating</h3>
               <p className="text-muted-foreground mb-4">Decorative finishes, feature walls, and colour consultation.</p>
-              <a href="/painter-and-decorator-christchurch" className="text-brand-red font-semibold hover:underline">Painter & decorator →</a>
+              <a href="/painter-and-decorator-christchurch" className="text-brand-red font-semibold hover:underline">Painter &amp; decorator →</a>
+            </Card>
+
+            <Card className="p-6 text-center hover:shadow-lg transition-shadow">
+              <h3 className="text-xl font-semibold mb-2">Winter Interior Painting</h3>
+              <p className="text-muted-foreground mb-4">Why winter is the ideal season to repaint inside your Christchurch home.</p>
+              <a href="/winter-interior-painting-christchurch" className="text-brand-red font-semibold hover:underline">Winter interior painting →</a>
+            </Card>
+            <Card className="p-6 text-center hover:shadow-lg transition-shadow">
+              <h3 className="text-xl font-semibold mb-2">Recent Projects</h3>
+              <p className="text-muted-foreground mb-4">See before-and-after photos and details from recent Christchurch jobs.</p>
+              <a href="/projects" className="text-brand-red font-semibold hover:underline">Browse our projects →</a>
+            </Card>
+            <Card className="p-6 text-center hover:shadow-lg transition-shadow">
+              <h3 className="text-xl font-semibold mb-2">Customer Reviews</h3>
+              <p className="text-muted-foreground mb-4">Read what Christchurch homeowners say about working with Freshcoat.</p>
+              <a href="/review-us" className="text-brand-red font-semibold hover:underline">Reviews &amp; feedback →</a>
             </Card>
           </div>
+
         </div>
       </section>
 

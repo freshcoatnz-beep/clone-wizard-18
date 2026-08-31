@@ -262,6 +262,22 @@ const Exterior = () => {
               <p className="text-muted-foreground mb-4">Decorative finishes, feature walls, and colour consultation.</p>
               <a href="/painter-and-decorator-christchurch" className="text-brand-red font-semibold hover:underline">Painter & decorator →</a>
             </Card>
+            <Card className="p-6 text-center hover:shadow-lg transition-shadow">
+              <h3 className="text-xl font-semibold mb-2">Recent Projects</h3>
+              <p className="text-muted-foreground mb-4">Exterior repaints, roof restorations and new builds across Christchurch.</p>
+              <a href="/projects" className="text-brand-red font-semibold hover:underline">Browse our projects →</a>
+            </Card>
+            <Card className="p-6 text-center hover:shadow-lg transition-shadow">
+              <h3 className="text-xl font-semibold mb-2">Fendalton Weatherboard Repaint</h3>
+              <p className="text-muted-foreground mb-4">A full exterior repaint case study, from prep through to final coat.</p>
+              <a href="/projects/exterior-repaint-fendalton-weatherboard" className="text-brand-red font-semibold hover:underline">View this project →</a>
+            </Card>
+            <Card className="p-6 text-center hover:shadow-lg transition-shadow">
+              <h3 className="text-xl font-semibold mb-2">Customer Reviews</h3>
+              <p className="text-muted-foreground mb-4">See feedback from Christchurch homeowners we have painted for.</p>
+              <a href="/review-us" className="text-brand-red font-semibold hover:underline">Reviews &amp; feedback →</a>
+            </Card>
+
           </div>
         </div>
       </section>
