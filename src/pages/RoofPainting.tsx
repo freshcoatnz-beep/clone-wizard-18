@@ -164,7 +164,7 @@ const RoofPainting = () => {
             </div>
             
             <p className="text-xl lg:text-2xl mb-10 max-w-3xl mx-auto opacity-95 leading-relaxed">
-              Professional roof painters in Christchurch specialising in roof painting, roof repainting and full roof restoration for tile, metal and Colorsteel roofs across Canterbury.
+              Need a roof painter in Christchurch? Our roof painters specialise in roof painting, roof repainting and full roof restoration for tile, metal and Colorsteel roofs across Canterbury.
             </p>
             
             <QuoteForm>
