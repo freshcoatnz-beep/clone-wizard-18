@@ -46,6 +46,10 @@ export const Footer = () => {
               <li><a href="/house-painters-christchurch" className="hover:text-white transition-colors">House Painters</a></li>
               <li><a href="/painter-and-decorator-christchurch" className="hover:text-white transition-colors">Painter & Decorator</a></li>
               <li><a href="/painting-cost-guide" className="hover:text-white transition-colors">Painting Cost Guide</a></li>
+              <li><a href="/winter-interior-painting-christchurch" className="hover:text-white transition-colors">Winter Interior Painting</a></li>
+              <li><a href="/projects" className="hover:text-white transition-colors">Recent Projects</a></li>
+              <li><a href="/review-us" className="hover:text-white transition-colors">Reviews</a></li>
+
             </ul>
           </div>
 
