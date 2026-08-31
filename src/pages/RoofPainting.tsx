@@ -116,7 +116,7 @@ const RoofPainting = () => {
         <meta name="description" content="Looking for a roof painter in Christchurch? Tile, metal &amp; Colorsteel roof painting and restoration. 30+ years&#39; experience, 5-year guarantee, free quote in 24 hours." />
         <meta name="keywords" content="roof painting christchurch, roof painters christchurch, roof painters nz, roof painting nz, tile roof painting christchurch, metal roof painting christchurch, colorsteel roof painting, roof restoration christchurch, roof respray, roof resurfacing, roof recoating, roof repainting, roof treatments, metal roof recoating, metal roof painting commercial, metal tile roof maintenance, metal tile roof repair, protective roof coating, roof coating nz, concrete tile roof painting, tile roof color restoration, tile roof restoration, top roof painters, professional roof painters, roof painting companies, metal roof restoration, roof painters near me, extend roof life coating, roof coatings, roof coating contractors, roof painting contractors, roof painter, tile roof repairs christchurch" />
         <link rel="canonical" href="https://www.freshcoat.co.nz/roof-painting" />
-        <link rel="preload" as="image" href={roofHeroImage} fetchPriority="high" />
+        <link rel="preload" as="image" href={roofHeroImage} imageSrcSet="/roof-hero-house-480.webp 480w, /roof-hero-house-800.webp 800w, /roof-hero-house.webp 1200w" imageSizes="100vw" fetchPriority="high" />
         <meta property="og:title" content="Roof Painters Christchurch | Painting &amp; Restoration" />
         <meta property="og:description" content="Professional roof painters in Christchurch. Roof painting, repainting &amp; restoration for tile, metal &amp; Colorsteel roofs. 5-year warranty." />
         <meta property="og:url" content="https://www.freshcoat.co.nz/roof-painting" />
@@ -137,9 +137,20 @@ const RoofPainting = () => {
         <main>
       
       {/* Hero Section */}
-      <section className="relative min-h-[550px] lg:min-h-[700px] bg-cover bg-center bg-no-repeat hero-curved" style={{ backgroundImage: `url(${roofHeroImage})`, backgroundPosition: 'center 0%' }}>
+      <section className="relative min-h-[550px] lg:min-h-[700px] overflow-hidden hero-curved">
+        {/* Hero image (responsive, LCP) */}
+        <img
+          src={roofHeroImage}
+          srcSet="/roof-hero-house-480.webp 480w, /roof-hero-house-800.webp 800w, /roof-hero-house.webp 1200w"
+          sizes="100vw"
+          alt="Roof painting in Christchurch"
+          className="absolute inset-0 w-full h-full object-cover object-top"
+          fetchPriority="high"
+          decoding="async"
+        />
         {/* Overlay */}
         <div className="absolute inset-0 bg-gradient-hero hero-curved"></div>
+
         
         {/* Content */}
         <div className="relative container mx-auto px-4 py-12 lg:py-32 flex items-end min-h-[500px] lg:min-h-[650px]">
