@@ -275,9 +275,8 @@ const Interior = () => {
               <h3 className="text-xl font-semibold mb-2">Customer Reviews</h3>
               <p className="text-muted-foreground mb-4">Read what Christchurch homeowners say about working with Freshcoat.</p>
               <a href="/review-us" className="text-brand-red font-semibold hover:underline">Reviews &amp; feedback →</a>
-            </Card>
+          </div>
 
-            </Card>
           </div>
         </div>
       </section>
