@@ -137,9 +137,20 @@ const RoofPainting = () => {
         <main>
       
       {/* Hero Section */}
-      <section className="relative min-h-[550px] lg:min-h-[700px] bg-cover bg-center bg-no-repeat hero-curved" style={{ backgroundImage: `url(${roofHeroImage})`, backgroundPosition: 'center 0%' }}>
+      <section className="relative min-h-[550px] lg:min-h-[700px] overflow-hidden hero-curved">
+        {/* Hero image (responsive, LCP) */}
+        <img
+          src={roofHeroImage}
+          srcSet="/roof-hero-house-480.webp 480w, /roof-hero-house-800.webp 800w, /roof-hero-house.webp 1200w"
+          sizes="100vw"
+          alt="Roof painting in Christchurch"
+          className="absolute inset-0 w-full h-full object-cover object-top"
+          fetchPriority="high"
+          decoding="async"
+        />
         {/* Overlay */}
         <div className="absolute inset-0 bg-gradient-hero hero-curved"></div>
+
         
         {/* Content */}
         <div className="relative container mx-auto px-4 py-12 lg:py-32 flex items-end min-h-[500px] lg:min-h-[650px]">
