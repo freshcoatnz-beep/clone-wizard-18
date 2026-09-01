@@ -406,7 +406,14 @@ const RoofPainting = () => {
                 Get FREE Quote
               </Button>
             </QuoteForm>
+            <a
+              href="tel:+64220366586"
+              className="inline-flex items-center justify-center gap-2 rounded-md border-2 border-white px-8 py-6 text-lg font-semibold text-white transition-colors hover:bg-white/10"
+            >
+              Call Michael 022 036 6586
+            </a>
           </div>
+
         </div>
       </section>
 
