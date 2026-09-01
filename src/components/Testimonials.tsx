@@ -45,7 +45,7 @@ export const Testimonials = () => {
     <section className="py-16 lg:py-24 bg-secondary/30">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <Quote className="text-brand-red mx-auto mb-4" size={36} />
+          <Quote className="text-brand-blue mx-auto mb-4" size={36} />
           <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-brand-gray">
             What Christchurch Homeowners Say
           </h2>
@@ -57,7 +57,7 @@ export const Testimonials = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {testimonials.map((t) => (
             <Card key={t.name} className="p-6 hover:shadow-medium transition-shadow flex flex-col">
-              <Quote className="text-brand-red mb-3" size={28} />
+              <Quote className="text-brand-blue mb-3" size={28} />
               <div className="flex mb-3">
                 {[...Array(t.rating)].map((_, i) => (
                   <Star key={i} size={18} className="text-yellow-500 fill-current" />

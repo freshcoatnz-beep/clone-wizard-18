@@ -182,7 +182,7 @@ const ProjectPage = () => {
                 <QuoteForm>
                   <Button
                     size="lg"
-                    className="text-xl px-12 py-6 font-semibold bg-white text-brand-red hover:bg-gray-100"
+                    className="text-xl px-12 py-6 font-semibold bg-white text-brand-blue hover:bg-gray-100"
                   >
                     Get FREE Quote
                   </Button>

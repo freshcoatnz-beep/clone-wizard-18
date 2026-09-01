@@ -25,7 +25,7 @@ export const Header = () => {
       <div className="border-b border-border bg-gray-50">
         <div className="container mx-auto px-4 py-3 flex justify-between items-center text-xl font-medium">
           <div>
-            <a href="/" className="text-xl font-bold text-brand-gray hover:text-brand-red transition-colors cursor-pointer">
+            <a href="/" className="text-xl font-bold text-brand-gray hover:text-brand-blue transition-colors cursor-pointer">
               Freshcoat Painting
             </a>
           </div>
@@ -164,7 +164,7 @@ export const Header = () => {
                     <a
                       key={service.name}
                       href={service.href}
-                      className="block text-base font-medium text-muted-foreground hover:text-brand-red transition-colors"
+                      className="block text-base font-medium text-muted-foreground hover:text-brand-blue transition-colors"
                     >
                       {service.name}
                     </a>
@@ -179,15 +179,15 @@ export const Header = () => {
                   <a
                     key={area.name}
                     href={area.href}
-                    className="block text-base font-medium text-muted-foreground hover:text-brand-red transition-colors"
+                    className="block text-base font-medium text-muted-foreground hover:text-brand-blue transition-colors"
                   >
                     {area.name}
                   </a>
                 ))}
               </div>
               </div>
-              {false && <a href="/projects" className="hover:text-brand-red transition-colors font-semibold text-base">Projects</a>}
-              <a href="/about" className="hover:text-brand-red transition-colors font-semibold text-base">About Us</a>
+              {false && <a href="/projects" className="hover:text-brand-blue transition-colors font-semibold text-base">Projects</a>}
+              <a href="/about" className="hover:text-brand-blue transition-colors font-semibold text-base">About Us</a>
               <QuoteForm>
                 <Button variant="cta" className="w-full">Contact Us</Button>
               </QuoteForm>

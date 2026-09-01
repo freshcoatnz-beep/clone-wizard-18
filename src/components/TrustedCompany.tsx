@@ -52,7 +52,7 @@ export const TrustedCompany = () => {
         <div className="grid lg:grid-cols-3 gap-8">
           {features.map((feature) => (
             <Card key={feature.title} className="p-6 text-center hover:shadow-medium transition-shadow">
-              <feature.icon size={48} className="mx-auto mb-4 text-brand-red" />
+              <feature.icon size={48} className="mx-auto mb-4 text-brand-blue" />
               <h3 className="text-xl font-bold mb-4 text-brand-gray">{feature.title}</h3>
               <p className="text-muted-foreground leading-relaxed">{feature.description}</p>
             </Card>
