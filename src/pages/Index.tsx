@@ -74,11 +74,11 @@ const Index = () => {
     <>
       <Helmet>
         <title>Painters Christchurch | House Painters | Freshcoat</title>
-        <meta name="description" content="Painters Christchurch — house painting company. Interior, exterior & roof painting across Christchurch & Canterbury. 30+ years, 5-year warranty. Free quote!" />
-        <meta name="keywords" content="painters christchurch, painting contractors christchurch, painters and decorators christchurch, house painting christchurch, interior painting, exterior painting, professional painters, painting services, painting company christchurch, painting companies christchurch, painter decorator, roof painting christchurch" />
+        <meta name="description" content="House painters Christchurch — local painting company for interior, exterior & roof painting across Christchurch & Canterbury. 30+ years, 5-year warranty. Free quote!" />
+        <meta name="keywords" content="painters christchurch, house painters christchurch, house painters, painting contractors christchurch, painters and decorators christchurch, house painting christchurch, interior painting, exterior painting, professional painters, painting services, painting company christchurch, painting companies christchurch, painter decorator, roof painting christchurch" />
         <link rel="canonical" href="https://www.freshcoat.co.nz/" />
         <meta property="og:title" content="Painters Christchurch | House Painters | Freshcoat" />
-        <meta property="og:description" content="House painters in Christchurch. Interior, exterior & roof painting across Canterbury. 30+ years, 5-year warranty. Free quote." />
+        <meta property="og:description" content="House painters Christchurch — interior, exterior & roof painting across Canterbury. 30+ years, 5-year warranty. Free quote." />
         <meta property="og:url" content="https://www.freshcoat.co.nz/" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://www.freshcoat.co.nz/og-image.jpg" />
