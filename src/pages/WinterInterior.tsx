@@ -167,13 +167,13 @@ const WinterInterior = () => {
             <div className="container mx-auto px-4 py-4">
               <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-2 text-sm md:text-base text-brand-gray">
                 <span className="flex items-center gap-2 font-semibold">
-                  <Award className="w-5 h-5 text-brand-red" /> 30+ Years Experience
+                  <Award className="w-5 h-5 text-brand-blue" /> 30+ Years Experience
                 </span>
                 <span className="flex items-center gap-2 font-semibold">
                   <Star className="w-5 h-5 text-yellow-500 fill-yellow-500" /> Qualified Painter &amp; Decorator
                 </span>
                 <span className="flex items-center gap-2 font-semibold">
-                  <MapPin className="w-5 h-5 text-brand-red" /> Locally Owned — All Christchurch
+                  <MapPin className="w-5 h-5 text-brand-blue" /> Locally Owned — All Christchurch
                 </span>
                 <span className="hidden md:flex items-center gap-2 font-semibold">
                   <Check className="w-5 h-5 text-green-600" /> Free Fixed-Price Quotes
@@ -227,7 +227,7 @@ const WinterInterior = () => {
                   { icon: Home, title: 'Live-in friendly', desc: 'Room-by-room scheduling, furniture protected, floors covered, tidy clean-up each evening.' },
                 ].map((s) => (
                   <Card key={s.title} className="p-6 text-center">
-                    <s.icon className="w-10 h-10 mx-auto mb-3 text-brand-red" />
+                    <s.icon className="w-10 h-10 mx-auto mb-3 text-brand-blue" />
                     <h3 className="font-bold text-lg mb-2 text-brand-gray">{s.title}</h3>
                     <p className="text-muted-foreground">{s.desc}</p>
                   </Card>
@@ -253,11 +253,11 @@ const WinterInterior = () => {
                 </div>
                 <p className="text-center text-muted-foreground mt-8">
                   More on our main{' '}
-                  <a href="/interior" className="text-brand-red font-semibold hover:underline">
+                  <a href="/interior" className="text-brand-blue font-semibold hover:underline">
                     interior painting page
                   </a>{' '}
                   or see our{' '}
-                  <a href="/painting-cost-guide" className="text-brand-red font-semibold hover:underline">
+                  <a href="/painting-cost-guide" className="text-brand-blue font-semibold hover:underline">
                     painting cost guide
                   </a>
                   .
@@ -276,7 +276,7 @@ const WinterInterior = () => {
                 Free fixed-price quote, usually within 24 hours. 5-year workmanship guarantee on every job.
               </p>
               <QuoteForm>
-                <Button size="lg" className="text-xl px-12 py-6 font-semibold bg-white text-brand-red hover:bg-gray-100">
+                <Button size="lg" className="text-xl px-12 py-6 font-semibold bg-white text-brand-blue hover:bg-gray-100">
                   Get FREE Quote
                 </Button>
               </QuoteForm>
@@ -291,7 +291,7 @@ const WinterInterior = () => {
             href="tel:+64220366586"
             className="flex-1 flex items-center justify-center gap-2 py-3 font-semibold text-brand-gray bg-white"
           >
-            <Phone className="w-5 h-5 text-brand-red" /> Call Now
+            <Phone className="w-5 h-5 text-brand-blue" /> Call Now
           </a>
           <QuoteForm>
             <button className="flex-1 py-3 font-semibold text-white bg-brand-red">

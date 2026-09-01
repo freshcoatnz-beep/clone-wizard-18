@@ -102,7 +102,7 @@ const Projects = () => {
                             {project.readTime}
                           </span>
                         </div>
-                        <div className="mt-4 flex items-center text-brand-red font-medium text-sm">
+                        <div className="mt-4 flex items-center text-brand-blue font-medium text-sm">
                           Read more <ArrowRight className="w-4 h-4 ml-1" />
                         </div>
                       </div>
@@ -123,7 +123,7 @@ const Projects = () => {
                 Get a free, fixed-price quote — usually within 24 hours.
               </p>
               <QuoteForm>
-                <Button size="lg" className="text-xl px-12 py-6 font-semibold bg-white text-brand-red hover:bg-gray-100">
+                <Button size="lg" className="text-xl px-12 py-6 font-semibold bg-white text-brand-blue hover:bg-gray-100">
                   Get FREE Quote
                 </Button>
               </QuoteForm>

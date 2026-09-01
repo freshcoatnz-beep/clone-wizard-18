@@ -68,7 +68,7 @@ export const Services = () => {
         <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-8">
           {services.map((service) => (
             <Card key={service.title} id={service.id} className="p-6 hover:shadow-medium transition-shadow">
-              <service.icon size={48} className="text-brand-red mb-4" />
+              <service.icon size={48} className="text-brand-blue mb-4" />
               <h3 className="text-xl font-bold mb-4 text-brand-gray">{service.title}</h3>
               <p className="text-muted-foreground mb-4 leading-relaxed">{service.description}</p>
               
@@ -78,7 +78,7 @@ export const Services = () => {
                   <ul className="text-sm text-muted-foreground space-y-1">
                     {service.features.map((feature, index) => (
                       <li key={index} className="flex items-start">
-                        <span className="text-brand-red mr-2">•</span>
+                        <span className="text-brand-blue mr-2">•</span>
                         {feature}
                       </li>
                     ))}
@@ -96,7 +96,7 @@ export const Services = () => {
 
               <a 
                 href={service.href}
-                className="inline-block mt-4 text-brand-red font-semibold hover:underline"
+                className="inline-block mt-4 text-brand-blue font-semibold hover:underline"
               >
                 Learn more →
               </a>

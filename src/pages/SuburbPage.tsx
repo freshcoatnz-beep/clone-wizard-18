@@ -149,7 +149,7 @@ const SuburbPage = () => {
                 ].map((s) => (
                   <a key={s.title} href={s.href}>
                     <Card className="p-6 h-full hover:shadow-medium transition-shadow text-center">
-                      <s.icon className="w-12 h-12 mx-auto mb-3 text-brand-red" />
+                      <s.icon className="w-12 h-12 mx-auto mb-3 text-brand-blue" />
                       <h3 className="font-bold text-lg mb-2 text-brand-gray">{s.title}</h3>
                       <p className="text-sm text-muted-foreground">{s.desc}</p>
                     </Card>
@@ -194,7 +194,7 @@ const SuburbPage = () => {
                 Get in touch today — we usually respond within 24 hours.
               </p>
               <QuoteForm>
-                <Button size="lg" className="text-xl px-12 py-6 font-semibold bg-white text-brand-red hover:bg-gray-100">
+                <Button size="lg" className="text-xl px-12 py-6 font-semibold bg-white text-brand-blue hover:bg-gray-100">
                   Get FREE Quote
                 </Button>
               </QuoteForm>

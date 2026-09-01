@@ -152,19 +152,19 @@ const PainterDecorator = () => {
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4"><Home className="w-8 h-8 text-primary" /></div>
                 <h3 className="text-xl font-semibold mb-3">Interior Decorating</h3>
                 <p className="text-muted-foreground">Walls, ceilings, trim, doors and feature spaces — low-VOC paints, expert colour advice and a tidy finish.</p>
-                <a href="/interior" className="inline-block mt-4 text-brand-red font-semibold hover:underline">Interior painters Christchurch →</a>
+                <a href="/interior" className="inline-block mt-4 text-brand-blue font-semibold hover:underline">Interior painters Christchurch →</a>
               </Card>
               <Card className="p-6 text-center hover:shadow-lg transition-shadow">
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4"><Palette className="w-8 h-8 text-primary" /></div>
                 <h3 className="text-xl font-semibold mb-3">Exterior Painting</h3>
                 <p className="text-muted-foreground">Weatherboard, brick, plaster and trim with weather-resistant coatings built for the Christchurch climate.</p>
-                <a href="/exterior" className="inline-block mt-4 text-brand-red font-semibold hover:underline">Exterior painters Christchurch →</a>
+                <a href="/exterior" className="inline-block mt-4 text-brand-blue font-semibold hover:underline">Exterior painters Christchurch →</a>
               </Card>
               <Card className="p-6 text-center hover:shadow-lg transition-shadow">
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4"><Shield className="w-8 h-8 text-primary" /></div>
                 <h3 className="text-xl font-semibold mb-3">Roof Painting</h3>
                 <p className="text-muted-foreground">Long-life roof coatings for metal and tile roofs that protect your home from UV, rust and weather.</p>
-                <a href="/roof-painting" className="inline-block mt-4 text-brand-red font-semibold hover:underline">Roof painting Christchurch →</a>
+                <a href="/roof-painting" className="inline-block mt-4 text-brand-blue font-semibold hover:underline">Roof painting Christchurch →</a>
               </Card>
             </div>
           </div>

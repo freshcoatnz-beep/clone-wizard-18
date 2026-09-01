@@ -45,7 +45,7 @@ export const Process = () => {
                 {index + 1}
               </div>
               
-              <step.icon size={48} className="mx-auto mb-4 text-brand-red mt-4" />
+              <step.icon size={48} className="mx-auto mb-4 text-brand-blue mt-4" />
               <h3 className="text-lg font-bold mb-4 text-brand-gray">{step.title}</h3>
               <p className="text-muted-foreground text-sm leading-relaxed">{step.description}</p>
             </Card>
