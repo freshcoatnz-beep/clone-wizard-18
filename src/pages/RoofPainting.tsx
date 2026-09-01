@@ -178,11 +178,20 @@ const RoofPainting = () => {
               Need a roof painter in Christchurch? Our roof painters specialise in roof painting, roof repainting and full roof restoration for tile, metal and Colorsteel roofs across Canterbury.
             </p>
             
-            <QuoteForm>
-              <Button variant="hero" size="lg" className="text-xl px-12 py-6 font-semibold bg-green-600 hover:bg-green-700 text-white border-green-600 mt-8">
-                Get FREE Quote
-              </Button>
-            </QuoteForm>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-stretch sm:items-center mt-8">
+              <QuoteForm>
+                <Button variant="hero" size="lg" className="text-xl px-12 py-6 font-semibold bg-green-600 hover:bg-green-700 text-white border-green-600">
+                  Get FREE Quote
+                </Button>
+              </QuoteForm>
+              <a
+                href="tel:+64220366586"
+                className="inline-flex items-center justify-center gap-2 rounded-md border-2 border-white bg-white/10 px-8 py-6 text-lg font-semibold text-white transition-colors hover:bg-white/20"
+              >
+                Call Michael 022 036 6586
+              </a>
+            </div>
+
           </div>
         </div>
       </section>
@@ -397,7 +406,14 @@ const RoofPainting = () => {
                 Get FREE Quote
               </Button>
             </QuoteForm>
+            <a
+              href="tel:+64220366586"
+              className="inline-flex items-center justify-center gap-2 rounded-md border-2 border-white px-8 py-6 text-lg font-semibold text-white transition-colors hover:bg-white/10"
+            >
+              Call Michael 022 036 6586
+            </a>
           </div>
+
         </div>
       </section>
 
