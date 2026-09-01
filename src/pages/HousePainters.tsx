@@ -57,13 +57,13 @@ const HousePainters = () => {
   return (
     <>
       <Helmet>
-        <title>House Painters Christchurch | Interior & Exterior | Freshcoat</title>
-        <meta name="description" content="Local house painters Christchurch — interior & exterior house painting, premium Resene & Dulux paints, 5-year guarantee. Free fixed quotes. Call 022 0366586." />
-        <meta name="keywords" content="house painters christchurch, house painters near me, residential painters christchurch, painters and decorators christchurch, local house painters" />
+        <title>House Painters Christchurch | Local House Painters Interior & Exterior</title>
+        <meta name="description" content="House painters Christchurch — local interior & exterior house painters you can trust. Premium Resene & Dulux paints, 5-year guarantee, free fixed quotes. Call 022 0366586." />
+        <meta name="keywords" content="house painters christchurch, house painters, house painters near me, residential painters christchurch, painters and decorators christchurch, local house painters, exterior house painters christchurch, interior house painters christchurch" />
         <link rel="canonical" href="https://www.freshcoat.co.nz/house-painters-christchurch" />
         <link rel="preload" as="image" href={heroImage} fetchPriority="high" />
-        <meta property="og:title" content="House Painters Christchurch | Freshcoat Painting" />
-        <meta property="og:description" content="Trusted Christchurch house painters. Interior & exterior, 5-year guarantee, free quotes." />
+        <meta property="og:title" content="House Painters Christchurch | Local House Painters Interior & Exterior" />
+        <meta property="og:description" content="Trusted Christchurch house painters. Local interior & exterior, 5-year guarantee, free fixed quotes." />
         <meta property="og:url" content="https://www.freshcoat.co.nz/house-painters-christchurch" />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
