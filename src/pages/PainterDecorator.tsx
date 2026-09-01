@@ -108,7 +108,7 @@ const PainterDecorator = () => {
 
         {/* Welcome */}
         <section className="py-2 lg:py-4 pb-4 bg-background">
-          <div className="container mx-auto px-4 ml-64 mr-48">
+          <div className="container mx-auto px-4 lg:ml-64 lg:mr-48">
             <div className="grid lg:grid-cols-2 gap-3 items-start">
               <div>
                 <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-brand-gray">
