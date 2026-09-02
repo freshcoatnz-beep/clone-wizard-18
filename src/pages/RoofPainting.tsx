@@ -17,7 +17,7 @@ const RoofPainting = () => {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "Roof Painting Services Christchurch",
-    "description": "Professional roof painting and restoration in Christchurch. Metal roof painting, tile roof restoration with premium coatings and 5-year warranty.",
+    "description": "Professional roof painting and restoration in Christchurch. Metal roof painting, tile roof restoration with premium coatings and 15-year warranty.",
     "provider": {
       "@type": "LocalBusiness",
       "name": "Freshcoat Painting",
@@ -113,12 +113,12 @@ const RoofPainting = () => {
     <>
       <Helmet>
         <title>Roof Painters Christchurch | Roof Painter &amp; Painting Services</title>
-        <meta name="description" content="Local roof painters Christchurch — need a roof painter? Tile, metal &amp; Colorsteel roof painting and restoration. 30+ years&#39; experience, 5-year guarantee, free quote in 24 hours." />
+        <meta name="description" content="Local roof painters Christchurch — need a roof painter? Tile, metal &amp; Colorsteel roof painting and restoration. 30+ years&#39; experience, 15-year warranty, free quote in 24 hours." />
         <meta name="keywords" content="roof painters christchurch, roof painter christchurch, roof painting christchurch, roof painters nz, roof painting nz, tile roof painting christchurch, metal roof painting christchurch, colorsteel roof painting, roof restoration christchurch, roof respray, roof resurfacing, roof recoating, roof repainting, roof treatments, metal roof recoating, metal roof painting commercial, metal tile roof maintenance, metal tile roof repair, protective roof coating, roof coating nz, concrete tile roof painting, tile roof color restoration, tile roof restoration, top roof painters, professional roof painters, roof painting companies, metal roof restoration, roof painters near me, extend roof life coating, roof coatings, roof coating contractors, roof painting contractors, roof painter, tile roof repairs christchurch" />
         <link rel="canonical" href="https://www.freshcoat.co.nz/roof-painting" />
         <link rel="preload" as="image" href={roofHeroImage} imageSrcSet="/roof-hero-house-480.webp 480w, /roof-hero-house-800.webp 800w, /roof-hero-house.webp 1200w" imageSizes="100vw" fetchPriority="high" />
         <meta property="og:title" content="Roof Painters Christchurch | Roof Painter &amp; Painting Services" />
-        <meta property="og:description" content="Local roof painters in Christchurch — roof painter, repainting &amp; restoration for tile, metal &amp; Colorsteel roofs. 5-year warranty." />
+        <meta property="og:description" content="Local roof painters in Christchurch — roof painter, repainting &amp; restoration for tile, metal &amp; Colorsteel roofs. 15-year warranty." />
         <meta property="og:url" content="https://www.freshcoat.co.nz/roof-painting" />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">
@@ -164,7 +164,7 @@ const RoofPainting = () => {
             {/* Key points */}
             <div className="flex flex-wrap justify-center gap-8 lg:gap-16 mb-10 text-lg lg:text-xl">
               <div className="flex items-center gap-2">
-                <span>5 Year Guarantee</span>
+                <span>15 Years Warranty</span>
               </div>
               <div className="flex items-center gap-2">
                 <span>30 Years Experience</span>
@@ -201,7 +201,7 @@ const RoofPainting = () => {
         <div className="absolute -top-20 left-0 hidden lg:block z-10">
           <img 
             src={guaranteeBadge} 
-            alt="5 Year Guarantee Badge" 
+            alt="15 Years Warranty Badge" 
             className="w-40 h-40" loading="lazy" decoding="async" />
         </div>
       </div>
@@ -220,7 +220,7 @@ const RoofPainting = () => {
                 <strong className="text-brand-gray"> Freshcoat Painting</strong> are local roof painting and roof repainting specialists with 30+ years of experience.
               </p>
               <p className="text-lg mb-8 text-muted-foreground leading-relaxed">
-                Whether it's a tired Colorsteel roof needing a respray, Decramastic tiles due for restoration or a concrete tile roof in need of repainting, our team delivers a fully prepared, primed and topcoated finish — backed by a 5-year workmanship guarantee and premium coatings designed for <strong className="text-brand-gray">New Zealand conditions</strong>.
+                Whether it's a tired Colorsteel roof needing a respray, Decramastic tiles due for restoration or a concrete tile roof in need of repainting, our team delivers a fully prepared, primed and topcoated finish — backed by a 15-year workmanship warranty and premium coatings designed for <strong className="text-brand-gray">New Zealand conditions</strong>.
               </p>
               <QuoteForm>
                 <Button variant="cta" size="lg" className="bg-green-600 hover:bg-green-700">
