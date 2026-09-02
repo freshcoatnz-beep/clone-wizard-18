@@ -220,7 +220,7 @@ const RoofPainting = () => {
                 <strong className="text-brand-gray"> Freshcoat Painting</strong> are local roof painting and roof repainting specialists with 30+ years of experience.
               </p>
               <p className="text-lg mb-8 text-muted-foreground leading-relaxed">
-                Whether it's a tired Colorsteel roof needing a respray, Decramastic tiles due for restoration or a concrete tile roof in need of repainting, our team delivers a fully prepared, primed and topcoated finish — backed by a 15-year workmanship warranty and premium coatings designed for <strong className="text-brand-gray">New Zealand conditions</strong>.
+                Whether it's a tired Colorsteel roof needing a respray, Decramastic tiles due for restoration or a concrete tile roof in need of repainting, our team delivers a fully prepared, primed and topcoated finish — backed by a 15-year warranty and premium coatings designed for <strong className="text-brand-gray">New Zealand conditions</strong>.
               </p>
               <QuoteForm>
                 <Button variant="cta" size="lg" className="bg-green-600 hover:bg-green-700">
