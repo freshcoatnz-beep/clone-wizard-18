@@ -17,7 +17,7 @@ const RoofPainting = () => {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "Roof Painting Services Christchurch",
-    "description": "Professional roof painting and restoration in Christchurch. Metal roof painting, tile roof restoration with premium coatings and 5-year warranty.",
+    "description": "Professional roof painting and restoration in Christchurch. Metal roof painting, tile roof restoration with premium coatings and 15-year warranty.",
     "provider": {
       "@type": "LocalBusiness",
       "name": "Freshcoat Painting",
@@ -118,7 +118,7 @@ const RoofPainting = () => {
         <link rel="canonical" href="https://www.freshcoat.co.nz/roof-painting" />
         <link rel="preload" as="image" href={roofHeroImage} imageSrcSet="/roof-hero-house-480.webp 480w, /roof-hero-house-800.webp 800w, /roof-hero-house.webp 1200w" imageSizes="100vw" fetchPriority="high" />
         <meta property="og:title" content="Roof Painters Christchurch | Roof Painter &amp; Painting Services" />
-        <meta property="og:description" content="Local roof painters in Christchurch — roof painter, repainting &amp; restoration for tile, metal &amp; Colorsteel roofs. 5-year warranty." />
+        <meta property="og:description" content="Local roof painters in Christchurch — roof painter, repainting &amp; restoration for tile, metal &amp; Colorsteel roofs. 15-year warranty." />
         <meta property="og:url" content="https://www.freshcoat.co.nz/roof-painting" />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">
