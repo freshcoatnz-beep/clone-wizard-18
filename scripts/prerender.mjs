@@ -199,7 +199,7 @@ for (const [slug, name] of suburbs) {
     path: `/painters/${slug}`,
     title: `${name} House Painter | Free Quote | 15-Year Warranty`,
     description: `Local ${name} house painter — interior, exterior & roof painting. 30+ years' experience, 15-year warranty, free quote in 24 hours.`,
-    h1: `${name} House Painter — Freshcoat Painting`,
+    h1: `${name} Painters — Freshcoat Painting`,
     intro: `Trusted painters serving ${name} and surrounding Christchurch suburbs. Interior, exterior and roof painting with a 15-year warranty.`,
   });
 }
