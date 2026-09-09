@@ -112,13 +112,13 @@ const RoofPainting = () => {
   return (
     <>
       <Helmet>
-        <title>Roof Painters Christchurch | Roof Painter &amp; Painting Services</title>
-        <meta name="description" content="Local roof painters Christchurch — need a roof painter? Tile, metal &amp; Colorsteel roof painting and restoration. 30+ years&#39; experience, 15-year warranty, free quote in 24 hours." />
+        <title>Roof Painter Christchurch | Free Quote | 15-Year Warranty</title>
+        <meta name="description" content="Local roof painters in Christchurch. Tile, metal &amp; Colorsteel roof painting &amp; restoration. Free quote in 24h. 15-year warranty. Call 022 0366586." />
         <meta name="keywords" content="roof painters christchurch, roof painter christchurch, roof painting christchurch, roof painters nz, roof painting nz, tile roof painting christchurch, metal roof painting christchurch, colorsteel roof painting, roof restoration christchurch, roof respray, roof resurfacing, roof recoating, roof repainting, roof treatments, metal roof recoating, metal roof painting commercial, metal tile roof maintenance, metal tile roof repair, protective roof coating, roof coating nz, concrete tile roof painting, tile roof color restoration, tile roof restoration, top roof painters, professional roof painters, roof painting companies, metal roof restoration, roof painters near me, extend roof life coating, roof coatings, roof coating contractors, roof painting contractors, roof painter, tile roof repairs christchurch" />
         <link rel="canonical" href="https://www.freshcoat.co.nz/roof-painting" />
         <link rel="preload" as="image" href={roofHeroImage} imageSrcSet="/roof-hero-house-480.webp 480w, /roof-hero-house-800.webp 800w, /roof-hero-house.webp 1200w" imageSizes="100vw" fetchPriority="high" />
-        <meta property="og:title" content="Roof Painters Christchurch | Roof Painter &amp; Painting Services" />
-        <meta property="og:description" content="Local roof painters in Christchurch — roof painter, repainting &amp; restoration for tile, metal &amp; Colorsteel roofs. 15-year warranty." />
+        <meta property="og:title" content="Roof Painter Christchurch | Free Quote | 15-Year Warranty" />
+        <meta property="og:description" content="Local roof painters in Christchurch. Tile, metal &amp; Colorsteel roof painting &amp; restoration. Free quote in 24h. 15-year warranty. Call 022 0366586." />
         <meta property="og:url" content="https://www.freshcoat.co.nz/roof-painting" />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">
