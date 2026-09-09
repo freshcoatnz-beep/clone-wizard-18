@@ -72,9 +72,9 @@ const routes = [
   },
   {
     path: '/roof-painting',
-    title: 'Roof Painter Christchurch | Roof Painters & Painting',
+    title: 'Roof Painter Christchurch | Free Quote | 15-Year Warranty',
     description:
-      "Looking for a roof painter in Christchurch? Tile, metal and Colorsteel roof painting and restoration. 30+ years' experience, 5-year guarantee, free quote in 24 hours.",
+      'Local roof painters in Christchurch. Tile, metal & Colorsteel roof painting & restoration. Free quote in 24h. 15-year warranty. Call 022 0366586.',
     h1: 'Roof Painter Christchurch — Professional Roof Painters & Roof Painting',
     intro:
       'Need a roof painter in Christchurch? Our roof painters specialise in roof painting, roof repainting and full roof restoration for concrete tile, metal and Colorsteel roofs across Canterbury.',
@@ -197,10 +197,10 @@ const suburbs = [
 for (const [slug, name] of suburbs) {
   routes.push({
     path: `/painters/${slug}`,
-    title: `${name} House Painter | Free Quote in 24 Hours`,
-    description: `${name} house painter — interior, exterior and roof painting in Christchurch. 30+ years' experience, 5-year guarantee, free quote in 24 hours.`,
-    h1: `${name} Painters — Freshcoat Painting`,
-    intro: `Trusted painters serving ${name} and surrounding Christchurch suburbs. Interior, exterior and roof painting with a 5-year workmanship guarantee.`,
+    title: `${name} House Painter | Free Quote | 15-Year Warranty`,
+    description: `Local ${name} house painter — interior, exterior & roof painting. 30+ years' experience, 15-year warranty, free quote in 24 hours.`,
+    h1: `${name} House Painter — Freshcoat Painting`,
+    intro: `Trusted painters serving ${name} and surrounding Christchurch suburbs. Interior, exterior and roof painting with a 15-year warranty.`,
   });
 }
 

@@ -22,8 +22,8 @@ const SuburbPage = () => {
   if (!suburb) return <Navigate to="/" replace />;
 
   const url = `https://www.freshcoat.co.nz/painters/${suburb.slug}`;
-  const title = `${suburb.name} House Painter | Free Quote in 24 Hours`;
-  const description = `${suburb.name} house painter — interior, exterior & roof painting in Christchurch. 30+ years' experience, 5-year guarantee, free quote in 24 hours.`;
+  const title = `${suburb.name} House Painter | Free Quote | 15-Year Warranty`;
+  const description = `Local ${suburb.name} house painter — interior, exterior & roof painting. 30+ years' experience, 15-year warranty, free quote in 24 hours.`;
 
   const structuredData = {
     '@context': 'https://schema.org',
