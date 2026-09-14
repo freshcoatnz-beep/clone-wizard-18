@@ -246,6 +246,40 @@ const RoofPainting = () => {
         </div>
       </section>
 
+      {/* Tile roof painting */}
+      <section className="py-12 lg:py-16 bg-secondary/30">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-brand-gray">
+            Tile Roof Painting Christchurch
+          </h2>
+          <p className="text-lg mb-4 text-muted-foreground leading-relaxed">
+            Concrete, terracotta and Decramastic tile roofs are extremely common across
+            Christchurch, and most start to fade, chalk and grow moss well before the tiles
+            themselves fail. Repainting restores the colour and seals the surface again — far
+            cheaper than a re-roof.
+          </p>
+          <p className="text-lg mb-6 text-muted-foreground leading-relaxed">
+            Our tile roof painting process: moss and lichen treatment, high-pressure wash,
+            replacement of any cracked or broken tiles, re-bedding and pointing where needed,
+            then a penetrating sealer plus two coats of tile-specific UV-resistant membrane —
+            backed by our 15-year warranty.
+          </p>
+          <ul className="space-y-2 text-muted-foreground mb-6">
+            <li>• Concrete tile roof painting and colour restoration</li>
+            <li>• Decramastic (pressed metal tile) roof restoration and respray</li>
+            <li>• Terracotta tile sealing and clear-coat protection</li>
+            <li>• Ridge capping repairs, valley clean-out and moss prevention</li>
+          </ul>
+          <p className="text-lg text-muted-foreground leading-relaxed">
+            See a real example:{' '}
+            <a href="/projects/roof-restoration-merivale-tile-roof" className="text-brand-blue font-semibold hover:underline">
+              Merivale concrete tile roof restoration
+            </a>
+            .
+          </p>
+        </div>
+      </section>
+
       {/* Services Section */}
       {deferred && (<><section className="py-16 bg-white">
         <div className="container mx-auto px-4">
