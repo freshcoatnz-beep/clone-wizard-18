@@ -117,7 +117,7 @@ const Commercial = () => {
         <link rel="canonical" href="https://www.freshcoat.co.nz/commercial" />
         <link rel="preload" as="image" href="/commercial-hero.webp" fetchPriority="high" />
         <meta property="og:title" content="Commercial & Industrial Painters Christchurch | Freshcoat" />
-        <meta property="og:description" content="Commercial painters Christchurch. Offices, retail, warehouses &amp; factories. Fully insured, 5-year warranty. Free quote." />
+        <meta property="og:description" content="Commercial painters Christchurch. Offices, retail, warehouses &amp; factories. Fully insured, 15-year warranty. Free quote." />
         <meta property="og:url" content="https://www.freshcoat.co.nz/commercial" />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">
