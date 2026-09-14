@@ -299,6 +299,22 @@ function buildHtml(route) {
     `<meta name="description" content="${escAttr(route.description)}" />`
   );
 
+  // robots (noindex routes must not be indexed even when crawled as static HTML)
+  if (route.noindex) {
+    if (/<meta\s+name="robots"[^>]*>/i.test(html)) {
+      html = html.replace(
+        /<meta\s+name="robots"[^>]*>/i,
+        `<meta name="robots" content="noindex, nofollow" />`
+      );
+    } else {
+      html = html.replace(
+        /<\/head>/i,
+        `    <meta name="robots" content="noindex, nofollow" />\n  </head>`
+      );
+    }
+  }
+
+
   // canonical
   if (/<link\s+rel="canonical"[^>]*>/i.test(html)) {
     html = html.replace(
