@@ -81,7 +81,7 @@ const routes = [
   },
   {
     path: '/commercial',
-    title: 'Commercial Painters Christchurch | Free Quote in 24 Hrs',
+    title: 'Commercial Painting Christchurch | Commercial Painters',
     description:
       'Commercial and industrial painters in Christchurch — offices, retail, warehouses and factories. Fully insured, after-hours work, free quote in 24 hours.',
     h1: 'Commercial & Industrial Painters Christchurch',
@@ -143,6 +143,17 @@ const routes = [
     h1: 'Winter Interior Painting Christchurch',
     intro:
       'Winter is the ideal season for interior repaints in Christchurch. Low-VOC paints, fast drying times and a 5-year workmanship guarantee.',
+  },
+  {
+    path: '/new-home-painting-christchurch',
+    title: 'New Home Painter Christchurch | New Build Painting',
+    description:
+      'New home painter in Christchurch — new build interior & exterior painting for builders and homeowners. Qualified, insured, free fixed quotes. Call 022 0366586.',
+    h1: 'New Home Painter Christchurch',
+    intro:
+      'New build interior and exterior painting for Christchurch builders and homeowners — sealing, undercoats and finish coats on programme, premium Resene, Dulux and Wattyl systems, and a 5-year workmanship guarantee.',
+    extra:
+      'Serving new subdivisions and builds across Christchurch and Canterbury including Rolleston, Lincoln, Halswell, Wigram, Prebbleton, Kaiapoi, Rangiora, Fendalton and Cashmere. Fixed-price quotes from your plans.',
   },
   {
     path: '/projects',
