@@ -14,6 +14,7 @@ const CostGuide = lazy(() => import("./pages/CostGuide"));
 const HousePainters = lazy(() => import("./pages/HousePainters"));
 const PainterDecorator = lazy(() => import("./pages/PainterDecorator"));
 const WinterInterior = lazy(() => import("./pages/WinterInterior"));
+const NewHomePainting = lazy(() => import("./pages/NewHomePainting"));
 const Projects = lazy(() => import("./pages/Projects"));
 const ProjectPage = lazy(() => import("./pages/ProjectPage"));
 const Auth = lazy(() => import("./pages/Auth"));
