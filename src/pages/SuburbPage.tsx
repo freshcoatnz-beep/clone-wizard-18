@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useParams, Navigate } from 'react-router-dom';
 import { Helmet } from '@/lib/head';
 import { Header } from '@/components/Header';
@@ -156,6 +157,23 @@ const SuburbPage = () => {
                   </a>
                 ))}
               </div>
+            </div>
+          </section>
+
+          <section className="py-16 lg:py-20">
+            <div className="container mx-auto px-4 max-w-4xl">
+              <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-brand-gray">
+                Roof Painting {suburb.name}
+              </h2>
+              <p className="text-lg text-muted-foreground mb-4">
+                Looking for roof painters in {suburb.name}? We paint and restore concrete tile, metal and Colorsteel roofs across {suburb.name} and greater Christchurch — full wash, repairs, primer and premium roof coatings, backed by a 15-year warranty.
+              </p>
+              <p className="text-lg text-muted-foreground mb-6">
+                A fresh roof coating protects against Canterbury weather and lifts the look of your whole home. Free, no-obligation roof painting quotes in {suburb.name} within 24 hours.
+              </p>
+              <Link to="/roof-painting" className="text-primary font-semibold underline underline-offset-4">
+                See our roof painting service →
+              </Link>
             </div>
           </section>
 
