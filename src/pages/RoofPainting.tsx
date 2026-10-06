@@ -73,9 +73,9 @@ const RoofPainting = () => {
       features: ["Surface preparation", "Pressure washing", "Sealing & painting", "UV protection"]
     },
     {
-      title: "Roof Restoration",
-      description: "Complete roof restoration including repairs and protective coatings",
-      features: ["Leak repairs", "Gutter painting", "Ridge capping", "Warranty included"]
+      title: "Roof Repainting & Respray",
+      description: "Full roof repainting and respray for faded or chalking roofs, including repairs and protective coatings",
+      features: ["Roof respray", "Rust & moss treatment", "Protective roof coating", "Warranty included"]
     }
   ];
 
@@ -280,6 +280,32 @@ const RoofPainting = () => {
         </div>
       </section>
 
+      {/* Colorsteel roof painting */}
+      <section className="py-12 lg:py-16 bg-white">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-brand-gray">
+            Colorsteel Roof Painting
+          </h2>
+          <p className="text-lg mb-4 text-muted-foreground leading-relaxed">
+            Colorsteel, Colorbond and galvanized steel roofs can be successfully repainted once
+            the original factory finish has faded or started to chalk. A professional roof
+            respray involves a degrease and high-pressure wash, treatment of any surface rust,
+            an etch primer, then two coats of a premium roof coating matched to your original
+            colour.
+          </p>
+          <p className="text-lg mb-6 text-muted-foreground leading-relaxed">
+            Repainting a Colorsteel roof costs a fraction of re-roofing and typically adds
+            10–15 years of life. We handle Colorsteel roof repainting across Christchurch and
+            Canterbury on homes, sheds and commercial buildings.
+          </p>
+          <QuoteForm>
+            <Button variant="cta" size="lg" className="bg-green-600 hover:bg-green-700">
+              Get FREE Quote
+            </Button>
+          </QuoteForm>
+        </div>
+      </section>
+
       {/* Services Section */}
       {deferred && (<><section className="py-16 bg-white">
         <div className="container mx-auto px-4">
@@ -369,7 +395,7 @@ const RoofPainting = () => {
               Premium Roof Coatings
             </h2>
             <p className="text-xl text-muted-foreground">
-              We use only the highest quality roof paints designed for New Zealand conditions
+              We use only the highest quality roof coatings designed for New Zealand conditions
             </p>
           </div>
           
